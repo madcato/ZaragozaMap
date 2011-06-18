@@ -1,0 +1,12 @@
+//
+// Prefix header for all source files of the 'ZaragozaMap' target in the 'ZaragozaMap' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+	#import <MapKit/MapKit.h>
+	#import <CoreLocation/CoreLocation.h>
+	#import <AddressBook/AddressBook.h>
+	#import <QuartzCore/QuartzCore.h>
+#endif
