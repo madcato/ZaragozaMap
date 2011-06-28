@@ -1,2 +1,0 @@
-/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/Shared/XMLParser.m: In function '-[XMLParser parser:didEndElement:namespaceURI:qualifiedName:]':
-/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/Shared/XMLParser.m:78: warning: unused variable 'i'

@@ -1,1705 +1,0 @@
-TZaragozaMap
-v7
-r0
-t330631653.629556
-cCheck dependencies
-cProcessInfoPlistFile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/Info.plist ZaragozaMap-Info.plist
-cCompileXIB /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/../iPhone/MainWindow_iPhone.xib
-cCompileXIB /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPad/MainWindow_iPad.xib
-cCompileXIB /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/../iPhone/MapViewController.xib
-cCpResource build/Debug-iphonesimulator/ZgZmap.app/Icon-72.png images/Icon-72.png
-cCpResource build/Debug-iphonesimulator/ZgZmap.app/Icon-Small-50.png images/Icon-Small-50.png
-cCpResource build/Debug-iphonesimulator/ZgZmap.app/Icon-Small.png images/Icon-Small.png
-cCpResource build/Debug-iphonesimulator/ZgZmap.app/Icon-Small@2x.png images/Icon-Small@2x.png
-cCpResource build/Debug-iphonesimulator/ZgZmap.app/Icon.png images/Icon.png
-cCpResource build/Debug-iphonesimulator/ZgZmap.app/Icon@2x.png images/Icon@2x.png
-cCopyPlistFile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/stations_bizi.plist stations_bizi.plist
-cCpResource build/Debug-iphonesimulator/ZgZmap.app/iTunesArtwork images/iTunesArtwork
-cCpResource build/Debug-iphonesimulator/ZgZmap.app/estacion_bizi.png images/estacion_bizi.png
-cCpResource build/Debug-iphonesimulator/ZgZmap.app/estacion_bizi@2x.png images/estacion_bizi@2x.png
-cCpResource build/Debug-iphonesimulator/ZgZmap.app/01-refresh.png images/01-refresh.png
-cCpResource build/Debug-iphonesimulator/ZgZmap.app/01-refresh@2x.png images/01-refresh@2x.png
-cCpResource build/Debug-iphonesimulator/ZgZmap.app/124-bullhorn.png images/124-bullhorn.png
-cCpResource build/Debug-iphonesimulator/ZgZmap.app/124-bullhorn@2x.png images/124-bullhorn@2x.png
-cCpResource build/Debug-iphonesimulator/ZgZmap.app/black_bar.png images/black_bar.png
-cCpResource build/Debug-iphonesimulator/ZgZmap.app/black_bar@2x.png images/black_bar@2x.png
-cCpResource build/Debug-iphonesimulator/ZgZmap.app/bizi_color.png images/bizi_color.png
-cCpResource build/Debug-iphonesimulator/ZgZmap.app/bizi_color@2x.png images/bizi_color@2x.png
-cCpResource build/Debug-iphonesimulator/ZgZmap.app/bizi_negra.png images/bizi_negra.png
-cCpResource build/Debug-iphonesimulator/ZgZmap.app/bizi_negra@2x.png images/bizi_negra@2x.png
-cCpResource build/Debug-iphonesimulator/ZgZmap.app/circle.png images/circle.png
-cCpResource build/Debug-iphonesimulator/ZgZmap.app/circle@2x.png images/circle@2x.png
-cCopyPlistFile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/pharmacies.plist pharmacies.plist
-cCpResource build/Debug-iphonesimulator/ZgZmap.app/pharma.png images/pharma.png
-cCpResource build/Debug-iphonesimulator/ZgZmap.app/pharma@2x.png images/pharma@2x.png
-cCopyPlistFile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/parkings.plist parkings.plist
-cCpResource build/Debug-iphonesimulator/ZgZmap.app/parking.png images/parking.png
-cCpResource build/Debug-iphonesimulator/ZgZmap.app/parking@2x.png images/parking@2x.png
-cCpResource build/Debug-iphonesimulator/ZgZmap.app/arrow.png images/arrow.png
-cCpResource build/Debug-iphonesimulator/ZgZmap.app/arrow@2x.png images/arrow@2x.png
-cCpResource build/Debug-iphonesimulator/ZgZmap.app/28-star.png images/28-star.png
-cCpResource build/Debug-iphonesimulator/ZgZmap.app/28-star@2x.png images/28-star@2x.png
-cCpResource build/Debug-iphonesimulator/ZgZmap.app/busstop.png images/busstop.png
-cCpResource build/Debug-iphonesimulator/ZgZmap.app/busstop@2x.png images/busstop@2x.png
-cCopyPlistFile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/busstops.plist busstops.plist
-cProcessPCH /var/folders/kw/kwOPUc10FW0y6VM6xTLFCE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ZaragozaMap_Prefix-cypbagjzvgccnmhageqxtickrblu/ZaragozaMap_Prefix.pch.gch ZaragozaMap_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/main.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/Shared/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/AppDelegate_iPhone.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/AppDelegate_iPhone.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/AppDelegate_iPad.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPad/AppDelegate_iPad.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/MapViewController.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/MapViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/BiZiAnnotationView.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BiZiAnnotationView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/BiZiItem.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BiZiItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/WebRequestXML.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/Shared/WebRequestXML.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/XMLParser.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/Shared/XMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/BiZiResponse.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BiZiResponse.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/BiZiViewController.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/BiZiViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/MapAnnotationView.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/MapAnnotationView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/PharmaItem.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/PharmaItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/ParkingItem.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/ParkingItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/BusItem.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BusItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/BusAnnotationView.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BusAnnotationView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/ZgZmap normal i386
-cGenerateDSYMFile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app.dSYM /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/ZgZmap
-cTouch /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
-c000000004D5C9B4E0000000000000110
-t1297914702
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
-c000000004D54D3440000000000078770
-t1297404740
-s493424
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/AddressBook.framework/Headers/AddressBook.h
-c000000004D54D33F0000000000000424
-t1297404735
-s1060
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004D54CFFA00000000002999B0
-t1297403898
-s2726320
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c000000004D54DEBC00000000000778F0
-t1297407676
-s489712
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
-c000000004D54DEB600000000000001D0
-t1297407670
-s464
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004D54CFE5000000000029DA70
-t1297403877
-s2742896
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004D54CFB80000000000001466
-t1297403832
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
-c000000004D5C9BDB00000000000002FE
-t1297914843
-s766
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/MapKit.framework/MapKit
-c000000004D5C9BEB000000000018CAB0
-t1297914859
-s1624752
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
-c000000004D54D2DD00000000000000C4
-t1297404637
-s196
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004D54D4200000000000162C50
-t1297404960
-s1453136
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004D5615B40000000000000AA1
-t1297487284
-s2721
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004D5616030000000000766870
-t1297487363
-s7759984
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/74-location.png
-c000000004DD372690000000000000BB1
-t1305703017
-s2993
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/74-location@2x.png
-c000000004DD372650000000000000C9B
-t1305703013
-s3227
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/Shared/main.m
-c000000004DD28207000000000000016C
-t1305641479
-s364
-i<UIKit/UIKit.h>
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/ZaragozaMap_Prefix.pch
-c000000004DD3704900000000000000DA
-t1305702473
-s218
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-i<MapKit/MapKit.h>
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app
-t1305704396
-s340
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app.dSYM
-t1305704396
-s102
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app/74-location.png
-t1305703158
-s2993
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app/74-location@2x.png
-t1305703158
-s3227
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app/Info.plist
-t1305702498
-s921
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app/MainWindow_iPad.nib
-t1305702499
-s1530
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app/MainWindow_iPhone.nib
-t1305703157
-s3333
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app/MapViewController.nib
-t1305703158
-s1852
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app/PkgInfo
-t1305702498
-s8
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app/ZaragozaMap
-t1305704396
-s19668
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/AppDelegate_iPad.o
-t1305703160
-s49452
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/AppDelegate_iPhone.o
-t1305703237
-s53800
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/MapViewController.o
-t1305704396
-s43204
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/ZaragozaMap.LinkFileList
-c000000004DD370620000000000000283
-t1305702498
-s643
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/main.o
-t1305703160
-s6476
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPad/AppDelegate_iPad.h
-c000000004DD282070000000000000146
-t1305641479
-s326
-i<UIKit/UIKit.h>
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPad/AppDelegate_iPad.m
-c000000004DD2820700000000000006AC
-t1305641479
-s1708
-i"AppDelegate_iPad.h"
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPad/MainWindow_iPad.xib
-c000000004DD2820700000000000036DF
-t1305641479
-s14047
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPhone/../iPhone/MainWindow_iPhone.xib
-c000000004DD372CF00000000000069EE
-t1305703119
-s27118
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPhone/../iPhone/MapViewController.xib
-c000000004DD372CB000000000000464F
-t1305703115
-s17999
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPhone/AppDelegate_iPhone.h
-c000000004DD36F6500000000000001BA
-t1305702245
-s442
-i<UIKit/UIKit.h>
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPhone/AppDelegate_iPhone.m
-c000000004DD373440000000000000A4F
-t1305703236
-s2639
-i"AppDelegate_iPhone.h"
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPhone/MainWindow_iPhone.xib
-c000000004DD36F770000000000005D44
-t1305702263
-s23876
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPhone/MapViewController.h
-c000000004DD372B50000000000000152
-t1305703093
-s338
-i<UIKit/UIKit.h>
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPhone/MapViewController.m
-c000000004DD377CA00000000000007D4
-t1305704394
-s2004
-i"MapViewController.h"
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPhone/MapViewController.xib
-c000000004DD36FB7000000000000186E
-t1305702327
-s6254
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BiZiAnnotationView.h
-c000000004DFCD8340000000000000287
-t1308416052
-s647
-i<Foundation/Foundation.h>
-i"MapManagementProtocol.h"
-i"BiZiItem.h"
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BiZiAnnotationView.m
-c000000004E036BFF0000000000001611
-t1308847103
-s5649
-i"BiZiAnnotationView.h"
-i"BiZiItem.h"
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BiZiItem.h
-c000000004DFCD9EF000000000000026D
-t1308416495
-s621
-i<Foundation/Foundation.h>
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BiZiItem.m
-c000000004DFCC2E500000000000001A7
-t1308410597
-s423
-i"BiZiItem.h"
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BiZiResponse.h
-c000000004DFCC97C00000000000001F2
-t1308412284
-s498
-i<Foundation/Foundation.h>
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BiZiResponse.m
-c000000004DFCC9A1000000000000011F
-t1308412321
-s287
-i"BiZiResponse.h"
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BusAnnotationView.h
-c000000004E04CC2F00000000000002CD
-t1308937263
-s717
-i<Foundation/Foundation.h>
-i"MapManagementProtocol.h"
-i"BiZiItem.h"
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BusAnnotationView.m
-c000000004E04CEBF0000000000000F50
-t1308937919
-s3920
-i"BusAnnotationView.h"
-i"BiZiItem.h"
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BusItem.h
-c000000004E0466AF0000000000000253
-t1308911279
-s595
-i<Foundation/Foundation.h>
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BusItem.m
-c000000004E0466BA0000000000000198
-t1308911290
-s408
-i"BusItem.h"
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/MapAnnotationView.h
-c000000004E03A4F100000000000002CD
-t1308861681
-s717
-i<Foundation/Foundation.h>
-i"MapManagementProtocol.h"
-i"BiZiItem.h"
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/MapAnnotationView.m
-c000000004E04D179000000000000115E
-t1308938617
-s4446
-i"MapAnnotationView.h"
-i"BiZiItem.h"
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/MapManagementProtocol.h
-c000000004DFCD8930000000000000122
-t1308416147
-s290
-i<UIKit/UIKit.h>
-i"BiZiItem.h"
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/ParkingItem.h
-c000000004E03A923000000000000021E
-t1308862755
-s542
-i<Foundation/Foundation.h>
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/ParkingItem.m
-c000000004E03A92A0000000000000193
-t1308862762
-s403
-i"ParkingItem.h"
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/PharmaItem.h
-c000000004E037881000000000000021C
-t1308850305
-s540
-i<Foundation/Foundation.h>
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/PharmaItem.m
-c000000004E0378890000000000000190
-t1308850313
-s400
-i"PharmaItem.h"
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/Shared/WebRequestXML.h
-c000000004E03527C00000000000003F7
-t1308840572
-s1015
-i<Foundation/Foundation.h>
-i"BiziResponse.h"
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/Shared/WebRequestXML.m
-c000000004E034C4D0000000000001FE4
-t1308838989
-s8164
-i"WebRequestXML.h"
-i"XMLParser.h"
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/Shared/XMLParser.h
-c000000004DFCE0F40000000000000211
-t1308418292
-s529
-i<Foundation/Foundation.h>
-i"BiZiResponse.h"
-i"WebRequestXML.h"
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/Shared/XMLParser.m
-c000000004DFCFBFF000000000000092D
-t1308425215
-s2349
-i"XMLParser.h"
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/Shared/main.m
-c000000004DD28207000000000000016C
-t1305641479
-s364
-i<UIKit/UIKit.h>
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/ZaragozaMap_Prefix.pch
-c000000004DDB858B0000000000000149
-t1306232203
-s329
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-i<MapKit/MapKit.h>
-i<CoreLocation/CoreLocation.h>
-i<AddressBook/AddressBook.h>
-i<QuartzCore/QuartzCore.h>
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app
-t1308938853
-s1462
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app.dSYM
-t1308938853
-s102
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/01-refresh.png
-t1308938847
-s3234
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/01-refresh@2x.png
-t1308938847
-s3495
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/124-bullhorn.png
-t1308938847
-s2947
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/124-bullhorn@2x.png
-t1308938847
-s3110
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/28-star.png
-t1308938847
-s3285
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/28-star@2x.png
-t1308938847
-s4047
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/Icon-72.png
-t1308938846
-s14092
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/Icon-Small-50.png
-t1308938846
-s8992
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/Icon-Small.png
-t1308938846
-s5156
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/Icon-Small@2x.png
-t1308938846
-s10742
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/Icon.png
-t1308938846
-s10441
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/Icon@2x.png
-t1308938846
-s26509
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/Info.plist
-t1308938844
-s1096
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/MainWindow_iPad.nib
-t1308938845
-s1530
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/MainWindow_iPhone.nib
-t1308938846
-s3537
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/MapViewController.nib
-t1308938847
-s7676
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/PkgInfo
-t1308938844
-s8
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/ZgZmap
-t1308938853
-s119016
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/arrow.png
-t1308938847
-s3188
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/arrow@2x.png
-t1308938847
-s3649
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/bizi_color.png
-t1308938847
-s6437
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/bizi_color@2x.png
-t1308938847
-s12455
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/bizi_negra.png
-t1308938847
-s5577
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/bizi_negra@2x.png
-t1308938847
-s10225
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/black_bar.png
-t1308938847
-s5452
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/black_bar@2x.png
-t1308938847
-s11527
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/busstop.png
-t1308938847
-s3649
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/busstop@2x.png
-t1308938847
-s4020
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/busstops.plist
-t1308938847
-s139288
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/circle.png
-t1308938847
-s5401
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/circle@2x.png
-t1308938847
-s8961
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/estacion_bizi.png
-t1308938847
-s4086
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/estacion_bizi@2x.png
-t1308938847
-s5667
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/iTunesArtwork
-t1308938847
-s310406
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/parking.png
-t1308938847
-s5693
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/parking@2x.png
-t1308938847
-s10076
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/parkings.plist
-t1308938847
-s2502
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/pharma.png
-t1308938847
-s5558
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/pharma@2x.png
-t1308938847
-s10296
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/pharmacies.plist
-t1308938847
-s32702
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/stations_bizi.plist
-t1308938846
-s14814
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/AppDelegate_iPad.o
-t1308938851
-s50072
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/AppDelegate_iPhone.o
-t1308938851
-s56892
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/BiZiAnnotationView.o
-t1308938852
-s54832
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/BiZiItem.o
-t1308938852
-s13772
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/BiZiResponse.o
-t1308938852
-s10788
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/BiZiViewController.o
-t1308938852
-s82648
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/BusAnnotationView.o
-t1308938852
-s52776
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/BusItem.o
-t1308938852
-s13580
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/MapAnnotationView.o
-t1308938852
-s55856
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/MapViewController.o
-t1308938852
-s95184
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/ParkingItem.o
-t1308938852
-s12780
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/PharmaItem.o
-t1308938852
-s12740
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/WebRequestXML.o
-t1308938852
-s64628
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/XMLParser.o
-t1308938852
-s19040
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/ZgZmap.LinkFileList
-c000000004E04D25C00000000000009F6
-t1308938844
-s2550
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/main.o
-t1308938851
-s6496
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/busstops.plist
-c000000004E0465E40000000000043F6D
-t1308911076
-s278381
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPad/AppDelegate_iPad.h
-c000000004DD282070000000000000146
-t1305641479
-s326
-i<UIKit/UIKit.h>
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPad/AppDelegate_iPad.m
-c000000004DD2820700000000000006AC
-t1305641479
-s1708
-i"AppDelegate_iPad.h"
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPad/MainWindow_iPad.xib
-c000000004DD2820700000000000036DF
-t1305641479
-s14047
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/../iPhone/MainWindow_iPhone.xib
-c000000004E0457620000000000008EBC
-t1308907362
-s36540
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/../iPhone/MapViewController.xib
-c000000004E0399F7000000000000C6FA
-t1308858871
-s50938
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/AppDelegate_iPhone.h
-c000000004DD36F6500000000000001BA
-t1305702245
-s442
-i<UIKit/UIKit.h>
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/AppDelegate_iPhone.m
-c000000004DFF0B740000000000000B04
-t1308560244
-s2820
-i"AppDelegate_iPhone.h"
-i"MapViewController.h"
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/BiZiViewController.h
-c000000004E03997B00000000000006DB
-t1308858747
-s1755
-i<UIKit/UIKit.h>
-i"BiZiResponse.h"
-i"WebRequestXML.h"
-i"MapManagementProtocol.h"
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/BiZiViewController.m
-c000000004E0399B80000000000001F96
-t1308858808
-s8086
-i"BiZiViewController.h"
-i"BiZiItem.h"
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/MapViewController.h
-c000000004E0466030000000000000555
-t1308911107
-s1365
-i<UIKit/UIKit.h>
-i"WebRequestXML.h"
-i"BiZiViewController.h"
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/MapViewController.m
-c000000004E04CD1B0000000000003838
-t1308937499
-s14392
-i"MapViewController.h"
-i"BiZiAnnotationView.h"
-i"MapAnnotationView.h"
-i"BusAnnotationView.h"
-i"BiZiItem.h"
-i"PharmaItem.h"
-i"ParkingItem.h"
-i"BusItem.h"
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/01-refresh.png
-c000000004CB844480000000000000CA2
-t1287144520
-s3234
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/01-refresh@2x.png
-c000000004CB844480000000000000DA7
-t1287144520
-s3495
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/124-bullhorn.png
-c000000004CB844540000000000000B83
-t1287144532
-s2947
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/124-bullhorn@2x.png
-c000000004CB844540000000000000C26
-t1287144532
-s3110
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/28-star.png
-c000000004E0458C00000000000000CD5
-t1308907712
-s3285
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/28-star@2x.png
-c000000004E0458B10000000000000FCF
-t1308907697
-s4047
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/Icon-72.png
-c000000004DFE25BB000000000000370C
-t1308501435
-s14092
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/Icon-Small-50.png
-c000000004DFE25BB0000000000002320
-t1308501435
-s8992
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/Icon-Small.png
-c000000004DFE25BB0000000000001424
-t1308501435
-s5156
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/Icon-Small@2x.png
-c000000004DFE25BB00000000000029F6
-t1308501435
-s10742
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/Icon.png
-c000000004DFE25BB00000000000028C9
-t1308501435
-s10441
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/Icon@2x.png
-c000000004DFE25BB000000000000678D
-t1308501435
-s26509
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/arrow.png
-c000000004E0456C40000000000000C74
-t1308907204
-s3188
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/arrow@2x.png
-c000000004E0456B10000000000000E41
-t1308907185
-s3649
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/bizi_color.png
-c000000004E0361580000000000001925
-t1308844376
-s6437
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/bizi_color@2x.png
-c000000004E03615800000000000030A7
-t1308844376
-s12455
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/bizi_negra.png
-c000000004E0360D200000000000015C9
-t1308844242
-s5577
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/bizi_negra@2x.png
-c000000004E0360D200000000000027F1
-t1308844242
-s10225
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/black_bar.png
-c000000004E0460C9000000000000154C
-t1308909769
-s5452
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/black_bar@2x.png
-c000000004E0460C90000000000002D07
-t1308909769
-s11527
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/busstop.png
-c000000004E045E8A0000000000000E41
-t1308909194
-s3649
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/busstop@2x.png
-c000000004E045E8A0000000000000FB4
-t1308909194
-s4020
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/circle.png
-c000000004E03706A0000000000001519
-t1308848234
-s5401
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/circle@2x.png
-c000000004E03706A0000000000002301
-t1308848234
-s8961
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/estacion_bizi.png
-c000000004E0363750000000000000FF6
-t1308844917
-s4086
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/estacion_bizi@2x.png
-c000000004E0363750000000000001623
-t1308844917
-s5667
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/iTunesArtwork
-c000000004DFE25BB000000000004BC86
-t1308501435
-s310406
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/parking.png
-c000000004E03A868000000000000163D
-t1308862568
-s5693
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/parking@2x.png
-c000000004E03A868000000000000275C
-t1308862568
-s10076
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/pharma.png
-c000000004E03A0FE00000000000015B6
-t1308860670
-s5558
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/pharma@2x.png
-c000000004E03A0FE0000000000002838
-t1308860670
-s10296
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/parkings.plist
-c000000004E03A70A00000000000016D2
-t1308862218
-s5842
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/pharmacies.plist
-c000000004E0377DB000000000000ED48
-t1308850139
-s60744
-
-N/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/stations_bizi.plist
-c000000004DDA9A3A00000000000082C4
-t1306171962
-s33476
-
-N/var/folders/kw/kwOPUc10FW0y6VM6xTLFCE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ZaragozaMap_Prefix-acvujowtzomhyocywdlsiuqtxehj/ZaragozaMap_Prefix.pch.gch
-t1305702502
-s16429424
-
-N/var/folders/kw/kwOPUc10FW0y6VM6xTLFCE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ZaragozaMap_Prefix-cypbagjzvgccnmhageqxtickrblu/ZaragozaMap_Prefix.pch.gch
-t1308938851
-s16975088
-
-N/var/folders/kw/kwOPUc10FW0y6VM6xTLFCE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ZaragozaMap_Prefix-genqvtkxpphzlmdxxalmqjbdckhx/ZaragozaMap_Prefix.pch.gch
-t1305703159
-s16429424
-
-NZaragozaMap-Info.plist
-c000000004DFF1BB70000000000000686
-t1308564407
-s1670
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies330631642#330631644#0(0"0(0#1#0"32651522506817640#0"0#
-
-CCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/AppDelegate_iPad.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPad/AppDelegate_iPad.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s327395960.129729
-e327395960.267051
-r1
-xCompileC
-xbuild/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/AppDelegate_iPad.o
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPad/AppDelegate_iPad.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@91"Compile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPad/AppDelegate_iPad.m327395960#327395960#0(0"0(0#0#83"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPad/AppDelegate_iPad.m8598800064#2254"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZaragozaMap-generated-files.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZaragozaMap-own-target-headers.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZaragozaMap-all-target-headers.hmap -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZaragozaMap-project-headers.hmap -F/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/include -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources/i386 -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources -include /var/folders/kw/kwOPUc10FW0y6VM6xTLFCE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ZaragozaMap_Prefix-genqvtkxpphzlmdxxalmqjbdckhx/ZaragozaMap_Prefix.pch -c /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPad/AppDelegate_iPad.m -o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/AppDelegate_iPad.o0#
-
-CCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/AppDelegate_iPad.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPad/AppDelegate_iPad.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s330631651.749918
-e330631651.917545
-r1
-xCompileC
-xbuild/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/AppDelegate_iPad.o
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPad/AppDelegate_iPad.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@101"Compile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPad/AppDelegate_iPad.m330631651#330631651#0(0"0(0#0#93"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPad/AppDelegate_iPad.m8606070016#2344"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-generated-files.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-own-target-headers.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-all-target-headers.hmap -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-project-headers.hmap -F/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/include -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources/i386 -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources -include /var/folders/kw/kwOPUc10FW0y6VM6xTLFCE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ZaragozaMap_Prefix-cypbagjzvgccnmhageqxtickrblu/ZaragozaMap_Prefix.pch -c /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPad/AppDelegate_iPad.m -o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/AppDelegate_iPad.o0#
-
-CCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/AppDelegate_iPhone.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPhone/AppDelegate_iPhone.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s327396037.101175
-e327396037.275707
-r1
-xCompileC
-xbuild/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/AppDelegate_iPhone.o
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPhone/AppDelegate_iPhone.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@95"Compile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPhone/AppDelegate_iPhone.m327396037#327396037#0(0"0(0#0#87"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPhone/AppDelegate_iPhone.m8611736512#2260"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZaragozaMap-generated-files.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZaragozaMap-own-target-headers.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZaragozaMap-all-target-headers.hmap -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZaragozaMap-project-headers.hmap -F/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/include -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources/i386 -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources -include /var/folders/kw/kwOPUc10FW0y6VM6xTLFCE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ZaragozaMap_Prefix-genqvtkxpphzlmdxxalmqjbdckhx/ZaragozaMap_Prefix.pch -c /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPhone/AppDelegate_iPhone.m -o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/AppDelegate_iPhone.o0#
-
-CCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/AppDelegate_iPhone.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/AppDelegate_iPhone.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s330631651.426852
-e330631651.751252
-r1
-xCompileC
-xbuild/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/AppDelegate_iPhone.o
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/AppDelegate_iPhone.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@105"Compile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/AppDelegate_iPhone.m330631651#330631651#0(0"0(0#0#97"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/AppDelegate_iPhone.m8602622048#2350"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-generated-files.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-own-target-headers.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-all-target-headers.hmap -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-project-headers.hmap -F/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/include -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources/i386 -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources -include /var/folders/kw/kwOPUc10FW0y6VM6xTLFCE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ZaragozaMap_Prefix-cypbagjzvgccnmhageqxtickrblu/ZaragozaMap_Prefix.pch -c /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/AppDelegate_iPhone.m -o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/AppDelegate_iPhone.o0#
-
-CCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/BiZiAnnotationView.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BiZiAnnotationView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s330631651.917665
-e330631652.060329
-r1
-xCompileC
-xbuild/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/BiZiAnnotationView.o
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BiZiAnnotationView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@98"Compile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BiZiAnnotationView.m330631651#330631652#0(0"0(0#0#90"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BiZiAnnotationView.m8610120096#2343"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-generated-files.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-own-target-headers.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-all-target-headers.hmap -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-project-headers.hmap -F/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/include -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources/i386 -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources -include /var/folders/kw/kwOPUc10FW0y6VM6xTLFCE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ZaragozaMap_Prefix-cypbagjzvgccnmhageqxtickrblu/ZaragozaMap_Prefix.pch -c /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BiZiAnnotationView.m -o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/BiZiAnnotationView.o0#
-
-CCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/BiZiItem.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BiZiItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s330631652.060444
-e330631652.178817
-r1
-xCompileC
-xbuild/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/BiZiItem.o
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BiZiItem.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@88"Compile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BiZiItem.m330631652#330631652#0(0"0(0#0#80"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BiZiItem.m8608231168#2323"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-generated-files.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-own-target-headers.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-all-target-headers.hmap -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-project-headers.hmap -F/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/include -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources/i386 -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources -include /var/folders/kw/kwOPUc10FW0y6VM6xTLFCE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ZaragozaMap_Prefix-cypbagjzvgccnmhageqxtickrblu/ZaragozaMap_Prefix.pch -c /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BiZiItem.m -o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/BiZiItem.o0#
-
-CCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/BiZiResponse.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BiZiResponse.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s330631652.334745
-e330631652.473350
-r1
-xCompileC
-xbuild/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/BiZiResponse.o
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BiZiResponse.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@92"Compile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BiZiResponse.m330631652#330631652#0(0"0(0#0#84"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BiZiResponse.m8608180224#2331"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-generated-files.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-own-target-headers.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-all-target-headers.hmap -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-project-headers.hmap -F/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/include -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources/i386 -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources -include /var/folders/kw/kwOPUc10FW0y6VM6xTLFCE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ZaragozaMap_Prefix-cypbagjzvgccnmhageqxtickrblu/ZaragozaMap_Prefix.pch -c /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BiZiResponse.m -o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/BiZiResponse.o0#
-
-CCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/BiZiViewController.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/BiZiViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s330631652.387746
-e330631652.710849
-r1
-xCompileC
-xbuild/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/BiZiViewController.o
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/BiZiViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@105"Compile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/BiZiViewController.m330631652#330631652#0(0"0(0#0#97"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/BiZiViewController.m8610458912#2350"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-generated-files.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-own-target-headers.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-all-target-headers.hmap -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-project-headers.hmap -F/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/include -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources/i386 -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources -include /var/folders/kw/kwOPUc10FW0y6VM6xTLFCE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ZaragozaMap_Prefix-cypbagjzvgccnmhageqxtickrblu/ZaragozaMap_Prefix.pch -c /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/BiZiViewController.m -o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/BiZiViewController.o0#
-
-CCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/BusAnnotationView.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BusAnnotationView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s330631652.829027
-e330631652.973699
-r1
-xCompileC
-xbuild/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/BusAnnotationView.o
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BusAnnotationView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@97"Compile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BusAnnotationView.m330631652#330631652#0(0"0(0#0#89"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BusAnnotationView.m8608709760#2341"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-generated-files.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-own-target-headers.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-all-target-headers.hmap -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-project-headers.hmap -F/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/include -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources/i386 -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources -include /var/folders/kw/kwOPUc10FW0y6VM6xTLFCE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ZaragozaMap_Prefix-cypbagjzvgccnmhageqxtickrblu/ZaragozaMap_Prefix.pch -c /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BusAnnotationView.m -o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/BusAnnotationView.o0#
-
-CCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/BusItem.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BusItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s330631652.797419
-e330631652.916395
-r1
-xCompileC
-xbuild/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/BusItem.o
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BusItem.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@87"Compile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BusItem.m330631652#330631652#0(0"0(0#0#79"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BusItem.m8611222208#2321"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-generated-files.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-own-target-headers.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-all-target-headers.hmap -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-project-headers.hmap -F/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/include -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources/i386 -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources -include /var/folders/kw/kwOPUc10FW0y6VM6xTLFCE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ZaragozaMap_Prefix-cypbagjzvgccnmhageqxtickrblu/ZaragozaMap_Prefix.pch -c /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BusItem.m -o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/BusItem.o0#
-
-CCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/MapAnnotationView.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/MapAnnotationView.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s330631652.473471
-e330631652.651183
-r1
-xCompileC
-xbuild/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/MapAnnotationView.o
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/MapAnnotationView.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@97"Compile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/MapAnnotationView.m330631652#330631652#0(0"0(0#0#89"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/MapAnnotationView.m8607952992#2341"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-generated-files.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-own-target-headers.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-all-target-headers.hmap -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-project-headers.hmap -F/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/include -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources/i386 -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources -include /var/folders/kw/kwOPUc10FW0y6VM6xTLFCE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ZaragozaMap_Prefix-cypbagjzvgccnmhageqxtickrblu/ZaragozaMap_Prefix.pch -c /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/MapAnnotationView.m -o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/MapAnnotationView.o0#
-
-CCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/MapViewController.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPhone/MapViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s327397195.964833
-e327397196.168683
-r1
-xCompileC
-xbuild/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/MapViewController.o
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPhone/MapViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@94"Compile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPhone/MapViewController.m327397195#327397196#0(0"0(0#0#86"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPhone/MapViewController.m8632084576#2258"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZaragozaMap-generated-files.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZaragozaMap-own-target-headers.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZaragozaMap-all-target-headers.hmap -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZaragozaMap-project-headers.hmap -F/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/include -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources/i386 -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources -include /var/folders/kw/kwOPUc10FW0y6VM6xTLFCE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ZaragozaMap_Prefix-genqvtkxpphzlmdxxalmqjbdckhx/ZaragozaMap_Prefix.pch -c /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPhone/MapViewController.m -o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/MapViewController.o0#
-
-CCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/MapViewController.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/MapViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s330631651.751346
-e330631652.180275
-r1
-xCompileC
-xbuild/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/MapViewController.o
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/MapViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@104"Compile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/MapViewController.m330631651#330631652#0(0"0(0#0#96"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/MapViewController.m8604861568#2348"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-generated-files.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-own-target-headers.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-all-target-headers.hmap -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-project-headers.hmap -F/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/include -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources/i386 -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources -include /var/folders/kw/kwOPUc10FW0y6VM6xTLFCE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ZaragozaMap_Prefix-cypbagjzvgccnmhageqxtickrblu/ZaragozaMap_Prefix.pch -c /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/MapViewController.m -o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/MapViewController.o0#
-
-CCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/ParkingItem.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/ParkingItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s330631652.710969
-e330631652.828896
-r1
-xCompileC
-xbuild/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/ParkingItem.o
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/ParkingItem.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@91"Compile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/ParkingItem.m330631652#330631652#0(0"0(0#0#83"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/ParkingItem.m8608772768#2329"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-generated-files.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-own-target-headers.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-all-target-headers.hmap -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-project-headers.hmap -F/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/include -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources/i386 -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources -include /var/folders/kw/kwOPUc10FW0y6VM6xTLFCE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ZaragozaMap_Prefix-cypbagjzvgccnmhageqxtickrblu/ZaragozaMap_Prefix.pch -c /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/ParkingItem.m -o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/ParkingItem.o0#
-
-CCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/PharmaItem.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/PharmaItem.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s330631652.651312
-e330631652.796141
-r1
-xCompileC
-xbuild/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/PharmaItem.o
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/PharmaItem.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@90"Compile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/PharmaItem.m330631652#330631652#0(0"0(0#0#82"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/PharmaItem.m8602882336#2327"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-generated-files.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-own-target-headers.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-all-target-headers.hmap -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-project-headers.hmap -F/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/include -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources/i386 -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources -include /var/folders/kw/kwOPUc10FW0y6VM6xTLFCE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ZaragozaMap_Prefix-cypbagjzvgccnmhageqxtickrblu/ZaragozaMap_Prefix.pch -c /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/PharmaItem.m -o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/PharmaItem.o0#
-
-CCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/WebRequestXML.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/Shared/WebRequestXML.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s330631652.178947
-e330631652.387621
-r1
-xCompileC
-xbuild/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/WebRequestXML.o
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/Shared/WebRequestXML.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@100"Compile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/Shared/WebRequestXML.m330631652#330631652#0(0"0(0#0#92"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/Shared/WebRequestXML.m8606084672#2340"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-generated-files.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-own-target-headers.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-all-target-headers.hmap -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-project-headers.hmap -F/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/include -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources/i386 -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources -include /var/folders/kw/kwOPUc10FW0y6VM6xTLFCE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ZaragozaMap_Prefix-cypbagjzvgccnmhageqxtickrblu/ZaragozaMap_Prefix.pch -c /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/Shared/WebRequestXML.m -o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/WebRequestXML.o0#
-
-CCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/XMLParser.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/Shared/XMLParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s330631652.180369
-e330631652.334593
-r1
-xCompileC
-xbuild/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/XMLParser.o
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/Shared/XMLParser.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@96"Compile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/Shared/XMLParser.m330631652#330631652#0(0"0(0#0#88"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/Shared/XMLParser.m8605497472#2332"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-generated-files.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-own-target-headers.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-all-target-headers.hmap -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-project-headers.hmap -F/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/include -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources/i386 -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources -include /var/folders/kw/kwOPUc10FW0y6VM6xTLFCE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ZaragozaMap_Prefix-cypbagjzvgccnmhageqxtickrblu/ZaragozaMap_Prefix.pch -c /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/Shared/XMLParser.m -o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/XMLParser.o0#
-
-CCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/main.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/Shared/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s327395960.012723
-e327395960.131636
-r1
-xCompileC
-xbuild/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/main.o
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/Shared/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Compile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/Shared/main.m327395960#327395960#0(0"0(0#0#73"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/Shared/main.m8627820704#2232"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZaragozaMap-generated-files.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZaragozaMap-own-target-headers.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZaragozaMap-all-target-headers.hmap -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZaragozaMap-project-headers.hmap -F/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/include -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources/i386 -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources -include /var/folders/kw/kwOPUc10FW0y6VM6xTLFCE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ZaragozaMap_Prefix-genqvtkxpphzlmdxxalmqjbdckhx/ZaragozaMap_Prefix.pch -c /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/Shared/main.m -o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/main.o0#
-
-CCompileC build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/main.o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/Shared/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s330631651.425417
-e330631651.749794
-r1
-xCompileC
-xbuild/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/main.o
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/Shared/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@91"Compile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/Shared/main.m330631651#330631651#0(0"0(0#0#83"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/Shared/main.m8605275744#2322"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-generated-files.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-own-target-headers.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-all-target-headers.hmap -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-project-headers.hmap -F/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/include -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources/i386 -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources -include /var/folders/kw/kwOPUc10FW0y6VM6xTLFCE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ZaragozaMap_Prefix-cypbagjzvgccnmhageqxtickrblu/ZaragozaMap_Prefix.pch -c /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/Shared/main.m -o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPad/MainWindow_iPad.xib
-s327395298.952116
-e327395299.525886
-r1
-xCompileXIB
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPad/MainWindow_iPad.xib
-lSLF07#2@35"CompileXIB iPad/MainWindow_iPad.xib327395298#327395299#0(0"0(0#0#84"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPad/MainWindow_iPad.xib8619217184#652"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app/MainWindow_iPad.nib /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPad/MainWindow_iPad.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
-
-CCompileXIB /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPhone/../iPhone/MainWindow_iPhone.xib
-s327395956.888465
-e327395957.974363
-r1
-xCompileXIB
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPhone/../iPhone/MainWindow_iPhone.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@49"CompileXIB iPhone/../iPhone/MainWindow_iPhone.xib327395956#327395957#0(252"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#98"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPhone/../iPhone/MainWindow_iPhone.xib8623033248#668"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app/MainWindow_iPhone.nib /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPhone/../iPhone/MainWindow_iPhone.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
-
-CCompileXIB /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPhone/../iPhone/MapViewController.xib
-s327395956.889923
-e327395958.243523
-r1
-xCompileXIB
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPhone/../iPhone/MapViewController.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@49"CompileXIB iPhone/../iPhone/MapViewController.xib327395956#327395958#0(168"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#98"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPhone/../iPhone/MapViewController.xib8622854336#668"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app/MapViewController.nib /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPhone/../iPhone/MapViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
-
-CCompileXIB /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPhone/MainWindow_iPhone.xib
-r0
-
-CCompileXIB /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/iPhone/MapViewController.xib
-r0
-
-CCompileXIB /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPad/MainWindow_iPad.xib
-s330631644.392000
-e330631645.525313
-r1
-xCompileXIB
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPad/MainWindow_iPad.xib
-lSLF07#2@35"CompileXIB iPad/MainWindow_iPad.xib330631644#330631645#0(0"0(0#0#94"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPad/MainWindow_iPad.xib8606694016#677"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/MainWindow_iPad.nib /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPad/MainWindow_iPad.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
-
-CCompileXIB /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/../iPhone/MainWindow_iPhone.xib
-s330631644.371246
-e330631646.096534
-r1
-xCompileXIB
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/../iPhone/MainWindow_iPhone.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@49"CompileXIB iPhone/../iPhone/MainWindow_iPhone.xib330631644#330631646#0(420"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#108"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/../iPhone/MainWindow_iPhone.xib8607863744#693"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/MainWindow_iPhone.nib /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/../iPhone/MainWindow_iPhone.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
-
-CCompileXIB /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/../iPhone/MapViewController.xib
-s330631645.525483
-e330631647.582387
-r1
-xCompileXIB
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/../iPhone/MapViewController.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@49"CompileXIB iPhone/../iPhone/MapViewController.xib330631645#330631647#0(252"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#108"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/../iPhone/MapViewController.xib8605716800#693"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/MapViewController.nib /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/iPhone/../iPhone/MapViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
-
-CCopyPlistFile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/busstops.plist busstops.plist
-s330631647.496207
-e330631647.588581
-r1
-xCopyPlistFile
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/busstops.plist
-xbusstops.plist
-lSLF07#2@19"Copy busstops.plist330631647#330631647#0(0"0(0#0#84"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/busstops.plist8603930816#450"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 busstops.plist --outdir /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCopyPlistFile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/parkings.plist parkings.plist
-s330631647.341831
-e330631647.480915
-r1
-xCopyPlistFile
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/parkings.plist
-xparkings.plist
-lSLF07#2@19"Copy parkings.plist330631647#330631647#0(0"0(0#0#84"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/parkings.plist8608654592#450"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 parkings.plist --outdir /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCopyPlistFile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/pharmacies.plist pharmacies.plist
-s330631647.181563
-e330631647.313683
-r1
-xCopyPlistFile
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/pharmacies.plist
-xpharmacies.plist
-lSLF07#2@21"Copy pharmacies.plist330631647#330631647#0(0"0(0#0#86"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/pharmacies.plist8606105728#452"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 pharmacies.plist --outdir /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCopyPlistFile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/stations_bizi.plist stations_bizi.plist
-s330631646.110557
-e330631646.964251
-r1
-xCopyPlistFile
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/stations_bizi.plist
-xstations_bizi.plist
-lSLF07#2@24"Copy stations_bizi.plist330631646#330631646#0(0"0(0#0#89"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/stations_bizi.plist8598832064#455"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 stations_bizi.plist --outdir /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCpResource build/Debug-iphonesimulator/ZaragozaMap.app/74-location.png 74-location.png
-s327395957.984019
-e327395958.085906
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ZaragozaMap.app/74-location.png
-x74-location.png
-lSLF07#2@20"Copy 74-location.png327395957#327395958#0(0"0(0#0#75"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/74-location.png8622266464#540"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/74-location.png /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app0#
-
-CCpResource build/Debug-iphonesimulator/ZaragozaMap.app/74-location@2x.png 74-location@2x.png
-s327395957.974474
-e327395958.101206
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ZaragozaMap.app/74-location@2x.png
-x74-location@2x.png
-lSLF07#2@23"Copy 74-location@2x.png327395957#327395958#0(0"0(0#0#78"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/74-location@2x.png8622411072#543"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/74-location@2x.png /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app0#
-
-CCpResource build/Debug-iphonesimulator/ZgZmap.app/01-refresh.png images/01-refresh.png
-s330631646.969286
-e330631647.174396
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ZgZmap.app/01-refresh.png
-ximages/01-refresh.png
-lSLF07#2@26"Copy images/01-refresh.png330631646#330631647#0(0"0(0#0#91"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/01-refresh.png8610136832#571"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/01-refresh.png /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCpResource build/Debug-iphonesimulator/ZgZmap.app/01-refresh@2x.png images/01-refresh@2x.png
-s330631646.971068
-e330631647.174538
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ZgZmap.app/01-refresh@2x.png
-ximages/01-refresh@2x.png
-lSLF07#2@29"Copy images/01-refresh@2x.png330631646#330631647#0(0"0(0#0#94"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/01-refresh@2x.png8609989216#574"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/01-refresh@2x.png /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCpResource build/Debug-iphonesimulator/ZgZmap.app/124-bullhorn.png images/124-bullhorn.png
-s330631646.973003
-e330631647.168187
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ZgZmap.app/124-bullhorn.png
-ximages/124-bullhorn.png
-lSLF07#2@28"Copy images/124-bullhorn.png330631646#330631647#0(0"0(0#0#93"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/124-bullhorn.png8609916576#573"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/124-bullhorn.png /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCpResource build/Debug-iphonesimulator/ZgZmap.app/124-bullhorn@2x.png images/124-bullhorn@2x.png
-s330631646.974810
-e330631647.174679
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ZgZmap.app/124-bullhorn@2x.png
-ximages/124-bullhorn@2x.png
-lSLF07#2@31"Copy images/124-bullhorn@2x.png330631646#330631647#0(0"0(0#0#96"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/124-bullhorn@2x.png8608731104#576"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/124-bullhorn@2x.png /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCpResource build/Debug-iphonesimulator/ZgZmap.app/28-star.png images/28-star.png
-s330631647.488497
-e330631647.538278
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ZgZmap.app/28-star.png
-ximages/28-star.png
-lSLF07#2@23"Copy images/28-star.png330631647#330631647#0(0"0(0#0#88"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/28-star.png8606172928#568"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/28-star.png /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCpResource build/Debug-iphonesimulator/ZgZmap.app/28-star@2x.png images/28-star@2x.png
-s330631647.490387
-e330631647.545363
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ZgZmap.app/28-star@2x.png
-ximages/28-star@2x.png
-lSLF07#2@26"Copy images/28-star@2x.png330631647#330631647#0(0"0(0#0#91"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/28-star@2x.png8605991744#571"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/28-star@2x.png /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCpResource build/Debug-iphonesimulator/ZgZmap.app/Icon-72.png images/Icon-72.png
-s330631646.096732
-e330631646.357112
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ZgZmap.app/Icon-72.png
-ximages/Icon-72.png
-lSLF07#2@23"Copy images/Icon-72.png330631646#330631646#0(0"0(0#0#88"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/Icon-72.png8605420960#568"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/Icon-72.png /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCpResource build/Debug-iphonesimulator/ZgZmap.app/Icon-Small-50.png images/Icon-Small-50.png
-s330631646.097690
-e330631646.357843
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ZgZmap.app/Icon-Small-50.png
-ximages/Icon-Small-50.png
-lSLF07#2@29"Copy images/Icon-Small-50.png330631646#330631646#0(0"0(0#0#94"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/Icon-Small-50.png8605282560#574"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/Icon-Small-50.png /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCpResource build/Debug-iphonesimulator/ZgZmap.app/Icon-Small.png images/Icon-Small.png
-s330631646.099350
-e330631646.358880
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ZgZmap.app/Icon-Small.png
-ximages/Icon-Small.png
-lSLF07#2@26"Copy images/Icon-Small.png330631646#330631646#0(0"0(0#0#91"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/Icon-Small.png8605197120#571"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/Icon-Small.png /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCpResource build/Debug-iphonesimulator/ZgZmap.app/Icon-Small@2x.png images/Icon-Small@2x.png
-s330631646.101182
-e330631646.357276
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ZgZmap.app/Icon-Small@2x.png
-ximages/Icon-Small@2x.png
-lSLF07#2@29"Copy images/Icon-Small@2x.png330631646#330631646#0(0"0(0#0#94"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/Icon-Small@2x.png8604997568#574"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/Icon-Small@2x.png /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCpResource build/Debug-iphonesimulator/ZgZmap.app/Icon.png images/Icon.png
-s330631646.103038
-e330631646.359627
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ZgZmap.app/Icon.png
-ximages/Icon.png
-lSLF07#2@20"Copy images/Icon.png330631646#330631646#0(0"0(0#0#85"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/Icon.png8604613568#565"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/Icon.png /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCpResource build/Debug-iphonesimulator/ZgZmap.app/Icon@2x.png images/Icon@2x.png
-s330631646.109296
-e330631646.357565
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ZgZmap.app/Icon@2x.png
-ximages/Icon@2x.png
-lSLF07#2@23"Copy images/Icon@2x.png330631646#330631646#0(0"0(0#0#88"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/Icon@2x.png8602992288#568"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/Icon@2x.png /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCpResource build/Debug-iphonesimulator/ZgZmap.app/arrow.png images/arrow.png
-s330631647.484585
-e330631647.532364
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ZgZmap.app/arrow.png
-ximages/arrow.png
-lSLF07#2@21"Copy images/arrow.png330631647#330631647#0(0"0(0#0#86"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/arrow.png8602850976#566"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/arrow.png /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCpResource build/Debug-iphonesimulator/ZgZmap.app/arrow@2x.png images/arrow@2x.png
-s330631647.486561
-e330631647.528770
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ZgZmap.app/arrow@2x.png
-ximages/arrow@2x.png
-lSLF07#2@24"Copy images/arrow@2x.png330631647#330631647#0(0"0(0#0#89"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/arrow@2x.png8600002688#569"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/arrow@2x.png /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCpResource build/Debug-iphonesimulator/ZgZmap.app/bizi_color.png images/bizi_color.png
-s330631647.168389
-e330631647.197324
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ZgZmap.app/bizi_color.png
-ximages/bizi_color.png
-lSLF07#2@26"Copy images/bizi_color.png330631647#330631647#0(0"0(0#0#91"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/bizi_color.png8608207072#571"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/bizi_color.png /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCpResource build/Debug-iphonesimulator/ZgZmap.app/bizi_color@2x.png images/bizi_color@2x.png
-s330631647.170075
-e330631647.220375
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ZgZmap.app/bizi_color@2x.png
-ximages/bizi_color@2x.png
-lSLF07#2@29"Copy images/bizi_color@2x.png330631647#330631647#0(0"0(0#0#94"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/bizi_color@2x.png8608106816#574"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/bizi_color@2x.png /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCpResource build/Debug-iphonesimulator/ZgZmap.app/bizi_negra.png images/bizi_negra.png
-s330631647.175054
-e330631647.195474
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ZgZmap.app/bizi_negra.png
-ximages/bizi_negra.png
-lSLF07#2@26"Copy images/bizi_negra.png330631647#330631647#0(0"0(0#0#91"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/bizi_negra.png8606021984#571"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/bizi_negra.png /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCpResource build/Debug-iphonesimulator/ZgZmap.app/bizi_negra@2x.png images/bizi_negra@2x.png
-s330631647.176008
-e330631647.198212
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ZgZmap.app/bizi_negra@2x.png
-ximages/bizi_negra@2x.png
-lSLF07#2@29"Copy images/bizi_negra@2x.png330631647#330631647#0(0"0(0#0#94"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/bizi_negra@2x.png8605360960#574"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/bizi_negra@2x.png /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCpResource build/Debug-iphonesimulator/ZgZmap.app/black_bar.png images/black_bar.png
-s330631646.976793
-e330631647.174821
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ZgZmap.app/black_bar.png
-ximages/black_bar.png
-lSLF07#2@25"Copy images/black_bar.png330631646#330631647#0(0"0(0#0#90"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/black_bar.png8608648064#570"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/black_bar.png /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCpResource build/Debug-iphonesimulator/ZgZmap.app/black_bar@2x.png images/black_bar@2x.png
-s330631646.978606
-e330631647.174964
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ZgZmap.app/black_bar@2x.png
-ximages/black_bar@2x.png
-lSLF07#2@28"Copy images/black_bar@2x.png330631646#330631647#0(0"0(0#0#93"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/black_bar@2x.png8608563552#573"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/black_bar@2x.png /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCpResource build/Debug-iphonesimulator/ZgZmap.app/busstop.png images/busstop.png
-s330631647.492309
-e330631647.556238
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ZgZmap.app/busstop.png
-ximages/busstop.png
-lSLF07#2@23"Copy images/busstop.png330631647#330631647#0(0"0(0#0#88"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/busstop.png8605518336#568"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/busstop.png /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCpResource build/Debug-iphonesimulator/ZgZmap.app/busstop@2x.png images/busstop@2x.png
-s330631647.494189
-e330631647.553229
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ZgZmap.app/busstop@2x.png
-ximages/busstop@2x.png
-lSLF07#2@26"Copy images/busstop@2x.png330631647#330631647#0(0"0(0#0#91"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/busstop@2x.png8605394976#571"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/busstop@2x.png /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCpResource build/Debug-iphonesimulator/ZgZmap.app/circle.png images/circle.png
-s330631647.177946
-e330631647.223162
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ZgZmap.app/circle.png
-ximages/circle.png
-lSLF07#2@22"Copy images/circle.png330631647#330631647#0(0"0(0#0#87"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/circle.png8601927488#567"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/circle.png /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCpResource build/Debug-iphonesimulator/ZgZmap.app/circle@2x.png images/circle@2x.png
-s330631647.179708
-e330631647.222129
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ZgZmap.app/circle@2x.png
-ximages/circle@2x.png
-lSLF07#2@25"Copy images/circle@2x.png330631647#330631647#0(0"0(0#0#90"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/circle@2x.png8608101088#570"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/circle@2x.png /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCpResource build/Debug-iphonesimulator/ZgZmap.app/estacion_bizi.png images/estacion_bizi.png
-s330631646.965706
-e330631647.174182
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ZgZmap.app/estacion_bizi.png
-ximages/estacion_bizi.png
-lSLF07#2@29"Copy images/estacion_bizi.png330631646#330631647#0(0"0(0#0#94"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/estacion_bizi.png8610578656#574"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/estacion_bizi.png /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCpResource build/Debug-iphonesimulator/ZgZmap.app/estacion_bizi@2x.png images/estacion_bizi@2x.png
-s330631646.967708
-e330631647.167898
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ZgZmap.app/estacion_bizi@2x.png
-ximages/estacion_bizi@2x.png
-lSLF07#2@32"Copy images/estacion_bizi@2x.png330631646#330631647#0(0"0(0#0#97"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/estacion_bizi@2x.png8610323616#577"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/estacion_bizi@2x.png /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCpResource build/Debug-iphonesimulator/ZgZmap.app/iTunesArtwork images/iTunesArtwork
-s330631646.964367
-e330631647.338820
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ZgZmap.app/iTunesArtwork
-ximages/iTunesArtwork
-lSLF07#2@25"Copy images/iTunesArtwork330631646#330631647#0(0"0(0#0#90"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/iTunesArtwork8610623744#570"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/iTunesArtwork /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCpResource build/Debug-iphonesimulator/ZgZmap.app/parking.png images/parking.png
-s330631647.481029
-e330631647.522699
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ZgZmap.app/parking.png
-ximages/parking.png
-lSLF07#2@23"Copy images/parking.png330631647#330631647#0(0"0(0#0#88"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/parking.png8611318304#568"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/parking.png /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCpResource build/Debug-iphonesimulator/ZgZmap.app/parking@2x.png images/parking@2x.png
-s330631647.482728
-e330631647.533313
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ZgZmap.app/parking@2x.png
-ximages/parking@2x.png
-lSLF07#2@26"Copy images/parking@2x.png330631647#330631647#0(0"0(0#0#91"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/parking@2x.png8610607424#571"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/parking@2x.png /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCpResource build/Debug-iphonesimulator/ZgZmap.app/pharma.png images/pharma.png
-s330631647.338930
-e330631647.387548
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ZgZmap.app/pharma.png
-ximages/pharma.png
-lSLF07#2@22"Copy images/pharma.png330631647#330631647#0(0"0(0#0#87"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/pharma.png8611399904#567"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/pharma.png /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CCpResource build/Debug-iphonesimulator/ZgZmap.app/pharma@2x.png images/pharma@2x.png
-s330631647.339961
-e330631647.389766
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ZgZmap.app/pharma@2x.png
-ximages/pharma@2x.png
-lSLF07#2@25"Copy images/pharma@2x.png330631647#330631647#0(0"0(0#0#90"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/pharma@2x.png8610650880#570"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/images/pharma@2x.png /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
-CGenerateDSYMFile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app.dSYM /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app/ZaragozaMap
-s327397196.201124
-e327397196.226387
-r1
-xGenerateDSYMFile
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app.dSYM
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app/ZaragozaMap
-lSLF07#2@121"GenerateDSYMFile build/Debug-iphonesimulator/ZaragozaMap.app.dSYM build/Debug-iphonesimulator/ZaragozaMap.app/ZaragozaMap327397196#327397196#0(0"0(0#0#115"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app/ZaragozaMap8620568000#458"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app/ZaragozaMap -o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app.dSYM0#
-
-CGenerateDSYMFile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app.dSYM /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/ZgZmap
-s330631653.470984
-e330631653.579177
-r1
-xGenerateDSYMFile
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app.dSYM
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/ZgZmap
-lSLF07#2@106"GenerateDSYMFile build/Debug-iphonesimulator/ZgZmap.app.dSYM build/Debug-iphonesimulator/ZgZmap.app/ZgZmap330631653#330631653#0(0"0(0#0#115"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/ZgZmap8608461920#473"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/ZgZmap -o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app.dSYM0#
-
-CLd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app/ZaragozaMap normal i386
-s327397196.168793
-e327397196.201012
-r1
-xLd
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app/ZaragozaMap
-xnormal
-xi386
-lSLF07#2@120"Link /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app/ZaragozaMap327397196#327397196#0(0"0(0#0#0"8628647680#1043"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator -F/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator -filelist /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/ZaragozaMap.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MapKit -o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app/ZaragozaMap0#
-
-CLd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/ZgZmap normal i386
-s330631652.973899
-e330631653.470852
-r1
-xLd
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/ZgZmap
-xnormal
-xi386
-lSLF07#2@120"Link /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/ZgZmap330631652#330631653#0(0"0(0#0#0"8610284416#1147"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator -F/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator -filelist /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/Objects-normal/i386/ZgZmap.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MapKit -framework CoreLocation -framework AddressBook -framework QuartzCore -o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/ZgZmap0#
-
-CProcessInfoPlistFile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app/Info.plist ZaragozaMap-Info.plist
-s327395298.870314
-e327395298.923152
-r1
-xProcessInfoPlistFile
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app/Info.plist
-xZaragozaMap-Info.plist
-lSLF07#2@30"Process ZaragozaMap-Info.plist327395298#327395298#0(0"0(0#0#82"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/ZaragozaMap-Info.plist32088624093986912#554"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ZaragozaMap-Info.plist -genpkginfo /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app/Info.plist0#
-
-CProcessInfoPlistFile /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/Info.plist ZaragozaMap-Info.plist
-s330631644.366643
-e330631644.371142
-r1
-xProcessInfoPlistFile
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/Info.plist
-xZaragozaMap-Info.plist
-lSLF07#2@30"Process ZaragozaMap-Info.plist330631644#330631644#0(0"0(0#0#92"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/ZaragozaMap-Info.plist30962724186357872#574"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ZaragozaMap-Info.plist -genpkginfo /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app/Info.plist0#
-
-CProcessPCH /var/folders/kw/kwOPUc10FW0y6VM6xTLFCE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ZaragozaMap_Prefix-acvujowtzomhyocywdlsiuqtxehj/ZaragozaMap_Prefix.pch.gch ZaragozaMap_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s327395300.052249
-e327395302.307376
-r1
-xProcessPCH
-x/var/folders/kw/kwOPUc10FW0y6VM6xTLFCE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ZaragozaMap_Prefix-acvujowtzomhyocywdlsiuqtxehj/ZaragozaMap_Prefix.pch.gch
-xZaragozaMap_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@33"Precompile ZaragozaMap_Prefix.pch327395300#327395302#0(0"0(0#0#82"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/ZaragozaMap_Prefix.pch8620122240#2092"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZaragozaMap-generated-files.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZaragozaMap-own-target-headers.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZaragozaMap-all-target-headers.hmap -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZaragozaMap-project-headers.hmap -F/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/include -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources/i386 -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources -c /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/ZaragozaMap_Prefix.pch -o /var/folders/kw/kwOPUc10FW0y6VM6xTLFCE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ZaragozaMap_Prefix-acvujowtzomhyocywdlsiuqtxehj/ZaragozaMap_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/kw/kwOPUc10FW0y6VM6xTLFCE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ZaragozaMap_Prefix-cypbagjzvgccnmhageqxtickrblu/ZaragozaMap_Prefix.pch.gch ZaragozaMap_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s330631647.588827
-e330631651.425164
-r1
-xProcessPCH
-x/var/folders/kw/kwOPUc10FW0y6VM6xTLFCE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ZaragozaMap_Prefix-cypbagjzvgccnmhageqxtickrblu/ZaragozaMap_Prefix.pch.gch
-xZaragozaMap_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@33"Precompile ZaragozaMap_Prefix.pch330631647#330631651#0(0"0(0#0#92"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/ZaragozaMap_Prefix.pch8599876192#2172"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-generated-files.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-own-target-headers.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-all-target-headers.hmap -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZgZmap-project-headers.hmap -F/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/include -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources/i386 -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources -c /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/ZaragozaMap_Prefix.pch -o /var/folders/kw/kwOPUc10FW0y6VM6xTLFCE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ZaragozaMap_Prefix-cypbagjzvgccnmhageqxtickrblu/ZaragozaMap_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/kw/kwOPUc10FW0y6VM6xTLFCE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ZaragozaMap_Prefix-genqvtkxpphzlmdxxalmqjbdckhx/ZaragozaMap_Prefix.pch.gch ZaragozaMap_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s327395958.243673
-e327395960.012428
-r1
-xProcessPCH
-x/var/folders/kw/kwOPUc10FW0y6VM6xTLFCE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ZaragozaMap_Prefix-genqvtkxpphzlmdxxalmqjbdckhx/ZaragozaMap_Prefix.pch.gch
-xZaragozaMap_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@33"Precompile ZaragozaMap_Prefix.pch327395958#327395960#0(0"0(0#0#82"/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/ZaragozaMap_Prefix.pch8628684320#2092"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZaragozaMap-generated-files.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZaragozaMap-own-target-headers.hmap -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZaragozaMap-all-target-headers.hmap -iquote /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/ZaragozaMap-project-headers.hmap -F/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/include -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources/i386 -I/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/ZaragozaMap.build/Debug-iphonesimulator/ZaragozaMap.build/DerivedSources -c /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/ZaragozaMap_Prefix.pch -o /var/folders/kw/kwOPUc10FW0y6VM6xTLFCE+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/ZaragozaMap_Prefix-genqvtkxpphzlmdxxalmqjbdckhx/ZaragozaMap_Prefix.pch.gch0#
-
-CTouch /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app
-s327397196.226495
-e327397196.231170
-r1
-xTouch
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app
-lSLF07#2@109"Touch /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app327397196#327397196#0(0"0(0#0#0"8625327392#324"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/build/Debug-iphonesimulator/ZaragozaMap.app0#
-
-CTouch /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app
-s330631653.579286
-e330631653.629483
-r1
-xTouch
-x/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app
-lSLF07#2@114"Touch /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app330631653#330631653#0(0"0(0#0#0"8604765632#339"    cd /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/build/Debug-iphonesimulator/ZgZmap.app0#
-
