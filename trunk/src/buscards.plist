@@ -1,0 +1,6071 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>created_at</key>
+	<date>2011-06-23T17:15:55Z</date>
+	<key>buscards</key>
+	<array>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8768721</string>
+		<key>latitude</key>
+		<string>41.6498674</string>
+		<key>address</key>
+		<string>Calle del Comandante Repollés, 18, 50001 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 17</string>
+		<key>longitude</key>
+		<string>-0.8772787</string>
+		<key>latitude</key>
+		<string>41.6509042</string>
+		<key>address</key>
+		<string>Calle del Coso, 98, 50001 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>SUPERMERCADO EROSKI</string>
+		<key>longitude</key>
+		<string>-0.8748664</string>
+		<key>latitude</key>
+		<string>41.6511587</string>
+		<key>address</key>
+		<string>Calle del Coso, 138, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO FUNDACION DFA</string>
+		<key>longitude</key>
+		<string>-0.8766907</string>
+		<key>latitude</key>
+		<string>41.6470648</string>
+		<key>address</key>
+		<string>Calle de José Luis Pomarón Herranz, 5, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8768971</string>
+		<key>latitude</key>
+		<string>41.648933</string>
+		<key>address</key>
+		<string>Paseo de la Mina, 21, 50001 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9092179</string>
+		<key>latitude</key>
+		<string>41.6517044</string>
+		<key>address</key>
+		<string>Calle de Mariano Carderera, 4, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>AYUNTAMIENTO</string>
+		<key>longitude</key>
+		<string>-0.8798115</string>
+		<key>latitude</key>
+		<string>41.657022</string>
+		<key>address</key>
+		<string>Basilica of Our Lady of the Pillar, Plaza de Nuestra Señora del Pilar, 19, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-0.878113</string>
+		<key>latitude</key>
+		<string>41.6530106</string>
+		<key>address</key>
+		<string>Calle de San Jorge, 3, 50001 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>IBERCAJA, OF. SAN JORGE </string>
+		<key>longitude</key>
+		<string>-0.8775689</string>
+		<key>latitude</key>
+		<string>41.6527587</string>
+		<key>address</key>
+		<string>Calle de San Jorge, 8, 50001 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO - EL ARBOL</string>
+		<key>longitude</key>
+		<string>-0.878113</string>
+		<key>latitude</key>
+		<string>41.6530106</string>
+		<key>address</key>
+		<string>Calle de San Jorge, 3, 50001 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>SUPERMERCADO EL ARBOL</string>
+		<key>longitude</key>
+		<string>-0.878113</string>
+		<key>latitude</key>
+		<string>41.6530106</string>
+		<key>address</key>
+		<string>Calle de San Jorge, 3, 50001 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>SUPERMERCADO EROSKI</string>
+		<key>longitude</key>
+		<string>-0.8776751</string>
+		<key>latitude</key>
+		<string>41.6499744</string>
+		<key>address</key>
+		<string>Calle de San Miguel, 42, 50001 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>D.G.A. S. PEDRO NOLASCO</string>
+		<key>longitude</key>
+		<string>-0.8769602</string>
+		<key>latitude</key>
+		<string>41.6530883</string>
+		<key>address</key>
+		<string>Plaza de San Pedro Nolasco, 7, 50001 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Martín Martín</string>
+		<key>longitude</key>
+		<string>-0.877024</string>
+		<key>latitude</key>
+		<string>41.6509784</string>
+		<key>address</key>
+		<string>Calle de San Vicente Paul, 1, 50001 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Tiendas de conveniencia</string>
+		<key>longitude</key>
+		<string>-0.8803936</string>
+		<key>latitude</key>
+		<string>41.6499595</string>
+		<key>address</key>
+		<string>Calle de Jerónimo Zurita, 14, 50001 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8728015</string>
+		<key>latitude</key>
+		<string>41.6490946</string>
+		<key>address</key>
+		<string>Calle del Asalto, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>SUPERMERCADO EROSKI</string>
+		<key>longitude</key>
+		<string>-0.8706617</string>
+		<key>latitude</key>
+		<string>41.6497099</string>
+		<key>address</key>
+		<string>Calle del Asalto, 65, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8597695</string>
+		<key>latitude</key>
+		<string>41.6443002</string>
+		<key>address</key>
+		<string>Calle de la Batalla de Lepanto, 59, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8657986</string>
+		<key>latitude</key>
+		<string>41.6449654</string>
+		<key>address</key>
+		<string>Calle de la Batalla de Lepanto, 15, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8646992</string>
+		<key>latitude</key>
+		<string>41.644777</string>
+		<key>address</key>
+		<string>Calle de la Batalla de Lepanto, 29, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 8</string>
+		<key>longitude</key>
+		<string>-0.8620577</string>
+		<key>latitude</key>
+		<string>41.6453839</string>
+		<key>address</key>
+		<string>Av del Compromiso de Caspe, 95, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Martín Martín</string>
+		<key>longitude</key>
+		<string>-0.8646895</string>
+		<key>latitude</key>
+		<string>41.6455753</string>
+		<key>address</key>
+		<string>Av del Compromiso de Caspe, 77, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>MULTICAJA, URBANA 43</string>
+		<key>longitude</key>
+		<string>-0.8624674</string>
+		<key>latitude</key>
+		<string>41.6452173</string>
+		<key>address</key>
+		<string>Av del Compromiso de Caspe, 68, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8668348</string>
+		<key>latitude</key>
+		<string>41.6456904</string>
+		<key>address</key>
+		<string>Av del Compromiso de Caspe, 34, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8602151</string>
+		<key>latitude</key>
+		<string>41.6449495</string>
+		<key>address</key>
+		<string>Av del Compromiso de Caspe, 82, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8590208</string>
+		<key>latitude</key>
+		<string>41.6449288</string>
+		<key>address</key>
+		<string>Av del Compromiso de Caspe, 107, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>SUPERMERCADO EROSKI</string>
+		<key>longitude</key>
+		<string>-0.8646895</string>
+		<key>latitude</key>
+		<string>41.6455753</string>
+		<key>address</key>
+		<string>Av del Compromiso de Caspe, 77, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.859696</string>
+		<key>latitude</key>
+		<string>41.650495</string>
+		<key>address</key>
+		<string>Calle de Comuneros de Castilla, 5, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO</string>
+		<key>longitude</key>
+		<string>-0.8757553</string>
+		<key>latitude</key>
+		<string>41.6507632</string>
+		<key>address</key>
+		<string>Calle del Coso, 120, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8724867</string>
+		<key>latitude</key>
+		<string>41.6525467</string>
+		<key>address</key>
+		<string>Calle del Coso, 182, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8638107</string>
+		<key>latitude</key>
+		<string>41.6477028</string>
+		<key>address</key>
+		<string>Calle del Doctor Iranzo, 68, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8634989</string>
+		<key>latitude</key>
+		<string>41.6493826</string>
+		<key>address</key>
+		<string>Calle del Doctor Iranzo, 84, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9032282</string>
+		<key>latitude</key>
+		<string>41.6545841</string>
+		<key>address</key>
+		<string>Calle de Don Alonso de Aragón, 18, 50010 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8609774</string>
+		<key>latitude</key>
+		<string>41.6492529</string>
+		<key>address</key>
+		<string>Calle de Eugenia Bueso, 3, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>SUPERMERCADO EROSKI</string>
+		<key>longitude</key>
+		<string>-0.8615702</string>
+		<key>latitude</key>
+		<string>41.6492848</string>
+		<key>address</key>
+		<string>Calle de Florián Rey, 1, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8588896</string>
+		<key>latitude</key>
+		<string>41.6466089</string>
+		<key>address</key>
+		<string>Calle de Fray Luis Urbano, 27, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.871268</string>
+		<key>latitude</key>
+		<string>41.6465143</string>
+		<key>address</key>
+		<string>Calle de Joaquín Sanz Gadea, 1, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8651303</string>
+		<key>latitude</key>
+		<string>41.6503138</string>
+		<key>address</key>
+		<string>50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8580812</string>
+		<key>latitude</key>
+		<string>41.6591662</string>
+		<key>address</key>
+		<string>Calle de Manuel Viola, 2, 50014 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO Papelería</string>
+		<key>longitude</key>
+		<string>-0.864328</string>
+		<key>latitude</key>
+		<string>41.647468</string>
+		<key>address</key>
+		<string>Calle del Monasterio de La Rábida, 2, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAJALON, URBANA 3</string>
+		<key>longitude</key>
+		<string>-0.8636914</string>
+		<key>latitude</key>
+		<string>41.6474505</string>
+		<key>address</key>
+		<string>Calle del Monasterio de Siresa, 15, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-0.86336</string>
+		<key>latitude</key>
+		<string>41.6475456</string>
+		<key>address</key>
+		<string>Calle del Monasterio de Siresa, 20, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Martín Martín</string>
+		<key>longitude</key>
+		<string>-0.8642215</string>
+		<key>latitude</key>
+		<string>41.6476295</string>
+		<key>address</key>
+		<string>Calle del Monasterio de Siresa, 24, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8656427</string>
+		<key>latitude</key>
+		<string>41.64764</string>
+		<key>address</key>
+		<string>Calle del Monasterio de Siresa, 33, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8659731</string>
+		<key>latitude</key>
+		<string>41.6477626</string>
+		<key>address</key>
+		<string>Calle del Monasterio de Siresa, 34, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8626232</string>
+		<key>latitude</key>
+		<string>41.6488373</string>
+		<key>address</key>
+		<string>Plaza de Nuestra Señora del Portal, 3, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8701327</string>
+		<key>latitude</key>
+		<string>41.6521596</string>
+		<key>address</key>
+		<string>Calle de la Rebolería, 14, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8682014</string>
+		<key>latitude</key>
+		<string>41.6509535</string>
+		<key>address</key>
+		<string>Calle de la Reina Esther, 4, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8750916</string>
+		<key>latitude</key>
+		<string>41.6451272</string>
+		<key>address</key>
+		<string>Calle de Reina Fabiola, 22, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO</string>
+		<key>longitude</key>
+		<string>-0.8650527</string>
+		<key>latitude</key>
+		<string>41.6462375</string>
+		<key>address</key>
+		<string>Calle de Rodrigo Rebolledo, 7, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8605632</string>
+		<key>latitude</key>
+		<string>41.645767</string>
+		<key>address</key>
+		<string>Calle de Rodrigo Rebolledo, 38, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8650527</string>
+		<key>latitude</key>
+		<string>41.6462375</string>
+		<key>address</key>
+		<string>Calle de Rodrigo Rebolledo, 7, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-0.8280527</string>
+		<key>latitude</key>
+		<string>41.6675646</string>
+		<key>address</key>
+		<string>Calle de Ruiz Lasala, 20, 50016 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 51</string>
+		<key>longitude</key>
+		<string>-0.8616153</string>
+		<key>latitude</key>
+		<string>41.6482409</string>
+		<key>address</key>
+		<string>Calle de Salvador Minguijón, 33, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>IBERCAJA, URBANA 15</string>
+		<key>longitude</key>
+		<string>-0.8619175</string>
+		<key>latitude</key>
+		<string>41.6459051</string>
+		<key>address</key>
+		<string>Calle de Salvador Minguijón, 14, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8619755</string>
+		<key>latitude</key>
+		<string>41.6454736</string>
+		<key>address</key>
+		<string>Calle de Salvador Minguijón, 10, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8635491</string>
+		<key>latitude</key>
+		<string>41.6482167</string>
+		<key>address</key>
+		<string>Calle de Silvestre Pérez, 28, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 83</string>
+		<key>longitude</key>
+		<string>-0.8679471</string>
+		<key>latitude</key>
+		<string>41.6518413</string>
+		<key>address</key>
+		<string>Plaza de Tauste, 1, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>SUPERBIEN</string>
+		<key>longitude</key>
+		<string>-0.8958361</string>
+		<key>latitude</key>
+		<string>41.6610392</string>
+		<key>address</key>
+		<string>Av de la Almozara, 7, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9361439</string>
+		<key>latitude</key>
+		<string>41.6392179</string>
+		<key>address</key>
+		<string>Calle de Altair, 29, 50012 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8992109</string>
+		<key>latitude</key>
+		<string>41.6622056</string>
+		<key>address</key>
+		<string>Calle de la Batalla de Almansa, 12, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8924151</string>
+		<key>latitude</key>
+		<string>41.6566404</string>
+		<key>address</key>
+		<string>Calle de Basilio Boggiero, 182, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9023648</string>
+		<key>latitude</key>
+		<string>41.6616961</string>
+		<key>address</key>
+		<string>Calle de Bonn, 1, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Martín Martín</string>
+		<key>longitude</key>
+		<string>-0.9030739</string>
+		<key>latitude</key>
+		<string>41.6606624</string>
+		<key>address</key>
+		<string>Calle de Bruselas, 2, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9027744</string>
+		<key>latitude</key>
+		<string>41.6609919</string>
+		<key>address</key>
+		<string>Calle de Bruselas, 7, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8911263</string>
+		<key>latitude</key>
+		<string>41.6573083</string>
+		<key>address</key>
+		<string>Calle de Cereros, 22, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 31</string>
+		<key>longitude</key>
+		<string>-0.8839255</string>
+		<key>latitude</key>
+		<string>41.6542299</string>
+		<key>address</key>
+		<string>Av de César Augusto, 48, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 15</string>
+		<key>longitude</key>
+		<string>-0.8908951</string>
+		<key>latitude</key>
+		<string>41.65579</string>
+		<key>address</key>
+		<string>Calle Conde de Aranda, 114, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8859871</string>
+		<key>latitude</key>
+		<string>41.6546638</string>
+		<key>address</key>
+		<string>Calle Conde de Aranda, 2, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAJALON, OFICINA PRINCIPAL</string>
+		<key>longitude</key>
+		<string>-0.8815071</string>
+		<key>latitude</key>
+		<string>41.6527399</string>
+		<key>address</key>
+		<string>Calle del Coso, 29, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 4</string>
+		<key>longitude</key>
+		<string>-0.8782091</string>
+		<key>latitude</key>
+		<string>41.6535243</string>
+		<key>address</key>
+		<string>Calle de Don Jaime I, 33, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8774777</string>
+		<key>latitude</key>
+		<string>41.6543232</string>
+		<key>address</key>
+		<string>Calle de Don Jaime I, 37, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.881227</string>
+		<key>latitude</key>
+		<string>41.6519652</string>
+		<key>address</key>
+		<string>Plaza de España, 3, 50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9002135</string>
+		<key>latitude</key>
+		<string>41.6594023</string>
+		<key>address</key>
+		<string>Calle de Fraga, 14, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8826701</string>
+		<key>latitude</key>
+		<string>41.6504171</string>
+		<key>address</key>
+		<string>Paseo de la Independencia, 50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-0.8934376</string>
+		<key>latitude</key>
+		<string>41.6573546</string>
+		<key>address</key>
+		<string>Paseo de María Agustín, 97, 50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9053373</string>
+		<key>latitude</key>
+		<string>41.6606352</string>
+		<key>address</key>
+		<string>Calle de Mónaco, 11, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8929931</string>
+		<key>latitude</key>
+		<string>41.6556775</string>
+		<key>address</key>
+		<string>Calle de Monseñor Óscar Romero, 50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 26</string>
+		<key>longitude</key>
+		<string>-0.8992464</string>
+		<key>latitude</key>
+		<string>41.6606124</string>
+		<key>address</key>
+		<string>Av de Pablo Gargallo, 69, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAJALON, URBANA 4</string>
+		<key>longitude</key>
+		<string>-0.8960722</string>
+		<key>latitude</key>
+		<string>41.65989</string>
+		<key>address</key>
+		<string>Av de Pablo Gargallo, 19, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>IBERCAJA, URBANA 66</string>
+		<key>longitude</key>
+		<string>-0.9002907</string>
+		<key>latitude</key>
+		<string>41.6608327</string>
+		<key>address</key>
+		<string>Av de Pablo Gargallo, 75, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Martín Martín</string>
+		<key>longitude</key>
+		<string>-0.8990728</string>
+		<key>latitude</key>
+		<string>41.6605928</string>
+		<key>address</key>
+		<string>Av de Pablo Gargallo, 65, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>MULTICAJA, URBANA 49 </string>
+		<key>longitude</key>
+		<string>-0.9021537</string>
+		<key>latitude</key>
+		<string>41.6611349</string>
+		<key>address</key>
+		<string>Av de Pablo Gargallo, 93, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO</string>
+		<key>longitude</key>
+		<string>-0.8984698</string>
+		<key>latitude</key>
+		<string>41.6604717</string>
+		<key>address</key>
+		<string>Av de Pablo Gargallo, 55, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO</string>
+		<key>longitude</key>
+		<string>-0.9033973</string>
+		<key>latitude</key>
+		<string>41.6616427</string>
+		<key>address</key>
+		<string>Av de Pablo Gargallo, 105, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8942542</string>
+		<key>latitude</key>
+		<string>41.659432</string>
+		<key>address</key>
+		<string>Av de Pablo Gargallo, 7, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO (PANADERÍA)</string>
+		<key>longitude</key>
+		<string>-0.903203</string>
+		<key>latitude</key>
+		<string>41.6614957</string>
+		<key>address</key>
+		<string>Av de Pablo Gargallo, 103, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>SUPERMERCADO EROSKI</string>
+		<key>longitude</key>
+		<string>-0.8949955</string>
+		<key>latitude</key>
+		<string>41.6598147</string>
+		<key>address</key>
+		<string>Av de Pablo Gargallo, 36, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO Vídeoclub</string>
+		<key>longitude</key>
+		<string>-0.903685</string>
+		<key>latitude</key>
+		<string>41.6616316</string>
+		<key>address</key>
+		<string>Av de Pablo Gargallo, 107, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8973888</string>
+		<key>latitude</key>
+		<string>41.6616148</string>
+		<key>address</key>
+		<string>Calle del Padre Consolación, 16, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO Expendid. nº 54</string>
+		<key>longitude</key>
+		<string>0.1695882</string>
+		<key>latitude</key>
+		<string>41.1773147</string>
+		<key>address</key>
+		<string>Calle de la Industria, 11, 50793 Fabara, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8856419</string>
+		<key>latitude</key>
+		<string>41.6575617</string>
+		<key>address</key>
+		<string>Calle de los Predicadores, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8994181</string>
+		<key>latitude</key>
+		<string>41.6591608</string>
+		<key>address</key>
+		<string>Calle de la Reina Felicia, 35, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8772072</string>
+		<key>latitude</key>
+		<string>41.6527337</string>
+		<key>address</key>
+		<string>Plaza de San Pedro Nolasco, 1, 50001 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>MULTICAJA, OFICINA PRINCIPAL</string>
+		<key>longitude</key>
+		<string>-0.8787536</string>
+		<key>latitude</key>
+		<string>41.6540717</string>
+		<key>address</key>
+		<string>Calle de San Voto, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.890714</string>
+		<key>latitude</key>
+		<string>41.6572329</string>
+		<key>address</key>
+		<string>Calle de Santa Inés, 12, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8909779</string>
+		<key>latitude</key>
+		<string>41.6583128</string>
+		<key>address</key>
+		<string>Calle de Santa Lucía, 8, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8872599</string>
+		<key>latitude</key>
+		<string>41.6506395</string>
+		<key>address</key>
+		<string>Calle de José Luis Albareda, 19, 50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-0.8936535</string>
+		<key>latitude</key>
+		<string>41.649028</string>
+		<key>address</key>
+		<string>Calle de José Anselmo Clavé, 49, 50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO</string>
+		<key>longitude</key>
+		<string>-0.8935631</string>
+		<key>latitude</key>
+		<string>41.6496208</string>
+		<key>address</key>
+		<string>Calle de José Anselmo Clavé, 37, 50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8935631</string>
+		<key>latitude</key>
+		<string>41.6496208</string>
+		<key>address</key>
+		<string>Calle de José Anselmo Clavé, 37, 50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CABINA TUZSA PZA DE ARAGON</string>
+		<key>longitude</key>
+		<string>-0.8850658</string>
+		<key>latitude</key>
+		<string>41.6482701</string>
+		<key>address</key>
+		<string>Plaza de Aragón, 50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8842833</string>
+		<key>latitude</key>
+		<string>41.6516912</string>
+		<key>address</key>
+		<string>Calle de Azoque, 37, 50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8906283</string>
+		<key>latitude</key>
+		<string>41.6482798</string>
+		<key>address</key>
+		<string>Calle de Benito Pérez Galdós, 2, 50005 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8857851</string>
+		<key>latitude</key>
+		<string>41.6491868</string>
+		<key>address</key>
+		<string>Calle de Bilbao, 7, 50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>MULTICAJA, URBANA 100</string>
+		<key>longitude</key>
+		<string>-0.886359</string>
+		<key>latitude</key>
+		<string>41.6492337</string>
+		<key>address</key>
+		<string>Calle de Canfranc, 22, 50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 9</string>
+		<key>longitude</key>
+		<string>-0.8860006</string>
+		<key>latitude</key>
+		<string>41.6509576</string>
+		<key>address</key>
+		<string>Av de César Augusto, 18, 50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8869872</string>
+		<key>latitude</key>
+		<string>41.6501566</string>
+		<key>address</key>
+		<string>Av de César Augusto, 4, 50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-0.8823374</string>
+		<key>latitude</key>
+		<string>41.6515903</string>
+		<key>address</key>
+		<string>Calle Cinco de Marzo, 12, 50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>IBERCAJA, URBANA 1</string>
+		<key>longitude</key>
+		<string>-0.8902284</string>
+		<key>latitude</key>
+		<string>41.6555141</string>
+		<key>address</key>
+		<string>Calle Conde de Aranda, 101, 50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8885401</string>
+		<key>latitude</key>
+		<string>41.6551017</string>
+		<key>address</key>
+		<string>Calle Conde de Aranda, 45, 50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8905532</string>
+		<key>latitude</key>
+		<string>41.6497684</string>
+		<key>address</key>
+		<string>Calle del Doctor Horno Alcorta, 50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAJALON, URBANA 1</string>
+		<key>longitude</key>
+		<string>-0.8892853</string>
+		<key>latitude</key>
+		<string>41.6487863</string>
+		<key>address</key>
+		<string>Calle de Hernán Cortés, 12, 50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8882003</string>
+		<key>latitude</key>
+		<string>41.6493772</string>
+		<key>address</key>
+		<string>Calle de Hernán Cortés, 1, 50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI. OFICINA PRINCIPAL</string>
+		<key>longitude</key>
+		<string>-0.8828415</string>
+		<key>latitude</key>
+		<string>41.6502502</string>
+		<key>address</key>
+		<string>Paseo de la Independencia, 50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CENTRO COMERCIAL INDEPENDENCIA (CARACOL)</string>
+		<key>longitude</key>
+		<string>-0.8828415</string>
+		<key>latitude</key>
+		<string>41.6502502</string>
+		<key>address</key>
+		<string>Paseo de la Independencia, 50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CENTRO COMERCIAL INDEPENDENCIA (CARACOL 2)</string>
+		<key>longitude</key>
+		<string>-0.8828415</string>
+		<key>latitude</key>
+		<string>41.6502502</string>
+		<key>address</key>
+		<string>Paseo de la Independencia, 50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8828415</string>
+		<key>latitude</key>
+		<string>41.6502502</string>
+		<key>address</key>
+		<string>Paseo de la Independencia, 50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8828415</string>
+		<key>latitude</key>
+		<string>41.6502502</string>
+		<key>address</key>
+		<string>Paseo de la Independencia, 50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8911269</string>
+		<key>latitude</key>
+		<string>41.6497305</string>
+		<key>address</key>
+		<string>Calle de Madre Sacramento, 28, 50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8906864</string>
+		<key>latitude</key>
+		<string>41.64944</string>
+		<key>address</key>
+		<string>Calle de Madre Sacramento, 20, 50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8950363</string>
+		<key>latitude</key>
+		<string>41.6556705</string>
+		<key>address</key>
+		<string>Av de Madrid, 17, 50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8936908</string>
+		<key>latitude</key>
+		<string>41.6550252</string>
+		<key>address</key>
+		<string>Paseo de María Agustín, 67, 50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8877093</string>
+		<key>latitude</key>
+		<string>41.6494331</string>
+		<key>address</key>
+		<string>Paseo de Pamplona, 25, 50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.89016</string>
+		<key>latitude</key>
+		<string>41.6513698</string>
+		<key>address</key>
+		<string>50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.89016</string>
+		<key>latitude</key>
+		<string>41.6513698</string>
+		<key>address</key>
+		<string>50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Martín Martín</string>
+		<key>longitude</key>
+		<string>-0.8953411</string>
+		<key>latitude</key>
+		<string>41.6443222</string>
+		<key>address</key>
+		<string>Calle de Tomás Bretón, 22, 50005 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8966572</string>
+		<key>latitude</key>
+		<string>41.6448949</string>
+		<key>address</key>
+		<string>Calle de Tomás Bretón, 27, 50005 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8975642</string>
+		<key>latitude</key>
+		<string>41.6453718</string>
+		<key>address</key>
+		<string>Calle de Tomás Bretón, 31, 50005 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8956714</string>
+		<key>latitude</key>
+		<string>41.6476247</string>
+		<key>address</key>
+		<string>Calle de Burgos, 14, 50005 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8848412</string>
+		<key>latitude</key>
+		<string>41.6418684</string>
+		<key>address</key>
+		<string>Calle Héroes del Silencio, 17, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8913838</string>
+		<key>latitude</key>
+		<string>41.6469016</string>
+		<key>address</key>
+		<string>Calle de las Cortes de Aragón, 4, 50005 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8997811</string>
+		<key>latitude</key>
+		<string>41.6484216</string>
+		<key>address</key>
+		<string>Calle de Martín Cortés, 19, 50005 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>MULTICAJA, URBANA 62</string>
+		<key>longitude</key>
+		<string>-0.8991079</string>
+		<key>latitude</key>
+		<string>41.648951</string>
+		<key>address</key>
+		<string>Calle de Desiderio Escosura, 65, 50005 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>SUPERMERCADO EROSKI</string>
+		<key>longitude</key>
+		<string>-0.8885339</string>
+		<key>latitude</key>
+		<string>41.6476179</string>
+		<key>address</key>
+		<string>Calle del Doctor Cerrada, 14, 50005 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8987358</string>
+		<key>latitude</key>
+		<string>41.6484813</string>
+		<key>address</key>
+		<string>Calle de Desiderio Escosura, 44, 50005 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-0.8989532</string>
+		<key>latitude</key>
+		<string>41.6469011</string>
+		<key>address</key>
+		<string>Calle de José García Sánchez, 16, 50005 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8935414</string>
+		<key>latitude</key>
+		<string>41.6469757</string>
+		<key>address</key>
+		<string>Av de Goya, 90, 50005 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 11</string>
+		<key>longitude</key>
+		<string>-0.8914513</string>
+		<key>latitude</key>
+		<string>41.6448843</string>
+		<key>address</key>
+		<string>Paseo Gran Vía, 52, 50005 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAJALON, URBANA 20</string>
+		<key>longitude</key>
+		<string>-0.8907599</string>
+		<key>latitude</key>
+		<string>41.6453271</string>
+		<key>address</key>
+		<string>Paseo Gran Vía, 40, 50005 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Martín Martín</string>
+		<key>longitude</key>
+		<string>-0.8914513</string>
+		<key>latitude</key>
+		<string>41.6448843</string>
+		<key>address</key>
+		<string>Paseo Gran Vía, 52, 50005 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 64</string>
+		<key>longitude</key>
+		<string>-0.8902752</string>
+		<key>latitude</key>
+		<string>41.6480369</string>
+		<key>address</key>
+		<string>Calle de Hernán Cortés, 22, 50005 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8963219</string>
+		<key>latitude</key>
+		<string>41.6455934</string>
+		<key>address</key>
+		<string>Calle de Juan José Lorente, 26, 50005 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 10</string>
+		<key>longitude</key>
+		<string>-0.8980456</string>
+		<key>latitude</key>
+		<string>41.6453799</string>
+		<key>address</key>
+		<string>Calle del Maestro José Serrano, 1, 50005 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8914713</string>
+		<key>latitude</key>
+		<string>41.6450496</string>
+		<key>address</key>
+		<string>Calle del Poeta Marco Marcial, 1, 50005 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-0.8978239</string>
+		<key>latitude</key>
+		<string>41.6485482</string>
+		<key>address</key>
+		<string>Calle de Tarragona, 32, 50005 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8979663</string>
+		<key>latitude</key>
+		<string>41.6477676</string>
+		<key>address</key>
+		<string>Calle de Toledo, 32, 50005 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8940588</string>
+		<key>latitude</key>
+		<string>41.643696</string>
+		<key>address</key>
+		<string>Calle de Tomás Bretón, 2, 50005 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>MULTICAJA, URBANA 64</string>
+		<key>longitude</key>
+		<string>-0.8958613</string>
+		<key>latitude</key>
+		<string>41.6469064</string>
+		<key>address</key>
+		<string>Av de Valencia, 24, 50005 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8949736</string>
+		<key>latitude</key>
+		<string>41.6471038</string>
+		<key>address</key>
+		<string>Av de Valencia, 11, 50005 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>SUPERMERCADO EROSKI</string>
+		<key>longitude</key>
+		<string>-0.8956594</string>
+		<key>latitude</key>
+		<string>41.6389786</string>
+		<key>address</key>
+		<string>Calle de Don Andrés Piquer, 14, 50006 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Quiosco</string>
+		<key>longitude</key>
+		<string>-0.8880851</string>
+		<key>latitude</key>
+		<string>41.6438479</string>
+		<key>address</key>
+		<string>Calle del Arzobispo Domènech, 21, 50006 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.88797</string>
+		<key>latitude</key>
+		<string>41.6449248</string>
+		<key>address</key>
+		<string>Calle del Arzobispo Domènech, 12, 50006 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO   </string>
+		<key>longitude</key>
+		<string>-0.8880851</string>
+		<key>latitude</key>
+		<string>41.6438479</string>
+		<key>address</key>
+		<string>Calle del Arzobispo Domènech, 21, 50006 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8951586</string>
+		<key>latitude</key>
+		<string>41.6396874</string>
+		<key>address</key>
+		<string>Calle de Bruno Solano, 3, 50006 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-1.0293464</string>
+		<key>latitude</key>
+		<string>41.722284</string>
+		<key>address</key>
+		<string>Calle de Cervantes, 4, 50620 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8867858</string>
+		<key>latitude</key>
+		<string>41.6386954</string>
+		<key>address</key>
+		<string>Glorieta de Diego Velázquez, 2, 50006 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-0.8926411</string>
+		<key>latitude</key>
+		<string>41.6418446</string>
+		<key>address</key>
+		<string>Calle de Félix Latassa, 25, 50006 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>IBERCAJA, URBANA 10</string>
+		<key>longitude</key>
+		<string>-0.8941933</string>
+		<key>latitude</key>
+		<string>41.6413557</string>
+		<key>address</key>
+		<string>Paseo de Don Fernando El Católico, 35, 50006 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Martín Martín</string>
+		<key>longitude</key>
+		<string>-0.8882333</string>
+		<key>latitude</key>
+		<string>41.6389027</string>
+		<key>address</key>
+		<string>Calle de Gascón de Gotor, 19, 50006 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8890289</string>
+		<key>latitude</key>
+		<string>41.6385369</string>
+		<key>address</key>
+		<string>Calle de Gascón de Gotor, 26, 50006 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.887856</string>
+		<key>latitude</key>
+		<string>41.6392433</string>
+		<key>address</key>
+		<string>Calle de Gascón de Gotor, 12, 50006 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Sabeco</string>
+		<key>longitude</key>
+		<string>-0.9091305</string>
+		<key>latitude</key>
+		<string>41.6432759</string>
+		<key>address</key>
+		<string>Av de Juan Carlos I, 24, 50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8883806</string>
+		<key>latitude</key>
+		<string>41.6404564</string>
+		<key>address</key>
+		<string>Calle de Juan Pablo Bonet, 16, 50006 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8887254</string>
+		<key>latitude</key>
+		<string>41.640572</string>
+		<key>address</key>
+		<string>Calle de Juan Pablo Bonet, 20, 50006 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO Expendeduría</string>
+		<key>longitude</key>
+		<string>-0.8871442</string>
+		<key>latitude</key>
+		<string>41.6456747</string>
+		<key>address</key>
+		<string>Calle de Mariano Royo Urieta, 14, 50006 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8889678</string>
+		<key>latitude</key>
+		<string>41.6401602</string>
+		<key>address</key>
+		<string>50006 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 3</string>
+		<key>longitude</key>
+		<string>-0.8864418</string>
+		<key>latitude</key>
+		<string>41.6391391</string>
+		<key>address</key>
+		<string>Paseo de Sagasta, 80, 50006 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8930892</string>
+		<key>latitude</key>
+		<string>41.6414737</string>
+		<key>address</key>
+		<string>Calle de San Juan de la Cruz, 7, 50006 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Martín Martín</string>
+		<key>longitude</key>
+		<string>-0.8926934</string>
+		<key>latitude</key>
+		<string>41.6413473</string>
+		<key>address</key>
+		<string>Calle de Santa Teresa de Jesús, 20, 50006 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8948716</string>
+		<key>latitude</key>
+		<string>41.637986</string>
+		<key>address</key>
+		<string>Calle de Don Mariano Supervía, 37, 50006 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8870076</string>
+		<key>latitude</key>
+		<string>41.6326498</string>
+		<key>address</key>
+		<string>Calle de Juan Aguas, 6, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 5</string>
+		<key>longitude</key>
+		<string>-0.8853731</string>
+		<key>latitude</key>
+		<string>41.6320957</string>
+		<key>address</key>
+		<string>Av de América, 14, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAJALON, URBANA 6</string>
+		<key>longitude</key>
+		<string>-0.8859061</string>
+		<key>latitude</key>
+		<string>41.6297153</string>
+		<key>address</key>
+		<string>Av de América, 67, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>IBERCAJA, URBANA 7</string>
+		<key>longitude</key>
+		<string>-0.8852754</string>
+		<key>latitude</key>
+		<string>41.6326144</string>
+		<key>address</key>
+		<string>Av de América, 4, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>MULTICAJA, URBANA 44</string>
+		<key>longitude</key>
+		<string>-0.8857258</string>
+		<key>latitude</key>
+		<string>41.6303373</string>
+		<key>address</key>
+		<string>Av de América, 53, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO</string>
+		<key>longitude</key>
+		<string>-0.885633</string>
+		<key>latitude</key>
+		<string>41.6308278</string>
+		<key>address</key>
+		<string>Av de América, 34, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8860005</string>
+		<key>latitude</key>
+		<string>41.6293943</string>
+		<key>address</key>
+		<string>Av de América, 71, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>SUPERMERCADO EROSKI</string>
+		<key>longitude</key>
+		<string>-0.8852754</string>
+		<key>latitude</key>
+		<string>41.6326144</string>
+		<key>address</key>
+		<string>Av de América, 4, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Martín Martín</string>
+		<key>longitude</key>
+		<string>-0.8760273</string>
+		<key>latitude</key>
+		<string>41.632572</string>
+		<key>address</key>
+		<string>Calle del Arcipreste de Hita, 1, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8883695</string>
+		<key>latitude</key>
+		<string>41.6282555</string>
+		<key>address</key>
+		<string>Calle de la Ateca, 36, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8888698</string>
+		<key>latitude</key>
+		<string>41.6283875</string>
+		<key>address</key>
+		<string>Calle de la Ateca, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8791561</string>
+		<key>latitude</key>
+		<string>41.6325536</string>
+		<key>address</key>
+		<string>Calle de Joaquín de Traggia, 4, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8744771</string>
+		<key>latitude</key>
+		<string>41.6328399</string>
+		<key>address</key>
+		<string>Calle de la Ciudad de Ceuta, 2, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8738582</string>
+		<key>latitude</key>
+		<string>41.6271244</string>
+		<key>address</key>
+		<string>Calle del Consejo de Ciento, 19, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8813831</string>
+		<key>latitude</key>
+		<string>41.6273015</string>
+		<key>address</key>
+		<string>Calle de La Coruña, 80, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8765131</string>
+		<key>latitude</key>
+		<string>41.6245762</string>
+		<key>address</key>
+		<string>Calle de la Cuarta Avenida, 70, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-0.8873773</string>
+		<key>latitude</key>
+		<string>41.6313376</string>
+		<key>address</key>
+		<string>Calle de Cuarte, 1, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8844497</string>
+		<key>latitude</key>
+		<string>41.636945</string>
+		<key>address</key>
+		<string>Paseo de Cuéllar, 39, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8844009</string>
+		<key>latitude</key>
+		<string>41.636215</string>
+		<key>address</key>
+		<string>Paseo de Cuéllar, 45, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8787238</string>
+		<key>latitude</key>
+		<string>41.6358769</string>
+		<key>address</key>
+		<string>Calle del Doce de Octubre, 1, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>SUPERBIEN</string>
+		<key>longitude</key>
+		<string>-0.8788488</string>
+		<key>latitude</key>
+		<string>41.6359241</string>
+		<key>address</key>
+		<string>Calle del Doce de Octubre, 5, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>SUPERMERCADO EROSKI</string>
+		<key>longitude</key>
+		<string>-0.8784944</string>
+		<key>latitude</key>
+		<string>41.6355992</string>
+		<key>address</key>
+		<string>Calle del Doce de Octubre, 10, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Tiendas de conveniencia</string>
+		<key>longitude</key>
+		<string>-0.8787238</string>
+		<key>latitude</key>
+		<string>41.6358769</string>
+		<key>address</key>
+		<string>Calle del Doce de Octubre, 1, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8861947</string>
+		<key>latitude</key>
+		<string>41.6292736</string>
+		<key>address</key>
+		<string>Calle del Doctor Martínez Vargas, 2, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 30</string>
+		<key>longitude</key>
+		<string>-0.8782536</string>
+		<key>latitude</key>
+		<string>41.634236</string>
+		<key>address</key>
+		<string>Calle del Escultor Lobato, 41, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8856202</string>
+		<key>latitude</key>
+		<string>41.6318758</string>
+		<key>address</key>
+		<string>Calle de Fray Julián Garcés, 2, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.879429</string>
+		<key>latitude</key>
+		<string>41.6354218</string>
+		<key>address</key>
+		<string>Calle de Federico García Lorca, 1, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8990759</string>
+		<key>latitude</key>
+		<string>41.6470905</string>
+		<key>address</key>
+		<string>Calle de José García Sánchez, 20, 50005 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9002573</string>
+		<key>latitude</key>
+		<string>41.6487065</string>
+		<key>address</key>
+		<string>Calle de José García Sánchez, 38, 50005 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>SUPERMERCADO EROSKI</string>
+		<key>longitude</key>
+		<string>-0.8844735</string>
+		<key>latitude</key>
+		<string>41.6284593</string>
+		<key>address</key>
+		<string>Calle de los Hermanos Gimeno Vizarra, 34, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8787098</string>
+		<key>latitude</key>
+		<string>41.6376381</string>
+		<key>address</key>
+		<string>Calle de Don José Pellicer, 17, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 23</string>
+		<key>longitude</key>
+		<string>-0.8839457</string>
+		<key>latitude</key>
+		<string>41.6282603</string>
+		<key>address</key>
+		<string>Calle de Lasierra Purroy, 53, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.883894</string>
+		<key>latitude</key>
+		<string>41.6280379</string>
+		<key>address</key>
+		<string>Calle de Lasierra Purroy, 82, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8939467</string>
+		<key>latitude</key>
+		<string>41.6781679</string>
+		<key>address</key>
+		<string>Calle de Margarita Xirgú, 12, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8849223</string>
+		<key>latitude</key>
+		<string>41.6392739</string>
+		<key>address</key>
+		<string>Calle de María Moliner, 12, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8824071</string>
+		<key>latitude</key>
+		<string>41.6295562</string>
+		<key>address</key>
+		<string>Calle del Monzón, 26, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>IBERCAJA, URBANA 62</string>
+		<key>longitude</key>
+		<string>-0.877799</string>
+		<key>latitude</key>
+		<string>41.6256548</string>
+		<key>address</key>
+		<string>Calle de Oviedo, 177, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8749706</string>
+		<key>latitude</key>
+		<string>41.6358836</string>
+		<key>address</key>
+		<string>Camino de Puente del Virrey, 72, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 45</string>
+		<key>longitude</key>
+		<string>-0.8790302</string>
+		<key>latitude</key>
+		<string>41.6254781</string>
+		<key>address</key>
+		<string>Calle de San Eugenio, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-0.872459</string>
+		<key>latitude</key>
+		<string>41.6449433</string>
+		<key>address</key>
+		<string>Av de San José, 15, 50013 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8832711</string>
+		<key>latitude</key>
+		<string>41.6321734</string>
+		<key>address</key>
+		<string>Calle de Sancho Ramírez, 16, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>SUPERMERCADO EROSKI</string>
+		<key>longitude</key>
+		<string>-0.8758105</string>
+		<key>latitude</key>
+		<string>41.6234692</string>
+		<key>address</key>
+		<string>Calle de Soleimán, 2, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>MULTICAJA, URBANA 47</string>
+		<key>longitude</key>
+		<string>-0.8842357</string>
+		<key>latitude</key>
+		<string>41.6410802</string>
+		<key>address</key>
+		<string>Av del Tenor Fleta, 18, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8785527</string>
+		<key>latitude</key>
+		<string>41.6384824</string>
+		<key>address</key>
+		<string>Av del Tenor Fleta, 67, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8753011</string>
+		<key>latitude</key>
+		<string>41.6365809</string>
+		<key>address</key>
+		<string>Av del Tenor Fleta, 122, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8765379</string>
+		<key>latitude</key>
+		<string>41.6562873</string>
+		<key>address</key>
+		<string>Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8845931</string>
+		<key>latitude</key>
+		<string>41.6407975</string>
+		<key>address</key>
+		<string>Camino de las Torres, 106, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>SUPERMERCADO EROSKI</string>
+		<key>longitude</key>
+		<string>-0.8859255</string>
+		<key>latitude</key>
+		<string>41.6399406</string>
+		<key>address</key>
+		<string>Camino de las Torres, 109, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8759838</string>
+		<key>latitude</key>
+		<string>41.6231137</string>
+		<key>address</key>
+		<string>Calle del Zafiro, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8752713</string>
+		<key>latitude</key>
+		<string>41.6345372</string>
+		<key>address</key>
+		<string>Calle de Zaragoza La Vieja, 4, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8753622</string>
+		<key>latitude</key>
+		<string>41.6338802</string>
+		<key>address</key>
+		<string>Calle de Zaragoza La Vieja, 25, 50007 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.882481</string>
+		<key>latitude</key>
+		<string>41.6427743</string>
+		<key>address</key>
+		<string>Plaza Albert Schweitzer, 2, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Martín Martín</string>
+		<key>longitude</key>
+		<string>-0.8751489</string>
+		<key>latitude</key>
+		<string>41.6385596</string>
+		<key>address</key>
+		<string>Calle de Ángel Ganivet, 2, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8848891</string>
+		<key>latitude</key>
+		<string>41.643097</string>
+		<key>address</key>
+		<string>Calle de Bolonia, 8, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 47</string>
+		<key>longitude</key>
+		<string>-0.8769645</string>
+		<key>latitude</key>
+		<string>41.6443969</string>
+		<key>address</key>
+		<string>Av de Cesáreo Alierta, 19, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 67</string>
+		<key>longitude</key>
+		<string>-0.8681484</string>
+		<key>latitude</key>
+		<string>41.63786</string>
+		<key>address</key>
+		<string>Av de Cesáreo Alierta, 113, 50013 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Martín Martín</string>
+		<key>longitude</key>
+		<string>-0.8782704</string>
+		<key>latitude</key>
+		<string>41.64525</string>
+		<key>address</key>
+		<string>Av de Cesáreo Alierta, 22, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8768004</string>
+		<key>latitude</key>
+		<string>41.6444673</string>
+		<key>address</key>
+		<string>Av de Cesáreo Alierta, 17, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8768004</string>
+		<key>latitude</key>
+		<string>41.6444673</string>
+		<key>address</key>
+		<string>Av de Cesáreo Alierta, 17, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8770183</string>
+		<key>latitude</key>
+		<string>41.6448243</string>
+		<key>address</key>
+		<string>Av de Cesáreo Alierta, 15, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Sabeco</string>
+		<key>longitude</key>
+		<string>-0.8797137</string>
+		<key>latitude</key>
+		<string>41.646721</string>
+		<key>address</key>
+		<string>Av de Cesáreo Alierta, 6, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8848412</string>
+		<key>latitude</key>
+		<string>41.6418684</string>
+		<key>address</key>
+		<string>Calle Héroes del Silencio, 17, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO</string>
+		<key>longitude</key>
+		<string>-0.8804383</string>
+		<key>latitude</key>
+		<string>41.6431231</string>
+		<key>address</key>
+		<string>Camino de las Torres, 47, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8732846</string>
+		<key>latitude</key>
+		<string>41.6423414</string>
+		<key>address</key>
+		<string>Calle de Escultor Félix Burriel, 1, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8757389</string>
+		<key>latitude</key>
+		<string>41.6435715</string>
+		<key>address</key>
+		<string>Calle de la Florida, 19, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8792996</string>
+		<key>latitude</key>
+		<string>41.6452144</string>
+		<key>address</key>
+		<string>Calle de Francisco de Vitoria, 26, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>0.4138699</string>
+		<key>latitude</key>
+		<string>41.46485</string>
+		<key>address</key>
+		<string>Carrer de les Cases Noves, 25183 Seròs, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8742934</string>
+		<key>latitude</key>
+		<string>41.6455893</string>
+		<key>address</key>
+		<string>Calle de Gonzalo de Berceo, 2, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8745949</string>
+		<key>latitude</key>
+		<string>41.6401232</string>
+		<key>address</key>
+		<string>Calle de Illueca, 1, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 18</string>
+		<key>longitude</key>
+		<string>-0.8850591</string>
+		<key>latitude</key>
+		<string>41.6460174</string>
+		<key>address</key>
+		<string>Paseo de las Damas, 3, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-0.8827817</string>
+		<key>latitude</key>
+		<string>41.6435614</string>
+		<key>address</key>
+		<string>Paseo de las Damas, 33, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8721593</string>
+		<key>latitude</key>
+		<string>41.6372372</string>
+		<key>address</key>
+		<string>Calle de Luis Aula, 8, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8808197</string>
+		<key>latitude</key>
+		<string>41.6402095</string>
+		<key>address</key>
+		<string>Andador de Luis Puntes, 8, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8893188</string>
+		<key>latitude</key>
+		<string>41.6651182</string>
+		<key>address</key>
+		<string>Calle de Mariana Pineda, 18, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 24</string>
+		<key>longitude</key>
+		<string>-0.8726309</string>
+		<key>latitude</key>
+		<string>41.6465068</string>
+		<key>address</key>
+		<string>Calle de Miguel Servet, 50, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8744748</string>
+		<key>latitude</key>
+		<string>41.6475498</string>
+		<key>address</key>
+		<string>Calle de Miguel Servet, 26, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>IBERCAJA, OFICINA PRINCIPAL</string>
+		<key>longitude</key>
+		<string>-98.2049474</string>
+		<key>latitude</key>
+		<string>19.0623615</string>
+		<key>address</key>
+		<string>Basilio 2, Del Maestro Federal, Puebla, Mexico</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.874602</string>
+		<key>latitude</key>
+		<string>41.6368165</string>
+		<key>address</key>
+		<string>Camino de Puente del Virrey, 49, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>SUPERMERCADO EROSKI</string>
+		<key>longitude</key>
+		<string>-0.8752788</string>
+		<key>latitude</key>
+		<string>41.6450448</string>
+		<key>address</key>
+		<string>Calle de Reina Fabiola, 28, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8783608</string>
+		<key>latitude</key>
+		<string>41.6398895</string>
+		<key>address</key>
+		<string>Paseo de los Rosales, 26, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>IBERCAJA, URBANA 16</string>
+		<key>longitude</key>
+		<string>-0.8752617</string>
+		<key>latitude</key>
+		<string>41.6387372</string>
+		<key>address</key>
+		<string>Av de San José, 115, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8741093</string>
+		<key>latitude</key>
+		<string>41.6398092</string>
+		<key>address</key>
+		<string>Av de San José, 70, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8802735</string>
+		<key>latitude</key>
+		<string>41.6451584</string>
+		<key>address</key>
+		<string>Calle de San Vicente Mártir, 26, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8726467</string>
+		<key>latitude</key>
+		<string>41.6463922</string>
+		<key>address</key>
+		<string>Calle de Miguel Servet, 52, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 7</string>
+		<key>longitude</key>
+		<string>-0.877069</string>
+		<key>latitude</key>
+		<string>41.6376972</string>
+		<key>address</key>
+		<string>Av del Tenor Fleta, 95, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8797691</string>
+		<key>latitude</key>
+		<string>41.6390334</string>
+		<key>address</key>
+		<string>Av del Tenor Fleta, 57, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8774294</string>
+		<key>latitude</key>
+		<string>41.6378234</string>
+		<key>address</key>
+		<string>Av del Tenor Fleta, 89, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 12</string>
+		<key>longitude</key>
+		<string>-0.9050477</string>
+		<key>latitude</key>
+		<string>41.636475</string>
+		<key>address</key>
+		<string>Calle de Miguel Asín y Palacios, 15, 50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>IBERCAJA, URBANA 37</string>
+		<key>longitude</key>
+		<string>-0.904652</string>
+		<key>latitude</key>
+		<string>41.6370838</string>
+		<key>address</key>
+		<string>Calle de Miguel Asín y Palacios, 13, 50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9050477</string>
+		<key>latitude</key>
+		<string>41.636475</string>
+		<key>address</key>
+		<string>Calle de Miguel Asín y Palacios, 15, 50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9050477</string>
+		<key>latitude</key>
+		<string>41.636475</string>
+		<key>address</key>
+		<string>Calle de Miguel Asín y Palacios, 15, 50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9043315</string>
+		<key>latitude</key>
+		<string>41.637205</string>
+		<key>address</key>
+		<string>Calle de Miguel Asín y Palacios, 11, 50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 41</string>
+		<key>longitude</key>
+		<string>-0.9108568</string>
+		<key>latitude</key>
+		<string>41.6428539</string>
+		<key>address</key>
+		<string>Calle de Castilla, 50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9096271</string>
+		<key>latitude</key>
+		<string>41.6317779</string>
+		<key>address</key>
+		<string>Calle del Centro, 13, 50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>SUPERMERCADO EROSKI</string>
+		<key>longitude</key>
+		<string>-0.9062453</string>
+		<key>latitude</key>
+		<string>41.6385768</string>
+		<key>address</key>
+		<string>Calle de los Condes de Aragón, 18, 50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9056096</string>
+		<key>latitude</key>
+		<string>41.639446</string>
+		<key>address</key>
+		<string>Calle de los Condes de Aragón, 12, 50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 82</string>
+		<key>longitude</key>
+		<string>-0.9131921</string>
+		<key>latitude</key>
+		<string>41.6442762</string>
+		<key>address</key>
+		<string>Calle de la Duquesa de Villahermosa, 143, 50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>IBERCAJA, URBANA 53</string>
+		<key>longitude</key>
+		<string>-0.9076842</string>
+		<key>latitude</key>
+		<string>41.629688</string>
+		<key>address</key>
+		<string>Calle del Embarcadero, 4, 50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-0.8965744</string>
+		<key>latitude</key>
+		<string>41.6393819</string>
+		<key>address</key>
+		<string>Paseo de Don Fernando El Católico, 52, 50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-0.8965744</string>
+		<key>latitude</key>
+		<string>41.6393819</string>
+		<key>address</key>
+		<string>Paseo de Don Fernando El Católico, 52, 50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>MULTICAJA, URBANA 50</string>
+		<key>longitude</key>
+		<string>-0.8956974</string>
+		<key>latitude</key>
+		<string>41.6404265</string>
+		<key>address</key>
+		<string>Paseo de Don Fernando El Católico, 38, 50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8967958</string>
+		<key>latitude</key>
+		<string>41.6392155</string>
+		<key>address</key>
+		<string>Paseo de Don Fernando El Católico, 56, 50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 2</string>
+		<key>longitude</key>
+		<string>-0.896192</string>
+		<key>latitude</key>
+		<string>41.6399581</string>
+		<key>address</key>
+		<string>Paseo de Don Fernando El Católico, 42, 50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO</string>
+		<key>longitude</key>
+		<string>-0.9029254</string>
+		<key>latitude</key>
+		<string>41.6312097</string>
+		<key>address</key>
+		<string>Ronda Hispanidad, 50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>SUPERMERCADO EROSKI</string>
+		<key>longitude</key>
+		<string>-0.9066748</string>
+		<key>latitude</key>
+		<string>41.6331993</string>
+		<key>address</key>
+		<string>Vía Hispanidad, 6, 50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.904056</string>
+		<key>latitude</key>
+		<string>41.6434823</string>
+		<key>address</key>
+		<string>HOSPITAL CLINICO UNIVERSITARIO LOZANO BLESA, Universidad de Zaragoza, Av SAN JUAN BOSCO, 15, 50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Quiosco (Hospital Miguel Servet - Traumatología)</string>
+		<key>longitude</key>
+		<string>-0.9016283</string>
+		<key>latitude</key>
+		<string>41.6350453</string>
+		<key>address</key>
+		<string>Paseo de Isabel 'La Católica', 50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>SUPERMERCADO EROSKI</string>
+		<key>longitude</key>
+		<string>-0.9108426</string>
+		<key>latitude</key>
+		<string>41.6443404</string>
+		<key>address</key>
+		<string>Av de Juan Carlos I, 6, 50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Martín Martín</string>
+		<key>longitude</key>
+		<string>-0.9121197</string>
+		<key>latitude</key>
+		<string>41.6438257</string>
+		<key>address</key>
+		<string>Av de Juan Pablo II, 3, 50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Tiendas de conveniencia</string>
+		<key>longitude</key>
+		<string>-0.9103526</string>
+		<key>latitude</key>
+		<string>41.6402964</string>
+		<key>address</key>
+		<string>Av de Juan Pablo II, 34, 50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 14</string>
+		<key>longitude</key>
+		<string>-0.9080933</string>
+		<key>latitude</key>
+		<string>41.6300926</string>
+		<key>address</key>
+		<string>Calle de la Vía, 3, 50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-0.9081332</string>
+		<key>latitude</key>
+		<string>41.6309939</string>
+		<key>address</key>
+		<string>Calle de la Vía, 17, 50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Martín Martín</string>
+		<key>longitude</key>
+		<string>-0.9079833</string>
+		<key>latitude</key>
+		<string>41.6299732</string>
+		<key>address</key>
+		<string>Calle de la Vía, 4, 50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9081339</string>
+		<key>latitude</key>
+		<string>41.6304715</string>
+		<key>address</key>
+		<string>Calle de la Vía, 7, 50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9033104</string>
+		<key>latitude</key>
+		<string>41.6461811</string>
+		<key>address</key>
+		<string>Calle de Pedro Lucas Gallego, 58, 50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9032769</string>
+		<key>latitude</key>
+		<string>41.640049</string>
+		<key>address</key>
+		<string>50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9115138</string>
+		<key>latitude</key>
+		<string>41.6438827</string>
+		<key>address</key>
+		<string>Calle de María Guerrero, 39, 50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>UNIVERSIDAD DE ZARAGOZA</string>
+		<key>longitude</key>
+		<string>-0.9032769</string>
+		<key>latitude</key>
+		<string>41.640049</string>
+		<key>address</key>
+		<string>50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9032769</string>
+		<key>latitude</key>
+		<string>41.640049</string>
+		<key>address</key>
+		<string>50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Martín Martín</string>
+		<key>longitude</key>
+		<string>-0.9020306</string>
+		<key>latitude</key>
+		<string>41.6395762</string>
+		<key>address</key>
+		<string>Calle de San Francisco de Borja, 9, Universidad de Zaragoza, 50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9018494</string>
+		<key>latitude</key>
+		<string>41.64002</string>
+		<key>address</key>
+		<string>Calle de San Francisco de Borja, 5, Universidad de Zaragoza, 50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9084541</string>
+		<key>latitude</key>
+		<string>41.6481148</string>
+		<key>address</key>
+		<string>Vía Universitas, 42, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9143659</string>
+		<key>latitude</key>
+		<string>41.6502926</string>
+		<key>address</key>
+		<string>Calle de Andrés Vicente, 9, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9123877</string>
+		<key>latitude</key>
+		<string>41.6509319</string>
+		<key>address</key>
+		<string>Calle de Antonio Mompeón Motos, 6, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9085139</string>
+		<key>latitude</key>
+		<string>41.6538094</string>
+		<key>address</key>
+		<string>Calle de Arias, 20, 50010 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 46</string>
+		<key>longitude</key>
+		<string>-0.9197893</string>
+		<key>latitude</key>
+		<string>41.6563606</string>
+		<key>address</key>
+		<string>Calle de Biarritz, 10, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Martín Martín</string>
+		<key>longitude</key>
+		<string>-0.9041534</string>
+		<key>latitude</key>
+		<string>41.6531422</string>
+		<key>address</key>
+		<string>Paseo de Calanda, 21, 50010 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>MULTICAJA, URBANA 45</string>
+		<key>longitude</key>
+		<string>-0.9041534</string>
+		<key>latitude</key>
+		<string>41.6531422</string>
+		<key>address</key>
+		<string>Paseo de Calanda, 21, 50010 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO</string>
+		<key>longitude</key>
+		<string>-0.9029465</string>
+		<key>latitude</key>
+		<string>41.6509157</string>
+		<key>address</key>
+		<string>Paseo de Calanda, 39, 50010 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9043649</string>
+		<key>latitude</key>
+		<string>41.6536905</string>
+		<key>address</key>
+		<string>Paseo de Calanda, 11, 50010 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.915462</string>
+		<key>latitude</key>
+		<string>41.6534565</string>
+		<key>address</key>
+		<string>Calle del Poeta Celso Emilio Ferreiro, 12, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.881236</string>
+		<key>latitude</key>
+		<string>41.652588</string>
+		<key>address</key>
+		<string>Calle del Coso, 54, 50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9049567</string>
+		<key>latitude</key>
+		<string>41.6493647</string>
+		<key>address</key>
+		<string>Calle de Daroca, 9, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.905808</string>
+		<key>latitude</key>
+		<string>41.6525302</string>
+		<key>address</key>
+		<string>Calle de las Delicias, 5, 50010 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-0.9011702</string>
+		<key>latitude</key>
+		<string>41.6533893</string>
+		<key>address</key>
+		<string>Calle de Luis Pérez Serrano, 3, 50010 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>IBERCAJA, URBANA 31</string>
+		<key>longitude</key>
+		<string>-0.899508</string>
+		<key>latitude</key>
+		<string>41.6493735</string>
+		<key>address</key>
+		<string>Calle de la Duquesa de Villahermosa, 2, 50010 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8987955</string>
+		<key>latitude</key>
+		<string>41.6543021</string>
+		<key>address</key>
+		<string>Calle de Escoriaza y Fabro, 107, 50010 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9144315</string>
+		<key>latitude</key>
+		<string>41.6488986</string>
+		<key>address</key>
+		<string>Calle del Escultor Palao, 15, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9128713</string>
+		<key>latitude</key>
+		<string>41.652229</string>
+		<key>address</key>
+		<string>Calle de Garcilaso de la Vega, 5, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9011943</string>
+		<key>latitude</key>
+		<string>41.655145</string>
+		<key>address</key>
+		<string>Calle de Pilar Sinués y Navarro, 1, 50010 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9000359</string>
+		<key>latitude</key>
+		<string>41.6496267</string>
+		<key>address</key>
+		<string>Calle de los Hermanos Pinzón, 5, 50010 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9013169</string>
+		<key>latitude</key>
+		<string>41.6524956</string>
+		<key>address</key>
+		<string>Calle de Inglaterra, 1, 50010 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 49</string>
+		<key>longitude</key>
+		<string>-0.9006657</string>
+		<key>latitude</key>
+		<string>41.652332</string>
+		<key>address</key>
+		<string>Calle Italia, 3, 50010 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9054114</string>
+		<key>latitude</key>
+		<string>41.6526949</string>
+		<key>address</key>
+		<string>Calle de Jorge Jordana, 5, 50010 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9102279</string>
+		<key>latitude</key>
+		<string>41.6444385</string>
+		<key>address</key>
+		<string>Av de Juan Carlos I, 9, 50009 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8999055</string>
+		<key>latitude</key>
+		<string>41.6552841</string>
+		<key>address</key>
+		<string>Calle de Juan XXIII, 2, 50010 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9112283</string>
+		<key>latitude</key>
+		<string>41.6526729</string>
+		<key>address</key>
+		<string>Calle de Julián Sanz Ibáñez, 5, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-0.913952</string>
+		<key>latitude</key>
+		<string>41.6530016</string>
+		<key>address</key>
+		<string>Calle Madres de la Plaza de Mayo, 5, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 13</string>
+		<key>longitude</key>
+		<string>-0.9112816</string>
+		<key>latitude</key>
+		<string>41.6518388</string>
+		<key>address</key>
+		<string>Av de Madrid, 227, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>IBERCAJA, URBANA 4</string>
+		<key>longitude</key>
+		<string>-0.9061037</string>
+		<key>latitude</key>
+		<string>41.6529827</string>
+		<key>address</key>
+		<string>Av de Madrid, 169, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Martín Martín</string>
+		<key>longitude</key>
+		<string>-0.9068802</string>
+		<key>latitude</key>
+		<string>41.6527935</string>
+		<key>address</key>
+		<string>Av de Madrid, 175, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9181669</string>
+		<key>latitude</key>
+		<string>41.6507337</string>
+		<key>address</key>
+		<string>Av de Madrid, 224, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9152784</string>
+		<key>latitude</key>
+		<string>41.6509005</string>
+		<key>address</key>
+		<string>Av de Madrid, 273, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>SUPERMERCADO EROSKI</string>
+		<key>longitude</key>
+		<string>-0.9033709</string>
+		<key>latitude</key>
+		<string>41.6536964</string>
+		<key>address</key>
+		<string>Av de Madrid, 135, 50010 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9192329</string>
+		<key>latitude</key>
+		<string>41.6553213</string>
+		<key>address</key>
+		<string>Calle de Manuel de Falla, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9061028</string>
+		<key>latitude</key>
+		<string>41.6536357</string>
+		<key>address</key>
+		<string>Calle de Marcos Zapata, 11, 50010 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 42</string>
+		<key>longitude</key>
+		<string>-0.9033911</string>
+		<key>latitude</key>
+		<string>41.6547647</string>
+		<key>address</key>
+		<string>Av de Navarra, 27, 50010 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAJALON, URBANA 14</string>
+		<key>longitude</key>
+		<string>-0.9043632</string>
+		<key>latitude</key>
+		<string>41.6548167</string>
+		<key>address</key>
+		<string>Av de Navarra, 33, 50010 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.900895</string>
+		<key>latitude</key>
+		<string>41.6547258</string>
+		<key>address</key>
+		<string>Av de Navarra, 2, 50010 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-101.3460263</string>
+		<key>latitude</key>
+		<string>20.6696732</string>
+		<key>address</key>
+		<string>Zaragoza 5, De San Vicente, Irapuato, Guanajuato, Mexico</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9020843</string>
+		<key>latitude</key>
+		<string>41.6537699</string>
+		<key>address</key>
+		<string>50010 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.903309</string>
+		<key>latitude</key>
+		<string>41.6484986</string>
+		<key>address</key>
+		<string>Calle de Don Pedro de Luna, 91, 50010 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.907748</string>
+		<key>latitude</key>
+		<string>41.654168</string>
+		<key>address</key>
+		<string>Calle de Pedro II El Católico, 20, 50010 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8877645</string>
+		<key>latitude</key>
+		<string>41.6350471</string>
+		<key>address</key>
+		<string>Calle de Ramiro II 'El Monje', 1, 50006 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.919307</string>
+		<key>latitude</key>
+		<string>41.6563308</string>
+		<key>address</key>
+		<string>Calle de Ramón José Sender, 3, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8615425</string>
+		<key>latitude</key>
+		<string>41.6479379</string>
+		<key>address</key>
+		<string>Calle de Salvador Minguijón, 50002 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8962427</string>
+		<key>latitude</key>
+		<string>41.6434748</string>
+		<key>address</key>
+		<string>Calle de San Antonio María Claret, 55, 50005 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO</string>
+		<key>longitude</key>
+		<string>-0.9038652</string>
+		<key>latitude</key>
+		<string>41.6512913</string>
+		<key>address</key>
+		<string>Calle de Antonio Sangenis, 33, 50010 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9046766</string>
+		<key>latitude</key>
+		<string>41.6529579</string>
+		<key>address</key>
+		<string>Calle de Antonio Sangenis, 10, 50010 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8945301</string>
+		<key>latitude</key>
+		<string>41.6489002</string>
+		<key>address</key>
+		<string>Calle de Santander, 1, 50010 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO</string>
+		<key>longitude</key>
+		<string>-0.8978239</string>
+		<key>latitude</key>
+		<string>41.6485482</string>
+		<key>address</key>
+		<string>Calle de Tarragona, 32, 50005 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8978239</string>
+		<key>latitude</key>
+		<string>41.6485482</string>
+		<key>address</key>
+		<string>Calle de Tarragona, 32, 50005 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9014952</string>
+		<key>latitude</key>
+		<string>41.6511385</string>
+		<key>address</key>
+		<string>Calle de Unceta, 44, 50010 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9093873</string>
+		<key>latitude</key>
+		<string>41.6494535</string>
+		<key>address</key>
+		<string>Vía Universitas, 55, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Quiosco</string>
+		<key>longitude</key>
+		<string>-0.9093873</string>
+		<key>latitude</key>
+		<string>41.6494535</string>
+		<key>address</key>
+		<string>Vía Universitas, 55, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 19</string>
+		<key>longitude</key>
+		<string>-0.8992873</string>
+		<key>latitude</key>
+		<string>41.6497341</string>
+		<key>address</key>
+		<string>Calle de Vicente Berdusán, 46, 50010 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8978704</string>
+		<key>latitude</key>
+		<string>41.6527656</string>
+		<key>address</key>
+		<string>Calle de Vicente Berdusán, 12, 50010 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8986859</string>
+		<key>latitude</key>
+		<string>41.6508356</string>
+		<key>address</key>
+		<string>Calle de Vicente Berdusán, 30, 50010 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9220193</string>
+		<key>latitude</key>
+		<string>41.6488998</string>
+		<key>address</key>
+		<string>Calle de Alejandro Oliván, 16, 50011 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 20</string>
+		<key>longitude</key>
+		<string>-0.926163</string>
+		<key>latitude</key>
+		<string>41.6516021</string>
+		<key>address</key>
+		<string>Calle de Antonio de Leyva, 65, 50011 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>IBERCAJA, URBANA 11</string>
+		<key>longitude</key>
+		<string>-0.9251627</string>
+		<key>latitude</key>
+		<string>41.6515309</string>
+		<key>address</key>
+		<string>Calle de Antonio de Leyva, 49, 50011 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9286319</string>
+		<key>latitude</key>
+		<string>41.6515311</string>
+		<key>address</key>
+		<string>Calle de Antonio de Leyva, 83, 50011 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 95</string>
+		<key>longitude</key>
+		<string>-1.0298918</string>
+		<key>latitude</key>
+		<string>41.6664078</string>
+		<key>address</key>
+		<string>50011 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9260405</string>
+		<key>latitude</key>
+		<string>41.6517206</string>
+		<key>address</key>
+		<string>Calle de Huesa del Común, 2, 50011 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9284674</string>
+		<key>latitude</key>
+		<string>41.651379</string>
+		<key>address</key>
+		<string>Calle de Valdés Guzmán, 2, 50011 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9207717</string>
+		<key>latitude</key>
+		<string>41.6515126</string>
+		<key>address</key>
+		<string>Calle de Madre Barat, 1, 50011 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAJALON, URBANA 16</string>
+		<key>longitude</key>
+		<string>-0.920996</string>
+		<key>latitude</key>
+		<string>41.6486557</string>
+		<key>address</key>
+		<string>Calle del Mosén José Bosqued, 5, 50011 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>ESTACIÓN INTERMODAL DELICIAS</string>
+		<key>longitude</key>
+		<string>-0.9082812</string>
+		<key>latitude</key>
+		<string>41.6553982</string>
+		<key>address</key>
+		<string>Av de Navarra, 80, 50011 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAJALON, URBANA 8</string>
+		<key>longitude</key>
+		<string>-0.9410584</string>
+		<key>latitude</key>
+		<string>41.6587535</string>
+		<key>address</key>
+		<string>Camino del Pilón, 120, 50011 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>IBERCAJA, URBANA 89</string>
+		<key>longitude</key>
+		<string>-0.9403599</string>
+		<key>latitude</key>
+		<string>41.6587017</string>
+		<key>address</key>
+		<string>Camino del Pilón, 131, 50011 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO</string>
+		<key>longitude</key>
+		<string>-0.9316208</string>
+		<key>latitude</key>
+		<string>41.6560959</string>
+		<key>address</key>
+		<string>Calle de San Lamberto, 7, 50011 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9181277</string>
+		<key>latitude</key>
+		<string>41.6463896</string>
+		<key>address</key>
+		<string>Plaza del Amazonas, 50012 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9443766</string>
+		<key>latitude</key>
+		<string>41.6335991</string>
+		<key>address</key>
+		<string>Calle Beethoven, 42, 50012 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8765379</string>
+		<key>latitude</key>
+		<string>41.6562873</string>
+		<key>address</key>
+		<string>Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9294978</string>
+		<key>latitude</key>
+		<string>41.6272198</string>
+		<key>address</key>
+		<string>Av de la Ilustración, 14, 50012 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Martín Martín</string>
+		<key>longitude</key>
+		<string>-0.8765379</string>
+		<key>latitude</key>
+		<string>41.6562873</string>
+		<key>address</key>
+		<string>Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9337983</string>
+		<key>latitude</key>
+		<string>41.6291387</string>
+		<key>address</key>
+		<string>Av de la Ilustración, 50012 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO C.C.Alcampo</string>
+		<key>longitude</key>
+		<string>-1.8994314</string>
+		<key>latitude</key>
+		<string>41.2960765</string>
+		<key>address</key>
+		<string>Carretera Madrid, 50230 Alhama de Aragón, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9323772</string>
+		<key>latitude</key>
+		<string>41.6386014</string>
+		<key>address</key>
+		<string>Calle de Marte, 54, 50012 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 99</string>
+		<key>longitude</key>
+		<string>-0.9445224</string>
+		<key>latitude</key>
+		<string>41.6374409</string>
+		<key>address</key>
+		<string>Calle de Maurice Ravel, 25, 50012 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 60</string>
+		<key>longitude</key>
+		<string>-0.9299642</string>
+		<key>latitude</key>
+		<string>41.6393588</string>
+		<key>address</key>
+		<string>Calle de Obispo Peralta, 11, 50012 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>IBERCAJA, URBANA 42</string>
+		<key>longitude</key>
+		<string>-0.9305411</string>
+		<key>latitude</key>
+		<string>41.6399291</string>
+		<key>address</key>
+		<string>Calle de Rigel, 1, 50012 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>PANADERIA Las Nieves</string>
+		<key>longitude</key>
+		<string>-0.912089</string>
+		<key>latitude</key>
+		<string>41.6274533</string>
+		<key>address</key>
+		<string>Calle Riglos, 12, 50012 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9290184</string>
+		<key>latitude</key>
+		<string>41.6404653</string>
+		<key>address</key>
+		<string>Av de Valdefierro, 47, 50012 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8690253</string>
+		<key>latitude</key>
+		<string>41.6393559</string>
+		<key>address</key>
+		<string>Camino de Cabaldos, 76, 50013 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8690217</string>
+		<key>latitude</key>
+		<string>41.6390831</string>
+		<key>address</key>
+		<string>Camino de Cabaldos, 78, 50013 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8693691</string>
+		<key>latitude</key>
+		<string>41.6373706</string>
+		<key>address</key>
+		<string>Camino de Cabaldos, 88, 50013 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8703002</string>
+		<key>latitude</key>
+		<string>41.6394162</string>
+		<key>address</key>
+		<string>Calle de Emilio Castelar, 50, 50013 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8489843</string>
+		<key>latitude</key>
+		<string>41.6220096</string>
+		<key>address</key>
+		<string>Carretera Castellón, 44, 50013 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8701596</string>
+		<key>latitude</key>
+		<string>41.6384044</string>
+		<key>address</key>
+		<string>Av de Cesáreo Alierta, 96, 50013 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8755255</string>
+		<key>latitude</key>
+		<string>41.6428178</string>
+		<key>address</key>
+		<string>Av de Cesáreo Alierta, 33, 50008 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-0.8666397</string>
+		<key>latitude</key>
+		<string>41.6435461</string>
+		<key>address</key>
+		<string>Calle de Florentino Ballesteros, 19, 50013 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 21</string>
+		<key>longitude</key>
+		<string>-0.8694924</string>
+		<key>latitude</key>
+		<string>41.6424676</string>
+		<key>address</key>
+		<string>Calle de Juana Ibarbourou, 6, 50013 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Martín Martín</string>
+		<key>longitude</key>
+		<string>-0.8701564</string>
+		<key>latitude</key>
+		<string>41.6417328</string>
+		<key>address</key>
+		<string>Calle de Juana Ibarbourou, 20, 50013 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>IBERCAJA, URBANA 30</string>
+		<key>longitude</key>
+		<string>-0.8688606</string>
+		<key>latitude</key>
+		<string>41.6427056</string>
+		<key>address</key>
+		<string>Calle de Miguel Servet, 118, 50013 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8689105</string>
+		<key>latitude</key>
+		<string>41.6429195</string>
+		<key>address</key>
+		<string>Calle de Miguel Servet, 67, 50013 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.871006</string>
+		<key>latitude</key>
+		<string>41.6451437</string>
+		<key>address</key>
+		<string>Calle de Monasterio de Samos, 40, 50013 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8723232</string>
+		<key>latitude</key>
+		<string>41.6429797</string>
+		<key>address</key>
+		<string>Plaza de la Reina Sofía, 3, 50013 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8734245</string>
+		<key>latitude</key>
+		<string>41.6411147</string>
+		<key>address</key>
+		<string>Av de San José, 77, 50013 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8711829</string>
+		<key>latitude</key>
+		<string>41.6412172</string>
+		<key>address</key>
+		<string>Calle de San Luis de Francia, 13, 50013 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>MULTICAJA, URBANA 46</string>
+		<key>longitude</key>
+		<string>-0.8719176</string>
+		<key>latitude</key>
+		<string>41.6431901</string>
+		<key>address</key>
+		<string>Calle del Santuario de Cabañas, 1, 50013 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CENTRO COMERCIAL UTRILLAS PLAZA</string>
+		<key>longitude</key>
+		<string>-0.8673947</string>
+		<key>latitude</key>
+		<string>41.6410795</string>
+		<key>address</key>
+		<string>Plaza de Utrillas, 6, 50013 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8640499</string>
+		<key>latitude</key>
+		<string>41.6586438</string>
+		<key>address</key>
+		<string>Calle de Aguarón, 22, 50014 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 91</string>
+		<key>longitude</key>
+		<string>-0.8685594</string>
+		<key>latitude</key>
+		<string>41.656828</string>
+		<key>address</key>
+		<string>Calle de Alfonso Solans Serrano, 3, 50014 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 81</string>
+		<key>longitude</key>
+		<string>-0.8590542</string>
+		<key>latitude</key>
+		<string>41.6581431</string>
+		<key>address</key>
+		<string>Calle de Balbino Orensanz, 1, 50014 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8590542</string>
+		<key>latitude</key>
+		<string>41.6581431</string>
+		<key>address</key>
+		<string>Calle de Balbino Orensanz, 3, 50014 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8839897</string>
+		<key>latitude</key>
+		<string>41.6706516</string>
+		<key>address</key>
+		<string>Calle del Poeta Blas de Otero, 14, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.868724</string>
+		<key>latitude</key>
+		<string>41.6574308</string>
+		<key>address</key>
+		<string>Camino del Vado, 4, 50014 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 80</string>
+		<key>longitude</key>
+		<string>-0.8464699</string>
+		<key>latitude</key>
+		<string>41.670112</string>
+		<key>address</key>
+		<string>Av Cataluña, 289, 50014 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-0.8692183</string>
+		<key>latitude</key>
+		<string>41.6604205</string>
+		<key>address</key>
+		<string>Av Cataluña, 25, 50014 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>IBERCAJA, URBANA 32</string>
+		<key>longitude</key>
+		<string>-0.8640044</string>
+		<key>latitude</key>
+		<string>41.6624445</string>
+		<key>address</key>
+		<string>Av Cataluña, 92, 50014 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>MULTICAJA, URBANA 55</string>
+		<key>longitude</key>
+		<string>-0.8605856</string>
+		<key>latitude</key>
+		<string>41.663893</string>
+		<key>address</key>
+		<string>Av Cataluña, 132, 50014 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO</string>
+		<key>longitude</key>
+		<string>-0.8603808</string>
+		<key>latitude</key>
+		<string>41.6639477</string>
+		<key>address</key>
+		<string>Av Cataluña, 134, 50014 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8442417</string>
+		<key>latitude</key>
+		<string>41.6708331</string>
+		<key>address</key>
+		<string>Av Cataluña, 298, 50014 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>SUPERMERCADO EROSKI</string>
+		<key>longitude</key>
+		<string>-0.8455302</string>
+		<key>latitude</key>
+		<string>41.6703054</string>
+		<key>address</key>
+		<string>Av Cataluña, 293, 50014 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-1.4628042</string>
+		<key>latitude</key>
+		<string>41.7314623</string>
+		<key>address</key>
+		<string>50014 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9311719</string>
+		<key>latitude</key>
+		<string>41.639835</string>
+		<key>address</key>
+		<string>Calle de Federico Ozanam, 4, 50012 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8615319</string>
+		<key>latitude</key>
+		<string>41.6635042</string>
+		<key>address</key>
+		<string>Calle de Felisa Gale, 2, 50014 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO</string>
+		<key>longitude</key>
+		<string>-0.8659041</string>
+		<key>latitude</key>
+		<string>41.6588972</string>
+		<key>address</key>
+		<string>Calle de Fuendejalón, 4, 50014 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8709118</string>
+		<key>latitude</key>
+		<string>41.6580095</string>
+		<key>address</key>
+		<string>Calle de Jesús, 28, 50014 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Martín Martín</string>
+		<key>longitude</key>
+		<string>-0.8658698</string>
+		<key>latitude</key>
+		<string>41.6609113</string>
+		<key>address</key>
+		<string>Calle de José Oto, 44, 50014 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8628198</string>
+		<key>latitude</key>
+		<string>41.6621361</string>
+		<key>address</key>
+		<string>Calle de José Oto, 26, 50014 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Tiendas de conveniencia</string>
+		<key>longitude</key>
+		<string>-0.8662682</string>
+		<key>latitude</key>
+		<string>41.660624</string>
+		<key>address</key>
+		<string>Calle de José Oto, 63, 50014 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8574299</string>
+		<key>latitude</key>
+		<string>41.6616456</string>
+		<key>address</key>
+		<string>Av de la Jota, 50, 50014 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 54</string>
+		<key>longitude</key>
+		<string>-0.8638105</string>
+		<key>latitude</key>
+		<string>41.6607285</string>
+		<key>address</key>
+		<string>Calle del Marqués de la Cadena, 40, 50014 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>SUPERMERCADO EROSKI</string>
+		<key>longitude</key>
+		<string>-0.8638725</string>
+		<key>latitude</key>
+		<string>41.6608629</string>
+		<key>address</key>
+		<string>Calle del Marqués de la Cadena, 44, 50014 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8569285</string>
+		<key>latitude</key>
+		<string>41.6561254</string>
+		<key>address</key>
+		<string>Calle de Matías Maluenda, 50014 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSKO SUPERBIEN </string>
+		<key>longitude</key>
+		<string>-0.8575962</string>
+		<key>latitude</key>
+		<string>41.6538594</string>
+		<key>address</key>
+		<string>Calle Nobleza Baturra, 17, 50014 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>SUPERBIEN</string>
+		<key>longitude</key>
+		<string>-0.8575962</string>
+		<key>latitude</key>
+		<string>41.6538594</string>
+		<key>address</key>
+		<string>Calle Nobleza Baturra, 17, 50014 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8962884</string>
+		<key>latitude</key>
+		<string>41.6593012</string>
+		<key>address</key>
+		<string>Av de Pablo Gargallo, 23, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-0.8634094</string>
+		<key>latitude</key>
+		<string>41.6623351</string>
+		<key>address</key>
+		<string>Calle de Pascuala Perie, 1, 50014 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Martín Martín</string>
+		<key>longitude</key>
+		<string>-0.8630222</string>
+		<key>latitude</key>
+		<string>41.6618021</string>
+		<key>address</key>
+		<string>Calle de Pascuala Perie, 10, 50014 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8651303</string>
+		<key>latitude</key>
+		<string>41.6852028</string>
+		<key>address</key>
+		<string>50015 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8883782</string>
+		<key>latitude</key>
+		<string>41.6752079</string>
+		<key>address</key>
+		<string>Calle Cineasta Carlos Saura, 16, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8917252</string>
+		<key>latitude</key>
+		<string>41.6702165</string>
+		<key>address</key>
+		<string>Calle Concepción Sáiz de Otero, 8, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 89</string>
+		<key>longitude</key>
+		<string>-0.8731268</string>
+		<key>latitude</key>
+		<string>41.6839609</string>
+		<key>address</key>
+		<string>Calle del Globo, 1, 50015 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8724619</string>
+		<key>latitude</key>
+		<string>41.6837277</string>
+		<key>address</key>
+		<string>Calle del Globo, 8, 50015 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8768036</string>
+		<key>latitude</key>
+		<string>41.65926</string>
+		<key>address</key>
+		<string>Calle de García Arista, 14, 50015 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8775437</string>
+		<key>latitude</key>
+		<string>41.6692548</string>
+		<key>address</key>
+		<string>Calle Isla de Gran Canaria, 50015 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO BRIGADA CABALLERIA U</string>
+		<key>longitude</key>
+		<string>-0.8665015</string>
+		<key>latitude</key>
+		<string>41.7016241</string>
+		<key>address</key>
+		<string>Carretera de Huesca, 50015 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8846684</string>
+		<key>latitude</key>
+		<string>41.6715386</string>
+		<key>address</key>
+		<string>Calle de Ildefonso Manuel Gil, 28, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8826701</string>
+		<key>latitude</key>
+		<string>41.6504171</string>
+		<key>address</key>
+		<string>Paseo de la Independencia, 50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.885197</string>
+		<key>latitude</key>
+		<string>41.6682652</string>
+		<key>address</key>
+		<string>Calle de Jorge Guillén, 14, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8989032</string>
+		<key>latitude</key>
+		<string>41.6613041</string>
+		<key>address</key>
+		<string>Calle de Almunia de Doña Godina, 13, 50003 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8721481</string>
+		<key>latitude</key>
+		<string>41.6866347</string>
+		<key>address</key>
+		<string>Av de las Majas de Goya, 50015 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8922038</string>
+		<key>latitude</key>
+		<string>41.6684714</string>
+		<key>address</key>
+		<string>Calle de María de Echarri, 2, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8844626</string>
+		<key>latitude</key>
+		<string>41.6649254</string>
+		<key>address</key>
+		<string>Calle de la Poetisa María Zambrano, 10, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO Estanco</string>
+		<key>longitude</key>
+		<string>-0.8893188</string>
+		<key>latitude</key>
+		<string>41.6651182</string>
+		<key>address</key>
+		<string>Calle de Mariana Pineda, 18, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>SUPERBIEN</string>
+		<key>longitude</key>
+		<string>-0.8726912</string>
+		<key>latitude</key>
+		<string>41.6722347</string>
+		<key>address</key>
+		<string>Calle de Monte Perdido, 22, 50015 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8780169</string>
+		<key>latitude</key>
+		<string>41.6608591</string>
+		<key>address</key>
+		<string>Calle de Mosén Domingo Agudo, 21, 50015 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8891014</string>
+		<key>latitude</key>
+		<string>41.6773897</string>
+		<key>address</key>
+		<string>Calle de Pablo Iglesias, 25, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>SUPERMERCADO EROSKI</string>
+		<key>longitude</key>
+		<string>-0.8744413</string>
+		<key>latitude</key>
+		<string>41.6610937</string>
+		<key>address</key>
+		<string>Calle de Mariano Pano y Ruata, 15, 50015 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8756733</string>
+		<key>latitude</key>
+		<string>41.6684729</string>
+		<key>address</key>
+		<string>Calle del Pantano de Bubal, 4, 50015 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8651303</string>
+		<key>latitude</key>
+		<string>41.6852028</string>
+		<key>address</key>
+		<string>50015 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>SUPERMERCADO EROSKI</string>
+		<key>longitude</key>
+		<string>-0.8926579</string>
+		<key>latitude</key>
+		<string>41.6697007</string>
+		<key>address</key>
+		<string>Calle Concepción Sáiz de Otero, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 72</string>
+		<key>longitude</key>
+		<string>-0.8763994</string>
+		<key>latitude</key>
+		<string>41.6693323</string>
+		<key>address</key>
+		<string>Av Salvador Allende, 14, 50015 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 79</string>
+		<key>longitude</key>
+		<string>-0.8768139</string>
+		<key>latitude</key>
+		<string>41.6757126</string>
+		<key>address</key>
+		<string>Av Salvador Allende, 75, 50015 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-0.8767104</string>
+		<key>latitude</key>
+		<string>41.6703395</string>
+		<key>address</key>
+		<string>Av Salvador Allende, 20, 50015 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-0.8767104</string>
+		<key>latitude</key>
+		<string>41.6703395</string>
+		<key>address</key>
+		<string>Av Salvador Allende, 20, 50015 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>El Arbol</string>
+		<key>longitude</key>
+		<string>-0.8767104</string>
+		<key>latitude</key>
+		<string>41.6703395</string>
+		<key>address</key>
+		<string>Av Salvador Allende, 20, 50015 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>El Arbol</string>
+		<key>longitude</key>
+		<string>-0.8767104</string>
+		<key>latitude</key>
+		<string>41.6703395</string>
+		<key>address</key>
+		<string>Av Salvador Allende, 20, 50015 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Martín Martín</string>
+		<key>longitude</key>
+		<string>-0.8769161</string>
+		<key>latitude</key>
+		<string>41.6689534</string>
+		<key>address</key>
+		<string>Av Salvador Allende, 17, 50015 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8775373</string>
+		<key>latitude</key>
+		<string>41.6741581</string>
+		<key>address</key>
+		<string>Av Salvador Allende, 57, 50015 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8770338</string>
+		<key>latitude</key>
+		<string>41.6714608</string>
+		<key>address</key>
+		<string>Av Salvador Allende, 41, 50015 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8766084</string>
+		<key>latitude</key>
+		<string>41.6759238</string>
+		<key>address</key>
+		<string>Av Salvador Allende, 98, 50015 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8765693</string>
+		<key>latitude</key>
+		<string>41.6607327</string>
+		<key>address</key>
+		<string>Plaza de San Gregorio, 3, 50015 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>IBERCAJA, URBANA 39</string>
+		<key>longitude</key>
+		<string>-0.8710709</string>
+		<key>latitude</key>
+		<string>41.6766205</string>
+		<key>address</key>
+		<string>Av San Juan de la Peña, 190, 50015 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.870968</string>
+		<key>latitude</key>
+		<string>41.6767317</string>
+		<key>address</key>
+		<string>Av San Juan de la Peña, 194, 50015 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8715208</string>
+		<key>latitude</key>
+		<string>41.6710708</string>
+		<key>address</key>
+		<string>Av San Juan de la Peña, 129, 50015 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>IBERCAJA, URBANA 23</string>
+		<key>longitude</key>
+		<string>-0.8734891</string>
+		<key>latitude</key>
+		<string>41.6605131</string>
+		<key>address</key>
+		<string>Calle de Sobrarbe, 36, 50015 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8738396</string>
+		<key>latitude</key>
+		<string>41.6604382</string>
+		<key>address</key>
+		<string>Calle de Sobrarbe, 55, 50015 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 36</string>
+		<key>longitude</key>
+		<string>-0.8716746</string>
+		<key>latitude</key>
+		<string>41.6719152</string>
+		<key>address</key>
+		<string>Calle del Valle de Arán, 1, 50015 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8727512</string>
+		<key>latitude</key>
+		<string>41.6638533</string>
+		<key>address</key>
+		<string>Calle del Valle de Gistaín, 2, 50015 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 75</string>
+		<key>longitude</key>
+		<string>-0.8728628</string>
+		<key>latitude</key>
+		<string>41.6614914</string>
+		<key>address</key>
+		<string>Calle del Valle de Zuriza, 19, 50015 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.873425</string>
+		<key>latitude</key>
+		<string>41.6614965</string>
+		<key>address</key>
+		<string>Calle del Valle de Zuriza, 20, 50015 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>MULTICAJA, URBANA 51</string>
+		<key>longitude</key>
+		<string>-0.8760397</string>
+		<key>latitude</key>
+		<string>41.6607294</string>
+		<key>address</key>
+		<string>Calle de Pedro Villacampa, 50, 50015 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8250745</string>
+		<key>latitude</key>
+		<string>41.6687309</string>
+		<key>address</key>
+		<string>Calle de Serrano Ostariz, 50016 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAJALON, URBANA 11</string>
+		<key>longitude</key>
+		<string>-0.8294658</string>
+		<key>latitude</key>
+		<string>41.6669486</string>
+		<key>address</key>
+		<string>Av de Santa Isabel, 137, 50016 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>IBERCAJA, OF. PPAL. SANTA ISABEL</string>
+		<key>longitude</key>
+		<string>-0.8323842</string>
+		<key>latitude</key>
+		<string>41.6670156</string>
+		<key>address</key>
+		<string>Av de Santa Isabel, 76, 50016 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 29</string>
+		<key>longitude</key>
+		<string>-0.8309359</string>
+		<key>latitude</key>
+		<string>41.6673263</string>
+		<key>address</key>
+		<string>Plaza de Serrano Berges, 50016 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>SUPERMERCADO EROSKI</string>
+		<key>longitude</key>
+		<string>-0.9136774</string>
+		<key>latitude</key>
+		<string>41.6488181</string>
+		<key>address</key>
+		<string>Calle de Andrés Vicente, 25, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9136909</string>
+		<key>latitude</key>
+		<string>41.646412</string>
+		<key>address</key>
+		<string>Calle de Cañizar del Olivar, 1, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-1.4966619</string>
+		<key>latitude</key>
+		<string>41.1656609</string>
+		<key>address</key>
+		<string>50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO</string>
+		<key>longitude</key>
+		<string>-0.9075792</string>
+		<key>latitude</key>
+		<string>41.6495953</string>
+		<key>address</key>
+		<string>Calle de Daroca, 55, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9082609</string>
+		<key>latitude</key>
+		<string>41.64966</string>
+		<key>address</key>
+		<string>Calle de Daroca, 69, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 16</string>
+		<key>longitude</key>
+		<string>-0.9040523</string>
+		<key>latitude</key>
+		<string>41.648671</string>
+		<key>address</key>
+		<string>Calle de las Delicias, 93, 50010 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9159459</string>
+		<key>latitude</key>
+		<string>41.6499656</string>
+		<key>address</key>
+		<string>Calle de Fray Juan Regla, 37, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9050867</string>
+		<key>latitude</key>
+		<string>41.6476082</string>
+		<key>address</key>
+		<string>Calle de Fuentes de Ebro, 1, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9158242</string>
+		<key>latitude</key>
+		<string>41.6481181</string>
+		<key>address</key>
+		<string>Calle de Demetrio Galán Bergua, 24, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9176445</string>
+		<key>latitude</key>
+		<string>41.6497984</string>
+		<key>address</key>
+		<string>Calle de Vía Hispanidad, 110, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 86</string>
+		<key>longitude</key>
+		<string>-0.9160745</string>
+		<key>latitude</key>
+		<string>41.6507662</string>
+		<key>address</key>
+		<string>Av de Madrid, 283, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>IBERCAJA, URBANA 18</string>
+		<key>longitude</key>
+		<string>-0.9157918</string>
+		<key>latitude</key>
+		<string>41.6509385</string>
+		<key>address</key>
+		<string>Av de Madrid, 204, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Martín Martín</string>
+		<key>longitude</key>
+		<string>-0.9133577</string>
+		<key>latitude</key>
+		<string>41.6513966</string>
+		<key>address</key>
+		<string>Av de Madrid, 251, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.912309</string>
+		<key>latitude</key>
+		<string>41.6507293</string>
+		<key>address</key>
+		<string>Calle de Antonio Mompeón Motos, 8, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>SUPERMERCADO EROSKI</string>
+		<key>longitude</key>
+		<string>-0.9123877</string>
+		<key>latitude</key>
+		<string>41.6509319</string>
+		<key>address</key>
+		<string>Calle de Antonio Mompeón Motos, 6, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 28</string>
+		<key>longitude</key>
+		<string>-1.4966619</string>
+		<key>latitude</key>
+		<string>41.1656609</string>
+		<key>address</key>
+		<string>50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>MULTICAJA, URBANA 54</string>
+		<key>longitude</key>
+		<string>-0.9180514</string>
+		<key>latitude</key>
+		<string>41.6549876</string>
+		<key>address</key>
+		<string>Calle del Poeta Miguel Labordeta, 45, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9103386</string>
+		<key>latitude</key>
+		<string>41.652759</string>
+		<key>address</key>
+		<string>Calle Rioja, 6, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9092922</string>
+		<key>latitude</key>
+		<string>41.6502468</string>
+		<key>address</key>
+		<string>Vía Universitas, 58, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9097444</string>
+		<key>latitude</key>
+		<string>41.6511636</string>
+		<key>address</key>
+		<string>Vía Universitas, 64, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9104017</string>
+		<key>latitude</key>
+		<string>41.651687</string>
+		<key>address</key>
+		<string>Vía Universitas, 81, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-0.8852739</string>
+		<key>latitude</key>
+		<string>41.6759893</string>
+		<key>address</key>
+		<string>Calle Cineasta Adolfo Aznar, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-0.8852739</string>
+		<key>latitude</key>
+		<string>41.6759893</string>
+		<key>address</key>
+		<string>Calle Cineasta Adolfo Aznar, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8936993</string>
+		<key>latitude</key>
+		<string>41.6773759</string>
+		<key>address</key>
+		<string>Calle de Alejandro Casona, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>MULTICAJA, URBANA 42</string>
+		<key>longitude</key>
+		<string>-0.88618</string>
+		<key>latitude</key>
+		<string>41.6715535</string>
+		<key>address</key>
+		<string>Calle de Averroes, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO Estanco</string>
+		<key>longitude</key>
+		<string>-0.8883782</string>
+		<key>latitude</key>
+		<string>41.6752079</string>
+		<key>address</key>
+		<string>Calle Cineasta Carlos Saura, 3, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 70</string>
+		<key>longitude</key>
+		<string>-0.9629523</string>
+		<key>latitude</key>
+		<string>41.8163055</string>
+		<key>address</key>
+		<string>50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 70 (2)</string>
+		<key>longitude</key>
+		<string>-0.9629523</string>
+		<key>latitude</key>
+		<string>41.8163055</string>
+		<key>address</key>
+		<string>50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8939778</string>
+		<key>latitude</key>
+		<string>41.6704793</string>
+		<key>address</key>
+		<string>Calle de Emilia Pardo Bazán, 21, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8751031</string>
+		<key>latitude</key>
+		<string>41.6881773</string>
+		<key>address</key>
+		<string>Calle de Eugenio Lucas, 1, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>IBERCAJA, URBANA 80</string>
+		<key>longitude</key>
+		<string>-0.8907585</string>
+		<key>latitude</key>
+		<string>41.6715368</string>
+		<key>address</key>
+		<string>Calle de Gertrudis Gómez de Avellaneda, 77, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 68</string>
+		<key>longitude</key>
+		<string>-0.8907585</string>
+		<key>latitude</key>
+		<string>41.6715368</string>
+		<key>address</key>
+		<string>Calle de Gertrudis Gómez de Avellaneda, 83, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9629523</string>
+		<key>latitude</key>
+		<string>41.8163055</string>
+		<key>address</key>
+		<string>50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Quiosco</string>
+		<key>longitude</key>
+		<string>-0.8883666</string>
+		<key>latitude</key>
+		<string>41.6715048</string>
+		<key>address</key>
+		<string>Calle de Ildefonso Manuel Gil, 4, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>SUPERMERCADO EROSKI</string>
+		<key>longitude</key>
+		<string>-0.8870117</string>
+		<key>latitude</key>
+		<string>41.6683028</string>
+		<key>address</key>
+		<string>Calle de Jorge Guillén, 15, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO</string>
+		<key>longitude</key>
+		<string>-0.8863604</string>
+		<key>latitude</key>
+		<string>41.6689592</string>
+		<key>address</key>
+		<string>Calle del Poeta Jorge Manrique, 4, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8854532</string>
+		<key>latitude</key>
+		<string>41.6751953</string>
+		<key>address</key>
+		<string>Calle de Cineasta José Luis Borau, 5, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8868631</string>
+		<key>latitude</key>
+		<string>41.6746415</string>
+		<key>address</key>
+		<string>Calle de Julio García Condoy, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO  Cinebank</string>
+		<key>longitude</key>
+		<string>-0.9331971</string>
+		<key>latitude</key>
+		<string>41.6602328</string>
+		<key>address</key>
+		<string>Plaza Lagos Azules, 7, 50011 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Martín Martín</string>
+		<key>longitude</key>
+		<string>-0.8914411</string>
+		<key>latitude</key>
+		<string>41.6760291</string>
+		<key>address</key>
+		<string>Calle de Luis Legaz Lacambra, 4, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 96</string>
+		<key>longitude</key>
+		<string>-0.8751046</string>
+		<key>latitude</key>
+		<string>41.6868107</string>
+		<key>address</key>
+		<string>Av de las Majas de Goya, 13, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>IBERCAJA, URBANA 90</string>
+		<key>longitude</key>
+		<string>-0.8751046</string>
+		<key>latitude</key>
+		<string>41.6868107</string>
+		<key>address</key>
+		<string>Av de las Majas de Goya, 25, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>SUPERBIEN</string>
+		<key>longitude</key>
+		<string>-0.8939467</string>
+		<key>latitude</key>
+		<string>41.6781679</string>
+		<key>address</key>
+		<string>Calle de Margarita Xirgú, 14, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>CAI, URBANA 34</string>
+		<key>longitude</key>
+		<string>-0.8838921</string>
+		<key>latitude</key>
+		<string>41.6643376</string>
+		<key>address</key>
+		<string>Calle de la Poetisa María Zambrano, 2, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Martín Martín</string>
+		<key>longitude</key>
+		<string>-0.8893922</string>
+		<key>latitude</key>
+		<string>41.6722673</string>
+		<key>address</key>
+		<string>Calle de la Poetisa María Zambrano, 42, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>DECATHLON EN C.COMERCIAL GRANCASA</string>
+		<key>longitude</key>
+		<string>-0.8901329</string>
+		<key>latitude</key>
+		<string>41.6717738</string>
+		<key>address</key>
+		<string>Calle María Zambrano, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Martín Martín</string>
+		<key>longitude</key>
+		<string>-0.9629523</string>
+		<key>latitude</key>
+		<string>41.8163055</string>
+		<key>address</key>
+		<string>50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-0.8918601</string>
+		<key>latitude</key>
+		<string>41.6671268</string>
+		<key>address</key>
+		<string>Calle de María Zayas y Sotomayor, 9, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-0.8918601</string>
+		<key>latitude</key>
+		<string>41.6671268</string>
+		<key>address</key>
+		<string>Calle de María Zayas y Sotomayor, 9, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-0.8847577</string>
+		<key>latitude</key>
+		<string>41.6701237</string>
+		<key>address</key>
+		<string>Calle de Pablo Neruda, 20, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Martín Martín</string>
+		<key>longitude</key>
+		<string>-0.8847577</string>
+		<key>latitude</key>
+		<string>41.6701237</string>
+		<key>address</key>
+		<string>Calle de Pablo Neruda, 20, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9629523</string>
+		<key>latitude</key>
+		<string>41.8163055</string>
+		<key>address</key>
+		<string>50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>IBERCAJA, URBANA 64</string>
+		<key>longitude</key>
+		<string>-0.889339</string>
+		<key>latitude</key>
+		<string>41.6748868</string>
+		<key>address</key>
+		<string>Calle de la Poetisa María Zambrano, 58, 50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>UNIVERSIDAD DE ZARAGOZA</string>
+		<key>longitude</key>
+		<string>-0.9629523</string>
+		<key>latitude</key>
+		<string>41.8163055</string>
+		<key>address</key>
+		<string>50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>UNIVERSIDAD DE ZARAGOZA</string>
+		<key>longitude</key>
+		<string>-0.9629523</string>
+		<key>latitude</key>
+		<string>41.8163055</string>
+		<key>address</key>
+		<string>50018 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-104.6723907</string>
+		<key>latitude</key>
+		<string>24.0270464</string>
+		<key>address</key>
+		<string>Zaragoza 11, Zona Centro, Durango, Mexico</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Quiosco</string>
+		<key>longitude</key>
+		<string>-0.9338064</string>
+		<key>latitude</key>
+		<string>41.6220818</string>
+		<key>address</key>
+		<string>Calle de la Diligencia, 50019 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO</string>
+		<key>longitude</key>
+		<string>-0.9223636</string>
+		<key>latitude</key>
+		<string>41.6199478</string>
+		<key>address</key>
+		<string>50019 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8226907</string>
+		<key>latitude</key>
+		<string>41.6658893</string>
+		<key>address</key>
+		<string>Calle de la Concordia, 50016 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.825462</string>
+		<key>latitude</key>
+		<string>41.6678504</string>
+		<key>address</key>
+		<string>Calle de Gaspar Torrente, 62, 50016 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-97.4401105</string>
+		<key>latitude</key>
+		<string>20.5327847</string>
+		<key>address</key>
+		<string>Zaragoza 33, Tepeyac, Poza Rica, VER, Mexico</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.833321</string>
+		<key>latitude</key>
+		<string>41.6671118</string>
+		<key>address</key>
+		<string>Av de Santa Isabel, 66, 50016 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8270964</string>
+		<key>latitude</key>
+		<string>41.6704619</string>
+		<key>address</key>
+		<string>Calle de Santa Nunila, 9, 50016 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8288066</string>
+		<key>latitude</key>
+		<string>41.684651</string>
+		<key>address</key>
+		<string>Av de la Montañana, 254, 50059 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>D.G.A. EDIFICIO PIGNATELLI</string>
+		<key>longitude</key>
+		<string>-0.891992</string>
+		<key>latitude</key>
+		<string>41.6528026</string>
+		<key>address</key>
+		<string>Paseo de María Agustín, 36, 50004 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>AYUNTAMIENTO (EDIF. SEMINARIO)</string>
+		<key>longitude</key>
+		<string>-0.9178453</string>
+		<key>latitude</key>
+		<string>41.6498842</string>
+		<key>address</key>
+		<string>Calle de Vía Hispanidad, 20, 50017 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9653412</string>
+		<key>latitude</key>
+		<string>41.7043343</string>
+		<key>address</key>
+		<string>50120 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9700959</string>
+		<key>latitude</key>
+		<string>41.7009795</string>
+		<key>address</key>
+		<string>Calle de San Miguel, 2, 50120 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO</string>
+		<key>longitude</key>
+		<string>-0.7066526</string>
+		<key>latitude</key>
+		<string>41.4660654</string>
+		<key>address</key>
+		<string>Calle Mayor, 18, 50135 Mediana de Aragón, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.6109408</string>
+		<key>latitude</key>
+		<string>41.7988751</string>
+		<key>address</key>
+		<string>Calle de la Iglesia, 4, 50160 Leciñena, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO Pastelería</string>
+		<key>longitude</key>
+		<string>-0.7734904</string>
+		<key>latitude</key>
+		<string>41.6853284</string>
+		<key>address</key>
+		<string>Calle de la Iglesia Baja, 50162 Villamayor, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8765379</string>
+		<key>latitude</key>
+		<string>41.6562873</string>
+		<key>address</key>
+		<string>Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.7067982</string>
+		<key>latitude</key>
+		<string>41.6153959</string>
+		<key>address</key>
+		<string>Av de Zaragoza, 7, 50172 Alfajarín, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.702359</string>
+		<key>latitude</key>
+		<string>41.6153804</string>
+		<key>address</key>
+		<string>Calle Nuestra Señora Peña, 1, 50172 Alfajarín, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO - ESTANCO</string>
+		<key>longitude</key>
+		<string>-0.6521345</string>
+		<key>latitude</key>
+		<string>41.5735675</string>
+		<key>address</key>
+		<string>Calle Mayor, 27, 50174 Villafranca de Ebro, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-1.0247129</string>
+		<key>latitude</key>
+		<string>41.7161735</string>
+		<key>address</key>
+		<string>Calle de Candanchú, 4, 50180 Utebo, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9947444</string>
+		<key>latitude</key>
+		<string>41.7150315</string>
+		<key>address</key>
+		<string>50180 Utebo, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-1.0252887</string>
+		<key>latitude</key>
+		<string>41.7204194</string>
+		<key>address</key>
+		<string>Av de la Constitución, 4, 50620 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-1.0252887</string>
+		<key>latitude</key>
+		<string>41.7204194</string>
+		<key>address</key>
+		<string>Av de la Constitución, 4, 50620 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9959304</string>
+		<key>latitude</key>
+		<string>41.7043842</string>
+		<key>address</key>
+		<string>Calle de Pablo Ruiz Picasso, 50180 Utebo, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Quiosco</string>
+		<key>longitude</key>
+		<string>-0.9964085</string>
+		<key>latitude</key>
+		<string>41.7115407</string>
+		<key>address</key>
+		<string>50180 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9985526</string>
+		<key>latitude</key>
+		<string>41.7070779</string>
+		<key>address</key>
+		<string>Av de Zaragoza, 24, 50180 Utebo, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9985115</string>
+		<key>latitude</key>
+		<string>41.7065785</string>
+		<key>address</key>
+		<string>Av de Zaragoza, 32, 50180 Utebo, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-1.0262273</string>
+		<key>latitude</key>
+		<string>41.6832427</string>
+		<key>address</key>
+		<string>Calle Mayor, 13, 50011 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO (Fotoesfera)</string>
+		<key>longitude</key>
+		<string>-1.0262273</string>
+		<key>latitude</key>
+		<string>41.6832427</string>
+		<key>address</key>
+		<string>Calle Mayor, 13, 50011 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8765379</string>
+		<key>latitude</key>
+		<string>41.6562873</string>
+		<key>address</key>
+		<string>Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO</string>
+		<key>longitude</key>
+		<string>-0.8294548</string>
+		<key>latitude</key>
+		<string>41.6524521</string>
+		<key>address</key>
+		<string>Av de Movera, 50194 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO Bazar</string>
+		<key>longitude</key>
+		<string>-0.7814524</string>
+		<key>latitude</key>
+		<string>41.6180456</string>
+		<key>address</key>
+		<string>Av Palafox, 19, 50195 Pastriz, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.7833486</string>
+		<key>latitude</key>
+		<string>41.6191116</string>
+		<key>address</key>
+		<string>Av Santa Ana, 2, 50195 Pastriz, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO  EL ARBOL</string>
+		<key>longitude</key>
+		<string>-1.1158812</string>
+		<key>latitude</key>
+		<string>41.5806592</string>
+		<key>address</key>
+		<string>Av de la Justicia de Aragón, 4, 50196 La Muela, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-1.1165381</string>
+		<key>latitude</key>
+		<string>41.5805076</string>
+		<key>address</key>
+		<string>Calle Mayor, 2, 50196 La Muela, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-1.1172287</string>
+		<key>latitude</key>
+		<string>41.5798547</string>
+		<key>address</key>
+		<string>Calle Mayor, 7, 50196 La Muela, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-1.1009176</string>
+		<key>latitude</key>
+		<string>41.7366596</string>
+		<key>address</key>
+		<string>Calle del Consuelo, 1, 50298 Pinseque, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-1.102699</string>
+		<key>latitude</key>
+		<string>41.737008</string>
+		<key>address</key>
+		<string>Calle de la Portalada, 10, 50298 Pinseque, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8765379</string>
+		<key>latitude</key>
+		<string>41.6562873</string>
+		<key>address</key>
+		<string>Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8765379</string>
+		<key>latitude</key>
+		<string>41.6562873</string>
+		<key>address</key>
+		<string>Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9289619</string>
+		<key>latitude</key>
+		<string>41.5903911</string>
+		<key>address</key>
+		<string>Calle de Ramón y Cajal, 50410 Cuarte de Huerva, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9602709</string>
+		<key>latitude</key>
+		<string>41.5549558</string>
+		<key>address</key>
+		<string>Plaza de Aragón, 4, 50420 Cadrete, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.959172</string>
+		<key>latitude</key>
+		<string>41.5549994</string>
+		<key>address</key>
+		<string>Calle de la Constitución, 4, 50420 Cadrete, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Martín Martín</string>
+		<key>longitude</key>
+		<string>-0.9964551</string>
+		<key>latitude</key>
+		<string>41.5390819</string>
+		<key>address</key>
+		<string>Calle de las Escuelas, 1, 50430 María de Huerva, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO Estación Servicio</string>
+		<key>longitude</key>
+		<string>-0.9684844</string>
+		<key>latitude</key>
+		<string>41.5630196</string>
+		<key>address</key>
+		<string>Carretera de Valencia, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.9962275</string>
+		<key>latitude</key>
+		<string>41.5377721</string>
+		<key>address</key>
+		<string>Calle de la Valenzuela Soler, 3, 50430 María de Huerva, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-1.030932</string>
+		<key>latitude</key>
+		<string>41.5075214</string>
+		<key>address</key>
+		<string>Calle Mayor, 5, 50441 Botorrita, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>ESTANCO</string>
+		<key>longitude</key>
+		<string>-1.074339</string>
+		<key>latitude</key>
+		<string>41.4613122</string>
+		<key>address</key>
+		<string>Calle 3, 50450 Muel, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>PANADERIA</string>
+		<key>longitude</key>
+		<string>-1.0842389</string>
+		<key>latitude</key>
+		<string>41.4690325</string>
+		<key>address</key>
+		<string>Av de García Jiménez, 34, 50450 Muel, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO</string>
+		<key>longitude</key>
+		<string>-1.0322845</string>
+		<key>latitude</key>
+		<string>41.7186947</string>
+		<key>address</key>
+		<string>50620 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-1.0362961</string>
+		<key>latitude</key>
+		<string>41.7226646</string>
+		<key>address</key>
+		<string>Calle de Autovía de Logroño, 50620 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-1.0362961</string>
+		<key>latitude</key>
+		<string>41.7226646</string>
+		<key>address</key>
+		<string>Calle de Autovía de Logroño, 50620 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-1.0278329</string>
+		<key>latitude</key>
+		<string>41.717375</string>
+		<key>address</key>
+		<string>Calle de la Virgen de la Rosa, 50620 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-1.0390246</string>
+		<key>latitude</key>
+		<string>41.7387883</string>
+		<key>address</key>
+		<string>Calle de San Antonio, 15, 50629 Sobradiel, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO Librería</string>
+		<key>longitude</key>
+		<string>-0.8765379</string>
+		<key>latitude</key>
+		<string>41.6562873</string>
+		<key>address</key>
+		<string>Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-1.1203161</string>
+		<key>latitude</key>
+		<string>41.7699391</string>
+		<key>address</key>
+		<string>Calle Mayor, 12, 50630 Alagón, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-1.1175246</string>
+		<key>latitude</key>
+		<string>41.7677904</string>
+		<key>address</key>
+		<string>Av de Zaragoza, 22, 50630 Alagón, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO (Estanco)</string>
+		<key>longitude</key>
+		<string>-1.1741576</string>
+		<key>latitude</key>
+		<string>41.7668378</string>
+		<key>address</key>
+		<string>Calle Mayor, 50639 Figueruelas, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-1.238925</string>
+		<key>latitude</key>
+		<string>41.828867</string>
+		<key>address</key>
+		<string>Plaza del Ayuntamiento, 50640 Luceni, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-1.2173547</string>
+		<key>latitude</key>
+		<string>41.7884078</string>
+		<key>address</key>
+		<string>Calle de Zaragoza, 25, 50690 Pedrola, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-1.0650316</string>
+		<key>latitude</key>
+		<string>41.758308</string>
+		<key>address</key>
+		<string>Plaza Juan Pablo Bonet, 13, 50693 Torres de Berrellén, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-1.0682203</string>
+		<key>latitude</key>
+		<string>41.7583246</string>
+		<key>address</key>
+		<string>Calle Tenor Fleta, 25, 50693 Torres de Berrellén, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>SUPERBIEN</string>
+		<key>longitude</key>
+		<string>-0.825023</string>
+		<key>latitude</key>
+		<string>41.6072885</string>
+		<key>address</key>
+		<string>Calle de Juan de las Viñas, 3, 50720 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>IBERCAJA, URBANA L.C.</string>
+		<key>longitude</key>
+		<string>-0.82356</string>
+		<key>latitude</key>
+		<string>41.6045195</string>
+		<key>address</key>
+		<string>Paseo de los Plátanos, 50720 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO</string>
+		<key>longitude</key>
+		<string>-0.7445847</string>
+		<key>latitude</key>
+		<string>41.5720471</string>
+		<key>address</key>
+		<string>Calle del Cortés de Aragón, 32, 50730 El Burgo de Ebro, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.7416468</string>
+		<key>latitude</key>
+		<string>41.5725245</string>
+		<key>address</key>
+		<string>Calle Ramón José Sender, 9, 50730 El Burgo de Ebro, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.6334924</string>
+		<key>latitude</key>
+		<string>41.5095643</string>
+		<key>address</key>
+		<string>Calle de Fernando Borbón, 50740 Fuentes de Ebro, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.6308973</string>
+		<key>latitude</key>
+		<string>41.5122886</string>
+		<key>address</key>
+		<string>Calle de Fernando 'El Católico', 6, 50740 Fuentes de Ebro, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-0.6354685</string>
+		<key>latitude</key>
+		<string>41.5139969</string>
+		<key>address</key>
+		<string>Paseo de la Justicia, 3, 50740 Fuentes de Ebro, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.5298936</string>
+		<key>latitude</key>
+		<string>41.4889432</string>
+		<key>address</key>
+		<string>Calle del Sol, 30, 50750 Pina de Ebro, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO Estanco</string>
+		<key>longitude</key>
+		<string>-0.4972396</string>
+		<key>latitude</key>
+		<string>41.4243392</string>
+		<key>address</key>
+		<string>Calle Mayor, 23, 50770 Quinto, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>EL ARBOL</string>
+		<key>longitude</key>
+		<string>-0.7912499</string>
+		<key>latitude</key>
+		<string>41.8654025</string>
+		<key>address</key>
+		<string>Av de Zaragoza, 27, 50800 Zuera, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.7879527</string>
+		<key>latitude</key>
+		<string>41.8686013</string>
+		<key>address</key>
+		<string>Calle de Zufaria, 4, 50800 Zuera, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8411086</string>
+		<key>latitude</key>
+		<string>41.7175793</string>
+		<key>address</key>
+		<string>Plaza de España, 50820 Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8765379</string>
+		<key>latitude</key>
+		<string>41.6562873</string>
+		<key>address</key>
+		<string>Saragossa, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8240568</string>
+		<key>latitude</key>
+		<string>41.7684527</string>
+		<key>address</key>
+		<string>Calle del Gómez Acebo, 82, 50830 Villanueva de Gállego, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.8240527</string>
+		<key>latitude</key>
+		<string>41.7692308</string>
+		<key>address</key>
+		<string>Calle de Santa Catalina, 14, 50830 Villanueva de Gállego, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.765731</string>
+		<key>latitude</key>
+		<string>41.8327297</string>
+		<key>address</key>
+		<string>Av de Galo Ponte, 50840 San Mateo de Gállego, Spain</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>QUIOSCO </string>
+		<key>longitude</key>
+		<string>-0.7686655</string>
+		<key>latitude</key>
+		<string>41.830155</string>
+		<key>address</key>
+		<string>Av del General Franco, 50840 San Mateo de Gállego, Spain</string>
+		</dict>
+</array>
+</dict>
+</plist>

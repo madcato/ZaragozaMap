@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>created_at</key>
+	<date>2011-06-23T17:15:55Z</date>
+	<key>healthcenters</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud Delicias Sur</string>
+			<key>longitude</key>
+			<string>-0.9038976035147217</string>
+			<key>latitude</key>
+			<string>41.65263245234697</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud Fernando El Católico</string>
+			<key>longitude</key>
+			<string>-0.9012034137756029</string>
+			<key>latitude</key>
+			<string>41.64019044690703</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro de Especialidades Medicas Inocencio Jiménez</string>
+			<key>longitude</key>
+			<string>-0.9214627998200319</string>
+			<key>latitude</key>
+			<string>41.64862848984991</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud Miralbueno</string>
+			<key>longitude</key>
+			<string>-0.94365469388852</string>
+			<key>latitude</key>
+			<string>41.65915104159201</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud Oliver</string>
+			<key>longitude</key>
+			<string>-0.9301593194598825</string>
+			<key>latitude</key>
+			<string>41.65228898734449</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud Valdefierro</string>
+			<key>longitude</key>
+			<string>-0.9307529103461991</string>
+			<key>latitude</key>
+			<string>41.63262061964718</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud Casetas</string>
+			<key>longitude</key>
+			<string>-1.0249503080261357</string>
+			<key>latitude</key>
+			<string>41.72155084193914</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud Bombarda</string>
+			<key>longitude</key>
+			<string>-0.9148932207421085</string>
+			<key>latitude</key>
+			<string>41.65127442181579</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud Universitas</string>
+			<key>longitude</key>
+			<string>-0.9136283402008528</string>
+			<key>latitude</key>
+			<string>41.647306650535384</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud Casablanca</string>
+			<key>longitude</key>
+			<string>-0.9117123450448902</string>
+			<key>latitude</key>
+			<string>41.63227614344627</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud Seminario</string>
+			<key>longitude</key>
+			<string>-0.9079225895585831</string>
+			<key>latitude</key>
+			<string>41.636242084507415</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud Delicias Norte</string>
+			<key>longitude</key>
+			<string>-0.906427746785288</string>
+			<key>latitude</key>
+			<string>41.65645226781385</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud La Almozara</string>
+			<key>longitude</key>
+			<string>-0.8999800833696989</string>
+			<key>latitude</key>
+			<string>41.66195458237734</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Medico Especialidades Ramón y Cajal</string>
+			<key>longitude</key>
+			<string>-0.8892025502318799</string>
+			<key>latitude</key>
+			<string>41.651057485276475</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud Parque Roma</string>
+			<key>longitude</key>
+			<string>-0.8970819741613884</string>
+			<key>latitude</key>
+			<string>41.652471879901555</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud Actur Sur</string>
+			<key>longitude</key>
+			<string>-0.8848491248589818</string>
+			<key>latitude</key>
+			<string>41.663361199463075</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud Canal Imperial</string>
+			<key>longitude</key>
+			<string>-0.8859265479100528</string>
+			<key>latitude</key>
+			<string>41.633731973064094</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud San Pablo</string>
+			<key>longitude</key>
+			<string>-0.8871183462216878</string>
+			<key>latitude</key>
+			<string>41.65677425905277</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud Actur Norte</string>
+			<key>longitude</key>
+			<string>-0.8862596446504102</string>
+			<key>latitude</key>
+			<string>41.67531159183321</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud José R. Muñoz Fernández</string>
+			<key>longitude</key>
+			<string>-0.8867804532930096</string>
+			<key>latitude</key>
+			<string>41.64180314631222</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Unidad de Salud Mental Sagasta Miraflores</string>
+			<key>longitude</key>
+			<string>-0.886744471673286</string>
+			<key>latitude</key>
+			<string>41.64189334023764</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Unidad de Salud Mental Sagasta Ruiseñores</string>
+			<key>longitude</key>
+			<string>-0.8867658995261858</string>
+			<key>latitude</key>
+			<string>41.641844177354514</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud Arrabal</string>
+			<key>longitude</key>
+			<string>-0.8778752337764366</string>
+			<key>latitude</key>
+			<string>41.66323259199244</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Municipal de asistencia Sanitaria</string>
+			<key>longitude</key>
+			<string>-0.8782929118688738</string>
+			<key>latitude</key>
+			<string>41.647587214984085</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud Torrero La Paz</string>
+			<key>longitude</key>
+			<string>-0.8745554838496197</string>
+			<key>latitude</key>
+			<string>41.623939364193554</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud Picarral</string>
+			<key>longitude</key>
+			<string>-0.8718956442549178</string>
+			<key>latitude</key>
+			<string>41.66792237556252</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Cruz Roja Española</string>
+			<key>longitude</key>
+			<string>-0.8773859098306009</string>
+			<key>latitude</key>
+			<string>41.649245650357955</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud Hermanos Ibarra</string>
+			<key>longitude</key>
+			<string>-0.8771332398945029</string>
+			<key>latitude</key>
+			<string>41.65035777455931</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Medico Especialidades San José</string>
+			<key>longitude</key>
+			<string>-0.8718733607936796</string>
+			<key>latitude</key>
+			<string>41.6373455939564</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud Reboleria</string>
+			<key>longitude</key>
+			<string>-0.8707749669157502</string>
+			<key>latitude</key>
+			<string>41.653455393332436</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud San José Centro</string>
+			<key>longitude</key>
+			<string>-0.870361601928192</string>
+			<key>latitude</key>
+			<string>41.64267609422383</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud San José Norte</string>
+			<key>longitude</key>
+			<string>-0.8703664510635913</string>
+			<key>latitude</key>
+			<string>41.64273116043167</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud Las Fuentes Norte</string>
+			<key>longitude</key>
+			<string>-0.8637336642400884</string>
+			<key>latitude</key>
+			<string>41.649587035882014</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud Torre Ramona</string>
+			<key>longitude</key>
+			<string>-0.8624301860419784</string>
+			<key>latitude</key>
+			<string>41.64070951577784</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud La Jota</string>
+			<key>longitude</key>
+			<string>-0.8596916324217744</string>
+			<key>latitude</key>
+			<string>41.66104896661407</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Medico Especialidades Grande Covián</string>
+			<key>longitude</key>
+			<string>-0.8585373081097762</string>
+			<key>latitude</key>
+			<string>41.66435080163895</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud Santa Isabel</string>
+			<key>longitude</key>
+			<string>-0.8370386475962242</string>
+			<key>latitude</key>
+			<string>41.66684809031281</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud Movera</string>
+			<key>longitude</key>
+			<string>-0.8224135254708411</string>
+			<key>latitude</key>
+			<string>41.649691085028344</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud Montañana</string>
+			<key>longitude</key>
+			<string>-0.8277523291051941</string>
+			<key>latitude</key>
+			<string>41.6861883153842</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud San Juan de Mozarrifar</string>
+			<key>longitude</key>
+			<string>-0.8435713316631147</string>
+			<key>latitude</key>
+			<string>41.716968756765944</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud San Gregorio</string>
+			<key>longitude</key>
+			<string>-0.8630553524904455</string>
+			<key>latitude</key>
+			<string>41.690409157471336</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud Juslibol</string>
+			<key>longitude</key>
+			<string>-0.895014879378834</string>
+			<key>latitude</key>
+			<string>41.6898493224801</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud Cartuja Baja</string>
+			<key>longitude</key>
+			<string>-0.82282247014326</string>
+			<key>latitude</key>
+			<string>41.605472326966094</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud Torrecilla de Valmadrid</string>
+			<key>longitude</key>
+			<string>-0.8544312391031982</string>
+			<key>latitude</key>
+			<string>41.50250768402559</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud Garrapinillos</string>
+			<key>longitude</key>
+			<string>-1.0257838069381606</string>
+			<key>latitude</key>
+			<string>41.68368500296235</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud Monzalbarba</string>
+			<key>longitude</key>
+			<string>-0.9702635039309236</string>
+			<key>latitude</key>
+			<string>41.70138602960371</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud Venta del Olivar</string>
+			<key>longitude</key>
+			<string>-0.9671017443353448</string>
+			<key>latitude</key>
+			<string>41.67906182538268</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud Alfocea</string>
+			<key>longitude</key>
+			<string>-0.9526261188663132</string>
+			<key>latitude</key>
+			<string>41.725588918424016</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Centro Salud Peñaflor</string>
+			<key>longitude</key>
+			<string>-0.7963506157830322</string>
+			<key>latitude</key>
+			<string>41.7595734222233</string>
+		</dict>
+	</array>
+</dict>
+</plist>

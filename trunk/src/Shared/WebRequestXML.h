@@ -22,7 +22,7 @@
 	NSMutableData *responseData;
 	NSString *errorDescription;
 	id<WebRequestXMLDelegate> receiver;
-    
+	
     NSURLConnection* m_connection;
 };
 
@@ -30,7 +30,7 @@
 @property (nonatomic, retain) NSURLConnection* m_connection;
 
 -(void)cancelRequest;
--(void)downloadXML:(NSString*)url forStation:(NSString*)idStation withAddressNew:(NSString*)addressNew withDelegate:(id<WebRequestXMLDelegate>)delegate;
+-(void)downloadXML:(NSString*)url forStation:(NSString*)idStation withAddressNew:(NSString*)addressNew withDelegate:(id<WebRequestXMLDelegate>)delegate; 
 -(void)handleError:(NSError *)error;
 
 @end

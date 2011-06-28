@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>created_at</key>
+	<date>2011-06-23T17:15:55Z</date>
+	<key>taxis</key>
+	<array>
+		<dict>
+		<key>name</key>
+		<string>Paseo Independencia  nº 8</string>
+		<key>latitude</key>
+		<string>41.6531021237926</string>
+		<key>longitude</key>
+		<string>-0.8808937931209</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Paseo Independencia  nº 11</string>
+		<key>latitude</key>
+		<string>41.6529904694251</string>
+		<key>longitude</key>
+		<string>-0.880212955982939</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>San Vicente de Paul nº 28</string>
+		<key>latitude</key>
+		<string>41.6549413852972</string>
+		<key>longitude</key>
+		<string>-0.873700073650775</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Teniente Coronel Valenzuela nº 7</string>
+		<key>latitude</key>
+		<string>41.6544445655406</string>
+		<key>longitude</key>
+		<string>-0.881894556734897</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Gran Vía nº 37</string>
+		<key>latitude</key>
+		<string>41.6464645483651</string>
+		<key>longitude</key>
+		<string>-0.889696790426597</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Isaac Peral nº 14</string>
+		<key>latitude</key>
+		<string>41.6511173680338</string>
+		<key>longitude</key>
+		<string>-0.880226358538901</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Camino de las Torres nº 24</string>
+		<key>latitude</key>
+		<string>41.6474982458524</string>
+		<key>longitude</key>
+		<string>-0.874953583370565</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Camino de las Torres nº 118</string>
+		<key>latitude</key>
+		<string>41.6419934117018</string>
+		<key>longitude</key>
+		<string>-0.884595810758524</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>León XIII nº 3</string>
+		<key>latitude</key>
+		<string>41.648736909642</string>
+		<key>longitude</key>
+		<string>-0.87910363385912</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>León XIII nº 17</string>
+		<key>latitude</key>
+		<string>41.6475892765663</string>
+		<key>longitude</key>
+		<string>-0.880846388681893</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Avenida César Augusto nº 31</string>
+		<key>latitude</key>
+		<string>41.655563302633</string>
+		<key>longitude</key>
+		<string>-0.882974745274935</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Avenida César Augusto nº 7</string>
+		<key>latitude</key>
+		<string>41.6526517031147</string>
+		<key>longitude</key>
+		<string>-0.885279722425031</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Paseo María Agustín</string>
+		<key>latitude</key>
+		<string>41.6516828921937</string>
+		<key>longitude</key>
+		<string>-0.886956587961648</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Paseo María Agustín</string>
+		<key>latitude</key>
+		<string>41.6527379123008</string>
+		<key>longitude</key>
+		<string>-0.888002876534134</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Santa Inés nº 11</string>
+		<key>latitude</key>
+		<string>41.6598392714715</string>
+		<key>longitude</key>
+		<string>-0.889211966758033</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Vicente Verdusán nº  46</string>
+		<key>latitude</key>
+		<string>41.6515290347995</string>
+		<key>longitude</key>
+		<string>-0.897697200065125</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Arzobispo Morcillo nº 44</string>
+		<key>latitude</key>
+		<string>41.6386200041081</string>
+		<key>longitude</key>
+		<string>-0.890192956450528</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Isabel la Católica</string>
+		<key>latitude</key>
+		<string>41.6372350226347</string>
+		<key>longitude</key>
+		<string>-0.89913446263428</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Isabel la Católica</string>
+		<key>latitude</key>
+		<string>41.6375954974264</string>
+		<key>longitude</key>
+		<string>-0.898654520909925</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Calamita nº 4</string>
+		<key>latitude</key>
+		<string>41.6359283154401</string>
+		<key>longitude</key>
+		<string>-0.899092876518247</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Condes de Aragón nº 14</string>
+		<key>latitude</key>
+		<string>41.6412333001467</string>
+		<key>longitude</key>
+		<string>-0.904023295076199</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Eduardo Ibarra (Auditorio)</string>
+		<key>latitude</key>
+		<string>41.64067898095</string>
+		<key>longitude</key>
+		<string>-0.900799517565043</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Argualas</string>
+		<key>latitude</key>
+		<string>41.6276231651089</string>
+		<key>longitude</key>
+		<string>-0.910370355579445</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>San Juan Bosco</string>
+		<key>latitude</key>
+		<string>41.6456366517421</string>
+		<key>longitude</key>
+		<string>-0.9020073755828</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>San Juan Bosco</string>
+		<key>latitude</key>
+		<string>41.6454746289473</string>
+		<key>longitude</key>
+		<string>-0.902504935873831</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>San Juan Bosco</string>
+		<key>latitude</key>
+		<string>41.6455692521229</string>
+		<key>longitude</key>
+		<string>-0.902261718017572</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Andrés Vicente nº 1 y 3</string>
+		<key>latitude</key>
+		<string>41.6527689754611</string>
+		<key>longitude</key>
+		<string>-0.913316240391899</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Oliván nº 3</string>
+		<key>latitude</key>
+		<string>41.6505854931856</string>
+		<key>longitude</key>
+		<string>-0.921036040556391</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Las Estrellas nº 13</string>
+		<key>latitude</key>
+		<string>41.6447620952791</string>
+		<key>longitude</key>
+		<string>-0.934707472347579</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Ramón J. Sender</string>
+		<key>latitude</key>
+		<string>41.6579119346828</string>
+		<key>longitude</key>
+		<string>-0.917293506474726</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Avenida de Navarra nº 75 y 77</string>
+		<key>latitude</key>
+		<string>41.6572748505305</string>
+		<key>longitude</key>
+		<string>-0.9065414592588</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Paseo de Calanda nº 22</string>
+		<key>latitude</key>
+		<string>41.6547302355523</string>
+		<key>longitude</key>
+		<string>-0.902829022431379</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Avenida de Madrid nº 95 y 97</string>
+		<key>latitude</key>
+		<string>41.6562373357847</string>
+		<key>longitude</key>
+		<string>-0.899057208616703</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Avenida Pablo Gargallo nº 75</string>
+		<key>latitude</key>
+		<string>41.6627275877433</string>
+		<key>longitude</key>
+		<string>-0.898870180196533</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>María Zambrano - Gómez Avellaneda</string>
+		<key>latitude</key>
+		<string>41.6709392214367</string>
+		<key>longitude</key>
+		<string>-0.887960343256736</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Gómez de Avellaneda nº 55 y 57</string>
+		<key>latitude</key>
+		<string>41.6736915749187</string>
+		<key>longitude</key>
+		<string>-0.889720271887723</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Avenida María Zambra nº 58</string>
+		<key>latitude</key>
+		<string>41.6792480634511</string>
+		<key>longitude</key>
+		<string>-0.887736629673599</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Río Martín nº 1</string>
+		<key>latitude</key>
+		<string>41.6715515549637</string>
+		<key>longitude</key>
+		<string>-0.844396152266803</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Pedro Lázaro s/n</string>
+		<key>latitude</key>
+		<string>41.6654975086558</string>
+		<key>longitude</key>
+		<string>-0.858242734517937</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Felisa Galé nº 6</string>
+		<key>latitude</key>
+		<string>41.6649753499988</string>
+		<key>longitude</key>
+		<string>-0.859701361164014</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Salvador Minguijón nº 42</string>
+		<key>latitude</key>
+		<string>41.6509758143241</string>
+		<key>longitude</key>
+		<string>-0.859996917633803</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Juana de Ibarbourou nº 1</string>
+		<key>latitude</key>
+		<string>41.6445254989681</string>
+		<key>longitude</key>
+		<string>-0.867642889855488</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Avenida Tenor Fleta nº 57</string>
+		<key>latitude</key>
+		<string>41.6409475884648</string>
+		<key>longitude</key>
+		<string>-0.878686810006953</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Avenida América nº 20</string>
+		<key>latitude</key>
+		<string>41.633266204394</string>
+		<key>longitude</key>
+		<string>-0.884112977917506</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>San Antonio de Padua s/n</string>
+		<key>latitude</key>
+		<string>41.6277199971607</string>
+		<key>longitude</key>
+		<string>-0.875927591940075</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Cementerio Torrero (Tanatorio)</string>
+		<key>latitude</key>
+		<string>41.6254357487149</string>
+		<key>longitude</key>
+		<string>-0.886349718291385</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Avenida María Zambrano nº 16</string>
+		<key>latitude</key>
+		<string>41.6719297128517</string>
+		<key>longitude</key>
+		<string>-0.887459473323412</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Gómez de Avellaneda</string>
+		<key>latitude</key>
+		<string>41.6789306255376</string>
+		<key>longitude</key>
+		<string>-0.889573078233048</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Gómez de Avellaneda nº 39</string>
+		<key>latitude</key>
+		<string>41.6710076569513</string>
+		<key>longitude</key>
+		<string>-0.889231388164197</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Avenida de Santa Isabel nº 86</string>
+		<key>latitude</key>
+		<string>41.6687731717613</string>
+		<key>longitude</key>
+		<string>-0.830315144234788</string>
+		</dict>
+		<dict>
+		<key>name</key>
+		<string>Sobrarbe nº 1</string>
+		<key>latitude</key>
+		<string>41.6613896186441</string>
+		<key>longitude</key>
+		<string>-0.872707197882964</string>
+		</dict>
+	</array>
+</dict>
+</plist>

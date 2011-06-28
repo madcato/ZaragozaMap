@@ -7,46 +7,60 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MapManagementProtocol.h"
 #import "WebRequestXML.h"
+#import "BiZiViewController.h"
+#import "ConfigurationViewController.h"
 
-@interface MapViewController : UIViewController <CLLocationManagerDelegate, MKMapViewDelegate, MapManagementProtocol, WebRequestXMLDelegate> {
+
+@interface MapViewController : UIViewController <CLLocationManagerDelegate, MapManagementProtocol, MKMapViewDelegate, WebRequestXMLDelegate, ConfigurationDelegate> {
 	MKMapView* map;
 	CLLocationManager *locationManager;
+
 	NSArray* stations_bizi;
+	NSArray* pharmacies;
+	
 	NSMutableArray* annotations;
 	BOOL annotationsRemoved;
 	UIView* loadingView;
-	UIView* infoView;
+	BiZiViewController* infoView;
 	
 	WebRequestXML* request;
 	
-	UILabel* address;
-	UILabel* timedate;
-	UILabel* bizi;
-	UILabel* nobizi;
-	UIActivityIndicatorView* progressIndicator;
-	UIButton* refresh;
 
-	id<MKAnnotation> lastStation;
+	ConfigurationViewController* configurationController;
+
+
 }
 
+@property (nonatomic,retain) NSMutableArray* annotations;
 @property (nonatomic,retain) IBOutlet MKMapView* map;
-@property (nonatomic,retain) IBOutlet UIView* infoView;
+@property (nonatomic,retain) IBOutlet BiZiViewController* infoView;
 @property (nonatomic,retain) CLLocationManager* locationManager;
 @property (nonatomic,retain) WebRequestXML* request;
-
-@property (nonatomic,retain) IBOutlet UILabel* address;
-@property (nonatomic,retain) IBOutlet UILabel* timedate;
-@property (nonatomic,retain) IBOutlet UILabel* bizi;
-@property (nonatomic,retain) IBOutlet UILabel* nobizi;
-@property (nonatomic,retain) IBOutlet UIActivityIndicatorView* progressIndicator;
-@property (nonatomic,retain) IBOutlet UIButton* refresh;
+@property (nonatomic,retain) ConfigurationViewController* configurationController;
 
 - (void)showHelpView;
 - (void)hideHelpView;
+
 -(void)loadStations;
+-(void)loadPharmacies;
+-(void)loadParkings;
+-(void)loadBusStops;
+-(void)loadTaxis;
+-(void)loadPetrolStations;
+-(void)loadYouthHouses;
+-(void)loadHealthCenters;
+-(void)loadMonuments;
+-(void)loadTurismOffices;
+-(void)loadBusCards;
+
 -(IBAction)centerMap:(id)caller;
 
--(IBAction)runRefresh;
+-(void)applicationWillEnterForeground;
+- (BOOL)locationServiceEnabled;
+-(void)loadData;
+
+- (NSArray *)itemsForMapRegion:(MKCoordinateRegion)region maximumCount:(NSInteger)maxCount;
+- (NSArray *)removedItemsForMapRegion:(MKCoordinateRegion)region forArray:(NSArray*)array;
+
 @end

@@ -23,10 +23,10 @@
 	    delegate = dele;
 		
         CGRect frame = self.frame;
-        frame.size = CGSizeMake(80.0, 80.0);
+        frame.size = CGSizeMake(38.0, 50.0);
         self.frame = frame;
         self.backgroundColor = [UIColor clearColor];
-        self.centerOffset = CGPointMake(-10.0, -40.0);//CGPointMake(30.0, 42.0);
+		self.centerOffset = CGPointMake(0.0, -22.0);//CGPointMake(30.0, 42.0);
 		
 		
 		// Tap management
@@ -67,34 +67,45 @@
 	 CGContextSetLineWidth(context, 1);
         
         // draw the gray pointed shape:
-        CGMutablePathRef path = CGPathCreateMutable();
-        CGPathMoveToPoint(path, NULL, 45.0, 66.0);
-        CGPathAddLineToPoint(path, NULL, 50.0, 79.0); 
-        CGPathAddLineToPoint(path, NULL, 55.0, 66.0); 
+		CGMutablePathRef path = CGPathCreateMutable();
+        CGPathMoveToPoint(path, NULL, 16.0, 30.0);
+        CGPathAddLineToPoint(path, NULL, 20.0, 47.0); 
+        CGPathAddLineToPoint(path, NULL, 24.0, 30.0); 
         CGContextAddPath(context, path);
         CGContextSetFillColorWithColor(context, color.CGColor);
         CGContextSetStrokeColorWithColor(context, [UIColor grayColor].CGColor);
         CGContextDrawPath(context, kCGPathFillStroke);
-        CGPathRelease(path);
-        
+        CGPathRelease(path);   
 
-		double dx = 10.0;
-		double dy = 7.0;
+		
         // draw the cyan rounded box
-        path = CGPathCreateMutable();
-        CGPathMoveToPoint(path, NULL, 15.0 + dx, 0.5 + dy);
-        CGPathAddArcToPoint(path, NULL, 69.5 + dx, 00.5 + dy, 69.5 + dx, 5.0 + dy, 5.0);
-        CGPathAddArcToPoint(path, NULL, 69.5 + dx, 59.5 + dy, 65.0 + dx, 59.5 + dy, 5.0);
-        CGPathAddArcToPoint(path, NULL, 10.5 + dx, 59.5 + dy, 10.5 + dx, 54.0 + dy, 5.0);
-        CGPathAddArcToPoint(path, NULL, 10.5 + dx, 00.5 + dy, 15.0 + dx, 0.5 + dy, 5.0);
+       /* path = CGPathCreateMutable();
+        CGPathMoveToPoint(path, NULL, 15.0, 0.5 + dy);
+        CGPathAddArcToPoint(path, NULL, 69.5, 00.5, 69.5, 5.0, 5.0);
+        CGPathAddArcToPoint(path, NULL, 69.5, 59.5, 65.0, 59.5, 5.0);
+        CGPathAddArcToPoint(path, NULL, 10.5, 59.5, 10.5, 54.0, 5.0);
+        CGPathAddArcToPoint(path, NULL, 10.5, 00.5, 15.0, 0.5, 5.0);
         CGContextAddPath(context, path);
         CGContextSetFillColorWithColor(context, color.CGColor);
         CGContextSetStrokeColorWithColor(context, [UIColor blackColor].CGColor);
         CGContextDrawPath(context, kCGPathFillStroke);
         CGPathRelease(path);
-        
+        */
 		
-		[[UIImage imageNamed:@"estacion_bizi.png"] drawInRect:CGRectMake(25.0, 15.0, 50.0, 50.0)];
+
+		path = CGPathCreateMutable();
+        CGPathMoveToPoint(path, NULL, 4.5, 0.0);
+        CGPathAddArcToPoint(path, NULL, 38.0, 0.0, 38.0, 4.5, 5.0);
+        CGPathAddArcToPoint(path, NULL, 38.0, 38.0, 33.5, 38.0, 5.0);
+        CGPathAddArcToPoint(path, NULL, 0.0, 38.0, 0.0, 33.5, 5.0);
+        CGPathAddArcToPoint(path, NULL, 0.0, 0.0, 4.5, 0.0, 5.0);
+        CGContextAddPath(context, path);
+        CGContextSetFillColorWithColor(context, color.CGColor);
+        CGContextSetStrokeColorWithColor(context, [UIColor blackColor].CGColor);
+        CGContextDrawPath(context, kCGPathFillStroke);
+        CGPathRelease(path);
+		
+		[[UIImage imageNamed:@"estacion_bizi.png"] drawInRect:CGRectMake(3.0, 3.0, 32.0, 32.0)];
 		
 
 		
@@ -121,9 +132,9 @@
 		CGColorRef almostBlack = CGColorCreate(space,components);
 		self.layer.shadowColor = almostBlack;
 		
-		self.layer.shadowOffset = CGSizeMake(0,0);
+		self.layer.shadowOffset = CGSizeMake(0.0,1.0);
        
-		CGPathRef shadowPath = [UIBezierPath bezierPathWithRoundedRect:CGRectMake(20, 7, 60, 60) cornerRadius:5].CGPath;
+		CGPathRef shadowPath = [UIBezierPath bezierPathWithRoundedRect:CGRectMake(0, 0, 38, 38) cornerRadius:5].CGPath;
 		self.layer.shadowPath = shadowPath;
 				
     }

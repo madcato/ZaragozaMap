@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>created_at</key>
+	<date>2011-06-23T17:15:55Z</date>
+	<key>parkings</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Estacionamientos del Pilar</string>
+			<key>longitude</key>
+			<string>-0.8868066196881593</string>
+			<key>latitude</key>
+			<string>41.6524570765199</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Garaje Damas-Ric</string>
+			<key>longitude</key>
+			<string>-0.8818846604429054</string>
+			<key>latitude</key>
+			<string>41.64365410553662</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Dornier</string>
+			<key>longitude</key>
+			<string>-0.8759911305131046</string>
+			<key>latitude</key>
+			<string>41.64371550992779</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Parking Plaza Utrillas</string>
+			<key>longitude</key>
+			<string>-0.8683137246696363</string>
+			<key>latitude</key>
+			<string>41.64000756611201</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Parking Príncipe Felipe</string>
+			<key>longitude</key>
+			<string>-0.8657484612422423</string>
+			<key>latitude</key>
+			<string>41.636786817868696</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Parking Parque Miraflores I</string>
+			<key>longitude</key>
+			<string>-0.8777105712738258</string>
+			<key>latitude</key>
+			<string>41.64421919987156</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Parking Plaza del Pilar</string>
+			<key>longitude</key>
+			<string>-0.8777439841739898</string>
+			<key>latitude</key>
+			<string>41.656371753560144</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Parking Puerta Cinegia</string>
+			<key>longitude</key>
+			<string>-0.8805636225649757</string>
+			<key>latitude</key>
+			<string>41.65231637798635</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Parking Parque Miraflores II</string>
+			<key>longitude</key>
+			<string>-0.8809582598060322</string>
+			<key>latitude</key>
+			<string>41.64273026043677</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Parking Corte Inglés</string>
+			<key>longitude</key>
+			<string>-0.8810093346709461</string>
+			<key>latitude</key>
+			<string>41.65108844222269</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Parking Santa Catalina</string>
+			<key>longitude</key>
+			<string>-0.8785724313441113</string>
+			<key>latitude</key>
+			<string>41.650841557997566</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Parking Juzgados</string>
+			<key>longitude</key>
+			<string>-0.8807382822487623</string>
+			<key>latitude</key>
+			<string>41.65726968800227</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Parking Salamero</string>
+			<key>longitude</key>
+			<string>-0.883528994308721</string>
+			<key>latitude</key>
+			<string>41.6525711629042</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Parking Sanclemente</string>
+			<key>longitude</key>
+			<string>-0.8822336665074436</string>
+			<key>latitude</key>
+			<string>41.64989138005585</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Parking Puerta El Carmen</string>
+			<key>longitude</key>
+			<string>-0.8853177143690855</string>
+			<key>latitude</key>
+			<string>41.650784858628256</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Parking Corte Inglés-Sagasta</string>
+			<key>longitude</key>
+			<string>-0.884838458999283</string>
+			<key>latitude</key>
+			<string>41.645455781809716</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Parking César Augusto</string>
+			<key>longitude</key>
+			<string>-0.8840583671414095</string>
+			<key>latitude</key>
+			<string>41.654412352409324</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Parking Plaza de Toros</string>
+			<key>longitude</key>
+			<string>-0.8920502287840607</string>
+			<key>latitude</key>
+			<string>41.65491193601737</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Parking San Ignacio, S.L.</string>
+			<key>longitude</key>
+			<string>-0.884009062063631</string>
+			<key>latitude</key>
+			<string>41.646814472526266</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Parking Paraíso</string>
+			<key>longitude</key>
+			<string>-0.8836458287538327</string>
+			<key>latitude</key>
+			<string>41.644408603618096</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Parking Plaza San Francisco</string>
+			<key>longitude</key>
+			<string>-0.8952952901019327</string>
+			<key>latitude</key>
+			<string>41.64155651009221</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Grancasa</string>
+			<key>longitude</key>
+			<string>-0.889994687965409</string>
+			<key>latitude</key>
+			<string>41.67087508905005</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Carrefour Actur</string>
+			<key>longitude</key>
+			<string>-0.8899396655553311</string>
+			<key>latitude</key>
+			<string>41.67710640216441</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Parking Auditorio</string>
+			<key>longitude</key>
+			<string>-0.9013234689613598</string>
+			<key>latitude</key>
+			<string>41.63827652448672</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Parking Estación Zaragoza Delicias</string>
+			<key>longitude</key>
+			<string>-0.9099010985056056</string>
+			<key>latitude</key>
+			<string>41.656226301208285</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Parking Hernán Cortés</string>
+			<key>longitude</key>
+			<string>-0.8898920465387086</string>
+			<key>latitude</key>
+			<string>41.648002337268764</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Parking Centro Comercial Augusta</string>
+			<key>longitude</key>
+			<string>-0.9213270832033227</string>
+			<key>latitude</key>
+			<string>41.65937940395695</string>
+		</dict>
+	</array>
+</dict>
+</plist>

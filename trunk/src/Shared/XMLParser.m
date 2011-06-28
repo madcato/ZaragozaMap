@@ -75,8 +75,8 @@
 		} else if (tables == 3) {
 			response.bizi = currentElementValue; //PArse
 			NSArray* array = [currentElementValue componentsSeparatedByCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@" \n\r\tç"]];
-			int i = 0;
-/*			for(NSString* data in array ) {
+/*			int i = 0;
+			for(NSString* data in array ) {
 				NSLog(@"%d %@",i,data);
 				i++;
 			}

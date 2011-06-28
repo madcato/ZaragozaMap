@@ -19,10 +19,8 @@
 	NSString *scaped_url = [url stringByAddingPercentEscapesUsingEncoding:NSISOLatin1StringEncoding];// NSUTF8StringEncoding];
 //NSLog(@"Escaped URL %@",scaped_url);	
 	receiver = delegate;
-	
-	
+
 	responseData = [[NSMutableData data] retain];
-	
 	
 //NSLog(@"station:%@ addressnew:%@",idStation,addressNew);
 	NSString* param = [[NSString alloc]initWithFormat:@"idStation=%@&addressnew=%@&s_id_idioma=es",idStation,addressNew];
@@ -178,9 +176,8 @@
 	
 	if(success) {
 		
-		NSLog(@"No XML Errors");
+//NSLog(@"No XML Errors");
 
-		
 		[receiver requestFinishedWithBiZi:parser.response];
 	}
 	else

@@ -20,61 +20,137 @@
 		<data>
 		EFPhneRBPxTSOikWzs3oPoKMtCg=
 		</data>
-		<key>74-location.png</key>
+		<key>19-gear.png</key>
 		<data>
-		BBcvPydWuu44bAGjbT1CpXfeasc=
+		lmQ4vPBFppc4LyLq6O6mVm4VlJs=
 		</data>
-		<key>74-location@2x.png</key>
+		<key>19-gear@2x.png</key>
 		<data>
-		UH+Ok8G6ZQEOl/zR6UmXvZEUHCk=
+		7n2wQ18SH07+KBKInqUtHxjaL1I=
+		</data>
+		<key>28-star.png</key>
+		<data>
+		J3cn1fwRaGmTMOqu/A2j0ypC0z8=
+		</data>
+		<key>28-star@2x.png</key>
+		<data>
+		5pYgRmyRMAziujL7j667xUMTOls=
+		</data>
+		<key>ConfigurationViewController.nib</key>
+		<data>
+		lu1lPvlqy4n5z9dYwuW0m8BiEeE=
+		</data>
+		<key>FilterTableViewController.nib</key>
+		<data>
+		WMv1LoQiem4+jbYujUpwZadxoy4=
 		</data>
 		<key>Icon-72.png</key>
 		<data>
-		rVyz8AKBLQBjkcy2pLbXey4qZB4=
+		Lb2nM6cWOLJBqcESPhO0775KwLw=
 		</data>
 		<key>Icon-Small-50.png</key>
 		<data>
-		U97cxg/fJSeNEdFNcUNUICuqtw0=
+		wpg4Qyc4MS8aMtZxl1e517lIKds=
 		</data>
 		<key>Icon-Small.png</key>
 		<data>
-		H8jAA0j/Zi1S/cVx13IIEtPV1UA=
+		tl498GIJGoOc39pF/lEPoIjIDc0=
 		</data>
 		<key>Icon-Small@2x.png</key>
 		<data>
-		YkBfBsn+WtBJdBeNZSn7SUouPuY=
+		OcrRzChjXgW70hJFZMdpFecjnFM=
 		</data>
 		<key>Icon.png</key>
 		<data>
-		Rop6O600lwk9XPv/mk2/iNL7OF8=
+		OXgdab45EoKwCmUWmEPmXApkvw0=
 		</data>
 		<key>Icon@2x.png</key>
 		<data>
-		YU7ZXUJYjXy9yiHfNZu7i1aBV+o=
+		CVjeV4FC8a9cCHJp9a8ObdJBdsc=
 		</data>
 		<key>MainWindow_iPad.nib</key>
 		<data>
-		wE0l4FqQy5Z5if+TqZxXy/fNGMA=
+		SWKWDTwn5bH/izrplKvs0Pd9xKE=
 		</data>
 		<key>MainWindow_iPhone.nib</key>
 		<data>
-		QBXcqwot//6hIUTpMLXLGA91n4M=
+		WzxfxdqkuKUZlRVJyLtxUtZgizg=
 		</data>
 		<key>MapViewController.nib</key>
 		<data>
-		9oIYvGcvmZqKUDFZCD3r/YN7VeQ=
+		RjH54U+8XG3xDfcNQIx4JL/PTjw=
 		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>arrow.png</key>
+		<data>
+		V/ptDz/lUeOmiR5UhJ7J+9CbkTM=
+		</data>
+		<key>arrow@2x.png</key>
+		<data>
+		lpAl8zc4aOb9K6KdS0EXvN31gbo=
+		</data>
+		<key>background.png</key>
+		<data>
+		YPjLQ3bTf6aqgB9Dud8i2wFvKRM=
+		</data>
+		<key>bizi_color.png</key>
+		<data>
+		HSuCE7SSZFt4yxkXiuGDZGIv/BI=
+		</data>
+		<key>bizi_color@2x.png</key>
+		<data>
+		briEbzpqbYa5bTEBBi4ulkJqSvg=
+		</data>
+		<key>bizi_negra.png</key>
+		<data>
+		asA3PUM3rXg7XWTUBTPCI8PXloU=
+		</data>
+		<key>bizi_negra@2x.png</key>
+		<data>
+		otNZq35Z4Y1fyxXTrPWPxzfKFzw=
+		</data>
 		<key>black_bar.png</key>
 		<data>
-		nL6QSFq30CmVl6khts+EHOOStmg=
+		QRWmheZjEhnCRCiar9//zW38jJw=
 		</data>
 		<key>black_bar@2x.png</key>
 		<data>
-		huJM5jjaLCGkUd6IYm7Do2W5BNU=
+		E8hi3FCizvUSBUEH0M1LiKPWICY=
+		</data>
+		<key>buscards.plist</key>
+		<data>
+		glTmy65UwJBPmFqV79kwuAlV6Kc=
+		</data>
+		<key>busstop.png</key>
+		<data>
+		P8VOwAzEs8CKDyW90bTkwYqblo4=
+		</data>
+		<key>busstop@2x.png</key>
+		<data>
+		SiLMp9KGwgVP3KL56A6VJBTsITI=
+		</data>
+		<key>busstops.plist</key>
+		<data>
+		i6qgFq2PDskmUYebUzKxH+/cMqw=
+		</data>
+		<key>cardbus.png</key>
+		<data>
+		nsj5ke6q86jy9p6oNxTSREjDrek=
+		</data>
+		<key>cardbus@2x.png</key>
+		<data>
+		HZknQ+TSnRE6IN2jSrJZ00XNC5k=
+		</data>
+		<key>circle.png</key>
+		<data>
+		163wcVBdePnygkfr0TEjDQ2Kg3w=
+		</data>
+		<key>circle@2x.png</key>
+		<data>
+		h8IXCEFYvRaQkFF0QvMIQkyvDN4=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -82,23 +158,119 @@
 		</data>
 		<key>estacion_bizi.png</key>
 		<data>
-		NTSBa2oYGx7jWVkm2zLrl8UBRz8=
+		KbQPa27doAjv3WxoNBw0LSicwCM=
 		</data>
 		<key>estacion_bizi@2x.png</key>
 		<data>
-		IiH9RDiPyd2YAX4TPRa40UKcGZE=
+		Q6MjNVgppwNMIuOLduaONPVNKYI=
+		</data>
+		<key>healthcenter.png</key>
+		<data>
+		ELoQ2wLJG8lG9TuihzAPOn6RJ2g=
+		</data>
+		<key>healthcenter@2x.png</key>
+		<data>
+		p/EGt2NU8jwQrDUwjfFeQ4nCmzk=
+		</data>
+		<key>healthcenters.plist</key>
+		<data>
+		+I+cksOpYPEkhfmuMf6Q0St2nkg=
 		</data>
 		<key>iTunesArtwork</key>
 		<data>
-		31tHdOJZ2vcTVmZbU5HeyBlG/h8=
+		5stKcg4yUvL1zdjx7+4YJP7MMsQ=
 		</data>
-		<key>iTunnesArtwork</key>
+		<key>initial_configuration.plist</key>
 		<data>
-		I7Xh2nEEUym6J4HBitDPIu9jU84=
+		HvibM7h83zRNPpNL83lIE+kpSoo=
+		</data>
+		<key>monument.png</key>
+		<data>
+		RCKASusCIlu8djsq9ncAUvCU0vk=
+		</data>
+		<key>monument@2x.png</key>
+		<data>
+		r9AWiGl9mfEeh6z0JkS2cWW16EU=
+		</data>
+		<key>monuments.plist</key>
+		<data>
+		w/xYmQjxv4fByD2sgVEDJ8fn/s8=
+		</data>
+		<key>parking.png</key>
+		<data>
+		XjacLvfoN2paRVZsqKUp6KiJaLc=
+		</data>
+		<key>parking@2x.png</key>
+		<data>
+		BrLV0nbixe3UIfAXNSLjrltsInM=
+		</data>
+		<key>parkings.plist</key>
+		<data>
+		IjvdSpO+ufeAgovqQqOIvtC1Nzk=
+		</data>
+		<key>petrolstation.png</key>
+		<data>
+		oYk9tIPzy8EQGX70e3zXrhVP8iE=
+		</data>
+		<key>petrolstation@2x.png</key>
+		<data>
+		saGhYV7WaoaW94560z4k1NJNNM4=
+		</data>
+		<key>petrolstations.plist</key>
+		<data>
+		O0f/suWNEhcJZDdPMfSNYnwVmPE=
+		</data>
+		<key>pharma.png</key>
+		<data>
+		Leu0quNJNOl2bOEGr+TLjfW5OMs=
+		</data>
+		<key>pharma@2x.png</key>
+		<data>
+		wJWqCNYAMfF+pdslSowUs2pP4uc=
+		</data>
+		<key>pharmacies.plist</key>
+		<data>
+		q3fIttcO3tMZyRT5qm54xgEm4yo=
 		</data>
 		<key>stations_bizi.plist</key>
 		<data>
 		raWbt7syGJk0UAuD2r3UxlfrbtU=
+		</data>
+		<key>taxi.png</key>
+		<data>
+		JHSa/zVg8QPfrfgT4p0E4t1jQIs=
+		</data>
+		<key>taxi@2x.png</key>
+		<data>
+		DgxNAN/z9HHtH2AtJol6fu+ikMc=
+		</data>
+		<key>taxis.plist</key>
+		<data>
+		PP85+5zEgOI0M9H+7LEIYBFKgrc=
+		</data>
+		<key>turismoffice.png</key>
+		<data>
+		ni1I/xzX1SG9Z5Jum3QT0hsvetQ=
+		</data>
+		<key>turismoffice@2x.png</key>
+		<data>
+		nWDFubcxJJDHOP09O4hIBYh/NkU=
+		</data>
+		<key>turismoffices.plist</key>
+		<data>
+		CPZmdDeiUpxMilVhjnwB5K5gtpU=
+		</data>
+		<key>youthhouse.png</key>
+		<data>
+		TjhmwjEC6uKA4CS+g57KS5gUErE=
+		</data>
+		<key>youthhouse@2x.png</key>
+		<data>
+		zvBYIisAy/0VZHEI4KQAv4G6Ma0=
+		</data>
+		<key>youthhouses.plist</key>
+		<data>
+		m9iPWe7otlfieo3HjxP6ddbSOq0=
 		</data>
 	</dict>
 	<key>rules</key>

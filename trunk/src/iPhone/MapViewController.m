@@ -8,7 +8,20 @@
 
 #import "MapViewController.h"
 #import "BiZiAnnotationView.h"
+#import "MapAnnotationView.h"
+#import "BusAnnotationView.h"
 #import "BiZiItem.h"
+#import "PharmaItem.h"
+#import "ParkingItem.h"
+#import "BusItem.h"
+#import "TaxiItem.h"
+#import "PetrolItem.h"
+#import "YouthItem.h"
+#import "HealthItem.h"
+#import "MonumentItem.h"
+#import "TurismItem.h"
+#import "BusCardItem.h"
+#import "FilterTableViewController.h"
 
 
 @implementation MapViewController
@@ -17,12 +30,8 @@
 @synthesize locationManager;
 @synthesize infoView;
 @synthesize request;
-@synthesize bizi;
-@synthesize nobizi;
-@synthesize timedate;
-@synthesize address;
-@synthesize progressIndicator;
-@synthesize refresh;
+@synthesize annotations;
+@synthesize configurationController;
 
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 /*
@@ -40,22 +49,25 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+	self.locationManager = [[CLLocationManager alloc] init];
+	self.locationManager.purpose = @"Esta app requiere el uso de la localización para indicar su posición en el mapa, así como para poder lanzar las alertas de estado de estación.";
+	self.locationManager.delegate = self; // Tells the location manager to send updates to this object
+	self.locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters;
+	self.locationManager.distanceFilter = 100.0; //kCLDistanceFilterNone;
 
 	
-	self.refresh.enabled = NO;
-	self.refresh.hidden = YES;
+	[self applicationWillEnterForeground];
+	
 
-	infoView.frame = CGRectMake(0.0, -infoView.frame.size.height, infoView.frame.size.width, infoView.frame.size.height);
+	configurationController = [[ConfigurationViewController alloc] initWithNibName:@"ConfigurationViewController" bundle:nil];
+	[self.view addSubview:configurationController.view];
+	configurationController.parentView = self.view;
+	configurationController.delegate = self;
+	
+	infoView.parent = self;
 
 
-	CGColorSpaceRef space = CGColorSpaceCreateDeviceRGB();
-	CGFloat components[4] = {0, 0, 0, 1};
-	CGColorRef almostBlack = CGColorCreate(space,components);
-	infoView.layer.shadowColor = almostBlack;
-	infoView.layer.shadowOffset = CGSizeMake(0.0, 6.0);
-	infoView.layer.shadowOpacity = 1.0;
-	infoView.layer.shadowRadius = 5.0;
-
+	
 	
 	[map setShowsUserLocation:YES];
 
@@ -72,10 +84,50 @@
     theRegion.span.latitudeDelta = 0.005;
     [map setRegion:theRegion animated:NO];
 	
-
-	[self loadStations];
+	annotationsRemoved = YES;
+	
+	[self loadData];
 }
 
+-(void)loadData {
+	
+	NSDictionary* configuration = [[NSUserDefaults standardUserDefaults] objectForKey:@"configuration"];
+	annotations = [[NSMutableArray alloc]init];
+	
+	if([[[configuration objectForKey:@"stations_bizi"] objectForKey:@"selected"]boolValue]) {
+		[self loadStations];
+	}
+	if([[[configuration objectForKey:@"pharmacies"] objectForKey:@"selected"]boolValue]) {	   
+		[self loadPharmacies];
+	}
+	if([[[configuration objectForKey:@"parkings"] objectForKey:@"selected"]boolValue]) {
+		[self loadParkings];
+	}
+	if([[[configuration objectForKey:@"busstops"] objectForKey:@"selected"]boolValue]) {		
+		[self loadBusStops];
+	}
+	if([[[configuration objectForKey:@"taxis"] objectForKey:@"selected"]boolValue]) {
+		[self loadTaxis];
+	}
+	if([[[configuration objectForKey:@"petrolstations"] objectForKey:@"selected"]boolValue]) {
+		[self loadPetrolStations];
+	}
+	if([[[configuration objectForKey:@"youthhouses"] objectForKey:@"selected"]boolValue]) {
+		[self loadYouthHouses];
+	}
+	if([[[configuration objectForKey:@"healthcenters"] objectForKey:@"selected"]boolValue]) {
+		[self loadHealthCenters];
+	}
+	if([[[configuration objectForKey:@"monuments"] objectForKey:@"selected"]boolValue]) {
+		[self loadMonuments];
+	}
+	if([[[configuration objectForKey:@"turismoffices"] objectForKey:@"selected"]boolValue]) {
+		[self loadTurismOffices];
+	}
+	if([[[configuration objectForKey:@"buscards"] objectForKey:@"selected"]boolValue]) {
+		[self loadBusCards];
+	}
+}
 
 -(void)loadStations {
 
@@ -86,7 +138,7 @@
 	
 	
 	stations_bizi = [plist objectForKey:@"stations"];
-	annotations = [NSMutableArray array];
+
 	for(NSDictionary* station in stations_bizi) {
 /*		
 		CLLocationCoordinate2D coordinate;
@@ -106,11 +158,265 @@
 		place.idStation = [station objectForKey:@"idStation"]; 
 							
 		[annotations addObject:place];
-		[map addAnnotation:place];
+		//[map addAnnotation:place];
 		[place release];
 	}
 	
-	annotationsRemoved = NO;
+
+}
+
+-(void)loadPharmacies {
+	
+	NSString *path = [[NSBundle mainBundle] pathForResource:
+					  @"pharmacies" ofType:@"plist"];
+	
+	NSMutableDictionary* plist = [NSMutableDictionary dictionaryWithContentsOfFile:path];
+	
+	
+	pharmacies = [plist objectForKey:@"pharmacies"];
+
+	for(NSDictionary* pharmacy in pharmacies) {
+		
+		PharmaItem* place = [[PharmaItem alloc] init];
+		place.longitude = [[pharmacy objectForKey:@"longitude"] doubleValue];
+		place.latitude = [[pharmacy objectForKey:@"latitude"] doubleValue];
+		place.name = [pharmacy objectForKey:@"name"]; 
+		
+		[annotations addObject:place];
+		//[map addAnnotation:place];
+		[place release];
+	}
+	
+
+}
+
+-(void)loadParkings {
+	
+	NSString *path = [[NSBundle mainBundle] pathForResource:
+					  @"parkings" ofType:@"plist"];
+	
+	NSMutableDictionary* plist = [NSMutableDictionary dictionaryWithContentsOfFile:path];
+	
+	
+	pharmacies = [plist objectForKey:@"parkings"];
+	
+	for(NSDictionary* pharmacy in pharmacies) {
+		
+		ParkingItem* place = [[ParkingItem alloc] init];
+		place.longitude = [[pharmacy objectForKey:@"longitude"] doubleValue];
+		place.latitude = [[pharmacy objectForKey:@"latitude"] doubleValue];
+		place.name = [pharmacy objectForKey:@"name"]; 
+		
+		[annotations addObject:place];
+		//[map addAnnotation:place];
+		[place release];
+	}
+	
+
+}
+
+-(void)loadBusStops {
+	
+	NSString *path = [[NSBundle mainBundle] pathForResource:
+					  @"busstops" ofType:@"plist"];
+	
+	NSMutableDictionary* plist = [NSMutableDictionary dictionaryWithContentsOfFile:path];
+	
+	
+	pharmacies = [plist objectForKey:@"busstops"];
+	
+	for(NSDictionary* stop in pharmacies) {
+		
+		BusItem* place = [[BusItem alloc] init];
+		place.longitude = [[stop objectForKey:@"longitude"] doubleValue];
+		place.latitude = [[stop objectForKey:@"latitude"] doubleValue];
+		place.name = [stop objectForKey:@"name"]; 
+		place.url = [stop objectForKey:@"url"]; 
+		
+		[annotations addObject:place];
+		//[map addAnnotation:place];
+		[place release];
+	}
+	
+	
+	
+}
+
+-(void)loadTaxis {
+	
+	NSString *path = [[NSBundle mainBundle] pathForResource:
+					  @"taxis" ofType:@"plist"];
+	
+	NSMutableDictionary* plist = [NSMutableDictionary dictionaryWithContentsOfFile:path];
+	
+	
+	pharmacies = [plist objectForKey:@"taxis"];
+	
+	for(NSDictionary* taxi in pharmacies) {
+		
+		TaxiItem* place = [[TaxiItem alloc] init];
+		place.longitude = [[taxi objectForKey:@"longitude"] doubleValue] - 0.0014; // Hay que restar 0.0014 en honor al dios del vino
+		place.latitude = [[taxi objectForKey:@"latitude"] doubleValue] - 0.0019; // Hay que restar 0.0019 en honor al dios de la cerveza
+		place.name = [taxi objectForKey:@"name"]; 
+		
+		[annotations addObject:place];
+		//[map addAnnotation:place];
+		[place release];
+	}
+	
+	
+}
+
+-(void)loadPetrolStations {
+	
+	NSString *path = [[NSBundle mainBundle] pathForResource:
+					  @"petrolstations" ofType:@"plist"];
+	
+	NSMutableDictionary* plist = [NSMutableDictionary dictionaryWithContentsOfFile:path];
+	
+	
+	pharmacies = [plist objectForKey:@"petrolstations"];
+	
+	for(NSDictionary* petrol in pharmacies) {
+		
+		PetrolItem* place = [[PetrolItem alloc] init];
+		place.longitude = [[petrol objectForKey:@"longitude"] doubleValue];
+		place.latitude = [[petrol objectForKey:@"latitude"] doubleValue];
+		place.name = [petrol objectForKey:@"name"]; 
+		
+		[annotations addObject:place];
+		//[map addAnnotation:place];
+		[place release];
+	}
+	
+	
+}
+
+-(void)loadYouthHouses {
+	
+	NSString *path = [[NSBundle mainBundle] pathForResource:
+					  @"youthhouses" ofType:@"plist"];
+	
+	NSMutableDictionary* plist = [NSMutableDictionary dictionaryWithContentsOfFile:path];
+	
+	
+	pharmacies = [plist objectForKey:@"youthhouses"];
+	
+	for(NSDictionary* stop in pharmacies) {
+		
+		YouthItem* place = [[YouthItem alloc] init];
+		place.longitude = [[stop objectForKey:@"longitude"] doubleValue];
+		place.latitude = [[stop objectForKey:@"latitude"] doubleValue];
+		place.name = [stop objectForKey:@"name"]; 
+		place.url = [stop objectForKey:@"url"]; 
+		
+		[annotations addObject:place];
+		//[map addAnnotation:place];
+		[place release];
+	}
+	
+	
+	
+}
+
+-(void)loadHealthCenters {
+	
+	NSString *path = [[NSBundle mainBundle] pathForResource:
+					  @"healthcenters" ofType:@"plist"];
+	
+	NSMutableDictionary* plist = [NSMutableDictionary dictionaryWithContentsOfFile:path];
+	
+	
+	pharmacies = [plist objectForKey:@"healthcenters"];
+	
+	for(NSDictionary* health in pharmacies) {
+		
+		HealthItem* place = [[HealthItem alloc] init];
+		place.longitude = [[health objectForKey:@"longitude"] doubleValue];
+		place.latitude = [[health objectForKey:@"latitude"] doubleValue];
+		place.name = [health objectForKey:@"name"]; 
+		
+		[annotations addObject:place];
+		//[map addAnnotation:place];
+		[place release];
+	}
+	
+	
+}
+
+-(void)loadMonuments {
+	
+	NSString *path = [[NSBundle mainBundle] pathForResource:
+					  @"monuments" ofType:@"plist"];
+	
+	NSMutableDictionary* plist = [NSMutableDictionary dictionaryWithContentsOfFile:path];
+	
+	
+	pharmacies = [plist objectForKey:@"monuments"];
+	
+	for(NSDictionary* stop in pharmacies) {
+		
+		MonumentItem* place = [[MonumentItem alloc] init];
+		place.longitude = [[stop objectForKey:@"longitude"] doubleValue];
+		place.latitude = [[stop objectForKey:@"latitude"] doubleValue];
+		place.name = [stop objectForKey:@"name"]; 
+		place.url = [stop objectForKey:@"url"]; 
+		
+		[annotations addObject:place];
+		//[map addAnnotation:place];
+		[place release];
+	}
+	
+}
+
+-(void)loadTurismOffices {
+	
+	NSString *path = [[NSBundle mainBundle] pathForResource:
+					  @"turismoffices" ofType:@"plist"];
+	
+	NSMutableDictionary* plist = [NSMutableDictionary dictionaryWithContentsOfFile:path];
+	
+	
+	pharmacies = [plist objectForKey:@"turismoffices"];
+	
+	for(NSDictionary* stop in pharmacies) {
+		
+		TurismItem* place = [[TurismItem alloc] init];
+		place.longitude = [[stop objectForKey:@"longitude"] doubleValue];
+		place.latitude = [[stop objectForKey:@"latitude"] doubleValue];
+		place.name = [stop objectForKey:@"name"]; 
+		place.url = [stop objectForKey:@"url"]; 
+		
+		[annotations addObject:place];
+		//[map addAnnotation:place];
+		[place release];
+	}
+
+}
+
+-(void)loadBusCards {
+	
+	NSString *path = [[NSBundle mainBundle] pathForResource:
+					  @"buscards" ofType:@"plist"];
+	
+	NSMutableDictionary* plist = [NSMutableDictionary dictionaryWithContentsOfFile:path];
+	
+	
+	pharmacies = [plist objectForKey:@"buscards"];
+	
+	for(NSDictionary* stop in pharmacies) {
+		
+		BusCardItem* place = [[BusCardItem alloc] init];
+		place.longitude = [[stop objectForKey:@"longitude"] doubleValue];
+		place.latitude = [[stop objectForKey:@"latitude"] doubleValue];
+		place.name = [stop objectForKey:@"name"]; 
+		place.address = [stop objectForKey:@"address"]; 
+		
+		[annotations addObject:place];
+		//[map addAnnotation:place];
+		[place release];
+	}
+	
 }
 
 /*
@@ -120,36 +426,6 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 */
-
--(IBAction)centerMap:(id)caller {
-	
-	if(self.locationManager != nil) {
-		self.locationManager.delegate = nil;
-		self.locationManager = nil;
-	}
-	
-	self.locationManager = [[[CLLocationManager alloc] init] autorelease];
-	self.locationManager.delegate = self; // Tells the location manager to send updates to this object
-	self.locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters;
-	self.locationManager.distanceFilter = kCLDistanceFilterNone;
-	
-	
-	[self.locationManager startMonitoringSignificantLocationChanges];
-	
-}
-
-- (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation
-{
-
-	
-	MKCoordinateRegion theRegion = map.region;
-	theRegion.center = newLocation.coordinate;
-    [map setRegion:theRegion animated:YES];
-	
-	
-	[self.locationManager stopMonitoringSignificantLocationChanges];
-}
-
 
 - (void)didReceiveMemoryWarning {
     // Releases the view if it doesn't have a superview.
@@ -163,30 +439,18 @@
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 	
-	self.refresh = nil;
-	self.progressIndicator = nil;
-	self.bizi = nil;
-	self.nobizi = nil;
-	self.timedate = nil;
-	self.address = nil;
 	self.map = nil;
 	self.locationManager = nil;
-	[stations_bizi release];stations_bizi = nil;
-	[annotations release];annotations = nil;
-	[loadingView release];loadingView = nil;
-	
+	stations_bizi = nil;
+	annotations = nil;
+	loadingView = nil;
+	self.configurationController = nil;
 }
 
 
 - (void)dealloc {
 
-	[refresh release];
-	[progressIndicator release];
-	[bizi release];
-	[nobizi release];
-	[timedate release];
-	[address release];
-	
+	[configurationController release];
 	[loadingView release];
 	[annotations release];
 	[stations_bizi release];
@@ -197,6 +461,7 @@
 
 #pragma mark -
 #pragma mark Help View
+
 - (void)showHelpView
 {
     if (loadingView == nil)
@@ -251,7 +516,13 @@
 	} else {
 		
 		if(annotationsRemoved == YES) {
-			[self loadStations];		
+			NSArray *oldAnnotations = [self removedItemsForMapRegion:mapView.region forArray:mapView.annotations];
+			[mapView removeAnnotations:oldAnnotations];
+			
+			NSArray *items = [self itemsForMapRegion:mapView.region maximumCount:0];
+			[mapView addAnnotations:items];
+			
+			//[self loadData];		
 			[self hideHelpView];
 		}
 	}
@@ -261,130 +532,321 @@
 
 - (MKAnnotationView *)mapView:(MKMapView *)m viewForAnnotation:(id <MKAnnotation>)annotation
 {
-    static NSString *AnnotationViewID = @"annotationViewID";
+   
+	// if it's the user location, just return nil.
+    if ([annotation isKindOfClass:[MKUserLocation class]])
+        return nil;
 	
-	if(![annotation isKindOfClass:[BiZiItem class]]) {
-		return nil;
-	}
-    BiZiAnnotationView *annotationView =
-	(BiZiAnnotationView *)[m dequeueReusableAnnotationViewWithIdentifier:AnnotationViewID];
-    if (annotationView == nil)
-    {
-        annotationView = [[[BiZiAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:AnnotationViewID withDelegate:self] autorelease];
-    }
-    
-    annotationView.annotation = annotation;
-    
-    return annotationView;
-}
-
-#pragma mark -
-#pragma mark Map View management
-
-- (void)layoutSubView:(BOOL)show
-{
 	
-	CGFloat animationDuration = 0.2f;
-    // by default content consumes the entire view area
-    CGRect contentFrame = self.view.bounds;
-    // the banner still needs to be adjusted further, but this is a reasonable starting point
-    // the y value will need to be adjusted by the banner height to get the final position
-	CGPoint infoSubOrigin = CGPointMake(0.0, 0.0); //CGRectGetMinX(contentFrame), CGRectGetMaxY(contentFrame));
-    CGFloat subViewHeight = self.infoView.bounds.size.height;
-    
-	
-    // Depending on if the banner has been loaded, we adjust the content frame and banner location
-    // to accomodate the ad being on or off screen.
-    // This layout is for an ad at the bottom of the view.
-    if (show)
-    {
-		contentFrame.origin.y += subViewHeight;
-        contentFrame.size.height -= subViewHeight;
-    }
-    else
-    {
-		infoSubOrigin.y -= subViewHeight;
-    }
-    
-    // And finally animate the changes, running layout for the content view if required.
-    [UIView animateWithDuration:animationDuration
-                     animations:^{
-                         /*map.frame = contentFrame;
-                         [map layoutIfNeeded];*/
-                         infoView.frame = CGRectMake(infoSubOrigin.x, infoSubOrigin.y, infoView.frame.size.width, infoView.frame.size.height);
-                     }];
-}
-
--(void)biziStationTouched:(id<MKAnnotation>)station {
-
-	
-	if([station isKindOfClass:[BiZiItem class]]) {
+	if([annotation isKindOfClass:[BiZiItem class]]) {
+	 static NSString *AnnotationViewID = @"annotationViewID";
 		
-		lastStation = station;
+		BiZiAnnotationView *annotationView =
+		(BiZiAnnotationView *)[m dequeueReusableAnnotationViewWithIdentifier:AnnotationViewID];
+		if (annotationView == nil)
+		{
+			annotationView = [[[BiZiAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:AnnotationViewID withDelegate:self] autorelease];
+		}
 		
-		self.refresh.enabled = NO;
-		self.refresh.hidden = YES;
-		[self.progressIndicator startAnimating];
-		[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
+		annotationView.annotation = annotation;
 		
-		BiZiItem* item = (BiZiItem*)station;
-		NSString* idStation = item.idStation;
-		NSString* addressNew = item.addressNew;
-		
-		request = [[WebRequestXML alloc] init];
-		
-		[request downloadXML:@"http://www.bizizaragoza.com/callwebservice/StationBussinesStatus.php"
-				  forStation:idStation withAddressNew:addressNew withDelegate:self];
-		
-		
-		[self layoutSubView:YES];
+		return annotationView;
 	}
 	
-}
+	if([annotation isKindOfClass:[PharmaItem class]]) {
+		 static NSString *AnnotationViewID2 = @"pharmaannotationViewID";
+		MapAnnotationView *annotationView =
+		(MapAnnotationView *)[m dequeueReusableAnnotationViewWithIdentifier:AnnotationViewID2];
+		if (annotationView == nil)
+		{
+			annotationView = [[[MapAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:AnnotationViewID2 withDelegate:self] autorelease];
+		}
+		
+		annotationView.annotation = annotation;
+		annotationView.imageName = @"pharma.png";
+		return annotationView;
+	}
+	
+	if([annotation isKindOfClass:[ParkingItem class]]) {
+		static NSString *AnnotationViewID5 = @"parkingannotationViewID";
+		MapAnnotationView *annotationView =
+		(MapAnnotationView *)[m dequeueReusableAnnotationViewWithIdentifier:AnnotationViewID5];
+		if (annotationView == nil)
+		{
+			annotationView = [[[MapAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:AnnotationViewID5 withDelegate:self] autorelease];
+		}
+		
+		annotationView.annotation = annotation;
+		annotationView.imageName = @"parking.png";
+		return annotationView;
+	}
+	
+	if([annotation isKindOfClass:[BusItem class]]) {
+		static NSString *AnnotationViewID3 = @"busannotationViewID";
+		BusAnnotationView *annotationView =
+		(BusAnnotationView *)[m dequeueReusableAnnotationViewWithIdentifier:AnnotationViewID3];
+		if (annotationView == nil)
+		{
+			annotationView = [[[BusAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:AnnotationViewID3 withDelegate:self] autorelease];
+		}
+		
+		annotationView.annotation = annotation;
+		annotationView.imageName = @"busstop.png";
+		return annotationView;
+	}
+	
+	if([annotation isKindOfClass:[TaxiItem class]]) {
+		static NSString *AnnotationViewID4 = @"taxiannotationViewID";
+		MapAnnotationView *annotationView =
+		(MapAnnotationView *)[m dequeueReusableAnnotationViewWithIdentifier:AnnotationViewID4];
+		if (annotationView == nil)
+		{
+			annotationView = [[[MapAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:AnnotationViewID4 withDelegate:self] autorelease];
+		}
+		
+		annotationView.annotation = annotation;
+		annotationView.imageName = @"taxi.png";
+		return annotationView;
+	}
+	
+	if([annotation isKindOfClass:[PetrolItem class]]) {
+		static NSString *AnnotationViewID6 = @"taxiannotationViewID";
+		MapAnnotationView *annotationView =
+		(MapAnnotationView *)[m dequeueReusableAnnotationViewWithIdentifier:AnnotationViewID6];
+		if (annotationView == nil)
+		{
+			annotationView = [[[MapAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:AnnotationViewID6 withDelegate:self] autorelease];
+		}
+		
+		annotationView.annotation = annotation;
+		annotationView.imageName = @"petrolstation.png";
+		return annotationView;
+	}
 
+	if([annotation isKindOfClass:[YouthItem class]]) {
+		static NSString *AnnotationViewID7 = @"taxiannotationViewID";
+		MapAnnotationView *annotationView =
+		(MapAnnotationView *)[m dequeueReusableAnnotationViewWithIdentifier:AnnotationViewID7];
+		if (annotationView == nil)
+		{
+			annotationView = [[[MapAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:AnnotationViewID7 withDelegate:self] autorelease];
+		}
+		
+		annotationView.annotation = annotation;
+		annotationView.imageName = @"youthhouse.png";
+		return annotationView;
+	}
+	
+	if([annotation isKindOfClass:[HealthItem class]]) {
+		static NSString *AnnotationViewID8 = @"parkingannotationViewID";
+		MapAnnotationView *annotationView =
+		(MapAnnotationView *)[m dequeueReusableAnnotationViewWithIdentifier:AnnotationViewID8];
+		if (annotationView == nil)
+		{
+			annotationView = [[[MapAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:AnnotationViewID8 withDelegate:self] autorelease];
+		}
+		
+		annotationView.annotation = annotation;
+		annotationView.imageName = @"healthcenter.png";
+		return annotationView;
+	}
+
+	if([annotation isKindOfClass:[MonumentItem class]]) {
+		static NSString *AnnotationViewID9 = @"parkingannotationViewID";
+		MapAnnotationView *annotationView =
+		(MapAnnotationView *)[m dequeueReusableAnnotationViewWithIdentifier:AnnotationViewID9];
+		if (annotationView == nil)
+		{
+			annotationView = [[[MapAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:AnnotationViewID9 withDelegate:self] autorelease];
+		}
+		
+		annotationView.annotation = annotation;
+		annotationView.imageName = @"monument.png";
+		return annotationView;
+	}
+	
+	if([annotation isKindOfClass:[TurismItem class]]) {
+		static NSString *AnnotationViewID10 = @"parkingannotationViewID";
+		MapAnnotationView *annotationView =
+		(MapAnnotationView *)[m dequeueReusableAnnotationViewWithIdentifier:AnnotationViewID10];
+		if (annotationView == nil)
+		{
+			annotationView = [[[MapAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:AnnotationViewID10 withDelegate:self] autorelease];
+		}
+		
+		annotationView.annotation = annotation;
+		annotationView.imageName = @"turismoffice.png";
+		return annotationView;
+	}
+	
+	if([annotation isKindOfClass:[BusCardItem class]]) {
+		static NSString *AnnotationViewID11 = @"buscardannotationViewID";
+		MapAnnotationView *annotationView =
+		(MapAnnotationView *)[m dequeueReusableAnnotationViewWithIdentifier:AnnotationViewID11];
+		if (annotationView == nil)
+		{
+			annotationView = [[[MapAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:AnnotationViewID11 withDelegate:self] autorelease];
+		}
+		
+		annotationView.annotation = annotation;
+		annotationView.imageName = @"cardbus.png";
+		return annotationView;
+	}
+	
+	return nil;
+}
 
 #pragma mark -
 #pragma mark Request responses
+
 -(void)requestFinishedWithBiZi:(BiZiResponse*)response {
 
-	
-	[self.progressIndicator stopAnimating];
-	self.refresh.hidden = NO;
-	self.refresh.enabled = YES;
+	[self.infoView.progressIndicator stopAnimating];
+	self.infoView.refresh.hidden = NO;
+	self.infoView.refresh.enabled = YES;
 	[UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
 	
-	self.bizi.text = response.bizi;
-	
-	if([response.bizi isEqualToString:@"0"]) {
-		self.bizi.textColor = [UIColor redColor];
-	} else {
-		self.bizi.textColor = [UIColor greenColor];
-	}
+	[infoView setBiziData:response];
 
-	self.nobizi.text = response.nobizi;
-	if([response.nobizi isEqualToString:@"0"]) {
-		self.nobizi.textColor = [UIColor redColor];
-	} else {
-		self.nobizi.textColor = [UIColor greenColor];
-	}
-
-	
-	self.timedate.text = response.timedate;
-	self.address.text = [[response.address lowercaseString] capitalizedString];
-	
 }
 
 -(void)requestDidFinishWithError:(NSError*)error {
-	[self.progressIndicator stopAnimating];
-	self.refresh.hidden = YES;
-	self.refresh.enabled = NO;
+	[self.infoView.progressIndicator stopAnimating];
+	self.infoView.refresh.hidden = YES;
+	self.infoView.refresh.enabled = NO;
 	[UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
 }
 
--(IBAction)runRefresh {
-	if(lastStation != nil) {
-		[self biziStationTouched:lastStation];
+#pragma mark -
+#pragma mark Location
+
+- (BOOL)locationServiceEnabled {
+	BOOL result = NO;
+	if([CLLocationManager respondsToSelector:@selector(authorizationStatus)]){
+		result = ([CLLocationManager authorizationStatus] == kCLAuthorizationStatusAuthorized);
+	} else {
+		result = [CLLocationManager locationServicesEnabled];
 	}
+	
+	
+	return result;
+}
+
+-(void)applicationWillEnterForeground {
+	self.navigationItem.rightBarButtonItem.enabled = NO;
+	
+	[self centerMap:nil];
+}
+
+-(IBAction)centerMap:(id)caller {
+	
+	
+	if(![self locationServiceEnabled]) {
+		return;
+	}
+
+	[self.locationManager startUpdatingLocation];
+	
+}
+
+- (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation
+{
+	if(self.navigationItem.rightBarButtonItem.enabled == YES) {
+		MKCoordinateRegion theRegion = map.region;
+		theRegion.center = newLocation.coordinate;
+		[map setRegion:theRegion animated:YES];
+	} else {
+		self.navigationItem.rightBarButtonItem.enabled = YES;
+	}
+	
+	[self.locationManager stopUpdatingLocation];
+
+
+	
+
+NSLog(@"Location Change: %f, %f",newLocation.coordinate.latitude,newLocation.coordinate.longitude);
+}
+
+- (void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error {
+	NSLog(@"%@",error.description);
+	[self.locationManager stopUpdatingLocation];
+}
+
+-(void)enableRightNavItem {
+	
+	
+}
+
+-(void)biziStationTouched:(id<MKAnnotation>)station {
+	[infoView biziStationTouched:station];
+}
+
+- (NSArray *)removedItemsForMapRegion:(MKCoordinateRegion)region forArray:(NSArray*)array
+{
+    NSMutableArray *items = [NSMutableArray array];
+	
+	
+	double latitudeStartd = region.center.latitude - region.span.latitudeDelta/1.8;
+	double latitudeStopd = region.center.latitude + region.span.latitudeDelta/1.8;
+	
+	double longitudeStartd = region.center.longitude - region.span.longitudeDelta/1.8;
+	double longitudeStopd = region.center.longitude + region.span.longitudeDelta/1.8;
+	
+	for(id<MKAnnotation> annotation in array) {
+		[annotation retain];
+		CLLocationCoordinate2D coordinate = annotation.coordinate;
+		if((coordinate.latitude < latitudeStartd) || (coordinate.latitude > latitudeStopd) ||
+		   (coordinate.longitude < longitudeStartd) || (coordinate.longitude > longitudeStopd)) {
+			[items addObject:annotation];
+		}
+	}
+    return items;
+}
+
+- (NSArray *)itemsForMapRegion:(MKCoordinateRegion)region maximumCount:(NSInteger)maxCount
+{
+    NSMutableArray *items = [NSMutableArray array];
+
+	
+	double latitudeStartd = region.center.latitude - region.span.latitudeDelta/1.8;
+	double latitudeStopd = region.center.latitude + region.span.latitudeDelta/1.8;
+
+	double longitudeStartd = region.center.longitude - region.span.longitudeDelta/1.8;
+	double longitudeStopd = region.center.longitude + region.span.longitudeDelta/1.8;
+
+	for(id<MKAnnotation> annotation in annotations) {
+		[annotation retain];
+		CLLocationCoordinate2D coordinate = annotation.coordinate;
+		if((coordinate.latitude > latitudeStartd) && (coordinate.latitude < latitudeStopd) &&
+		   (coordinate.longitude > longitudeStartd) && (coordinate.longitude < longitudeStopd)) {
+			[items addObject:annotation];
+		}
+	}
+    return items;
+}
+
+#pragma mark -
+#pragma mark Filter Delegate
+
+-(void)presentFilter {
+	FilterTableViewController* filterController = [[FilterTableViewController alloc] initWithNibName:@"FilterTableViewController" bundle:nil];
+	
+	filterController.delegate = self;
+	[self.navigationController pushViewController:filterController animated:YES];
+	
+	[filterController release];
+}
+
+-(void)dismissFilter {
+	[self loadData];
+	[self.configurationController layoutSubView:NO];
+
+	NSArray *oldAnnotations = self.map.annotations;
+	[self.map removeAnnotations:oldAnnotations];
+	
+	NSArray *items = [self itemsForMapRegion:self.map.region maximumCount:0];
+	[self.map addAnnotations:items];
+
 }
 
 @end

@@ -1,0 +1,1651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>created_at</key>
+	<date>2011-06-23T17:15:55Z</date>
+	<key>monuments</key>
+	<array>
+		<dict>
+					<key>name</key>
+					<string>La Hospedería</string>
+					<key>longitude</key>
+					<string>-0.822717601814589</string>
+					<key>latitude</key>
+					<string>41.60521091018977</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=171</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Iglesia de la Inmaculada Concepción</string>
+					<key>longitude</key>
+					<string>-0.8770935747279603</string>
+					<key>latitude</key>
+					<string>41.625486791312696</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=170</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>El Refectorio</string>
+					<key>longitude</key>
+					<string>-0.8221605685698977</string>
+					<key>latitude</key>
+					<string>41.6044657459706</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=169</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Dependencias anexas a la Hospedería</string>
+					<key>longitude</key>
+					<string>-0.8868156555834018</string>
+					<key>latitude</key>
+					<string>41.65643847172782</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=168</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Celda del Prior</string>
+					<key>longitude</key>
+					<string>-0.8231168808442567</string>
+					<key>latitude</key>
+					<string>41.604310223968376</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=167</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Antiguas Escuelas</string>
+					<key>longitude</key>
+					<string>-0.8223871010002599</string>
+					<key>latitude</key>
+					<string>41.60561133179457</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=166</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Hospital de Enfermos del tórax</string>
+					<key>longitude</key>
+					<string>-0.8618918180142744</string>
+					<key>latitude</key>
+					<string>41.692569890699275</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=165</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Iglesia de Nuestra Señora de la Asunción</string>
+					<key>longitude</key>
+					<string>-0.8551940318913333</string>
+					<key>latitude</key>
+					<string>41.502460304223334</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=144</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Iglesia Parroquial</string>
+					<key>longitude</key>
+					<string>-0.840416903131579</string>
+					<key>latitude</key>
+					<string>41.716764614749074</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=143</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Iglesia de San Juan Bautista</string>
+					<key>longitude</key>
+					<string>-0.8411569998656356</string>
+					<key>latitude</key>
+					<string>41.7177379663845</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=142</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Iglesia de Nuestra Señora del Coro de los Ángeles</string>
+					<key>longitude</key>
+					<string>-0.7981711235438707</string>
+					<key>latitude</key>
+					<string>41.76054672246624</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=141</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Paso, nº 67</string>
+					<key>longitude</key>
+					<string>-0.7977930847019077</string>
+					<key>latitude</key>
+					<string>41.761315537246624</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=139</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Cruz, nº 8</string>
+					<key>longitude</key>
+					<string>-0.7970540872727446</string>
+					<key>latitude</key>
+					<string>41.76170815483471</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=138</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Cruz, nº 6</string>
+					<key>longitude</key>
+					<string>-0.7971468634708242</string>
+					<key>latitude</key>
+					<string>41.76172228201887</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=137</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Cruz, nº 4</string>
+					<key>longitude</key>
+					<string>-0.7972392851377181</string>
+					<key>latitude</key>
+					<string>41.761741156663945</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=136</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Cruces, nº 47</string>
+					<key>longitude</key>
+					<string>-0.7959160697923122</string>
+					<key>latitude</key>
+					<string>41.76026516078484</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=135</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Cruces, nº 45</string>
+					<key>longitude</key>
+					<string>-0.7960241807987515</string>
+					<key>latitude</key>
+					<string>41.76029398417652</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=134</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Iglesia antigua de Movera</string>
+					<key>longitude</key>
+					<string>-0.80082212419776</string>
+					<key>latitude</key>
+					<string>41.63779766279908</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=133</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Torre de Santa Engracia</string>
+					<key>longitude</key>
+					<string>-0.8053514543674143</string>
+					<key>latitude</key>
+					<string>41.64234266544919</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=132</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Almenara de Copau, nº 274</string>
+					<key>longitude</key>
+					<string>-1.0268473043329576</string>
+					<key>latitude</key>
+					<string>41.683788742691384</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=131</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Cámara Oficial de Comercio e Industria de Zaragoza</string>
+					<key>longitude</key>
+					<string>-0.8987287386778264</string>
+					<key>latitude</key>
+					<string>41.637366466445755</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=77</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Edificio Pignatelli - Sede del Gobierno de Aragón</string>
+					<key>longitude</key>
+					<string>-0.8916412567302404</string>
+					<key>latitude</key>
+					<string>41.652995228287544</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=76</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Diputación Provincial de Zaragoza</string>
+					<key>longitude</key>
+					<string>-0.881567278590935</string>
+					<key>latitude</key>
+					<string>41.652232789013595</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=75</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Antiguo Matadero Municipal</string>
+					<key>longitude</key>
+					<string>-0.8703791599122765</string>
+					<key>latitude</key>
+					<string>41.64470240701321</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=74</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Antigua Capitanía General</string>
+					<key>longitude</key>
+					<string>-0.8854969360277726</string>
+					<key>latitude</key>
+					<string>41.648196552917994</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=73</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Edificio de Correos</string>
+					<key>longitude</key>
+					<string>-0.8834926187603414</string>
+					<key>latitude</key>
+					<string>41.6492384332257</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=72</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Escuelas de Artes y Oficios</string>
+					<key>longitude</key>
+					<string>-0.8784548114851572</string>
+					<key>latitude</key>
+					<string>41.6489983339894</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=71</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Grupo Escolar Joaquín Costa</string>
+					<key>longitude</key>
+					<string>-0.8915694203551914</string>
+					<key>latitude</key>
+					<string>41.65196316354389</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=70</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Grupo Escolar Gascón y Marín</string>
+					<key>longitude</key>
+					<string>-0.8781083172133624</string>
+					<key>latitude</key>
+					<string>41.64935467788211</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=69</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Iglesia de San Antonio de Padua</string>
+					<key>longitude</key>
+					<string>-0.8851177928855607</string>
+					<key>latitude</key>
+					<string>41.63421802674213</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=68</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Teatro del Mercado</string>
+					<key>longitude</key>
+					<string>-0.8889907276552835</string>
+					<key>latitude</key>
+					<string>41.65702023691736</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=67</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Teatro Principal</string>
+					<key>longitude</key>
+					<string>-0.8794743458003421</string>
+					<key>latitude</key>
+					<string>41.65185121610956</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=66</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Museo de Zaragoza - Sección de Etnología y Cerámica</string>
+					<key>longitude</key>
+					<string>-0.8980303590513928</string>
+					<key>latitude</key>
+					<string>41.63660031343013</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=65</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Museo Pablo Serrano</string>
+					<key>longitude</key>
+					<string>-0.8900764224263388</string>
+					<key>latitude</key>
+					<string>41.65141999503209</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=64</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Museo de Zaragoza - Secciones de Arqueología y Bellas Artes</string>
+					<key>longitude</key>
+					<string>-0.8788660305707056</string>
+					<key>latitude</key>
+					<string>41.648318011547595</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=63</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Antigua Facultad de Medicina y Ciencias - Paraninfo Universitario</string>
+					<key>longitude</key>
+					<string>-0.8865234968609551</string>
+					<key>latitude</key>
+					<string>41.647419412268725</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=62</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Quiosco de la Música</string>
+					<key>longitude</key>
+					<string>-0.894607102498595</string>
+					<key>latitude</key>
+					<string>41.63589024640858</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=61</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Casa Retuerta</string>
+					<key>longitude</key>
+					<string>-0.8857482168286238</string>
+					<key>latitude</key>
+					<string>41.643343133967</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=60</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Casa Juncosa</string>
+					<key>longitude</key>
+					<string>-0.8857283094407769</string>
+					<key>latitude</key>
+					<string>41.643491463544194</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=59</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Casino Mercantil</string>
+					<key>longitude</key>
+					<string>-0.8814846071605632</string>
+					<key>latitude</key>
+					<string>41.652857208750845</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=58</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Casa Molins</string>
+					<key>longitude</key>
+					<string>-0.8818553463004123</string>
+					<key>latitude</key>
+					<string>41.653151078354156</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=57</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Edificio de la calle Prudencio</string>
+					<key>longitude</key>
+					<string>-0.8798326425716024</string>
+					<key>latitude</key>
+					<string>41.65593123682145</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=55</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Fuente de los Incrédulos</string>
+					<key>longitude</key>
+					<string>-0.9076792289600176</string>
+					<key>latitude</key>
+					<string>41.62931479532465</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=53</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Iglesia Parroquial de Nuestra Señora de Altabás</string>
+					<key>longitude</key>
+					<string>-0.8739534719431399</string>
+					<key>latitude</key>
+					<string>41.659323819237926</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=52</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Palacio de la Familia Palafox</string>
+					<key>longitude</key>
+					<string>-0.8746850109990978</string>
+					<key>latitude</key>
+					<string>41.65419789248505</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=51</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Casa Tarín - Casa del Canal Imperial</string>
+					<key>longitude</key>
+					<string>-0.8786876725731174</string>
+					<key>latitude</key>
+					<string>41.65445863195937</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=50</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Iglesia de San Fernando de Torrero</string>
+					<key>longitude</key>
+					<string>-0.8828441005207162</string>
+					<key>latitude</key>
+					<string>41.634587548601836</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=49</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Palacio Arzobispal</string>
+					<key>longitude</key>
+					<string>-0.8756995032010634</string>
+					<key>latitude</key>
+					<string>41.65531972917329</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=48</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Palacio de los Condes de Sobradiel o de Gabarda</string>
+					<key>longitude</key>
+					<string>-0.8819143055528843</string>
+					<key>latitude</key>
+					<string>41.65610310682559</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=47</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Puerta del Carmen</string>
+					<key>longitude</key>
+					<string>-0.8875430025265036</string>
+					<key>latitude</key>
+					<string>41.64986343880732</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=46</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Iglesia de Santa Cruz</string>
+					<key>longitude</key>
+					<string>-0.8783213379863551</string>
+					<key>latitude</key>
+					<string>41.65461092028693</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=45</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Palacio de Villahermosa</string>
+					<key>longitude</key>
+					<string>-0.8849666460133102</string>
+					<key>latitude</key>
+					<string>41.65755550847837</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=44</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Iglesia de Santo Tomás de Aquino - Escuelas Pías</string>
+					<key>longitude</key>
+					<string>-0.8843564223317072</string>
+					<key>latitude</key>
+					<string>41.65487496080754</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=43</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Iglesia de San Nicolás de Bari</string>
+					<key>longitude</key>
+					<string>-0.8728046294932091</string>
+					<key>latitude</key>
+					<string>41.65414622351903</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=42</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Iglesia Parroquial de Nuestra Señora del Portillo</string>
+					<key>longitude</key>
+					<string>-0.8927364381665087</string>
+					<key>latitude</key>
+					<string>41.655853054858866</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=41</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Iglesia Parroquial de San Ildefonso o de Santiago el Mayor</string>
+					<key>longitude</key>
+					<string>-0.884978742263016</string>
+					<key>latitude</key>
+					<string>41.6525702467942</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=40</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Iglesia de la Mantería</string>
+					<key>longitude</key>
+					<string>-0.8830862375571469</string>
+					<key>latitude</key>
+					<string>41.653104325502845</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=39</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Iglesia del Real Seminario de San Carlos Borromeo</string>
+					<key>longitude</key>
+					<string>-0.8757383841555061</string>
+					<key>latitude</key>
+					<string>41.651427330878676</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=38</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Iglesia de las Fecetas</string>
+					<key>longitude</key>
+					<string>-0.8906867894447138</string>
+					<key>latitude</key>
+					<string>41.658168235115525</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=37</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Iglesia de San Felipe y Santiago el Menor</string>
+					<key>longitude</key>
+					<string>-0.8821666308379659</string>
+					<key>latitude</key>
+					<string>41.65549595458346</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=36</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Hospital Real y Provincial Nuestra Señora de Gracia</string>
+					<key>longitude</key>
+					<string>-0.8868131717620645</string>
+					<key>latitude</key>
+					<string>41.65200219399492</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=35</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Iglesia de Santa Isabel de Portugal o San Cayetano</string>
+					<key>longitude</key>
+					<string>-0.8818349093962343</string>
+					<key>latitude</key>
+					<string>41.65591530092369</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=34</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Iglesia de San Juan de los Panetes</string>
+					<key>longitude</key>
+					<string>-0.8813244879410792</string>
+					<key>latitude</key>
+					<string>41.6573370305451</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=33</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Basílica de Nuestra Señora del Pilar</string>
+					<key>longitude</key>
+					<string>-0.8783134088671742</string>
+					<key>latitude</key>
+					<string>41.6563538424321</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=32</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Casa Armas</string>
+					<key>longitude</key>
+					<string>-0.8844608203331572</string>
+					<key>latitude</key>
+					<string>41.6565559444271</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=31</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Museo Pablo Gargallo - Palacio de los Condes de Argillo</string>
+					<key>longitude</key>
+					<string>-0.8823609348029776</string>
+					<key>latitude</key>
+					<string>41.65476749726697</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=30</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Museo Camón Aznar - Palacio de los Pardo o Casa Aguilar</string>
+					<key>longitude</key>
+					<string>-0.8783612661732505</string>
+					<key>latitude</key>
+					<string>41.654701271308134</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=29</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Patio de la Infanta</string>
+					<key>longitude</key>
+					<string>-0.8840929437149665</string>
+					<key>latitude</key>
+					<string>41.64660764504125</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=28</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Iglesia Basílica de Santa Engracia</string>
+					<key>longitude</key>
+					<string>-0.8827781909748023</string>
+					<key>latitude</key>
+					<string>41.64908026746537</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=27</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Casa de los Morlanes</string>
+					<key>longitude</key>
+					<string>-0.8756413658270915</string>
+					<key>latitude</key>
+					<string>41.65166089296765</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=26</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Casa de Miguel Donlope - Real Maestranza de Caballería</string>
+					<key>longitude</key>
+					<string>-0.8764026549915231</string>
+					<key>latitude</key>
+					<string>41.654479644511916</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=25</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Palacio de Huarte - Azara</string>
+					<key>longitude</key>
+					<string>-0.8764289315356355</string>
+					<key>latitude</key>
+					<string>41.65436854101177</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=24</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Casa de Armijo</string>
+					<key>longitude</key>
+					<string>-0.8756424386944708</string>
+					<key>latitude</key>
+					<string>41.653845319919036</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=23</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Casa Palacio de los Marqueses de Montemuzo</string>
+					<key>longitude</key>
+					<string>-0.8775821771513476</string>
+					<key>latitude</key>
+					<string>41.65489285776653</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=22</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Casa Palacio de los Torrero</string>
+					<key>longitude</key>
+					<string>-0.8783167942680375</string>
+					<key>latitude</key>
+					<string>41.65398156050147</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=21</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Casa Palacio de los Condes de Sástago</string>
+					<key>longitude</key>
+					<string>-0.8817206836509303</string>
+					<key>latitude</key>
+					<string>41.65275933887246</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=20</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Palacio de los Condes de Morata o Luna</string>
+					<key>longitude</key>
+					<string>-0.8835907934364715</string>
+					<key>latitude</key>
+					<string>41.65398868108461</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=19</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>La Lonja</string>
+					<key>longitude</key>
+					<string>-0.8766474281407007</string>
+					<key>latitude</key>
+					<string>41.65571284588587</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=18</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Torreón de Fortea</string>
+					<key>longitude</key>
+					<string>-0.8819392105112202</string>
+					<key>latitude</key>
+					<string>41.654840987715694</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=17</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Torreón de la Zuda</string>
+					<key>longitude</key>
+					<string>-0.8815914117246285</string>
+					<key>latitude</key>
+					<string>41.65754098447293</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=16</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Iglesia Parroquial de San Gil Abad</string>
+					<key>longitude</key>
+					<string>-0.8792337476792955</string>
+					<key>latitude</key>
+					<string>41.65267815404018</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=15</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Iglesia Parroquial de San Miguel de los Navarros</string>
+					<key>longitude</key>
+					<string>-0.8764848844138298</string>
+					<key>latitude</key>
+					<string>41.64967985953733</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=14</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Baños Judíos</string>
+					<key>longitude</key>
+					<string>-0.8752968943514384</string>
+					<key>latitude</key>
+					<string>41.650915729004375</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=13</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Iglesia Parroquial de Santa María Magdalena</string>
+					<key>longitude</key>
+					<string>-0.8736369193012451</string>
+					<key>latitude</key>
+					<string>41.65231532202127</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=12</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Convento del Santo Sepulcro</string>
+					<key>longitude</key>
+					<string>-0.8724301692067165</string>
+					<key>latitude</key>
+					<string>41.653694734143315</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=11</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Arco y casa del Deán</string>
+					<key>longitude</key>
+					<string>-0.8750352896242118</string>
+					<key>latitude</key>
+					<string>41.65426890231592</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=10</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Puente de Piedra</string>
+					<key>longitude</key>
+					<string>-0.8758948568926281</string>
+					<key>latitude</key>
+					<string>41.656199392570585</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=9</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Iglesia de San Pablo</string>
+					<key>longitude</key>
+					<string>-0.885966299317331</string>
+					<key>latitude</key>
+					<string>41.656138887420695</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=8</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Palacio de la Aljafería</string>
+					<key>longitude</key>
+					<string>-0.8964184704547822</string>
+					<key>latitude</key>
+					<string>41.656707662156784</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=7</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Cripta de Santa Engracia</string>
+					<key>longitude</key>
+					<string>-0.882827022430721</string>
+					<key>latitude</key>
+					<string>41.64902390110484</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=6</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Museo del Teatro de Caesaraugusta</string>
+					<key>longitude</key>
+					<string>-0.8773392024556939</string>
+					<key>latitude</key>
+					<string>41.65261583363846</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=5</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Museo de las Termas Públicas de Caesaraugusta</string>
+					<key>longitude</key>
+					<string>-0.877165008298922</string>
+					<key>latitude</key>
+					<string>41.65343944635048</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=4</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Museo del Puerto Fluvial de Caesaraugusta</string>
+					<key>longitude</key>
+					<string>-0.8747305008061347</string>
+					<key>latitude</key>
+					<string>41.655284146756394</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=3</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Museo del Foro de Caesaraugusta</string>
+					<key>longitude</key>
+					<string>-0.8763048581710301</string>
+					<key>latitude</key>
+					<string>41.65519396071735</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=2</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Murallas Romanas</string>
+					<key>longitude</key>
+					<string>-0.8819336356002413</string>
+					<key>latitude</key>
+					<string>41.65703825337577</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=1</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Catedral de San Salvador o la Seo</string>
+					<key>longitude</key>
+					<string>-0.875726817274245</string>
+					<key>latitude</key>
+					<string>41.65512632672402</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=0</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Cartuja de la Inmaculada Concepción</string>
+					<key>longitude</key>
+					<string>-0.8223988728412575</string>
+					<key>latitude</key>
+					<string>41.60480124814455</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=185</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Vestigios y trazas de los tres claustros</string>
+					<key>longitude</key>
+					<string>-0.82245724641994</string>
+					<key>latitude</key>
+					<string>41.6036152196972</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=179</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Vestigios y trazas de Cerca y Cubos</string>
+					<key>longitude</key>
+					<string>-0.8224591178917046</string>
+					<key>latitude</key>
+					<string>41.60389429439764</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=178</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Tramos de la cerca y cubos que se conservan</string>
+					<key>longitude</key>
+					<string>-0.8224615211120182</string>
+					<key>latitude</key>
+					<string>41.60382284986923</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=177</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Antigua Iglesia del Barrio de Miralbueno</string>
+					<key>longitude</key>
+					<string>-0.9401029125259043</string>
+					<key>latitude</key>
+					<string>41.65881123434586</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=184</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Iglesia Parroquial de Santa Isabel</string>
+					<key>longitude</key>
+					<string>-0.8349548726018653</string>
+					<key>latitude</key>
+					<string>41.66764763879111</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=190</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Hogar de la Tercera Edad</string>
+					<key>longitude</key>
+					<string>-0.9697181833408094</string>
+					<key>latitude</key>
+					<string>41.701924917802394</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=130</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>San Blas, nº 9</string>
+					<key>longitude</key>
+					<string>-0.9686738265824385</string>
+					<key>latitude</key>
+					<string>41.703634200960735</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=129</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Ermita de la Sagrada</string>
+					<key>longitude</key>
+					<string>-0.9626715980424333</string>
+					<key>latitude</key>
+					<string>41.69955567020354</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=128</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>La Sagrada, nº 27</string>
+					<key>longitude</key>
+					<string>-0.9669588547701414</string>
+					<key>latitude</key>
+					<string>41.70300648746003</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=127</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>La Sagrada, nº 23</string>
+					<key>longitude</key>
+					<string>-0.9668589253216402</string>
+					<key>latitude</key>
+					<string>41.70292718288198</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=126</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Plaza de España, nº 7-8</string>
+					<key>longitude</key>
+					<string>-0.9676780703100968</string>
+					<key>latitude</key>
+					<string>41.70328848649956</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=125</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Enmedio, nº 18</string>
+					<key>longitude</key>
+					<string>-0.9685578481457053</string>
+					<key>latitude</key>
+					<string>41.703948454456516</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=124</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Enmedio, nº 10 - C/ Nuestra Señora de la Sagrada</string>
+					<key>longitude</key>
+					<string>-0.9680349190755915</string>
+					<key>latitude</key>
+					<string>41.70355490338138</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=123</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Enmedio, nº 6 - C/ Nuestra Señora de la Sagrada</string>
+					<key>longitude</key>
+					<string>-0.9679324195182797</string>
+					<key>latitude</key>
+					<string>41.70347050185565</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=122</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Enmedio, nº 4 - C/ Nuestra Señora de la Sagrada</string>
+					<key>longitude</key>
+					<string>-0.9679034378765747</string>
+					<key>latitude</key>
+					<string>41.70345503008361</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=121</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Enmedio, nº 2</string>
+					<key>longitude</key>
+					<string>-0.9682042007334061</string>
+					<key>latitude</key>
+					<string>41.70334516775697</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=120</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Cartuja de Aula Dei</string>
+					<key>longitude</key>
+					<string>-0.8142660629384537</string>
+					<key>latitude</key>
+					<string>41.73247317340821</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=118</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Plaza del Arzobispo, nº 68</string>
+					<key>longitude</key>
+					<string>-0.903065915145555</string>
+					<key>latitude</key>
+					<string>41.694930931541066</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=117</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Plaza del Arzobispo, nº 66</string>
+					<key>longitude</key>
+					<string>-0.9030212848717848</string>
+					<key>latitude</key>
+					<string>41.695010093573444</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=116</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Plaza del Arzobispo, nº 64</string>
+					<key>longitude</key>
+					<string>-0.9029714676537653</string>
+					<key>latitude</key>
+					<string>41.6950159378129</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=115</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Plaza del Arzobispo, nº 62</string>
+					<key>longitude</key>
+					<string>-0.9029169348601908</string>
+					<key>latitude</key>
+					<string>41.69498567154838</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=114</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Plaza del Arzobispo, nº 60</string>
+					<key>longitude</key>
+					<string>-0.9028549833982062</string>
+					<key>latitude</key>
+					<string>41.69495076787221</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=113</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Plaza del Arzobispo, nº 58</string>
+					<key>longitude</key>
+					<string>-0.902798815659537</string>
+					<key>latitude</key>
+					<string>41.69492272341193</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=112</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Palacio Arzobispal - Escudo Heráldico y posibles elementos</string>
+					<key>longitude</key>
+					<string>-0.902714828775733</string>
+					<key>latitude</key>
+					<string>41.6948670609803</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=111</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Mayor, nº 31</string>
+					<key>longitude</key>
+					<string>-0.9009156126365826</string>
+					<key>latitude</key>
+					<string>41.694140348631</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=110</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Mayor, nº 11</string>
+					<key>longitude</key>
+					<string>-0.8999961388085362</string>
+					<key>latitude</key>
+					<string>41.69358946716235</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=109</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Iglesia de Nuestra Señora de la Asunción</string>
+					<key>longitude</key>
+					<string>-0.9017387628368702</string>
+					<key>latitude</key>
+					<string>41.6946038133074</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=108</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Torre de la Antigua Iglesia</string>
+					<key>longitude</key>
+					<string>-0.9678082923836292</string>
+					<key>latitude</key>
+					<string>41.70316466486794</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=107</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Iglesia de Nuestra Señora del Rosario</string>
+					<key>longitude</key>
+					<string>-0.8249984648496624</string>
+					<key>latitude</key>
+					<string>41.68455150280535</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=105</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Iglesia de San Lorenzo</string>
+					<key>longitude</key>
+					<string>-1.0268557622789596</string>
+					<key>latitude</key>
+					<string>41.68382203275301</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=102</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Iglesia de San Miguel</string>
+					<key>longitude</key>
+					<string>-1.026198974521725</string>
+					<key>latitude</key>
+					<string>41.71797796305606</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=101</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Antigua Joyería Aladrén</string>
+					<key>longitude</key>
+					<string>-0.8806585412175221</string>
+					<key>latitude</key>
+					<string>41.65459236468167</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=100</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Soto de Cantalobos</string>
+					<key>longitude</key>
+					<string>-0.8392544757170548</string>
+					<key>latitude</key>
+					<string>41.64547222849113</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=99</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Arboleda de Macanaz</string>
+					<key>longitude</key>
+					<string>-0.8788534027502373</string>
+					<key>latitude</key>
+					<string>41.659280825860314</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=98</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Galacho de Juslibol</string>
+					<key>longitude</key>
+					<string>-0.9300886189417213</string>
+					<key>latitude</key>
+					<string>41.706568128299544</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=97</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Canal Imperial de Aragón</string>
+					<key>longitude</key>
+					<string>-0.8850059824585347</string>
+					<key>latitude</key>
+					<string>41.63317095495745</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=96</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Parque Primo de Rivera</string>
+					<key>longitude</key>
+					<string>-0.8972466288125064</string>
+					<key>latitude</key>
+					<string>41.6368933441204</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=95</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Centro de Historia de Zaragoza - Antiguo Convento de San Agustín</string>
+					<key>longitude</key>
+					<string>-0.870758250434498</string>
+					<key>latitude</key>
+					<string>41.650853770257726</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=94</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Fuente de Neptuno o Fuente de la Princesa</string>
+					<key>longitude</key>
+					<string>-0.8971565655720878</string>
+					<key>latitude</key>
+					<string>41.63539954929972</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=93</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Estatua del Emperador Augusto</string>
+					<key>longitude</key>
+					<string>-0.8822080728810138</string>
+					<key>latitude</key>
+					<string>41.656771482945494</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=92</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Monumento a Goya</string>
+					<key>longitude</key>
+					<string>-0.8767860386858652</string>
+					<key>latitude</key>
+					<string>41.65554542054457</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=91</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Monumento al Justiciazgo</string>
+					<key>longitude</key>
+					<string>-0.88473573103581</string>
+					<key>latitude</key>
+					<string>41.64837084600195</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=90</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Monumento al Rey Alfonso I El Batallador</string>
+					<key>longitude</key>
+					<string>-0.8932843386611751</string>
+					<key>latitude</key>
+					<string>41.63358321616383</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=89</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Monumento a Agustina Zaragoza y a las Heroínas</string>
+					<key>longitude</key>
+					<string>-0.8923585587926236</string>
+					<key>latitude</key>
+					<string>41.65556440292607</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=88</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Monumento a la Constitución Española de 1978</string>
+					<key>longitude</key>
+					<string>-0.8850900361869554</string>
+					<key>latitude</key>
+					<string>41.64717656402248</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=87</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Monumento a los Mártires de la Religión y de la Patria</string>
+					<key>longitude</key>
+					<string>-0.8809687995496777</string>
+					<key>latitude</key>
+					<string>41.65205558452463</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=86</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Monumento a Los Sitios</string>
+					<key>longitude</key>
+					<string>-0.8792767743545444</string>
+					<key>latitude</key>
+					<string>41.64891689060083</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=85</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Puente de Santiago</string>
+					<key>longitude</key>
+					<string>-0.8813278389250175</string>
+					<key>latitude</key>
+					<string>41.65952428309112</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=84</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Puente de Hierro</string>
+					<key>longitude</key>
+					<string>-0.8713292035589864</string>
+					<key>latitude</key>
+					<string>41.65458083287304</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=83</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Plaza de Toros de la Misericordia</string>
+					<key>longitude</key>
+					<string>-0.8910149166128598</string>
+					<key>latitude</key>
+					<string>41.654521393316955</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=82</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Palacio de Larrinaga</string>
+					<key>longitude</key>
+					<string>-0.8647880772534692</string>
+					<key>latitude</key>
+					<string>41.638237062845185</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=81</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Casa Solans</string>
+					<key>longitude</key>
+					<string>-0.8676807452175492</string>
+					<key>latitude</key>
+					<string>41.66089446117954</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=80</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Ayuntamiento de Zaragoza</string>
+					<key>longitude</key>
+					<string>-0.8774122856556935</string>
+					<key>latitude</key>
+					<string>41.65598201340618</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=79</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Auditorio - Palacio de Congresos</string>
+					<key>longitude</key>
+					<string>-0.9014421666814794</string>
+					<key>latitude</key>
+					<string>41.63826482251081</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=78</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Fuente de la Hispanidad</string>
+					<key>longitude</key>
+					<string>-0.8806697874152658</string>
+					<key>latitude</key>
+					<string>41.65709778719927</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=189</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Fuente de la Samaritana</string>
+					<key>longitude</key>
+					<string>-0.8815145891118886</string>
+					<key>latitude</key>
+					<string>41.656077561772186</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=188</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Mercado Central</string>
+					<key>longitude</key>
+					<string>-0.8823934029727849</string>
+					<key>latitude</key>
+					<string>41.65658747512222</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=187</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Monumento a Don Ramón Pignatelli</string>
+					<key>longitude</key>
+					<string>-0.9078461632611574</string>
+					<key>latitude</key>
+					<string>41.62912303087366</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=186</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Alcaldía del Barrio, Antigua Agrupación Escolar y Hogar Tercera Edad</string>
+					<key>longitude</key>
+					<string>-1.027430765390243</string>
+					<key>latitude</key>
+					<string>41.71885642329018</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=183</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Harinera del Ebro</string>
+					<key>longitude</key>
+					<string>-1.0267829867309068</string>
+					<key>latitude</key>
+					<string>41.720782481053085</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=182</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Iglesia Inmaculada Concepción</string>
+					<key>longitude</key>
+					<string>-0.9510774782858411</string>
+					<key>latitude</key>
+					<string>41.72390624553409</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=181</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Casa Parroquial</string>
+					<key>longitude</key>
+					<string>-0.951238169773306</string>
+					<key>latitude</key>
+					<string>41.7239389227533</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=180</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Sala Capitular de los Hermanos</string>
+					<key>longitude</key>
+					<string>-0.8221380402670356</string>
+					<key>latitude</key>
+					<string>41.604742987193816</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=176</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Restos de celdas y otros elementos reutilizados</string>
+					<key>longitude</key>
+					<string>-0.8224602298922714</string>
+					<key>latitude</key>
+					<string>41.60369989794365</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=175</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Pabellón de servicios</string>
+					<key>longitude</key>
+					<string>-0.8227726709867463</string>
+					<key>latitude</key>
+					<string>41.60508275687613</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=174</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>La Procura</string>
+					<key>longitude</key>
+					<string>-0.8221199712529852</string>
+					<key>latitude</key>
+					<string>41.60520872677977</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=173</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>La Portería</string>
+					<key>longitude</key>
+					<string>-0.8223845442339263</string>
+					<key>latitude</key>
+					<string>41.60592272442557</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad//turismo/es/que-visitar/sitios-interes/detalle_Monumento?id=172</string>
+				</dict>
+				</array>
+</dict>
+</plist>

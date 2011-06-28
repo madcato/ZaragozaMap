@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>turismoffices</key>
+	<dict>
+		<key>image</key>
+		<string>turismoffice.png</string>
+		<key>selected</key>
+		<false/>
+		<key>name</key>
+		<string>Oficinas de turismo</string>
+	</dict>
+	<key>petrolstations</key>
+	<dict>
+		<key>image</key>
+		<string>petrolstation.png</string>
+		<key>selected</key>
+		<false/>
+		<key>name</key>
+		<string>Estaciones de servicio</string>
+	</dict>
+	<key>taxis</key>
+	<dict>
+		<key>image</key>
+		<string>taxi.png</string>
+		<key>selected</key>
+		<true/>
+		<key>name</key>
+		<string>Paradas de taxi</string>
+	</dict>
+	<key>busstops</key>
+	<dict>
+		<key>image</key>
+		<string>busstop.png</string>
+		<key>selected</key>
+		<true/>
+		<key>name</key>
+		<string>Paradas de autobús</string>
+	</dict>
+	<key>stations_bizi</key>
+	<dict>
+		<key>image</key>
+		<string>estacion_bizi.png</string>
+		<key>selected</key>
+		<true/>
+		<key>name</key>
+		<string>Estaciones de bizis</string>
+	</dict>
+	<key>parkings</key>
+	<dict>
+		<key>image</key>
+		<string>parking.png</string>
+		<key>selected</key>
+		<true/>
+		<key>name</key>
+		<string>Parkings públicos</string>
+	</dict>
+	<key>pharmacies</key>
+	<dict>
+		<key>image</key>
+		<string>pharma.png</string>
+		<key>selected</key>
+		<true/>
+		<key>name</key>
+		<string>Farmacias</string>
+	</dict>
+	<key>youthhouses</key>
+	<dict>
+		<key>image</key>
+		<string>youthhouse.png</string>
+		<key>selected</key>
+		<false/>
+		<key>name</key>
+		<string>Casas de juventud</string>
+	</dict>
+	<key>healthcenters</key>
+	<dict>
+		<key>image</key>
+		<string>healthcenter.png</string>
+		<key>selected</key>
+		<false/>
+		<key>name</key>
+		<string>Centros de salud</string>
+	</dict>
+	<key>monuments</key>
+	<dict>
+		<key>image</key>
+		<string>monument.png</string>
+		<key>selected</key>
+		<false/>
+		<key>name</key>
+		<string>Monumentos</string>
+	</dict>
+	<key>buscards</key>
+	<dict>
+		<key>image</key>
+		<string>cardbus.png</string>
+		<key>selected</key>
+		<false/>
+		<key>name</key>
+		<string>Recarga tarjeta bus</string>
+	</dict>
+</dict>
+</plist>

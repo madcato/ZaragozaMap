@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>created_at</key>
+	<date>2011-06-23T17:15:55Z</date>
+	<key>youthhouses</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Casa de Juventud Actur</string>
+			<key>longitude</key>
+			<string>-0.8882702875826697</string>
+			<key>latitude</key>
+			<string>41.67227336325916</string>
+			<key>url</key>
+			<string>http://www.zaragoza.es/ciudad/idezar/detalle_Centro?id=732</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Casa de Juventud Casablanca</string>
+			<key>longitude</key>
+			<string>-0.9115709039696187</string>
+			<key>latitude</key>
+			<string>41.631724467394065</string>
+			<key>url</key>
+			<string>http://www.zaragoza.es/ciudad/idezar/detalle_Centro?id=735</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Casa de Juventud Universidad</string>
+			<key>longitude</key>
+			<string>-0.9076465305925565</string>
+			<key>latitude</key>
+			<string>41.63971871570077</string>
+			<key>url</key>
+			<string>http://www.zaragoza.es/ciudad/idezar/detalle_Centro?id=742</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Casa de Juventud Juslibol</string>
+			<key>longitude</key>
+			<string>-0.8927564648607206</string>
+			<key>latitude</key>
+			<string>41.69180882908903</string>
+			<key>url</key>
+			<string>http://www.zaragoza.es/ciudad/idezar/detalle_Centro?id=745</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Casa de Juventud Miralbueno</string>
+			<key>longitude</key>
+			<string>-0.9432043430224861</string>
+			<key>latitude</key>
+			<string>41.65890379656476</string>
+			<key>url</key>
+			<string>http://www.zaragoza.es/ciudad/idezar/detalle_Centro?id=747</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Casa de Juventud Santa Isabel</string>
+			<key>longitude</key>
+			<string>-0.8339704749040046</string>
+			<key>latitude</key>
+			<string>41.66775466297583</string>
+			<key>url</key>
+			<string>http://www.zaragoza.es/ciudad/idezar/detalle_Centro?id=831</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Casa de Juventud La Almozara</string>
+			<key>longitude</key>
+			<string>-0.9011268338842949</string>
+			<key>latitude</key>
+			<string>41.6620503813558</string>
+			<key>url</key>
+			<string>http://www.zaragoza.es/ciudad/idezar/detalle_Centro?id=733</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Casa de Juventud La Jota</string>
+			<key>longitude</key>
+			<string>-0.858162885183255</string>
+			<key>latitude</key>
+			<string>41.66147962040873</string>
+			<key>url</key>
+			<string>http://www.zaragoza.es/ciudad/idezar/detalle_Centro?id=739</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Casa de Juventud San Pablo</string>
+			<key>longitude</key>
+			<string>-0.8845889376916386</string>
+			<key>latitude</key>
+			<string>41.65750451379678</string>
+			<key>url</key>
+			<string>http://www.zaragoza.es/ciudad/idezar/detalle_Centro?id=832</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Casa de Juventud Monzalbarba</string>
+			<key>longitude</key>
+			<string>-0.9708314413578985</string>
+			<key>latitude</key>
+			<string>41.70142560377962</string>
+			<key>url</key>
+			<string>http://www.zaragoza.es/ciudad/idezar/detalle_Centro?id=2131</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Casa de Juventud Casco Viejo</string>
+			<key>longitude</key>
+			<string>-0.8754617414728733</string>
+			<key>latitude</key>
+			<string>41.652563252916146</string>
+			<key>url</key>
+			<string>http://www.zaragoza.es/ciudad/idezar/detalle_Centro?id=736</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Casa de Juventud Casetas</string>
+			<key>longitude</key>
+			<string>-1.0263901373601956</string>
+			<key>latitude</key>
+			<string>41.718534221982665</string>
+			<key>url</key>
+			<string>http://www.zaragoza.es/ciudad/idezar/detalle_Centro?id=737</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Casa de Juventud San Juan de Mozarrifar</string>
+			<key>longitude</key>
+			<string>-0.842722870026931</string>
+			<key>latitude</key>
+			<string>41.71670599793461</string>
+			<key>url</key>
+			<string>http://www.zaragoza.es/ciudad/idezar/detalle_Centro?id=751</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Casa de Juventud Oliver</string>
+			<key>longitude</key>
+			<string>-0.922171968153631</string>
+			<key>latitude</key>
+			<string>41.65126975114088</string>
+			<key>url</key>
+			<string>http://www.zaragoza.es/ciudad/idezar/detalle_Centro?id=834</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Casa de Juventud Las Fuentes</string>
+			<key>longitude</key>
+			<string>-0.8691137945803451</string>
+			<key>latitude</key>
+			<string>41.64581456141207</string>
+			<key>url</key>
+			<string>http://www.zaragoza.es/ciudad/idezar/detalle_Centro?id=740</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Casa de Juventud Torrero</string>
+			<key>longitude</key>
+			<string>-0.8829805026762984</string>
+			<key>latitude</key>
+			<string>41.62969464245426</string>
+			<key>url</key>
+			<string>http://www.zaragoza.es/ciudad/idezar/detalle_Centro?id=2090</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Casa de Juventud Valdefierro</string>
+			<key>longitude</key>
+			<string>-0.9284960169326054</string>
+			<key>latitude</key>
+			<string>41.638785031727174</string>
+			<key>url</key>
+			<string>http://www.zaragoza.es/ciudad/idezar/detalle_Centro?id=743</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Casa de Juventud San José</string>
+			<key>longitude</key>
+			<string>-0.8731247698258024</string>
+			<key>latitude</key>
+			<string>41.63519540465529</string>
+			<key>url</key>
+			<string>http://www.zaragoza.es/ciudad/idezar/detalle_Centro?id=833</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Casa de Juventud Montañana</string>
+			<key>longitude</key>
+			<string>-0.8227791180971721</string>
+			<key>latitude</key>
+			<string>41.69275170034408</string>
+			<key>url</key>
+			<string>http://www.zaragoza.es/ciudad/idezar/detalle_Centro?id=748</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Casa de Juventud La Cartuja</string>
+			<key>longitude</key>
+			<string>-0.8235131531833909</string>
+			<key>latitude</key>
+			<string>41.60601111530972</string>
+			<key>url</key>
+			<string>http://www.zaragoza.es/ciudad/idezar/detalle_Centro?id=746</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Casa de Juventud Delicias</string>
+			<key>longitude</key>
+			<string>-0.9063857208314318</string>
+			<key>latitude</key>
+			<string>41.65556617221967</string>
+			<key>url</key>
+			<string>http://www.zaragoza.es/ciudad/idezar/detalle_Centro?id=738</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Casa de Juventud San Gregorio</string>
+			<key>longitude</key>
+			<string>-0.8639699456672144</string>
+			<key>latitude</key>
+			<string>41.69294475860713</string>
+			<key>url</key>
+			<string>http://www.zaragoza.es/ciudad/idezar/detalle_Centro?id=750</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Casa de Juventud Peñaflor</string>
+			<key>longitude</key>
+			<string>-0.7964390525560403</string>
+			<key>latitude</key>
+			<string>41.76197214174717</string>
+			<key>url</key>
+			<string>http://www.zaragoza.es/ciudad/idezar/detalle_Centro?id=749</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Casa de Juventud Arrabal</string>
+			<key>longitude</key>
+			<string>-0.8759286439267265</string>
+			<key>latitude</key>
+			<string>41.661864216224174</string>
+			<key>url</key>
+			<string>http://www.zaragoza.es/ciudad/idezar/detalle_Centro?id=734</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Casa de Juventud Movera</string>
+			<key>longitude</key>
+			<string>-0.8223922244336875</string>
+			<key>latitude</key>
+			<string>41.6484520822877</string>
+			<key>url</key>
+			<string>http://www.zaragoza.es/ciudad/idezar/detalle_Centro?id=838</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Casa de Juventud Garrapinillos</string>
+			<key>longitude</key>
+			<string>-1.0266198965122795</string>
+			<key>latitude</key>
+			<string>41.68391318004878</string>
+			<key>url</key>
+			<string>http://www.zaragoza.es/ciudad/idezar/detalle_Centro?id=744</string>
+		</dict>
+	</array>
+</dict>
+</plist>

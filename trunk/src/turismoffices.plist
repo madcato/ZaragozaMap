@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>created_at</key>
+	<date>2011-06-23T17:15:55Z</date>
+	<key>turismoffices</key>
+	<array>
+		<dict>
+					<key>name</key>
+					<string>Oficina de Turismo de la Feria de Muestras</string>
+					<key>longitude</key>
+					<string>-0.9811277846279005</string>
+					<key>latitude</key>
+					<string>41.63044621466493</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad/turismo/es/servicios/detalle_Centro?id=903</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Oficina de Turismo de la Estación Zaragoza Delicias</string>
+					<key>longitude</key>
+					<string>-0.9093412847860848</string>
+					<key>latitude</key>
+					<string>41.65810527237331</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad/turismo/es/servicios/detalle_Centro?id=2435</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Oficina de Turismo Plaza del Pilar</string>
+					<key>longitude</key>
+					<string>-0.8779730210759228</string>
+					<key>latitude</key>
+					<string>41.65565165928989</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad/turismo/es/servicios/detalle_Centro?id=2465</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Oficina de Turismo Aeropuerto de Zaragoza</string>
+					<key>longitude</key>
+					<string>-1.004839384902931</string>
+					<key>latitude</key>
+					<string>41.66253063617373</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad/turismo/es/servicios/detalle_Centro?id=2741</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Oficina de Turismo Torreón de La Zuda</string>
+					<key>longitude</key>
+					<string>-0.8815913879218077</string>
+					<key>latitude</key>
+					<string>41.65754096651102</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad/turismo/es/servicios/detalle_Centro?id=904</string>
+				</dict>
+		<dict>
+					<key>name</key>
+					<string>Oficina de Turismo Auditorio Palacio de Congresos (Oficinas Centrales)</string>
+					<key>longitude</key>
+					<string>-0.9013235280081139</string>
+					<key>latitude</key>
+					<string>41.63827652561686</string>
+					<key>url</key>
+					<string>http://www.zaragoza.es/ciudad/turismo/es/servicios/detalle_Centro?id=2433</string>
+				</dict>
+		</array>
+</dict>
+</plist>

@@ -1,0 +1,3 @@
+/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BusCardItem.m:16: error: no declaration of property 'address' found in the interface
+/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BusCardItem.m:25: warning: property 'url' requires method '-url' to be defined - use @synthesize, @dynamic or provide a method implementation
+/Users/madcat2/Documents/projects/iPhoneDevelop/ZaragozaMap/trunk/src/BusCardItem.m:25: warning: property 'url' requires the method 'setUrl:' to be defined - use @synthesize, @dynamic or provide a method implementation

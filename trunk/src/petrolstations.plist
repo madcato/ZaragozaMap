@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>created_at</key>
+	<date>2011-06-23T17:15:55Z</date>
+	<key>petrolstations</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Estación de Servicio</string>
+			<key>longitude</key>
+			<string>-0.8341069783585869</string>
+			<key>latitude</key>
+			<string>41.67231978960915</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Repsol YPF S.A.</string>
+			<key>longitude</key>
+			<string>-0.8396870479649706</string>
+			<key>latitude</key>
+			<string>41.670311973761365</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Estación de Servicio La Cartuja</string>
+			<key>longitude</key>
+			<string>-0.8457867418475266</string>
+			<key>latitude</key>
+			<string>41.623081724694785</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Europea de Gasolineras S.L.</string>
+			<key>longitude</key>
+			<string>-0.8509878080302189</string>
+			<key>latitude</key>
+			<string>41.66790159579773</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Estación de Servicio</string>
+			<key>longitude</key>
+			<string>-0.8580920792389944</string>
+			<key>latitude</key>
+			<string>41.64479014287584</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Estación de Servicio</string>
+			<key>longitude</key>
+			<string>-0.8615733716140712</string>
+			<key>latitude</key>
+			<string>41.63450876183351</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Estación de Servicio Cogullada</string>
+			<key>longitude</key>
+			<string>-0.8610150661140132</string>
+			<key>latitude</key>
+			<string>41.67098868436868</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Cedipsa</string>
+			<key>longitude</key>
+			<string>-0.8673485585028384</string>
+			<key>latitude</key>
+			<string>41.648801018829566</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Estación de Servicio Dalmau</string>
+			<key>longitude</key>
+			<string>-0.869031066121355</string>
+			<key>latitude</key>
+			<string>41.66031675638834</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Estación de Servicio</string>
+			<key>longitude</key>
+			<string>-0.8775715702281117</string>
+			<key>latitude</key>
+			<string>41.64751944832061</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Repsol YPF S.A.</string>
+			<key>longitude</key>
+			<string>-0.8770903301050615</string>
+			<key>latitude</key>
+			<string>41.666261090170735</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Garaje Aragón</string>
+			<key>longitude</key>
+			<string>-0.8767279539841192</string>
+			<key>latitude</key>
+			<string>41.649208257114616</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Estación de Servicio</string>
+			<key>longitude</key>
+			<string>-0.8863182659111792</string>
+			<key>latitude</key>
+			<string>41.65820518348089</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Estación de Servicio San Juan Bosco</string>
+			<key>longitude</key>
+			<string>-0.8867307554622649</string>
+			<key>latitude</key>
+			<string>41.661633313811684</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Estación de Servicio Fray Julián Garcés - Campsa</string>
+			<key>longitude</key>
+			<string>-0.8884876770018695</string>
+			<key>latitude</key>
+			<string>41.625139692132684</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Cedipsa</string>
+			<key>longitude</key>
+			<string>-0.8899951737487646</string>
+			<key>latitude</key>
+			<string>41.67896485641925</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Cepsa</string>
+			<key>longitude</key>
+			<string>-0.894704093231093</string>
+			<key>latitude</key>
+			<string>41.640339752299724</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Estación de Servicio Ágreda - Repsol</string>
+			<key>longitude</key>
+			<string>-0.8951467235043803</string>
+			<key>latitude</key>
+			<string>41.6471171074272</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Estación de Servicio Casablanca - Campsa</string>
+			<key>longitude</key>
+			<string>-0.9085335352059236</string>
+			<key>latitude</key>
+			<string>41.634142351438406</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Repsol YPF S.A.</string>
+			<key>longitude</key>
+			<string>-0.9087745486568293</string>
+			<key>latitude</key>
+			<string>41.63388217462925</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Estación de Servicio Juan Pablo II - Campsa</string>
+			<key>longitude</key>
+			<string>-0.9097765869359161</string>
+			<key>latitude</key>
+			<string>41.64081918991789</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Estación de Servicio Campsa</string>
+			<key>longitude</key>
+			<string>-0.9131325309563666</string>
+			<key>latitude</key>
+			<string>41.622520586939196</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Cedipsa</string>
+			<key>longitude</key>
+			<string>-0.9189499200347252</string>
+			<key>latitude</key>
+			<string>41.64914775987804</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Estación de Servicio</string>
+			<key>longitude</key>
+			<string>-0.9202673171779535</string>
+			<key>latitude</key>
+			<string>41.649227345031065</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Cedipsa</string>
+			<key>longitude</key>
+			<string>-0.9299441476091065</string>
+			<key>latitude</key>
+			<string>41.663030652918295</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Estación de Servicio</string>
+			<key>longitude</key>
+			<string>-0.9236705638337569</string>
+			<key>latitude</key>
+			<string>41.633403262886276</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Zoilo Ríos S.A.</string>
+			<key>longitude</key>
+			<string>-0.9256168984836076</string>
+			<key>latitude</key>
+			<string>41.66050151105904</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Cedipsa</string>
+			<key>longitude</key>
+			<string>-0.8696980073993446</string>
+			<key>latitude</key>
+			<string>41.65409760562008</string>
+		</dict>
+	</array>
+</dict>
+</plist>

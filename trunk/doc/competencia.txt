@@ -1,0 +1,40 @@
+Competencia
+
+
+DnDzgz
+
+Ofrece:
+- Bus
+- Bizi
+- Tranvia
+- Recarga tarjeta ciudadana
+- Farmacias
+- Gasolineras
+- Taxi
+- Parking
+- Wifi
+
+- Favoritos
+
+
+InfoZaragoza
+
+Ofrece:
+- Alojamientos
+- Bizi
+- Bus
+- Centros de salud
+- Gasolineras
+- Farmacias
+- Monumentos
+- Parking
+- Servicios Sociales
+- Wifi
+
+
+
+Que me falta:
+* - Tranvia
+* - Wifi
+* - Alojamientos
+* - Servicios sociales

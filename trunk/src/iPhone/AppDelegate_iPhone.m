@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate_iPhone.h"
+#import "MapViewController.h"
 
 @implementation AppDelegate_iPhone
 
@@ -21,6 +22,17 @@
     
     // Override point for customization after application launch.
 
+	id hasActivated = [[NSUserDefaults standardUserDefaults] objectForKey:@"configuration"];
+	if (hasActivated == nil) {
+		NSString *path = [[NSBundle mainBundle] pathForResource:
+						  @"initial_configuration" ofType:@"plist"];
+		
+		NSMutableDictionary* plist = [NSMutableDictionary dictionaryWithContentsOfFile:path];
+
+		
+		[[NSUserDefaults standardUserDefaults] setObject:plist forKey:@"configuration"];
+	}
+	
 
     [self.window addSubview:controller.view];
     [self.window makeKeyAndVisible];
@@ -49,6 +61,10 @@
     /*
      Called as part of  transition from the background to the inactive state: here you can undo many of the changes made on entering the background.
      */
+	if([self.controller.topViewController isKindOfClass:[MapViewController class]]) {
+		MapViewController* cont = (MapViewController*)self.controller.topViewController;
+		[cont applicationWillEnterForeground];
+	}
 }
 
 
