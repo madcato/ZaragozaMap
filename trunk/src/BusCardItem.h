@@ -12,16 +12,16 @@
 @interface BusCardItem : NSObject <MKAnnotation> {
 	double latitude;
     double longitude;
-	NSString* name;
-	NSString* address;
+	NSString* title;
+	NSString* subtitle;
 	
 	CLLocationCoordinate2D coordinate;
 }
 
 @property (nonatomic, assign) double latitude;
 @property (nonatomic, assign) double longitude;
-@property (nonatomic, retain) NSString* name;
-@property (nonatomic, retain) NSString* address;
+@property (nonatomic, retain) NSString* title;
+@property (nonatomic, retain) NSString* subtitle;
 
 @property (nonatomic, readonly) CLLocationCoordinate2D coordinate;
 

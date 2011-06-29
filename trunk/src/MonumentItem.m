@@ -12,7 +12,7 @@
 @implementation MonumentItem
 
 @synthesize longitude, latitude;
-@synthesize name;
+@synthesize title;
 @synthesize url;
 
 - (CLLocationCoordinate2D)coordinate

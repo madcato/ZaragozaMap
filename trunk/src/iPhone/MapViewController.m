@@ -22,6 +22,7 @@
 #import "TurismItem.h"
 #import "BusCardItem.h"
 #import "FilterTableViewController.h"
+#import "WebViewController.h"
 
 
 @implementation MapViewController
@@ -32,6 +33,7 @@
 @synthesize request;
 @synthesize annotations;
 @synthesize configurationController;
+@synthesize bussStopController;
 
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 /*
@@ -68,6 +70,11 @@
 
 
 	
+	self.bussStopController = [[BusStopTableViewController alloc] initWithNibName:@"BusStopTableViewController" bundle:nil];
+
+//	bussStopController.delegate = self;
+	[self.view addSubview:bussStopController.view];
+	[bussStopController layoutSubView:NO];
 	
 	[map setShowsUserLocation:YES];
 
@@ -180,7 +187,7 @@
 		PharmaItem* place = [[PharmaItem alloc] init];
 		place.longitude = [[pharmacy objectForKey:@"longitude"] doubleValue];
 		place.latitude = [[pharmacy objectForKey:@"latitude"] doubleValue];
-		place.name = [pharmacy objectForKey:@"name"]; 
+		place.title = [pharmacy objectForKey:@"name"]; 
 		
 		[annotations addObject:place];
 		//[map addAnnotation:place];
@@ -205,7 +212,7 @@
 		ParkingItem* place = [[ParkingItem alloc] init];
 		place.longitude = [[pharmacy objectForKey:@"longitude"] doubleValue];
 		place.latitude = [[pharmacy objectForKey:@"latitude"] doubleValue];
-		place.name = [pharmacy objectForKey:@"name"]; 
+		place.title = [pharmacy objectForKey:@"name"]; 
 		
 		[annotations addObject:place];
 		//[map addAnnotation:place];
@@ -230,7 +237,7 @@
 		BusItem* place = [[BusItem alloc] init];
 		place.longitude = [[stop objectForKey:@"longitude"] doubleValue];
 		place.latitude = [[stop objectForKey:@"latitude"] doubleValue];
-		place.name = [stop objectForKey:@"name"]; 
+		place.title = [stop objectForKey:@"name"]; 
 		place.url = [stop objectForKey:@"url"]; 
 		
 		[annotations addObject:place];
@@ -257,7 +264,7 @@
 		TaxiItem* place = [[TaxiItem alloc] init];
 		place.longitude = [[taxi objectForKey:@"longitude"] doubleValue] - 0.0014; // Hay que restar 0.0014 en honor al dios del vino
 		place.latitude = [[taxi objectForKey:@"latitude"] doubleValue] - 0.0019; // Hay que restar 0.0019 en honor al dios de la cerveza
-		place.name = [taxi objectForKey:@"name"]; 
+		place.title = [taxi objectForKey:@"name"]; 
 		
 		[annotations addObject:place];
 		//[map addAnnotation:place];
@@ -282,7 +289,7 @@
 		PetrolItem* place = [[PetrolItem alloc] init];
 		place.longitude = [[petrol objectForKey:@"longitude"] doubleValue];
 		place.latitude = [[petrol objectForKey:@"latitude"] doubleValue];
-		place.name = [petrol objectForKey:@"name"]; 
+		place.title = [petrol objectForKey:@"name"]; 
 		
 		[annotations addObject:place];
 		//[map addAnnotation:place];
@@ -307,7 +314,7 @@
 		YouthItem* place = [[YouthItem alloc] init];
 		place.longitude = [[stop objectForKey:@"longitude"] doubleValue];
 		place.latitude = [[stop objectForKey:@"latitude"] doubleValue];
-		place.name = [stop objectForKey:@"name"]; 
+		place.title = [stop objectForKey:@"name"]; 
 		place.url = [stop objectForKey:@"url"]; 
 		
 		[annotations addObject:place];
@@ -334,7 +341,7 @@
 		HealthItem* place = [[HealthItem alloc] init];
 		place.longitude = [[health objectForKey:@"longitude"] doubleValue];
 		place.latitude = [[health objectForKey:@"latitude"] doubleValue];
-		place.name = [health objectForKey:@"name"]; 
+		place.title = [health objectForKey:@"name"]; 
 		
 		[annotations addObject:place];
 		//[map addAnnotation:place];
@@ -359,7 +366,7 @@
 		MonumentItem* place = [[MonumentItem alloc] init];
 		place.longitude = [[stop objectForKey:@"longitude"] doubleValue];
 		place.latitude = [[stop objectForKey:@"latitude"] doubleValue];
-		place.name = [stop objectForKey:@"name"]; 
+		place.title = [stop objectForKey:@"name"]; 
 		place.url = [stop objectForKey:@"url"]; 
 		
 		[annotations addObject:place];
@@ -384,7 +391,7 @@
 		TurismItem* place = [[TurismItem alloc] init];
 		place.longitude = [[stop objectForKey:@"longitude"] doubleValue];
 		place.latitude = [[stop objectForKey:@"latitude"] doubleValue];
-		place.name = [stop objectForKey:@"name"]; 
+		place.title = [stop objectForKey:@"name"]; 
 		place.url = [stop objectForKey:@"url"]; 
 		
 		[annotations addObject:place];
@@ -409,8 +416,8 @@
 		BusCardItem* place = [[BusCardItem alloc] init];
 		place.longitude = [[stop objectForKey:@"longitude"] doubleValue];
 		place.latitude = [[stop objectForKey:@"latitude"] doubleValue];
-		place.name = [stop objectForKey:@"name"]; 
-		place.address = [stop objectForKey:@"address"]; 
+		place.title = [stop objectForKey:@"name"]; 
+		place.subtitle = [stop objectForKey:@"address"]; 
 		
 		[annotations addObject:place];
 		//[map addAnnotation:place];
@@ -610,7 +617,7 @@
 	}
 	
 	if([annotation isKindOfClass:[PetrolItem class]]) {
-		static NSString *AnnotationViewID6 = @"taxiannotationViewID";
+		static NSString *AnnotationViewID6 = @"petrolannotationViewID";
 		MapAnnotationView *annotationView =
 		(MapAnnotationView *)[m dequeueReusableAnnotationViewWithIdentifier:AnnotationViewID6];
 		if (annotationView == nil)
@@ -624,7 +631,7 @@
 	}
 
 	if([annotation isKindOfClass:[YouthItem class]]) {
-		static NSString *AnnotationViewID7 = @"taxiannotationViewID";
+		static NSString *AnnotationViewID7 = @"youthannotationViewID";
 		MapAnnotationView *annotationView =
 		(MapAnnotationView *)[m dequeueReusableAnnotationViewWithIdentifier:AnnotationViewID7];
 		if (annotationView == nil)
@@ -638,7 +645,7 @@
 	}
 	
 	if([annotation isKindOfClass:[HealthItem class]]) {
-		static NSString *AnnotationViewID8 = @"parkingannotationViewID";
+		static NSString *AnnotationViewID8 = @"healthannotationViewID";
 		MapAnnotationView *annotationView =
 		(MapAnnotationView *)[m dequeueReusableAnnotationViewWithIdentifier:AnnotationViewID8];
 		if (annotationView == nil)
@@ -652,7 +659,7 @@
 	}
 
 	if([annotation isKindOfClass:[MonumentItem class]]) {
-		static NSString *AnnotationViewID9 = @"parkingannotationViewID";
+		static NSString *AnnotationViewID9 = @"monumentannotationViewID";
 		MapAnnotationView *annotationView =
 		(MapAnnotationView *)[m dequeueReusableAnnotationViewWithIdentifier:AnnotationViewID9];
 		if (annotationView == nil)
@@ -666,7 +673,7 @@
 	}
 	
 	if([annotation isKindOfClass:[TurismItem class]]) {
-		static NSString *AnnotationViewID10 = @"parkingannotationViewID";
+		static NSString *AnnotationViewID10 = @"turismannotationViewID";
 		MapAnnotationView *annotationView =
 		(MapAnnotationView *)[m dequeueReusableAnnotationViewWithIdentifier:AnnotationViewID10];
 		if (annotationView == nil)
@@ -779,6 +786,24 @@ NSLog(@"Location Change: %f, %f",newLocation.coordinate.latitude,newLocation.coo
 
 -(void)biziStationTouched:(id<MKAnnotation>)station {
 	[infoView biziStationTouched:station];
+	[bussStopController layoutSubView:NO];
+}
+
+-(void)placeholderTouched:(id<MKAnnotation>)placeholder {
+	[infoView layoutSubView:NO];
+	[bussStopController layoutSubView:NO];
+	
+	WebViewController* controller = [[WebViewController alloc] initWithNibName:@"WebViewController" bundle:nil];
+	controller.url = [placeholder url];
+	
+	[self.navigationController pushViewController:controller animated:YES];
+	
+	[controller release];
+}
+
+-(void)busStopTouched:(id<MKAnnotation>)busStop {
+	[infoView layoutSubView:NO];
+	[bussStopController busStopTouched:busStop];
 }
 
 - (NSArray *)removedItemsForMapRegion:(MKCoordinateRegion)region forArray:(NSArray*)array

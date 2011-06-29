@@ -26,4 +26,5 @@
 
 - (id)initWithAnnotation:(id <MKAnnotation>)annotation reuseIdentifier:(NSString *)reuseIdentifier  withDelegate:(id<MapManagementProtocol>) dele;
 
+-(void)buttonTouched;
 @end

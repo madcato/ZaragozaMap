@@ -12,7 +12,7 @@
 @implementation TaxiItem
 
 @synthesize longitude, latitude;
-@synthesize name;
+@synthesize title;
 
 - (CLLocationCoordinate2D)coordinate
 {

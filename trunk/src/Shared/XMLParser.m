@@ -105,6 +105,6 @@
 }
 
 - (void)parser:(NSXMLParser *)parser parseErrorOccurred:(NSError *)parseError {
-	NSLog(@"Error processing XML: %@",parseError.description);
+	NSLog(@"Error processing XML: %@",parseError.localizedDescription);
 }
 @end

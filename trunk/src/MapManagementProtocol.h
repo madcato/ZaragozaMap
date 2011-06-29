@@ -12,5 +12,7 @@
 @protocol MapManagementProtocol
 
 -(void)biziStationTouched:(id<MKAnnotation>)station;
+-(void)placeholderTouched:(id<MKAnnotation>)placeholder;
+-(void)busStopTouched:(id<MKAnnotation>)busStop;
 
 @end

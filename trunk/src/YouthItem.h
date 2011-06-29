@@ -12,7 +12,7 @@
 @interface YouthItem : NSObject <MKAnnotation> {
 	double latitude;
     double longitude;
-	NSString* name;
+	NSString* title;
 	NSString* url;
 	
 	CLLocationCoordinate2D coordinate;
@@ -20,7 +20,7 @@
 
 @property (nonatomic, assign) double latitude;
 @property (nonatomic, assign) double longitude;
-@property (nonatomic, retain) NSString* name;
+@property (nonatomic, retain) NSString* title;
 @property (nonatomic, retain) NSString* url;
 
 @property (nonatomic, readonly) CLLocationCoordinate2D coordinate;

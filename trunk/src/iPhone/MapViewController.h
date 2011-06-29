@@ -10,6 +10,7 @@
 #import "WebRequestXML.h"
 #import "BiZiViewController.h"
 #import "ConfigurationViewController.h"
+#import "BusStopTableViewController.h"
 
 
 @interface MapViewController : UIViewController <CLLocationManagerDelegate, MapManagementProtocol, MKMapViewDelegate, WebRequestXMLDelegate, ConfigurationDelegate> {
@@ -28,7 +29,7 @@
 	
 
 	ConfigurationViewController* configurationController;
-
+	BusStopTableViewController* bussStopController;
 
 }
 
@@ -38,6 +39,7 @@
 @property (nonatomic,retain) CLLocationManager* locationManager;
 @property (nonatomic,retain) WebRequestXML* request;
 @property (nonatomic,retain) ConfigurationViewController* configurationController;
+@property (nonatomic,retain) BusStopTableViewController* bussStopController;
 
 - (void)showHelpView;
 - (void)hideHelpView;

@@ -33,7 +33,7 @@
 
 	viewActive = NO;
 	
-	self.view.frame = CGRectMake(282, 378, self.view.frame.size.width, self.view.frame.size.height);
+	self.view.frame = CGRectMake(283, 379, self.view.frame.size.width, self.view.frame.size.height);
 
 	CGColorSpaceRef space = CGColorSpaceCreateDeviceRGB();
 	CGFloat components[4] = {0, 0, 0, 1};
@@ -44,6 +44,11 @@
 	self.blackView.layer.shadowOpacity = 1.0;
 	self.blackView.layer.shadowRadius = 5.0;
 	
+	CGColorSpaceRef space2 = CGColorSpaceCreateDeviceRGB();
+	CGFloat components2[4] = {1, 1, 1, 1};
+	CGColorRef almostWhite = CGColorCreate(space2,components2);
+	self.view.layer.borderColor = almostWhite;
+	self.view.layer.borderWidth = 1.0;
 	
 }
 
@@ -99,8 +104,8 @@
     // This layout is for an ad at the bottom of the view.
     if (show)
     {
-		origin.x = contentFrame.size.width - viewWidth;
-		origin.y = contentFrame.size.height - viewHeight;
+		origin.x = contentFrame.size.width - viewWidth + 1;
+		origin.y = contentFrame.size.height - viewHeight + 1;
     }
     else
     {

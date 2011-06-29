@@ -30,15 +30,25 @@ static inline double radians(double degrees) { return degrees * M_PI / 180; }
         self.centerOffset = CGPointMake(0.0, -22.0);//CGPointMake(30.0, 42.0);
 		
 		
+		self.canShowCallout = YES;
+		
+		if([annotation respondsToSelector:@selector(url)]) {
+			UIButton* button = [UIButton buttonWithType:UIButtonTypeDetailDisclosure];
+			[button addTarget:self action:@selector(buttonTouched) forControlEvents:UIControlEventTouchUpInside];
+		
+			self.rightCalloutAccessoryView = button;
+		}
+		
+		
 		// Tap management
 		
-		UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTap:)];
+/*		UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(handleTap:)];
 		[tapGesture setNumberOfTouchesRequired:1];
 		[tapGesture setNumberOfTapsRequired:1];
 		[tapGesture setDelegate:self];
 		[self addGestureRecognizer:tapGesture];
 		[tapGesture release];
-    }
+  */  }
     return self;
 }
 
@@ -46,6 +56,7 @@ static inline double radians(double degrees) { return degrees * M_PI / 180; }
 	[imageName release];
 	[super dealloc];
 }
+
 - (void)setAnnotation:(id <MKAnnotation>)annotation
 {
     [super setAnnotation:annotation];
@@ -120,6 +131,13 @@ static inline double radians(double degrees) { return degrees * M_PI / 180; }
 #pragma mark -
 #pragma mark Tap Gesture
 
+-(void)buttonTouched {
+	if(delegate != nil) {
+		[delegate placeholderTouched:self.annotation];
+	}
+}
+
+/*
 - (void)handleTap:(UITapGestureRecognizer *)sender {     
 	
 
@@ -136,11 +154,11 @@ static inline double radians(double degrees) { return degrees * M_PI / 180; }
 
 		
 		if(delegate != nil) {
-			[delegate biziStationTouched:self.annotation];
+			[delegate placeholderTouched:self.annotation];
 		}
 	} 
 	
 
 }
-	
+*/	
 @end

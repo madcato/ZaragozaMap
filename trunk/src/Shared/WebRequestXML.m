@@ -140,7 +140,7 @@
 
 - (void)connection:(NSURLConnection *)connection didFailWithError:(NSError *)error {
 	//	signText.text = [NSString stringWithFormat:@"Connection failed: %@", [error description]];
-	errorDescription = [NSString stringWithFormat:@"Connection failed: %@", [error description]];
+	errorDescription = [NSString stringWithFormat:@"Connection failed: %@", [error localizedDescription]];
 	[self handleError:error];
 	
 	[receiver requestDidFinishWithError:error];

@@ -12,8 +12,8 @@
 @implementation BusCardItem
 
 @synthesize longitude, latitude;
-@synthesize name;
-@synthesize address;
+@synthesize title;
+@synthesize subtitle;
 
 - (CLLocationCoordinate2D)coordinate
 {

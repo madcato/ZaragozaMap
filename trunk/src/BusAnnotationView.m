@@ -126,7 +126,7 @@ static inline double radians(double degrees) { return degrees * M_PI / 180; }
 
 		
 		if(delegate != nil) {
-			[delegate biziStationTouched:self.annotation];
+			[delegate busStopTouched:self.annotation];
 		}
 	} 
 	

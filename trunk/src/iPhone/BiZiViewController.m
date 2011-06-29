@@ -56,6 +56,13 @@
 	self.blackView.layer.shadowRadius = 5.0;
 	
 	
+	CGColorSpaceRef space2 = CGColorSpaceCreateDeviceRGB();
+	CGFloat components2[4] = {1, 1, 1, 1};
+	CGColorRef almostWhite = CGColorCreate(space2,components2);
+	self.view.layer.borderColor = almostWhite;
+	self.view.layer.borderWidth = 1.0;
+	
+	
 	self.refresh.enabled = NO;
 	self.refresh.hidden = YES;
 
@@ -116,8 +123,11 @@
 
 - (void)layoutSubView:(BOOL)show
 {
+	if(show == NO) {
+		[UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
+	}
 	
-	CGFloat animationDuration = 0.2f;
+	CGFloat animationDuration = 0.3f;
     // by default content consumes the entire view area
     CGRect contentFrame = self.view.bounds;
     // the banner still needs to be adjusted further, but this is a reasonable starting point
@@ -144,7 +154,7 @@
                      animations:^{
                          /*map.frame = contentFrame;
 						  [map layoutIfNeeded];*/
-                         self.view.frame = CGRectMake(infoSubOrigin.x, infoSubOrigin.y, self.view.frame.size.width, self.view.frame.size.height);
+                         self.view.frame = CGRectMake(infoSubOrigin.x -1, infoSubOrigin.y -1, self.view.frame.size.width, self.view.frame.size.height);
                      }];
 }
 
@@ -247,6 +257,11 @@
 	
 	
 	if([station isKindOfClass:[BiZiItem class]]) {
+		
+		bizi.text = @"";
+		nobizi.text = @"";
+		address.text = @"";
+		timedate.text = @"";
 		
 		lastStation = station;
 		
