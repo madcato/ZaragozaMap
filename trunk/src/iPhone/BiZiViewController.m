@@ -8,6 +8,7 @@
 
 #import "BiZiViewController.h"
 #import "BiZiItem.h"
+#import "FavouritesConfiguration.h"
 
 
 @implementation BiZiViewController
@@ -23,6 +24,7 @@
 @synthesize lastStation;
 @synthesize parent;
 @synthesize blackView;
+@synthesize favButton;
 
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 /*
@@ -98,6 +100,7 @@
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 	
+	self.favButton = nil;
 	self.refresh = nil;
 	self.progressIndicator = nil;
 	self.bizi = nil;
@@ -111,6 +114,7 @@
 - (void)dealloc {
     [super dealloc];
 	
+	[favButton release];
 	[blackView release];
 	[refresh release];
 	[progressIndicator release];
@@ -232,21 +236,36 @@
 
 -(IBAction)alertNoDockButton {
 	NSLog(@"Alert Empty configured");
-	alertEmpty = YES;
+	alertFull = YES;
 	alertStation = lastStation;
 	[self.locationManager startUpdatingLocation];
+	
+	[parent alertButtonTouchedNoDock];
 }
 
 -(IBAction)alertNoBiziButton {
 	NSLog(@"Alert Full configured");
-	alertFull = YES;
+	alertEmpty = YES;
 	alertStation = lastStation;
 	[self.locationManager startUpdatingLocation];
+	
+	[parent alertButtonTouchedNoBizi];
 }
 
 -(IBAction)runRefresh {
 	if(lastStation != nil) {
 		[self biziStationTouched:lastStation];
+	}
+}
+
+-(IBAction)favButtonTouched {
+	FavouritesConfiguration* config = [FavouritesConfiguration sharedInstance];
+	if([config included:[lastStation performSelector:@selector(idStation)] withType:TYPE_BUS]) {
+		[favButton setImage:[UIImage imageNamed:@"28-white-star.png"] forState:UIControlStateNormal];
+		[config remove:[lastStation performSelector:@selector(idStation)] withType:TYPE_BUS];
+	} else {
+		[favButton setImage:[UIImage imageNamed:@"28-star.png"] forState:UIControlStateNormal];
+		[config add:[lastStation performSelector:@selector(idStation)] withType:TYPE_BUS];
 	}
 }
 
@@ -257,6 +276,14 @@
 	
 	
 	if([station isKindOfClass:[BiZiItem class]]) {
+		
+		// Check favourite
+		FavouritesConfiguration* config = [FavouritesConfiguration sharedInstance];
+		if([config included:[station performSelector:@selector(idStation)] withType:TYPE_BIZI]) {
+			[favButton setImage:[UIImage imageNamed:@"28-star.png"] forState:UIControlStateNormal];
+		} else {
+			[favButton setImage:[UIImage imageNamed:@"28-white-star.png"] forState:UIControlStateNormal];
+		}
 		
 		bizi.text = @"";
 		nobizi.text = @"";

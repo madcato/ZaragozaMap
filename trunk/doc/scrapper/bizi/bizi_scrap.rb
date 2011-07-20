@@ -65,13 +65,13 @@ end
 
 #Net::HTTP.start(server) { |http|
 #  resp = http.get(web_file)
-#  if resp.code == "200"
-#  open("temp.html", "wb") { |file|
-#    file.write(resp.body)
-#   }
+ # if resp.code == "200"
+ # open("temp.html", "wb") { |file|
+ #   file.write(resp.body)
+ #  }
   parse()
-#  end
-#}
+#end
+# }
 
 
 puts '<?xml version="1.0" encoding="UTF-8"?>'

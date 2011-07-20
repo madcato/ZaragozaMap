@@ -1,19 +1,77 @@
 //
-//  ConfigurationViewController.m
+//  AlertViewController.m
 //  ZaragozaMap
 //
-//  Created by Daniel Vela on 6/28/11.
+//  Created by Daniel Vela on 6/30/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "ConfigurationViewController.h"
+#import "AlertViewController.h"
 
 
-@implementation ConfigurationViewController
+@implementation AlertViewController
 
 @synthesize parentView;
 @synthesize blackView;
-@synthesize delegate;
+
+-(IBAction)hornButtonTouched {
+	if (viewActive) {
+		[self layoutSubView:MODE_BUTTON];
+	} else {
+		[self layoutSubView:MODE_SHOW];
+	}
+
+
+}
+
+- (void)layoutSubView:(int)mode
+{
+	
+	CGFloat animationDuration = 0.2f;
+    // by default content consumes the entire view area
+    CGRect contentFrame = self.parentView.frame;
+    // the banner still needs to be adjusted further, but this is a reasonable starting point
+    // the y value will need to be adjusted by the banner height to get the final position
+	CGPoint origin = CGPointMake(0.0, 0.0); //CGRectGetMinX(contentFrame), CGRectGetMaxY(contentFrame));
+    CGFloat viewHeight = self.view.bounds.size.height;
+
+	
+	
+    // Depending on if the banner has been loaded, we adjust the content frame and banner location
+    // to accomodate the ad being on or off screen.
+    // This layout is for an ad at the bottom of the view.
+	switch (mode) {
+		case MODE_HIDE:{
+			origin.x = -self.view.frame.size.width;
+			origin.y = 480;
+			viewActive = NO;
+			break;
+		}
+		case MODE_SHOW:{
+			origin.x = -1;
+			origin.y = contentFrame.size.height - viewHeight + 1;
+			viewActive = YES;
+			break;
+		}
+		case MODE_BUTTON:{
+			origin.x = -self.view.frame.size.width + 38;
+			origin.y = contentFrame.size.height - 38;
+			viewActive = NO;
+			break;
+		}
+		default:
+			break;
+	}
+	
+   
+    // And finally animate the changes, running layout for the content view if required.
+    [UIView animateWithDuration:animationDuration
+                     animations:^{
+                         /*map.frame = contentFrame;
+						  [map layoutIfNeeded];*/
+                         self.view.frame = CGRectMake(origin.x, origin.y, self.view.frame.size.width, self.view.frame.size.height);
+                     }];
+}
 
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 /*
@@ -33,7 +91,8 @@
 
 	viewActive = NO;
 	
-	self.view.frame = CGRectMake(283, 379, self.view.frame.size.width, self.view.frame.size.height);
+	self.view.frame = CGRectMake(-self.view.frame.size.width, 480, self.view.frame.size.width, self.view.frame.size.height);
+	
 
 	CGColorSpaceRef space = CGColorSpaceCreateDeviceRGB();
 	CGFloat components[4] = {0, 0, 0, 1};
@@ -82,57 +141,5 @@
     [super dealloc];
 }
 
-#pragma mark -
-#pragma mark View
-
-- (void)layoutSubView:(BOOL)show
-{
-	viewActive = show;
-	
-	CGFloat animationDuration = 0.2f;
-    // by default content consumes the entire view area
-    CGRect contentFrame = self.parentView.frame;
-    // the banner still needs to be adjusted further, but this is a reasonable starting point
-    // the y value will need to be adjusted by the banner height to get the final position
-	CGPoint origin = CGPointMake(0.0, 0.0); //CGRectGetMinX(contentFrame), CGRectGetMaxY(contentFrame));
-    CGFloat viewHeight = self.view.bounds.size.height;
-    CGFloat viewWidth = self.view.bounds.size.width;
-	
-	
-    // Depending on if the banner has been loaded, we adjust the content frame and banner location
-    // to accomodate the ad being on or off screen.
-    // This layout is for an ad at the bottom of the view.
-    if (show)
-    {
-		origin.x = contentFrame.size.width - viewWidth + 1;
-		origin.y = contentFrame.size.height - viewHeight + 1;
-    }
-    else
-    {
-		origin.x = contentFrame.size.width - 38;
-		origin.y = contentFrame.size.height - 38;
-    }
-    
-    // And finally animate the changes, running layout for the content view if required.
-    [UIView animateWithDuration:animationDuration
-                     animations:^{
-                         /*map.frame = contentFrame;
-						  [map layoutIfNeeded];*/
-                         self.view.frame = CGRectMake(origin.x, origin.y, self.view.frame.size.width, self.view.frame.size.height);
-                     }];
-}
-
-#pragma mark -
-#pragma mark Actions
-
--(IBAction)confButtonTouched {
-	[self layoutSubView:!viewActive];
-}
-
--(IBAction)filterButtonTouched {
-	[self.delegate presentFilter];
-	
-	
-}
 
 @end

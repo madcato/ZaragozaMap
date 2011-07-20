@@ -23,6 +23,7 @@
 	UIActivityIndicatorView* progressIndicator;
 	UIButton* refresh;
 	UIView* blackView;
+	UIButton* favButton;
 	
 	BOOL alertEmpty;
 	BOOL alertFull;
@@ -47,6 +48,7 @@
 @property (nonatomic,retain) IBOutlet UIActivityIndicatorView* progressIndicator;
 @property (nonatomic,retain) IBOutlet UIButton* refresh;
 @property (nonatomic,retain) IBOutlet UIView* blackView;
+@property (nonatomic, retain) IBOutlet UIButton* favButton;
 
 @property (nonatomic,retain) CLLocationManager* locationManager;
 @property (nonatomic,retain) WebRequestXML* request;
@@ -57,6 +59,7 @@
 
 -(IBAction)alertNoBiziButton;
 -(IBAction)alertNoDockButton;
+-(IBAction)favButtonTouched;
 
 -(void) generateNotificationNow:(NSString*)text;
 

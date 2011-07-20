@@ -11,6 +11,7 @@
 #import "BiZiViewController.h"
 #import "ConfigurationViewController.h"
 #import "BusStopTableViewController.h"
+#import "AlertViewController.h"
 
 
 @interface MapViewController : UIViewController <CLLocationManagerDelegate, MapManagementProtocol, MKMapViewDelegate, WebRequestXMLDelegate, ConfigurationDelegate> {
@@ -30,7 +31,9 @@
 
 	ConfigurationViewController* configurationController;
 	BusStopTableViewController* bussStopController;
-
+	AlertViewController* alertController; 
+	
+	UIBarButtonItem* locateButton;
 }
 
 @property (nonatomic,retain) NSMutableArray* annotations;
@@ -40,6 +43,8 @@
 @property (nonatomic,retain) WebRequestXML* request;
 @property (nonatomic,retain) ConfigurationViewController* configurationController;
 @property (nonatomic,retain) BusStopTableViewController* bussStopController;
+@property (nonatomic,retain) AlertViewController* alertController; 
+@property (nonatomic, retain) IBOutlet UIBarButtonItem* locateButton;
 
 - (void)showHelpView;
 - (void)hideHelpView;

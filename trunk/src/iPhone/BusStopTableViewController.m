@@ -7,6 +7,7 @@
 //
 
 #import "BusStopTableViewController.h"
+#import "FavouritesConfiguration.h"
 
 
 @implementation BusStopTableViewController
@@ -16,6 +17,8 @@
 @synthesize request;
 @synthesize tblCell;
 @synthesize data;
+@synthesize progressIndicator;
+@synthesize favButton;
 
 - (void)layoutSubView:(BOOL)show
 {
@@ -57,17 +60,37 @@
 
 -(void)busStopTouched:(id<MKAnnotation>)station {
 	
+	// Check favourite
+	FavouritesConfiguration* config = [FavouritesConfiguration sharedInstance];
+	if([config included:[station performSelector:@selector(url)] withType:TYPE_BUS]) {
+		[favButton setImage:[UIImage imageNamed:@"28-star.png"] forState:UIControlStateNormal];
+	} else {
+		[favButton setImage:[UIImage imageNamed:@"28-white-star.png"] forState:UIControlStateNormal];
+	}
+
+	
+	
+	lastStation = station;
+	
+	[self.progressIndicator startAnimating];
 	[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
 	
 	[self layoutSubView:YES];
 	
+	// Reinicio la tabla
+	data = [[BusResponse alloc] init];	
+	data.busEntries = [NSMutableArray arrayWithCapacity:0];
+	
+	[tableViewController reloadData];
+	
 	request = [[WebRequestTuzsa alloc] init];
 	
-	[request checkOut:[station url] withDelegate:self];
+	[request checkOut:[station performSelector:@selector(url)] withDelegate:self];
 }
 
 
 -(void)requestFinishedWithBus:(BusResponse*)response {
+	[self.progressIndicator stopAnimating];
 	[UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
 	self.data = response;
 	
@@ -75,11 +98,29 @@
 }
 
 -(void)requestDidFinishWithError:(NSError*)error {
-/*	[self.progressIndicator stopAnimating];
+/*	
 	self.refresh.hidden = YES;
 	self.refresh.enabled = NO;
 */
+	[self.progressIndicator stopAnimating];
 	[UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
+}
+
+
+-(IBAction)refreshButtonTouched {
+	
+	[self busStopTouched:lastStation];
+}
+
+-(IBAction)favButtonTouched {
+	FavouritesConfiguration* config = [FavouritesConfiguration sharedInstance];
+	if([config included:[lastStation performSelector:@selector(url)] withType:TYPE_BUS]) {
+		[favButton setImage:[UIImage imageNamed:@"28-white-star.png"] forState:UIControlStateNormal];
+		[config remove:[lastStation performSelector:@selector(url)] withType:TYPE_BUS];
+	} else {
+		[favButton setImage:[UIImage imageNamed:@"28-star.png"] forState:UIControlStateNormal];
+		[config add:[lastStation performSelector:@selector(url)] withType:TYPE_BUS];
+	}
 }
 
 #pragma mark -
@@ -271,16 +312,20 @@
 - (void)viewDidUnload {
     // Relinquish ownership of anything that can be recreated in viewDidLoad or on demand.
     // For example: self.myOutlet = nil;
-		
+	
+	self.favButton = nil;
 	self.tblCell = nil;
 	self.request = nil;
 	self.blackView = nil;
 	self.tableViewController = nil;
+	self.progressIndicator = nil;
 }
 
 
 - (void)dealloc {
 	
+	[favButton release];
+	[progressIndicator release];
 	[tblCell release];
 	[request release];
 	[blackView release];

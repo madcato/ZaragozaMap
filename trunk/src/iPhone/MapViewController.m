@@ -34,6 +34,8 @@
 @synthesize annotations;
 @synthesize configurationController;
 @synthesize bussStopController;
+@synthesize alertController;
+@synthesize locateButton; 
 
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 /*
@@ -70,11 +72,15 @@
 
 
 	
-	self.bussStopController = [[BusStopTableViewController alloc] initWithNibName:@"BusStopTableViewController" bundle:nil];
-
+	self.bussStopController = [[BusStopTableViewController alloc] initWithNibName:@"BusStopTableViewController" bundle:nil];	
 //	bussStopController.delegate = self;
 	[self.view addSubview:bussStopController.view];
 	[bussStopController layoutSubView:NO];
+	
+	alertController = [[AlertViewController alloc] initWithNibName:@"AlertViewController" bundle:nil];
+	alertController.parentView = self.view;
+	[self.view addSubview:alertController.view];
+	
 	
 	[map setShowsUserLocation:YES];
 
@@ -446,10 +452,11 @@
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
 	
+	self.locateButton = nil;
 	self.map = nil;
 	self.locationManager = nil;
 	stations_bizi = nil;
-	annotations = nil;
+	self.annotations = nil;
 	loadingView = nil;
 	self.configurationController = nil;
 }
@@ -457,6 +464,7 @@
 
 - (void)dealloc {
 
+	[locateButton release];
 	[configurationController release];
 	[loadingView release];
 	[annotations release];
@@ -503,7 +511,8 @@
 #pragma mark MkMapView delegate methods
 
 - (void)mapView:(MKMapView *)mapView didSelectAnnotationView:(MKAnnotationView *)view {
-	
+	[infoView layoutSubView:NO];
+	[bussStopController layoutSubView:NO];
 }
 
 - (void)mapView:(MKMapView *)mapView regionDidChangeAnimated:(BOOL)animated {
@@ -754,10 +763,20 @@
 
 	[self.locationManager startUpdatingLocation];
 	
+	UIActivityIndicatorView* activityIndicator = [[UIActivityIndicatorView alloc] initWithFrame:CGRectMake(0, 0, 20, 20)];
+	activityIndicator.tag = 123456;
+	[activityIndicator startAnimating];
+	UIBarButtonItem *activityItem = [[UIBarButtonItem alloc] initWithCustomView:activityIndicator];
+	[activityIndicator release];
+	self.navigationItem.rightBarButtonItem = activityItem;
+	[activityItem release];
+
+	
 }
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation
 {
+	self.navigationItem.rightBarButtonItem = locateButton;
 	if(self.navigationItem.rightBarButtonItem.enabled == YES) {
 		MKCoordinateRegion theRegion = map.region;
 		theRegion.center = newLocation.coordinate;
@@ -767,6 +786,7 @@
 	}
 	
 	[self.locationManager stopUpdatingLocation];
+
 
 
 	
@@ -784,6 +804,14 @@ NSLog(@"Location Change: %f, %f",newLocation.coordinate.latitude,newLocation.coo
 	
 }
 
+- (void)alertButtonTouchedNoDock {
+	[alertController layoutSubView:MODE_SHOW];
+}
+
+- (void)alertButtonTouchedNoBizi {
+	[alertController layoutSubView:MODE_SHOW];
+}
+
 -(void)biziStationTouched:(id<MKAnnotation>)station {
 	[infoView biziStationTouched:station];
 	[bussStopController layoutSubView:NO];
@@ -794,7 +822,7 @@ NSLog(@"Location Change: %f, %f",newLocation.coordinate.latitude,newLocation.coo
 	[bussStopController layoutSubView:NO];
 	
 	WebViewController* controller = [[WebViewController alloc] initWithNibName:@"WebViewController" bundle:nil];
-	controller.url = [placeholder url];
+	controller.url = [placeholder performSelector:@selector(url)];
 	
 	[self.navigationController pushViewController:controller animated:YES];
 	

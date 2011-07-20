@@ -23,17 +23,27 @@
 	TableViewCell *tblCell;
 	
 	BusResponse* data;
+	
+	UIActivityIndicatorView* progressIndicator;
+	
+	id<MKAnnotation> lastStation;
+	
+	UIButton* favButton;
 }
 
 @property (nonatomic, retain) IBOutlet TableViewCell *tblCell;
 @property (nonatomic,retain) IBOutlet UITableView* tableViewController;
 @property (nonatomic,retain) IBOutlet UIView* blackView;
-
+@property (nonatomic,retain) IBOutlet UIActivityIndicatorView* progressIndicator;
 @property (nonatomic, retain) WebRequestTuzsa* request;
 
 @property (nonatomic, retain) BusResponse* data;
+@property (nonatomic, retain) IBOutlet UIButton* favButton;
 
 - (void)layoutSubView:(BOOL)show;
 -(void)busStopTouched:(id<MKAnnotation>)station;
+
+-(IBAction)refreshButtonTouched;
+-(IBAction)favButtonTouched;
 
 @end
