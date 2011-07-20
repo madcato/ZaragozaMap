@@ -3,9 +3,59 @@
 <plist version="1.0">
 <dict>
 	<key>created_at</key>
-	<date>2011-05-23T17:31:14Z</date>
+	<date>2011-07-02T00:25:39Z</date>
 	<key>stations</key>
 	<array>
+  	<dict>
+			<key>longitude</key>
+			<string>-0.863471000000000000</string>
+			<key>latitude</key>
+			<string>41.649912000000000000</string>
+			<key>idStation</key>
+			<string>101</string>
+			<key>addressnew</key>
+			<string>RG9jdG9yIElyYW56byBjb24gRXNjdWx0b3IgQmVubGx1cmU=</string>
+		</dict>
+  	<dict>
+			<key>longitude</key>
+			<string>-0.877780000000000000</string>
+			<key>latitude</key>
+			<string>41.651242000000000000</string>
+			<key>idStation</key>
+			<string>102</string>
+			<key>addressnew</key>
+			<string>UGVkcm8gSm9hcXXtbiBTb2xlciBjb24gQ29zbw==</string>
+		</dict>
+  	<dict>
+			<key>longitude</key>
+			<string>-0.881661000000000000</string>
+			<key>latitude</key>
+			<string>41.644714000000000000</string>
+			<key>idStation</key>
+			<string>103</string>
+			<key>addressnew</key>
+			<string>Qy9MYWNhcnJhIGRlIE1pZ3VlbCBjb24gQy9TYW4gVmljZW50ZSBNYXJ0aXI=</string>
+		</dict>
+  	<dict>
+			<key>longitude</key>
+			<string>-0.889492000000000000</string>
+			<key>latitude</key>
+			<string>41.653496000000000000</string>
+			<key>idStation</key>
+			<string>104</string>
+			<key>addressnew</key>
+			<string>Qy8gTWFkcmUgUmFmb2xz</string>
+		</dict>
+  	<dict>
+			<key>longitude</key>
+			<string>-0.898417000000000000</string>
+			<key>latitude</key>
+			<string>41.637785000000000000</string>
+			<key>idStation</key>
+			<string>108</string>
+			<key>addressnew</key>
+			<string>UGxhemEgRW1wZXJhZG9yIENhcmxvcyBW</string>
+		</dict>
   	<dict>
 			<key>longitude</key>
 			<string>-0.914198000000000000</string>
@@ -15,6 +65,16 @@
 			<string>113</string>
 			<key>addressnew</key>
 			<string>VklBIEhJU1BBTklEQUQgQ09OIEdPTUVaIExBR1VOQQ==</string>
+		</dict>
+  	<dict>
+			<key>longitude</key>
+			<string>-0.917600000000000000</string>
+			<key>latitude</key>
+			<string>41.646900000000000000</string>
+			<key>idStation</key>
+			<string>115</string>
+			<key>addressnew</key>
+			<string>VmlhIGhpc3BhbmlkYWQgY29uIEMvT2NlYW5vIEF0bOFudGljbw==</string>
 		</dict>
   	<dict>
 			<key>longitude</key>
@@ -55,6 +115,36 @@
 			<string>121</string>
 			<key>addressnew</key>
 			<string>RURVQVJETyBJQkFSUkEgLSBDLyBWSU9MQU5URSBERSBIVU5HUklB</string>
+		</dict>
+  	<dict>
+			<key>longitude</key>
+			<string>-0.908900000000000000</string>
+			<key>latitude</key>
+			<string>41.649300000000000000</string>
+			<key>idStation</key>
+			<string>125</string>
+			<key>addressnew</key>
+			<string>Vu1hIFVuaXbpcnNpdGFzIGNvbiBDL0hlcm1hbm9zIEdhbWJyYQ==</string>
+		</dict>
+  	<dict>
+			<key>longitude</key>
+			<string>-0.908600000000000000</string>
+			<key>latitude</key>
+			<string>41.655500000000000000</string>
+			<key>idStation</key>
+			<string>127</string>
+			<key>addressnew</key>
+			<string>QXYuIE5hdmFycmEgY29uIEMvIFJpb2ph</string>
+		</dict>
+  	<dict>
+			<key>longitude</key>
+			<string>-0.902306000000000000</string>
+			<key>latitude</key>
+			<string>41.652585000000000000</string>
+			<key>idStation</key>
+			<string>129</string>
+			<key>addressnew</key>
+			<string>Qy8gR3JhdXMgY29uIEMvIFVuY2V0YQ==</string>
 		</dict>
   	<dict>
 			<key>longitude</key>
@@ -1138,6 +1228,36 @@
 		</dict>
   	<dict>
 			<key>longitude</key>
+			<string>-0.915700000000000000</string>
+			<key>latitude</key>
+			<string>41.643900000000000000</string>
+			<key>idStation</key>
+			<string>114</string>
+			<key>addressnew</key>
+			<string>VmlhIGhpc3BhbmlkYWQgY29uIER1cXVlc2EgVmlsbGFoZXJtb3Nh</string>
+		</dict>
+  	<dict>
+			<key>longitude</key>
+			<string>-0.912900000000000000</string>
+			<key>latitude</key>
+			<string>41.648900000000000000</string>
+			<key>idStation</key>
+			<string>116</string>
+			<key>addressnew</key>
+			<string>Qy8gQ2l1ZGFkZWxhIGNvbiBDL0FuZHLpcyBWaWNlbnRl</string>
+		</dict>
+  	<dict>
+			<key>longitude</key>
+			<string>-0.912200000000000000</string>
+			<key>latitude</key>
+			<string>41.644800000000000000</string>
+			<key>idStation</key>
+			<string>117</string>
+			<key>addressnew</key>
+			<string>RHVxdWVzYSBWaWxsYWhlcm1vc2EgY29uIEp1YW4gQ2FybG9zIEk=</string>
+		</dict>
+  	<dict>
+			<key>longitude</key>
 			<string>-0.907403000000000000</string>
 			<key>latitude</key>
 			<string>41.642759000000000000</string>
@@ -1155,6 +1275,36 @@
 			<string>123</string>
 			<key>addressnew</key>
 			<string>U0FOIEpVQU4gQk9TQ08gQ09OIEMgLyBMQSBNSUxBR1JPU0E=</string>
+		</dict>
+  	<dict>
+			<key>longitude</key>
+			<string>-0.908000000000000000</string>
+			<key>latitude</key>
+			<string>41.646400000000000000</string>
+			<key>idStation</key>
+			<string>124</string>
+			<key>addressnew</key>
+			<string>VmlhIFVuaXZlcnNpdGFzIGNvbiBEdXF1ZXNhIFZpbGxhaGVybW9zYQ==</string>
+		</dict>
+  	<dict>
+			<key>longitude</key>
+			<string>-0.911900000000000000</string>
+			<key>latitude</key>
+			<string>41.652600000000000000</string>
+			<key>idStation</key>
+			<string>126</string>
+			<key>addressnew</key>
+			<string>Qy9KdWxp4W4gU+FueiBJYuHxZXogY29uIEMvUmlvamE=</string>
+		</dict>
+  	<dict>
+			<key>longitude</key>
+			<string>-0.903250000000000000</string>
+			<key>latitude</key>
+			<string>41.650561000000000000</string>
+			<key>idStation</key>
+			<string>128</string>
+			<key>addressnew</key>
+			<string>Qy8gQm9saXZpYSBjb24gULogQ2FsYW5kYQ==</string>
 		</dict>
 	</array>
 </dict>

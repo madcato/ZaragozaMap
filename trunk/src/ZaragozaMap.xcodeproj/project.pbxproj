@@ -35,10 +35,17 @@
 		2024F74113BB790D0021FEE6 /* BusResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 2024F74013BB790D0021FEE6 /* BusResponse.m */; };
 		2024F7A013BB89C90021FEE6 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2024F79D13BB89C90021FEE6 /* TableViewCell.xib */; };
 		2024F7A113BB89C90021FEE6 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2024F79F13BB89C90021FEE6 /* TableViewCell.m */; };
+		2024F83413BC656C0021FEE6 /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2024F83213BC656C0021FEE6 /* AlertViewController.m */; };
+		2024F83513BC656C0021FEE6 /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2024F83313BC656C0021FEE6 /* AlertViewController.xib */; };
 		2026644513ADF78D00F1D8E4 /* bizi_color.png in Resources */ = {isa = PBXBuildFile; fileRef = 2026644113ADF78D00F1D8E4 /* bizi_color.png */; };
 		2026644613ADF78D00F1D8E4 /* bizi_color@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2026644213ADF78D00F1D8E4 /* bizi_color@2x.png */; };
 		2026644713ADF78D00F1D8E4 /* bizi_negra.png in Resources */ = {isa = PBXBuildFile; fileRef = 2026644313ADF78D00F1D8E4 /* bizi_negra.png */; };
 		2026644813ADF78D00F1D8E4 /* bizi_negra@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2026644413ADF78D00F1D8E4 /* bizi_negra@2x.png */; };
+		2041FBE813C1C1220053C4DF /* 28-white-star.png in Resources */ = {isa = PBXBuildFile; fileRef = 2041FBE613C1C1220053C4DF /* 28-white-star.png */; };
+		2041FBE913C1C1220053C4DF /* 28-white-star@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2041FBE713C1C1220053C4DF /* 28-white-star@2x.png */; };
+		2041FC0B13C1C7580053C4DF /* FavouritesConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 2041FC0A13C1C7580053C4DF /* FavouritesConfiguration.m */; };
+		204EE70313BC8043009A0903 /* 124-white-bullhorn.png in Resources */ = {isa = PBXBuildFile; fileRef = 204EE70113BC8043009A0903 /* 124-white-bullhorn.png */; };
+		204EE70413BC8043009A0903 /* 124-white-bullhorn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 204EE70213BC8043009A0903 /* 124-white-bullhorn@2x.png */; };
 		205AC8F6138B1C2C001E7655 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 205AC8F5138B1C2C001E7655 /* AddressBook.framework */; };
 		205EFA1E13B50201000F75CB /* BusAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 205EFA1D13B50201000F75CB /* BusAnnotationView.m */; };
 		2060A2D413B6321A0020FF5E /* taxis.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2060A2D313B6321A0020FF5E /* taxis.plist */; };
@@ -47,7 +54,6 @@
 		2060A2DF13B634AD0020FF5E /* TaxiItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2060A2DE13B634AD0020FF5E /* TaxiItem.m */; };
 		2080789513BB225700652B29 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2080789313BB225700652B29 /* WebViewController.m */; };
 		2080789613BB225700652B29 /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2080789413BB225700652B29 /* WebViewController.xib */; };
-		2080794A13BB65BC00652B29 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 2080794913BB65BC00652B29 /* background.png */; };
 		2080795A13BB6A3900652B29 /* BusStopTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2080795813BB6A3900652B29 /* BusStopTableViewController.m */; };
 		2080795B13BB6A3900652B29 /* BusStopTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2080795913BB6A3900652B29 /* BusStopTableViewController.xib */; };
 		2081BE1C13B48CA100C9F64D /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2081BE1A13B48CA100C9F64D /* arrow.png */; };
@@ -101,6 +107,8 @@
 		20E2D11213B73AF30081A7DD /* turismoffices.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20E2D11113B73AF30081A7DD /* turismoffices.plist */; };
 		20E2D11913B73D940081A7DD /* turismoffice.png in Resources */ = {isa = PBXBuildFile; fileRef = 20E2D11713B73D940081A7DD /* turismoffice.png */; };
 		20E2D11A13B73D940081A7DD /* turismoffice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 20E2D11813B73D940081A7DD /* turismoffice@2x.png */; };
+		20F7ABCC13C3577600B056A9 /* FavouritesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20F7ABCA13C3577600B056A9 /* FavouritesTableViewController.m */; };
+		20F7ABCD13C3577600B056A9 /* FavouritesTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20F7ABCB13C3577600B056A9 /* FavouritesTableViewController.xib */; };
 		20FC093413B9B9F2002661F1 /* ConfigurationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FC093213B9B9F2002661F1 /* ConfigurationViewController.m */; };
 		20FC093513B9B9F2002661F1 /* ConfigurationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20FC093313B9B9F2002661F1 /* ConfigurationViewController.xib */; };
 		20FC093A13B9BBCC002661F1 /* 19-gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 20FC093813B9BBCC002661F1 /* 19-gear.png */; };
@@ -157,10 +165,19 @@
 		2024F79D13BB89C90021FEE6 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = TableViewCell.xib; path = iPhone/TableViewCell.xib; sourceTree = "<group>"; };
 		2024F79E13BB89C90021FEE6 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
 		2024F79F13BB89C90021FEE6 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		2024F83113BC656C0021FEE6 /* AlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertViewController.h; sourceTree = "<group>"; };
+		2024F83213BC656C0021FEE6 /* AlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertViewController.m; sourceTree = "<group>"; };
+		2024F83313BC656C0021FEE6 /* AlertViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = AlertViewController.xib; path = iPhone/AlertViewController.xib; sourceTree = "<group>"; };
 		2026644113ADF78D00F1D8E4 /* bizi_color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bizi_color.png; path = images/bizi_color.png; sourceTree = "<group>"; };
 		2026644213ADF78D00F1D8E4 /* bizi_color@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bizi_color@2x.png"; path = "images/bizi_color@2x.png"; sourceTree = "<group>"; };
 		2026644313ADF78D00F1D8E4 /* bizi_negra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bizi_negra.png; path = images/bizi_negra.png; sourceTree = "<group>"; };
 		2026644413ADF78D00F1D8E4 /* bizi_negra@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bizi_negra@2x.png"; path = "images/bizi_negra@2x.png"; sourceTree = "<group>"; };
+		2041FBE613C1C1220053C4DF /* 28-white-star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "28-white-star.png"; path = "images/28-white-star.png"; sourceTree = "<group>"; };
+		2041FBE713C1C1220053C4DF /* 28-white-star@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "28-white-star@2x.png"; path = "images/28-white-star@2x.png"; sourceTree = "<group>"; };
+		2041FC0913C1C7580053C4DF /* FavouritesConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavouritesConfiguration.h; sourceTree = "<group>"; };
+		2041FC0A13C1C7580053C4DF /* FavouritesConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavouritesConfiguration.m; sourceTree = "<group>"; };
+		204EE70113BC8043009A0903 /* 124-white-bullhorn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "124-white-bullhorn.png"; path = "images/124-white-bullhorn.png"; sourceTree = "<group>"; };
+		204EE70213BC8043009A0903 /* 124-white-bullhorn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "124-white-bullhorn@2x.png"; path = "images/124-white-bullhorn@2x.png"; sourceTree = "<group>"; };
 		205AC8F5138B1C2C001E7655 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		205EFA1C13B50201000F75CB /* BusAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusAnnotationView.h; sourceTree = "<group>"; };
 		205EFA1D13B50201000F75CB /* BusAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusAnnotationView.m; sourceTree = "<group>"; };
@@ -172,7 +189,6 @@
 		2080789213BB225700652B29 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		2080789313BB225700652B29 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		2080789413BB225700652B29 /* WebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = WebViewController.xib; path = iPhone/WebViewController.xib; sourceTree = "<group>"; };
-		2080794913BB65BC00652B29 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = images/background.png; sourceTree = "<group>"; };
 		2080795713BB6A3900652B29 /* BusStopTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusStopTableViewController.h; sourceTree = "<group>"; };
 		2080795813BB6A3900652B29 /* BusStopTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusStopTableViewController.m; sourceTree = "<group>"; };
 		2080795913BB6A3900652B29 /* BusStopTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = BusStopTableViewController.xib; path = iPhone/BusStopTableViewController.xib; sourceTree = "<group>"; };
@@ -237,6 +253,9 @@
 		20E2D11113B73AF30081A7DD /* turismoffices.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = turismoffices.plist; sourceTree = "<group>"; };
 		20E2D11713B73D940081A7DD /* turismoffice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = turismoffice.png; path = images/turismoffice.png; sourceTree = "<group>"; };
 		20E2D11813B73D940081A7DD /* turismoffice@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "turismoffice@2x.png"; path = "images/turismoffice@2x.png"; sourceTree = "<group>"; };
+		20F7ABC913C3577600B056A9 /* FavouritesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavouritesTableViewController.h; sourceTree = "<group>"; };
+		20F7ABCA13C3577600B056A9 /* FavouritesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavouritesTableViewController.m; sourceTree = "<group>"; };
+		20F7ABCB13C3577600B056A9 /* FavouritesTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FavouritesTableViewController.xib; path = iPhone/FavouritesTableViewController.xib; sourceTree = "<group>"; };
 		20FC093113B9B9F2002661F1 /* ConfigurationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurationViewController.h; sourceTree = "<group>"; };
 		20FC093213B9B9F2002661F1 /* ConfigurationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigurationViewController.m; sourceTree = "<group>"; };
 		20FC093313B9B9F2002661F1 /* ConfigurationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ConfigurationViewController.xib; path = iPhone/ConfigurationViewController.xib; sourceTree = "<group>"; };
@@ -288,6 +307,8 @@
 		2015D7201383A7440091A158 /* Xib */ = {
 			isa = PBXGroup;
 			children = (
+				20F7ABCB13C3577600B056A9 /* FavouritesTableViewController.xib */,
+				2024F83313BC656C0021FEE6 /* AlertViewController.xib */,
 				2024F79D13BB89C90021FEE6 /* TableViewCell.xib */,
 				2080795913BB6A3900652B29 /* BusStopTableViewController.xib */,
 				2080789413BB225700652B29 /* WebViewController.xib */,
@@ -303,7 +324,10 @@
 		2015D73B1383A90C0091A158 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				2080794913BB65BC00652B29 /* background.png */,
+				2041FBE613C1C1220053C4DF /* 28-white-star.png */,
+				2041FBE713C1C1220053C4DF /* 28-white-star@2x.png */,
+				204EE70113BC8043009A0903 /* 124-white-bullhorn.png */,
+				204EE70213BC8043009A0903 /* 124-white-bullhorn@2x.png */,
 				20D007A013BA404300BC2325 /* cardbus.png */,
 				20D007A113BA404300BC2325 /* cardbus@2x.png */,
 				20FC093813B9BBCC002661F1 /* 19-gear.png */,
@@ -469,6 +493,10 @@
 				2080795813BB6A3900652B29 /* BusStopTableViewController.m */,
 				2024F79E13BB89C90021FEE6 /* TableViewCell.h */,
 				2024F79F13BB89C90021FEE6 /* TableViewCell.m */,
+				2024F83113BC656C0021FEE6 /* AlertViewController.h */,
+				2024F83213BC656C0021FEE6 /* AlertViewController.m */,
+				20F7ABC913C3577600B056A9 /* FavouritesTableViewController.h */,
+				20F7ABCA13C3577600B056A9 /* FavouritesTableViewController.m */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -498,6 +526,8 @@
 				2015D73B1383A90C0091A158 /* Images */,
 				8D1107310486CEB800E47090 /* ZaragozaMap-Info.plist */,
 				20FC09D913B9D584002661F1 /* initial_configuration.plist */,
+				2041FC0913C1C7580053C4DF /* FavouritesConfiguration.h */,
+				2041FC0A13C1C7580053C4DF /* FavouritesConfiguration.m */,
 			);
 			name = Shared;
 			sourceTree = "<group>";
@@ -652,9 +682,14 @@
 				20D007A213BA404300BC2325 /* cardbus.png in Resources */,
 				20D007A313BA404300BC2325 /* cardbus@2x.png in Resources */,
 				2080789613BB225700652B29 /* WebViewController.xib in Resources */,
-				2080794A13BB65BC00652B29 /* background.png in Resources */,
 				2080795B13BB6A3900652B29 /* BusStopTableViewController.xib in Resources */,
 				2024F7A013BB89C90021FEE6 /* TableViewCell.xib in Resources */,
+				2024F83513BC656C0021FEE6 /* AlertViewController.xib in Resources */,
+				204EE70313BC8043009A0903 /* 124-white-bullhorn.png in Resources */,
+				204EE70413BC8043009A0903 /* 124-white-bullhorn@2x.png in Resources */,
+				2041FBE813C1C1220053C4DF /* 28-white-star.png in Resources */,
+				2041FBE913C1C1220053C4DF /* 28-white-star@2x.png in Resources */,
+				20F7ABCD13C3577600B056A9 /* FavouritesTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -696,6 +731,9 @@
 				2024F71913BB76640021FEE6 /* WebRequestTuzsa.m in Sources */,
 				2024F74113BB790D0021FEE6 /* BusResponse.m in Sources */,
 				2024F7A113BB89C90021FEE6 /* TableViewCell.m in Sources */,
+				2024F83413BC656C0021FEE6 /* AlertViewController.m in Sources */,
+				2041FC0B13C1C7580053C4DF /* FavouritesConfiguration.m in Sources */,
+				20F7ABCC13C3577600B056A9 /* FavouritesTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

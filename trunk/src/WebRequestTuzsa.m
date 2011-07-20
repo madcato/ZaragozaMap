@@ -17,9 +17,9 @@
 	delegate = object;
 	
 
-NSLog(@"URL: %@",url);
+//NSLog(@"URL: %@",url);
 	responseData = [[NSMutableData data] retain];
-	NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:url] cachePolicy:NSURLRequestReloadIgnoringCacheData timeoutInterval:60.0];
+	NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:url] cachePolicy:NSURLRequestReloadIgnoringCacheData timeoutInterval:10.0];
 	[[NSURLConnection alloc] initWithRequest:request delegate:self];
 	
 }

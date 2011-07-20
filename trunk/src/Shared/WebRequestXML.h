@@ -14,6 +14,8 @@
 @optional -(void)requestFinishedWithArray:(NSArray*)array;
 @optional -(void)requestDidFinishWithError:(NSError*)error;
 @optional -(void)requestFinishedWithBiZi:(BiZiResponse*)response;
+@optional -(void)alertButtonTouchedNoBizi;
+@optional -(void)alertButtonTouchedNoDock;
 @end
 
 
