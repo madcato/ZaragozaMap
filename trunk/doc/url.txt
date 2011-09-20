@@ -53,3 +53,6 @@ http://www.zaragoza.es/georref/json/hilo/ver_Wifi?srsname=wgs84
 *Alojamientos
  
 * Servicios sociales
+
+Ibercaja y mas 
+http://www.todo-poi.es/descargas/poieditGOOGLE/Ibercaja.kml
