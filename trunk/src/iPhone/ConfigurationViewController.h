@@ -18,7 +18,11 @@
 	BOOL viewActive;
 	
 	id<ConfigurationDelegate> delegate;
+    UIButton *marcadoresButton;
+    UIButton *informacionButton;
 }
+@property (nonatomic, retain) IBOutlet UIButton *marcadoresButton;
+@property (nonatomic, retain) IBOutlet UIButton *informacionButton;
 
 @property (nonatomic, assign) UIView* parentView;
 @property (nonatomic, retain) IBOutlet UIView* blackView;
@@ -26,7 +30,8 @@
 
 - (void)layoutSubView:(BOOL)show;
 
--(IBAction)confButtonTouched;
--(IBAction)filterButtonTouched;
+- (IBAction)confButtonTouched;
+- (IBAction)filterButtonTouched;
+- (IBAction)infoButtonTouched:(id)sender;
 
 @end

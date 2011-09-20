@@ -18,6 +18,7 @@
 + (FavouritesConfiguration*)sharedInstance;
 
 -(NSMutableArray*)listFavourites;
+-(NSMutableDictionary*)listFavouritesAds;
 -(void)add:(NSString*)data withType:(int)type;
 -(void)remove:(NSString*)data withType:(int)type;
 -(BOOL)included:(NSString*)data withType:(int)type;
@@ -25,5 +26,7 @@
 
 -(void)saveCustomObject:(NSMutableArray*)object forKey:(NSString*)key;
 -(NSMutableArray*)loadCustomObjectWithKey:(NSString*)key;
+-(void)saveCustomObject2:(NSMutableDictionary*)object forKey:(NSString*)key;
+-(NSMutableDictionary*)loadCustomObjectWithKey2:(NSString*)key;
 
 @end

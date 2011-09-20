@@ -14,4 +14,7 @@
 -(void)presentFilter;
 -(void)dismissFilter;
 
+-(void)presentInfo;
+-(void)dismissInfo;
+
 @end

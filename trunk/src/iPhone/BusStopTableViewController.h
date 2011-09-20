@@ -29,7 +29,9 @@
 	id<MKAnnotation> lastStation;
 	
 	UIButton* favButton;
+    UILabel *busStopName;
 }
+@property (nonatomic, retain) IBOutlet UILabel *busStopName;
 
 @property (nonatomic, retain) IBOutlet TableViewCell *tblCell;
 @property (nonatomic,retain) IBOutlet UITableView* tableViewController;

@@ -11,6 +11,8 @@
 
 @implementation ConfigurationViewController
 
+@synthesize marcadoresButton;
+@synthesize informacionButton;
 @synthesize parentView;
 @synthesize blackView;
 @synthesize delegate;
@@ -49,6 +51,14 @@
 	CGColorRef almostWhite = CGColorCreate(space2,components2);
 	self.view.layer.borderColor = almostWhite;
 	self.view.layer.borderWidth = 1.0;
+    
+    
+    UIImage *image = [UIImage imageNamed:@"redButton2.png"];
+    UIImage *newImage = [image stretchableImageWithLeftCapWidth:12.0 topCapHeight:0.0];
+    [informacionButton setBackgroundImage:newImage forState:UIControlStateNormal];
+    
+    [marcadoresButton setBackgroundImage:newImage forState:UIControlStateNormal];
+    
 	
 }
 
@@ -69,6 +79,8 @@
 }
 
 - (void)viewDidUnload {
+    [self setMarcadoresButton:nil];
+    [self setInformacionButton:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -79,6 +91,8 @@
 
 - (void)dealloc {
 	[blackView release];
+    [marcadoresButton release];
+    [informacionButton release];
     [super dealloc];
 }
 
@@ -133,6 +147,10 @@
 	[self.delegate presentFilter];
 	
 	
+}
+
+- (IBAction)infoButtonTouched:(id)sender {
+    [self.delegate presentInfo];
 }
 
 @end

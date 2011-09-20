@@ -22,6 +22,7 @@
 #import "TurismItem.h"
 #import "BusCardItem.h"
 #import "FilterTableViewController.h"
+#import "InfoViewController.h"
 #import "WebViewController.h"
 
 
@@ -77,9 +78,9 @@
 	[self.view addSubview:bussStopController.view];
 	[bussStopController layoutSubView:NO];
 	
-	alertController = [[AlertViewController alloc] initWithNibName:@"AlertViewController" bundle:nil];
-	alertController.parentView = self.view;
-	[self.view addSubview:alertController.view];
+//	alertController = [[AlertViewController alloc] initWithNibName:@"AlertViewController" bundle:nil];
+//	alertController.parentView = self.view;
+//	[self.view addSubview:alertController.view];
 	
 	
 	[map setShowsUserLocation:YES];
@@ -805,11 +806,11 @@ NSLog(@"Location Change: %f, %f",newLocation.coordinate.latitude,newLocation.coo
 }
 
 - (void)alertButtonTouchedNoDock {
-	[alertController layoutSubView:MODE_SHOW];
+//	[alertController layoutSubView:MODE_SHOW];
 }
 
 - (void)alertButtonTouchedNoBizi {
-	[alertController layoutSubView:MODE_SHOW];
+//	[alertController layoutSubView:MODE_SHOW];
 }
 
 -(void)biziStationTouched:(id<MKAnnotation>)station {
@@ -901,5 +902,18 @@ NSLog(@"Location Change: %f, %f",newLocation.coordinate.latitude,newLocation.coo
 	[self.map addAnnotations:items];
 
 }
+
+-(void)presentInfo {
+	InfoViewController* filterController = [[InfoViewController alloc] initWithNibName:@"InfoViewController" bundle:nil];
+	
+	[self.navigationController pushViewController:filterController animated:YES];
+	
+	[filterController release];
+}
+
+-(void)dismissInfo {
+	[self dismissFilter];    
+}
+
 
 @end

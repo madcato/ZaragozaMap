@@ -24,22 +24,43 @@ static FavouritesConfiguration *sharedInstance = nil;
 	return favs;	
 }
 
+-(NSMutableDictionary*)listFavouritesAds {
+	
+	NSMutableDictionary* favs = [self loadCustomObjectWithKey2:@"favouritesAds"];
+	
+	if(favs == nil) {
+		favs = [NSMutableDictionary dictionaryWithCapacity:0];
+		[self saveCustomObject2:favs forKey:@"favouritesAds"];
+	}
+	
+	return favs;	
+}
+
 -(void)add:(NSString*)data withType:(int)type {
 	
 	NSMutableArray* favs = [self listFavourites];
+	NSMutableDictionary* favsAds = [self listFavouritesAds];
 	
-	[favs addObject:[NSDictionary dictionaryWithObjectsAndKeys:data, @"data", [NSNumber numberWithInt:type], @"type", nil]];
+	NSDictionary* object = [NSDictionary dictionaryWithObjectsAndKeys:data, @"data", [NSNumber numberWithInt:type], @"type", nil];
+	[favs addObject:object];
+	[favsAds setObject:@"" forKey:object];
 	
 	[self saveCustomObject:favs forKey:@"favourites"];	
+	[self saveCustomObject2:favsAds forKey:@"favouritesAds"];	
 }
 
 -(void)remove:(NSString*)data withType:(int)type {
 	
 	NSMutableArray* favs = [self listFavourites];
+	NSMutableDictionary* favsAds = [self listFavouritesAds];
 	
-	[favs removeObject:[NSDictionary dictionaryWithObjectsAndKeys:data, @"data", [NSNumber numberWithInt:type], @"type", nil]];
+	NSDictionary* object = [NSDictionary dictionaryWithObjectsAndKeys:data, @"data", [NSNumber numberWithInt:type], @"type", nil];
+	
+	[favs removeObject:object];
+	[favs removeObject:object];
 	
 	[self saveCustomObject:favs forKey:@"favourites"];	
+	[self saveCustomObject2:favsAds forKey:@"favouritesAds"];
 }
 
 -(BOOL)included:(NSString*)data withType:(int)type {
@@ -66,6 +87,21 @@ static FavouritesConfiguration *sharedInstance = nil;
     return obj;
 }
 
+-(void)saveCustomObject2:(NSMutableDictionary*)object forKey:(NSString*)key
+{ 
+    NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
+    NSData *myEncodedObject = [NSKeyedArchiver archivedDataWithRootObject:object];
+    [prefs setObject:myEncodedObject forKey:key];
+	[[NSUserDefaults standardUserDefaults] synchronize];
+}
+
+-(NSMutableDictionary*)loadCustomObjectWithKey2:(NSString*)key
+{
+    NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
+    NSData *myEncodedObject = [prefs objectForKey:key ];
+    NSMutableDictionary *obj = (NSMutableDictionary *)[NSKeyedUnarchiver unarchiveObjectWithData: myEncodedObject];
+    return obj;
+}
 
 #pragma mark -
 #pragma mark Singleton methods

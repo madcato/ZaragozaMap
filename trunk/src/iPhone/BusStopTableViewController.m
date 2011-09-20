@@ -15,6 +15,7 @@
 @synthesize tableViewController;
 @synthesize blackView;
 @synthesize request;
+@synthesize busStopName;
 @synthesize tblCell;
 @synthesize data;
 @synthesize progressIndicator;
@@ -68,7 +69,8 @@
 		[favButton setImage:[UIImage imageNamed:@"28-white-star.png"] forState:UIControlStateNormal];
 	}
 
-	
+	NSString* name = [station performSelector:@selector(title)];
+    busStopName.text = name;
 	
 	lastStation = station;
 	
@@ -310,6 +312,7 @@
 }
 
 - (void)viewDidUnload {
+    [self setBusStopName:nil];
     // Relinquish ownership of anything that can be recreated in viewDidLoad or on demand.
     // For example: self.myOutlet = nil;
 	
@@ -330,6 +333,7 @@
 	[request release];
 	[blackView release];
 	[tableViewController release];
+    [busStopName release];
     [super dealloc];
 }
 
