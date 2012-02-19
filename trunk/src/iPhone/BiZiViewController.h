@@ -12,7 +12,7 @@
 #import "MapManagementProtocol.h"
 
 
-#define BIZI_URL @"http://www.bizizaragoza.com/CallWebService/StationBussinesStatus.php"
+#define BIZI_URL @"https://www.bizizaragoza.com/CallWebService/StationBussinesStatus.php"
 
 @interface BiZiViewController : UIViewController <CLLocationManagerDelegate, WebRequestXMLDelegate> {
 

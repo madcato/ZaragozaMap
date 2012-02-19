@@ -124,7 +124,9 @@ static inline double radians(double degrees) { return degrees * M_PI / 180; }
        
 		CGPathRef shadowPath = [UIBezierPath bezierPathWithArcCenter:CGPointMake(20, 20) radius:19 startAngle:0 endAngle:radians(360) clockwise:NO].CGPath;
 		self.layer.shadowPath = shadowPath;
-				
+        self.layer.shouldRasterize = YES;
+        
+        CFRelease(almostBlack);
     }
 }
 

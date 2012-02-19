@@ -49,6 +49,7 @@ http://www.tuzsa.es/tuzsa_frm_recarga.php
 
 * WIFI
 http://www.zaragoza.es/georref/json/hilo/ver_Wifi?srsname=wgs84
+http://www.zaragoza.es/ciudad/sectores/tecnologia/tecno/wifipuntos.htm
 
 *Alojamientos
  

@@ -56,7 +56,7 @@
 	self.blackView.layer.shadowOffset = CGSizeMake(0.0, 6.0);
 	self.blackView.layer.shadowOpacity = 1.0;
 	self.blackView.layer.shadowRadius = 5.0;
-	
+	self.blackView.layer.shouldRasterize = YES;
 	
 	CGColorSpaceRef space2 = CGColorSpaceCreateDeviceRGB();
 	CGFloat components2[4] = {1, 1, 1, 1};
@@ -77,6 +77,9 @@
 	self.locationManager.delegate = self; // Tells the location manager to send updates to this object
 	self.locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters;
 	self.locationManager.distanceFilter = 50; //kCLDistanceFilterNone;
+    
+    CFRelease(almostBlack);
+    CFRelease(almostWhite);
 }
 
 

@@ -136,7 +136,9 @@
        
 		CGPathRef shadowPath = [UIBezierPath bezierPathWithRoundedRect:CGRectMake(0, 0, 38, 38) cornerRadius:5].CGPath;
 		self.layer.shadowPath = shadowPath;
-				
+	
+        self.layer.shouldRasterize = YES;
+        CFRelease(almostBlack);
     }
 }
 

@@ -98,7 +98,7 @@
 	cell.imageView.image = [UIImage imageNamed:[object objectForKey:@"image"]];
 	cell.textLabel.shadowColor = [UIColor whiteColor];
 	cell.textLabel.shadowOffset = CGSizeMake(0.0, 0.5);
-	BOOL checked = [[object objectForKey:@"selected"] boolValue];
+    BOOL checked = [[object objectForKey:@"selected"] boolValue];
 	if(checked) {
 		cell.accessoryType = UITableViewCellAccessoryCheckmark;
 	} else {

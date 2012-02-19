@@ -102,6 +102,7 @@
 	self.blackView.layer.shadowOffset = CGSizeMake(-5.0, -5.0);
 	self.blackView.layer.shadowOpacity = 1.0;
 	self.blackView.layer.shadowRadius = 5.0;
+    self.blackView.layer.shouldRasterize = YES;
 	
 	CGColorSpaceRef space2 = CGColorSpaceCreateDeviceRGB();
 	CGFloat components2[4] = {1, 1, 1, 1};
@@ -109,6 +110,8 @@
 	self.view.layer.borderColor = almostWhite;
 	self.view.layer.borderWidth = 1.0;
 	
+    CFRelease(almostBlack);
+    CFRelease(almostWhite);
 }
 
 

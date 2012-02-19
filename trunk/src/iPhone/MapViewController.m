@@ -522,7 +522,7 @@
 	
 	MKCoordinateRegion region = mapView.region;
 	
-	if(region.span.latitudeDelta > 0.01) {
+	if(region.span.latitudeDelta > 0.02) {
 		
 		[mapView removeAnnotations:mapView.annotations];
 		annotationsRemoved = YES;
@@ -847,7 +847,7 @@ NSLog(@"Location Change: %f, %f",newLocation.coordinate.latitude,newLocation.coo
 	double longitudeStopd = region.center.longitude + region.span.longitudeDelta/1.8;
 	
 	for(id<MKAnnotation> annotation in array) {
-		[annotation retain];
+
 		CLLocationCoordinate2D coordinate = annotation.coordinate;
 		if((coordinate.latitude < latitudeStartd) || (coordinate.latitude > latitudeStopd) ||
 		   (coordinate.longitude < longitudeStartd) || (coordinate.longitude > longitudeStopd)) {

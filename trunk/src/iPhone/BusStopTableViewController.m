@@ -145,7 +145,7 @@
 	self.blackView.layer.shadowOffset = CGSizeMake(0.0, 6.0);
 	self.blackView.layer.shadowOpacity = 1.0;
 	self.blackView.layer.shadowRadius = 5.0;
-
+    self.blackView.layer.shouldRasterize = YES;
 	
 	self.view.frame = CGRectMake(0.0, -self.view.frame.size.height, self.view.frame.size.width, self.view.frame.size.height);
 	
@@ -160,6 +160,10 @@
 	data = [[BusResponse alloc] init];
 	
 	data.busEntries = [NSMutableArray arrayWithCapacity:0];
+    
+    
+    CFRelease(almostBlack);
+    CFRelease(almostWhite);
 }
 
 
