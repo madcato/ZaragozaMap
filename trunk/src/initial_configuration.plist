@@ -32,7 +32,7 @@
 	<key>busstops</key>
 	<dict>
 		<key>image</key>
-		<string>busstop.png</string>
+		<string>busstop2.png</string>
 		<key>selected</key>
 		<true/>
 		<key>name</key>
@@ -41,7 +41,7 @@
 	<key>stations_bizi</key>
 	<dict>
 		<key>image</key>
-		<string>estacion_bizi.png</string>
+		<string>bizi2.png</string>
 		<key>selected</key>
 		<true/>
 		<key>name</key>

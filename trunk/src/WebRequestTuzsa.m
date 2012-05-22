@@ -45,7 +45,17 @@
 	NSString *responseString = [[NSString alloc] initWithData:responseData encoding:NSISOLatin1StringEncoding];
 	[responseData release];
 
-	responseString = [responseString stringByReplacingOccurrencesOfString:@".css\">" withString:@".css\"></link>"];
+    NSError *error = NULL;
+    NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"<link .*>"
+                                                                           options:NSRegularExpressionCaseInsensitive
+                                                                             error:&error];
+    
+    NSRange range = NSRangeFromString(responseString);
+    range.location = 0;
+    range.length = [responseString length];
+    
+    responseString = [regex stringByReplacingMatchesInString:responseString options:0 range:range withTemplate:@""];
+	//responseString = [responseString stringByReplacingOccurrencesOfString:@".css\">" withString:@".css\"></link>"];
 	responseString = [responseString stringByReplacingOccurrencesOfString:@"</HTML>" withString:@"</html>"];
 	
 	

@@ -101,6 +101,8 @@
 	annotationsRemoved = YES;
 	
 	[self loadData];
+    
+
 }
 
 -(void)loadData {
@@ -519,7 +521,10 @@
 - (void)mapView:(MKMapView *)mapView regionDidChangeAnimated:(BOOL)animated {
 	// Si el zoom es poco, eliminamos las anotaciones y ponemos una vista gris translucida 
 	// para que el usuario haga zoom
-	
+    [infoView layoutSubView:NO];
+	[bussStopController layoutSubView:NO];
+
+    
 	MKCoordinateRegion region = mapView.region;
 	
 	if(region.span.latitudeDelta > 0.02) {
@@ -531,7 +536,6 @@
 		
 		[self showHelpView];
 	} else {
-		
 		if(annotationsRemoved == YES) {
 			NSArray *oldAnnotations = [self removedItemsForMapRegion:mapView.region forArray:mapView.annotations];
 			[mapView removeAnnotations:oldAnnotations];
@@ -862,11 +866,11 @@ NSLog(@"Location Change: %f, %f",newLocation.coordinate.latitude,newLocation.coo
     NSMutableArray *items = [NSMutableArray array];
 
 	
-	double latitudeStartd = region.center.latitude - region.span.latitudeDelta/1.8;
-	double latitudeStopd = region.center.latitude + region.span.latitudeDelta/1.8;
+	double latitudeStartd = region.center.latitude - region.span.latitudeDelta/1.4;
+	double latitudeStopd = region.center.latitude + region.span.latitudeDelta/1.4;
 
-	double longitudeStartd = region.center.longitude - region.span.longitudeDelta/1.8;
-	double longitudeStopd = region.center.longitude + region.span.longitudeDelta/1.8;
+	double longitudeStartd = region.center.longitude - region.span.longitudeDelta/1.4;
+	double longitudeStopd = region.center.longitude + region.span.longitudeDelta/1.4;
 
 	for(id<MKAnnotation> annotation in annotations) {
 		[annotation retain];

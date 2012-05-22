@@ -9,6 +9,7 @@
 #import "BiZiAnnotationView.h"
 #import "BiZiItem.h"
 
+static inline double radians(double degrees) { return degrees * M_PI / 180; }
 
 @implementation BiZiAnnotationView
 
@@ -20,13 +21,13 @@
     self = [super initWithAnnotation:annotation reuseIdentifier:reuseIdentifier];
     if (self != nil)
     {
-	    delegate = dele;
+        delegate = dele;
 		
         CGRect frame = self.frame;
         frame.size = CGSizeMake(38.0, 50.0);
         self.frame = frame;
         self.backgroundColor = [UIColor clearColor];
-		self.centerOffset = CGPointMake(0.0, -22.0);//CGPointMake(30.0, 42.0);
+        self.centerOffset = CGPointMake(0.0, -22.0);//CGPointMake(30.0, 42.0);
 		
 		
 		// Tap management
@@ -60,68 +61,40 @@
     if (biziItem != nil)
     {
 		
-		UIColor* color = [UIColor lightGrayColor];
-
-		
-	 CGContextRef context = UIGraphicsGetCurrentContext();
-	 CGContextSetLineWidth(context, 1);
+		UIColor* color = [UIColor whiteColor];
         
-        // draw the gray pointed shape:
+		
+        CGContextRef context = UIGraphicsGetCurrentContext();
+        CGContextSetLineWidth(context, 1);
+        
 		CGMutablePathRef path = CGPathCreateMutable();
         CGPathMoveToPoint(path, NULL, 16.0, 30.0);
         CGPathAddLineToPoint(path, NULL, 20.0, 47.0); 
         CGPathAddLineToPoint(path, NULL, 24.0, 30.0); 
         CGContextAddPath(context, path);
         CGContextSetFillColorWithColor(context, color.CGColor);
-        CGContextSetStrokeColorWithColor(context, [UIColor grayColor].CGColor);
-        CGContextDrawPath(context, kCGPathFillStroke);
-        CGPathRelease(path);   
-
-		
-        // draw the cyan rounded box
-       /* path = CGPathCreateMutable();
-        CGPathMoveToPoint(path, NULL, 15.0, 0.5 + dy);
-        CGPathAddArcToPoint(path, NULL, 69.5, 00.5, 69.5, 5.0, 5.0);
-        CGPathAddArcToPoint(path, NULL, 69.5, 59.5, 65.0, 59.5, 5.0);
-        CGPathAddArcToPoint(path, NULL, 10.5, 59.5, 10.5, 54.0, 5.0);
-        CGPathAddArcToPoint(path, NULL, 10.5, 00.5, 15.0, 0.5, 5.0);
-        CGContextAddPath(context, path);
-        CGContextSetFillColorWithColor(context, color.CGColor);
-        CGContextSetStrokeColorWithColor(context, [UIColor blackColor].CGColor);
+        CGContextSetStrokeColorWithColor(context, [UIColor lightGrayColor].CGColor);
         CGContextDrawPath(context, kCGPathFillStroke);
         CGPathRelease(path);
-        */
+        
 		
-
-		path = CGPathCreateMutable();
-        CGPathMoveToPoint(path, NULL, 4.5, 0.0);
-        CGPathAddArcToPoint(path, NULL, 38.0, 0.0, 38.0, 4.5, 5.0);
-        CGPathAddArcToPoint(path, NULL, 38.0, 38.0, 33.5, 38.0, 5.0);
-        CGPathAddArcToPoint(path, NULL, 0.0, 38.0, 0.0, 33.5, 5.0);
-        CGPathAddArcToPoint(path, NULL, 0.0, 0.0, 4.5, 0.0, 5.0);
-        CGContextAddPath(context, path);
-        CGContextSetFillColorWithColor(context, color.CGColor);
-        CGContextSetStrokeColorWithColor(context, [UIColor blackColor].CGColor);
-        CGContextDrawPath(context, kCGPathFillStroke);
-        CGPathRelease(path);
+		[[UIImage imageNamed:@"bizi2.png"] drawInRect:CGRectMake(3.0, 3.0, 35.0, 35.0)];
 		
-		[[UIImage imageNamed:@"estacion_bizi.png"] drawInRect:CGRectMake(3.0, 3.0, 32.0, 32.0)];
+        
 		
-
-		
-/*		[[UIImage imageNamed:@"red_cycle.png"] drawInRect:CGRectMake(24, 10.0, 30.0, 26.0)];
-		
-		[[UIImage imageNamed:@"black_cycle.png"] drawInRect:CGRectMake(24, 40.0, 30.0, 26.0)];
-
-		
-		NSString *label_bizi = [NSString stringWithFormat:@"%d", self.num_bizis];
-        [[UIColor blackColor] set];
-        [label_bizi drawInRect:CGRectMake(64.0, 10.0, 50.0, 40.0) withFont:[UIFont systemFontOfSize:24.0]];
-
-		NSString *label_hueco = [NSString stringWithFormat:@"%d", self.num_huecos];
-        [[UIColor blackColor] set];
-        [label_hueco drawInRect:CGRectMake(64.0, 40.0, 50.0, 40.0) withFont:[UIFont systemFontOfSize:24.0]];
-	*/	
+        /*		[[UIImage imageNamed:@"red_cycle.png"] drawInRect:CGRectMake(24, 10.0, 30.0, 26.0)];
+         
+         [[UIImage imageNamed:@"black_cycle.png"] drawInRect:CGRectMake(24, 40.0, 30.0, 26.0)];
+         
+         
+         NSString *label_bizi = [NSString stringWithFormat:@"%d", self.num_bizis];
+         [[UIColor blackColor] set];
+         [label_bizi drawInRect:CGRectMake(64.0, 10.0, 50.0, 40.0) withFont:[UIFont systemFontOfSize:24.0]];
+         
+         NSString *label_hueco = [NSString stringWithFormat:@"%d", self.num_huecos];
+         [[UIColor blackColor] set];
+         [label_hueco drawInRect:CGRectMake(64.0, 40.0, 50.0, 40.0) withFont:[UIFont systemFontOfSize:24.0]];
+         */	
 		
 		
 		self.layer.shadowOpacity = 0.50f;
@@ -132,12 +105,12 @@
 		CGColorRef almostBlack = CGColorCreate(space,components);
 		self.layer.shadowColor = almostBlack;
 		
-		self.layer.shadowOffset = CGSizeMake(0.0,1.0);
-       
-		CGPathRef shadowPath = [UIBezierPath bezierPathWithRoundedRect:CGRectMake(0, 0, 38, 38) cornerRadius:5].CGPath;
+		self.layer.shadowOffset = CGSizeMake(0.0,3.0);
+        
+		CGPathRef shadowPath = [UIBezierPath bezierPathWithArcCenter:CGPointMake(20, 20) radius:19 startAngle:0 endAngle:radians(360) clockwise:NO].CGPath;
 		self.layer.shadowPath = shadowPath;
-	
         self.layer.shouldRasterize = YES;
+        
         CFRelease(almostBlack);
     }
 }

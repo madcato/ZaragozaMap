@@ -116,11 +116,19 @@
 		20FC09DA13B9D584002661F1 /* initial_configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20FC09D913B9D584002661F1 /* initial_configuration.plist */; };
 		20FC09EB13B9D980002661F1 /* FilterTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FC09E913B9D980002661F1 /* FilterTableViewController.m */; };
 		20FC09EC13B9D980002661F1 /* FilterTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20FC09EA13B9D980002661F1 /* FilterTableViewController.xib */; };
+		27369A72156C1F68002FFFF5 /* libTestFlight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27369A6E156C1F68002FFFF5 /* libTestFlight.a */; };
+		27369A73156C1F68002FFFF5 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 27369A6F156C1F68002FFFF5 /* README.txt */; };
+		27369A74156C1F68002FFFF5 /* release_notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 27369A70156C1F68002FFFF5 /* release_notes.txt */; };
+		27369A77156C2086002FFFF5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 27369A76156C2086002FFFF5 /* libz.dylib */; };
 		2756A395142664050041695E /* redButton2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2756A394142664050041695E /* redButton2.png */; };
 		277DA412142672CB000C541C /* redRefresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 277DA410142672CB000C541C /* redRefresh.png */; };
 		277DA413142672CB000C541C /* redRefresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 277DA411142672CB000C541C /* redRefresh@2x.png */; };
 		278AFEAC1427AB0900C0D470 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 278AFEAA1427AB0900C0D470 /* InfoViewController.m */; };
 		278AFEAD1427AB0900C0D470 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 278AFEAB1427AB0900C0D470 /* InfoViewController.xib */; };
+		27A44B5B155F17B000693028 /* bizi2.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A44B57155F17B000693028 /* bizi2.png */; };
+		27A44B5C155F17B000693028 /* bizi2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A44B58155F17B000693028 /* bizi2@2x.png */; };
+		27A44B5D155F17B000693028 /* busstop2.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A44B59155F17B000693028 /* busstop2.png */; };
+		27A44B5E155F17B000693028 /* busstop2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27A44B5A155F17B000693028 /* busstop2@2x.png */; };
 		2860E328111B887F00E27156 /* AppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E326111B887F00E27156 /* AppDelegate_iPhone.m */; };
 		2860E329111B887F00E27156 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2860E327111B887F00E27156 /* MainWindow_iPhone.xib */; };
 		2860E32E111B888700E27156 /* AppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E32C111B888700E27156 /* AppDelegate_iPad.m */; };
@@ -271,12 +279,21 @@
 		20FC09E913B9D980002661F1 /* FilterTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterTableViewController.m; sourceTree = "<group>"; };
 		20FC09EA13B9D980002661F1 /* FilterTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FilterTableViewController.xib; path = iPhone/FilterTableViewController.xib; sourceTree = "<group>"; };
 		20FC0A6813B9E5DC002661F1 /* ConfigurationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigurationDelegate.h; sourceTree = "<group>"; };
+		27369A6E156C1F68002FFFF5 /* libTestFlight.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libTestFlight.a; sourceTree = "<group>"; };
+		27369A6F156C1F68002FFFF5 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		27369A70156C1F68002FFFF5 /* release_notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.txt; sourceTree = "<group>"; };
+		27369A71156C1F68002FFFF5 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
+		27369A76156C2086002FFFF5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		2756A394142664050041695E /* redButton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redButton2.png; path = images/redButton2.png; sourceTree = "<group>"; };
 		277DA410142672CB000C541C /* redRefresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redRefresh.png; path = images/redRefresh.png; sourceTree = "<group>"; };
 		277DA411142672CB000C541C /* redRefresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "redRefresh@2x.png"; path = "images/redRefresh@2x.png"; sourceTree = "<group>"; };
 		278AFEA91427AB0900C0D470 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
 		278AFEAA1427AB0900C0D470 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
 		278AFEAB1427AB0900C0D470 /* InfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = InfoViewController.xib; path = iPhone/InfoViewController.xib; sourceTree = "<group>"; };
+		27A44B57155F17B000693028 /* bizi2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bizi2.png; path = images/bizi2.png; sourceTree = "<group>"; };
+		27A44B58155F17B000693028 /* bizi2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bizi2@2x.png"; path = "images/bizi2@2x.png"; sourceTree = "<group>"; };
+		27A44B59155F17B000693028 /* busstop2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = busstop2.png; path = images/busstop2.png; sourceTree = "<group>"; };
+		27A44B5A155F17B000693028 /* busstop2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "busstop2@2x.png"; path = "images/busstop2@2x.png"; sourceTree = "<group>"; };
 		2860E325111B887F00E27156 /* AppDelegate_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate_iPhone.h; sourceTree = "<group>"; };
 		2860E326111B887F00E27156 /* AppDelegate_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate_iPhone.m; sourceTree = "<group>"; };
 		2860E327111B887F00E27156 /* MainWindow_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow_iPhone.xib; path = iPhone/MainWindow_iPhone.xib; sourceTree = "<group>"; };
@@ -294,6 +311,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27369A77156C2086002FFFF5 /* libz.dylib in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
@@ -301,6 +319,7 @@
 				2015D8001383B40C0091A158 /* CoreLocation.framework in Frameworks */,
 				205AC8F6138B1C2C001E7655 /* AddressBook.framework in Frameworks */,
 				20E12A51138BBCFC00D69E05 /* QuartzCore.framework in Frameworks */,
+				27369A72156C1F68002FFFF5 /* libTestFlight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +355,10 @@
 		2015D73B1383A90C0091A158 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				27A44B57155F17B000693028 /* bizi2.png */,
+				27A44B58155F17B000693028 /* bizi2@2x.png */,
+				27A44B59155F17B000693028 /* busstop2.png */,
+				27A44B5A155F17B000693028 /* busstop2@2x.png */,
 				277DA410142672CB000C541C /* redRefresh.png */,
 				277DA411142672CB000C541C /* redRefresh@2x.png */,
 				2756A394142664050041695E /* redButton2.png */,
@@ -489,6 +512,17 @@
 			name = Data;
 			sourceTree = "<group>";
 		};
+		27369A6D156C1F68002FFFF5 /* TestFlightSDK1 */ = {
+			isa = PBXGroup;
+			children = (
+				27369A6E156C1F68002FFFF5 /* libTestFlight.a */,
+				27369A6F156C1F68002FFFF5 /* README.txt */,
+				27369A70156C1F68002FFFF5 /* release_notes.txt */,
+				27369A71156C1F68002FFFF5 /* TestFlight.h */,
+			);
+			path = TestFlightSDK1;
+			sourceTree = "<group>";
+		};
 		2860E324111B887F00E27156 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
@@ -531,6 +565,7 @@
 		28EEBF621118D79A00187D67 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				27369A6D156C1F68002FFFF5 /* TestFlightSDK1 */,
 				205EFA2113B50238000F75CB /* Bizi */,
 				2024F70313BB75F70021FEE6 /* Bus */,
 				205EFA2213B50250000F75CB /* Data */,
@@ -552,6 +587,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				27369A76156C2086002FFFF5 /* libz.dylib */,
 				2860E32A111B888700E27156 /* iPad */,
 				2860E324111B887F00E27156 /* iPhone */,
 				28EEBF621118D79A00187D67 /* Shared */,
@@ -714,6 +750,12 @@
 				277DA412142672CB000C541C /* redRefresh.png in Resources */,
 				277DA413142672CB000C541C /* redRefresh@2x.png in Resources */,
 				278AFEAD1427AB0900C0D470 /* InfoViewController.xib in Resources */,
+				27A44B5B155F17B000693028 /* bizi2.png in Resources */,
+				27A44B5C155F17B000693028 /* bizi2@2x.png in Resources */,
+				27A44B5D155F17B000693028 /* busstop2.png in Resources */,
+				27A44B5E155F17B000693028 /* busstop2@2x.png in Resources */,
+				27369A73156C1F68002FFFF5 /* README.txt in Resources */,
+				27369A74156C1F68002FFFF5 /* release_notes.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -778,6 +820,10 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "ZaragozaMap-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TestFlightSDK1\"",
+				);
 				PRODUCT_NAME = ZgZmap;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -795,6 +841,10 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "ZaragozaMap-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/TestFlightSDK1\"",
+				);
 				PRODUCT_NAME = ZgZmap;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;

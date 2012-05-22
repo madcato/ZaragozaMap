@@ -20,8 +20,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
-    // Override point for customization after application launch.
-
+       
+    [TestFlight takeOff:@"de32004a041301b32a3dc8408c95611c_ODk2MDIwMTItMDUtMjIgMTU6MjM6MTcuODY3Nzcz"];
+    
 	id hasActivated = [[NSUserDefaults standardUserDefaults] objectForKey:@"configuration"];
 	if (hasActivated == nil) {
 		NSString *path = [[NSBundle mainBundle] pathForResource:

@@ -9,4 +9,5 @@
 	#import <CoreLocation/CoreLocation.h>
 	#import <AddressBook/AddressBook.h>
 	#import <QuartzCore/QuartzCore.h>
+    #import "TestFlight.h"
 #endif
