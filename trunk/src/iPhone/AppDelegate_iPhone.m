@@ -38,6 +38,8 @@
     [self.window addSubview:controller.view];
     [self.window makeKeyAndVisible];
     
+    [Mobclix startWithApplicationId:@"2E794FBA-EB32-4BEE-92AE-95B0C243075F"];
+
     return YES;
 }
 

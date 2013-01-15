@@ -10,4 +10,5 @@
 	#import <AddressBook/AddressBook.h>
 	#import <QuartzCore/QuartzCore.h>
     #import "TestFlight.h"
+    #import "Mobclix.h"
 #endif

@@ -143,10 +143,6 @@ static FavouritesConfiguration *sharedInstance = nil;
     return UINT_MAX;  // denotes an object that cannot be released
 }
 
-- (void)release {
-    //do nothing
-}
-
 - (id)autorelease {
     return self;
 }

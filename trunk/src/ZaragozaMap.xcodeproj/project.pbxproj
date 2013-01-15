@@ -120,6 +120,16 @@
 		27369A73156C1F68002FFFF5 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 27369A6F156C1F68002FFFF5 /* README.txt */; };
 		27369A74156C1F68002FFFF5 /* release_notes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 27369A70156C1F68002FFFF5 /* release_notes.txt */; };
 		27369A77156C2086002FFFF5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 27369A76156C2086002FFFF5 /* libz.dylib */; };
+		27369A81156C22F3002FFFF5 /* libMobclix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 27369A79156C22F3002FFFF5 /* libMobclix.a */; };
+		27369A83156C2321002FFFF5 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27369A82156C2321002FFFF5 /* AddressBookUI.framework */; };
+		27369A85156C2326002FFFF5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27369A84156C2326002FFFF5 /* AudioToolbox.framework */; };
+		27369A87156C232F002FFFF5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27369A86156C232F002FFFF5 /* AVFoundation.framework */; };
+		27369A89156C2337002FFFF5 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27369A88156C2337002FFFF5 /* CoreMotion.framework */; };
+		27369A8B156C233E002FFFF5 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27369A8A156C233E002FFFF5 /* EventKit.framework */; };
+		27369A8D156C2343002FFFF5 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27369A8C156C2343002FFFF5 /* MediaPlayer.framework */; };
+		27369A8F156C234B002FFFF5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27369A8E156C234B002FFFF5 /* MessageUI.framework */; };
+		27369A91156C235E002FFFF5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27369A90156C235E002FFFF5 /* SystemConfiguration.framework */; };
+		27369A93156C2CD9002FFFF5 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27369A92156C2CD9002FFFF5 /* iAd.framework */; };
 		2756A395142664050041695E /* redButton2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2756A394142664050041695E /* redButton2.png */; };
 		277DA412142672CB000C541C /* redRefresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 277DA410142672CB000C541C /* redRefresh.png */; };
 		277DA413142672CB000C541C /* redRefresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 277DA411142672CB000C541C /* redRefresh@2x.png */; };
@@ -284,6 +294,23 @@
 		27369A70156C1F68002FFFF5 /* release_notes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = release_notes.txt; sourceTree = "<group>"; };
 		27369A71156C1F68002FFFF5 /* TestFlight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFlight.h; sourceTree = "<group>"; };
 		27369A76156C2086002FFFF5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		27369A79156C22F3002FFFF5 /* libMobclix.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMobclix.a; sourceTree = "<group>"; };
+		27369A7A156C22F3002FFFF5 /* MCBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCBrowserViewController.h; sourceTree = "<group>"; };
+		27369A7B156C22F3002FFFF5 /* Mobclix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mobclix.h; sourceTree = "<group>"; };
+		27369A7C156C22F3002FFFF5 /* MobclixAds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobclixAds.h; sourceTree = "<group>"; };
+		27369A7D156C22F3002FFFF5 /* MobclixAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobclixAdView.h; sourceTree = "<group>"; };
+		27369A7E156C22F3002FFFF5 /* MobclixDemographics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobclixDemographics.h; sourceTree = "<group>"; };
+		27369A7F156C22F3002FFFF5 /* MobclixFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobclixFeedback.h; sourceTree = "<group>"; };
+		27369A80156C22F3002FFFF5 /* MobclixFullScreenAdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MobclixFullScreenAdViewController.h; sourceTree = "<group>"; };
+		27369A82156C2321002FFFF5 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		27369A84156C2326002FFFF5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		27369A86156C232F002FFFF5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		27369A88156C2337002FFFF5 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		27369A8A156C233E002FFFF5 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		27369A8C156C2343002FFFF5 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		27369A8E156C234B002FFFF5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		27369A90156C235E002FFFF5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		27369A92156C2CD9002FFFF5 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		2756A394142664050041695E /* redButton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redButton2.png; path = images/redButton2.png; sourceTree = "<group>"; };
 		277DA410142672CB000C541C /* redRefresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = redRefresh.png; path = images/redRefresh.png; sourceTree = "<group>"; };
 		277DA411142672CB000C541C /* redRefresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "redRefresh@2x.png"; path = "images/redRefresh@2x.png"; sourceTree = "<group>"; };
@@ -311,15 +338,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27369A93156C2CD9002FFFF5 /* iAd.framework in Frameworks */,
+				27369A91156C235E002FFFF5 /* SystemConfiguration.framework in Frameworks */,
+				20E12A51138BBCFC00D69E05 /* QuartzCore.framework in Frameworks */,
+				27369A8F156C234B002FFFF5 /* MessageUI.framework in Frameworks */,
+				27369A8D156C2343002FFFF5 /* MediaPlayer.framework in Frameworks */,
+				27369A8B156C233E002FFFF5 /* EventKit.framework in Frameworks */,
+				27369A89156C2337002FFFF5 /* CoreMotion.framework in Frameworks */,
+				27369A87156C232F002FFFF5 /* AVFoundation.framework in Frameworks */,
+				27369A85156C2326002FFFF5 /* AudioToolbox.framework in Frameworks */,
+				27369A83156C2321002FFFF5 /* AddressBookUI.framework in Frameworks */,
+				205AC8F6138B1C2C001E7655 /* AddressBook.framework in Frameworks */,
 				27369A77156C2086002FFFF5 /* libz.dylib in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				2015D7271383A7A80091A158 /* MapKit.framework in Frameworks */,
 				2015D8001383B40C0091A158 /* CoreLocation.framework in Frameworks */,
-				205AC8F6138B1C2C001E7655 /* AddressBook.framework in Frameworks */,
-				20E12A51138BBCFC00D69E05 /* QuartzCore.framework in Frameworks */,
 				27369A72156C1F68002FFFF5 /* libTestFlight.a in Frameworks */,
+				27369A81156C22F3002FFFF5 /* libMobclix.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +560,22 @@
 			path = TestFlightSDK1;
 			sourceTree = "<group>";
 		};
+		27369A78156C22F3002FFFF5 /* Mobclix SDK */ = {
+			isa = PBXGroup;
+			children = (
+				27369A79156C22F3002FFFF5 /* libMobclix.a */,
+				27369A7A156C22F3002FFFF5 /* MCBrowserViewController.h */,
+				27369A7B156C22F3002FFFF5 /* Mobclix.h */,
+				27369A7C156C22F3002FFFF5 /* MobclixAds.h */,
+				27369A7D156C22F3002FFFF5 /* MobclixAdView.h */,
+				27369A7E156C22F3002FFFF5 /* MobclixDemographics.h */,
+				27369A7F156C22F3002FFFF5 /* MobclixFeedback.h */,
+				27369A80156C22F3002FFFF5 /* MobclixFullScreenAdViewController.h */,
+			);
+			name = "Mobclix SDK";
+			path = "Mobclix SDK 5.0.1/Mobclix SDK";
+			sourceTree = "<group>";
+		};
 		2860E324111B887F00E27156 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
@@ -565,6 +618,7 @@
 		28EEBF621118D79A00187D67 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				27369A78156C22F3002FFFF5 /* Mobclix SDK */,
 				27369A6D156C1F68002FFFF5 /* TestFlightSDK1 */,
 				205EFA2113B50238000F75CB /* Bizi */,
 				2024F70313BB75F70021FEE6 /* Bus */,
@@ -587,7 +641,6 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				27369A76156C2086002FFFF5 /* libz.dylib */,
 				2860E32A111B888700E27156 /* iPad */,
 				2860E324111B887F00E27156 /* iPhone */,
 				28EEBF621118D79A00187D67 /* Shared */,
@@ -610,6 +663,16 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				27369A76156C2086002FFFF5 /* libz.dylib */,
+				27369A92156C2CD9002FFFF5 /* iAd.framework */,
+				27369A90156C235E002FFFF5 /* SystemConfiguration.framework */,
+				27369A8E156C234B002FFFF5 /* MessageUI.framework */,
+				27369A8C156C2343002FFFF5 /* MediaPlayer.framework */,
+				27369A8A156C233E002FFFF5 /* EventKit.framework */,
+				27369A88156C2337002FFFF5 /* CoreMotion.framework */,
+				27369A86156C232F002FFFF5 /* AVFoundation.framework */,
+				27369A84156C2326002FFFF5 /* AudioToolbox.framework */,
+				27369A82156C2321002FFFF5 /* AddressBookUI.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
@@ -647,7 +710,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0410;
+				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "ZaragozaMap" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -817,13 +880,15 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ZaragozaMap_Prefix.pch;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "ZaragozaMap-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/TestFlightSDK1\"",
+					"\"$(SRCROOT)/Mobclix SDK 5.0.1/Mobclix SDK\"",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ZgZmap;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -838,13 +903,15 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ZaragozaMap_Prefix.pch;
-				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "ZaragozaMap-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/TestFlightSDK1\"",
+					"\"$(SRCROOT)/Mobclix SDK 5.0.1/Mobclix SDK\"",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = ZgZmap;
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -872,13 +939,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Daniel Vela";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PRODUCT_NAME = ZgZmap;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D24AE157-203A-456F-8DD5-8C5A345C168E";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
