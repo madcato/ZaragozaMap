@@ -12,10 +12,9 @@
 #import "ConfigurationViewController.h"
 #import "BusStopTableViewController.h"
 #import "AlertViewController.h"
-#import "MobclixAds.h"
 
 
-@interface MapViewController : UIViewController <CLLocationManagerDelegate, MapManagementProtocol, MKMapViewDelegate, WebRequestXMLDelegate, ConfigurationDelegate, MobclixAdViewDelegate> {
+@interface MapViewController : UIViewController <CLLocationManagerDelegate, MapManagementProtocol, MKMapViewDelegate, WebRequestXMLDelegate, ConfigurationDelegate> {
 	MKMapView* map;
 	CLLocationManager *locationManager;
 
@@ -35,11 +34,8 @@
 	AlertViewController* alertController; 
 	
 	UIBarButtonItem* locateButton;
-    
-    MobclixAdView* adView;
 }
 
-@property(nonatomic,retain) IBOutlet MobclixAdView* adView;
 @property (nonatomic,retain) NSMutableArray* annotations;
 @property (nonatomic,retain) IBOutlet MKMapView* map;
 @property (nonatomic,retain) IBOutlet BiZiViewController* infoView;

@@ -51,11 +51,13 @@
 }
 
 - (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string {
-	
-	if(!currentElementValue)
-		currentElementValue = [[NSMutableString alloc] initWithString:string];
-	else
-		[currentElementValue appendString:string];
+	if(string == nil) string = @"";
+	if(!currentElementValue){
+        currentElementValue = [[NSMutableString alloc] initWithString:string];
+    } else {
+        [currentElementValue appendString:string];
+    }
+		
 	
 
 //NSLog(@"Processing Value: %@", currentElementValue);

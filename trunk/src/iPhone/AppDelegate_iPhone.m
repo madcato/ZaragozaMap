@@ -20,9 +20,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
-       
-    [TestFlight takeOff:@"de32004a041301b32a3dc8408c95611c_ODk2MDIwMTItMDUtMjIgMTU6MjM6MTcuODY3Nzcz"];
-    
 	id hasActivated = [[NSUserDefaults standardUserDefaults] objectForKey:@"configuration"];
 	if (hasActivated == nil) {
 		NSString *path = [[NSBundle mainBundle] pathForResource:
@@ -38,8 +35,6 @@
     [self.window addSubview:controller.view];
     [self.window makeKeyAndVisible];
     
-    [Mobclix startWithApplicationId:@"2E794FBA-EB32-4BEE-92AE-95B0C243075F"];
-
     return YES;
 }
 

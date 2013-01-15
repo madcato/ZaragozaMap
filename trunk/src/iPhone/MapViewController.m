@@ -37,7 +37,6 @@
 @synthesize bussStopController;
 @synthesize alertController;
 @synthesize locateButton; 
-@synthesize adView;
 
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 /*
@@ -106,13 +105,11 @@
 
 -(void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
-    
-    [self.adView resumeAdAutoRefresh];
+    [self.configurationController viewDidAppear:NO];
 }
 
 -(void)viewDidDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-	[self.adView pauseAdAutoRefresh];
 }
 
 -(void)loadData {
@@ -472,19 +469,9 @@
 	self.annotations = nil;
 	loadingView = nil;
 	self.configurationController = nil;
-
-    [self.adView cancelAd];
-	self.adView.delegate = nil;
-	self.adView = nil;
 }
 
-
 - (void)dealloc {
-
-    [self.adView cancelAd];
-	self.adView.delegate = nil;
-	self.adView = nil;
-	
 	[locateButton release];
 	[configurationController release];
 	[loadingView release];
@@ -532,16 +519,18 @@
 #pragma mark MkMapView delegate methods
 
 - (void)mapView:(MKMapView *)mapView didSelectAnnotationView:(MKAnnotationView *)view {
-	[infoView layoutSubView:NO];
-	[bussStopController layoutSubView:NO];
+    
+    if(![view isKindOfClass:[BiZiAnnotationView class]]) {
+        [infoView layoutSubView:NO];        
+    }
+    if(![view isKindOfClass:[BusAnnotationView class]]) {
+        [bussStopController layoutSubView:NO];
+    }
 }
 
 - (void)mapView:(MKMapView *)mapView regionDidChangeAnimated:(BOOL)animated {
 	// Si el zoom es poco, eliminamos las anotaciones y ponemos una vista gris translucida 
 	// para que el usuario haga zoom
-    [infoView layoutSubView:NO];
-	[bussStopController layoutSubView:NO];
-
     
 	MKCoordinateRegion region = mapView.region;
 	
@@ -935,32 +924,6 @@ NSLog(@"Location Change: %f, %f",newLocation.coordinate.latitude,newLocation.coo
 
 -(void)dismissInfo {
 	[self dismissFilter];    
-}
-
-
-#pragma mark - Mobclix delegate
-
-- (void)adViewDidFinishLoad:(MobclixAdView*)adView {
-	NSLog(@"Ad Loaded: %@.", NSStringFromCGSize(self.adView.frame.size));
-}
-
-- (void)adView:(MobclixAdView*)adView didFailLoadWithError:(NSError*)error {
-	NSLog(@"Ad Failed: %@.", NSStringFromCGSize(self.adView.frame.size));
-}
-
-- (void)adViewWillTouchThrough:(MobclixAdView*)adView {
-	NSLog(@"Ad Will Touch Through: %@.", NSStringFromCGSize(self.adView.frame.size));
-}
-
-- (void)adViewDidFinishTouchThrough:(MobclixAdView*)adView {
-	NSLog(@"Ad Did Finish Touch Through: %@.", NSStringFromCGSize(self.adView.frame.size));
-}
-
-
--(BOOL)adView:(MobclixAdView *)adView shouldHandleSuballocationRequest:(MCAdsSuballocationType)suballocationType {
-    if(suballocationType == kMCAdsSuballocationIAd) return YES;
-    
-    return NO;
 }
 
 @end

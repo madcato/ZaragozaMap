@@ -53,11 +53,16 @@
 }
 
 - (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string {
-	
-	if(!currentElementValue)
+	if(string == nil) {
+        string = @"";
+    }
+    
+    if(!currentElementValue){
+        
 		currentElementValue = [[NSMutableString alloc] initWithString:string];
-	else
-		[currentElementValue appendString:string];
+    } else {
+        [currentElementValue appendString:string];
+    }
 	
 	if(tables != 2) return;
 //NSLog(@"Processing Value: %@", currentElementValue);
@@ -70,6 +75,7 @@
 	NSString* elementValue = [currentElementValue copy];
 	[elementValue autorelease];
 	
+    if(elementValue ==nil) elementValue = @"";
 	[currentElementValue release];
 	currentElementValue = nil;
 	
@@ -85,7 +91,7 @@
 		} else {
 			if(busEntry.busDestination == nil) {
 				busEntry.busDestination = [NSString stringWithString:elementValue];
-			} else {
+			} else if(busEntry.busWaitTime == nil) {
 				busEntry.busWaitTime = [NSString stringWithString:elementValue];
 			}
 		}

@@ -35,7 +35,7 @@
 
 	viewActive = NO;
 	
-	self.view.frame = CGRectMake(283, 329, self.view.frame.size.width, self.view.frame.size.height);
+	self.view.frame = CGRectMake(283, 379, self.view.frame.size.width, self.view.frame.size.height);
 
 	CGColorSpaceRef space = CGColorSpaceCreateDeviceRGB();
 	CGFloat components[4] = {0, 0, 0, 1};
@@ -62,8 +62,13 @@
     
 	CFRelease(almostBlack);
    	CFRelease(almostWhite);
+   
+}
 
-    
+-(void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    [self layoutSubView:NO];
 }
 
 
