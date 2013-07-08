@@ -32,6 +32,7 @@
 	}
 	
 
+    self.window.rootViewController = controller;
     [self.window addSubview:controller.view];
     [self.window makeKeyAndVisible];
     

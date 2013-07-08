@@ -279,8 +279,8 @@
 	
 	
 	if([station isKindOfClass:[BiZiItem class]]) {
-		
-		// Check favourite
+        
+        // Check favourite
 		FavouritesConfiguration* config = [FavouritesConfiguration sharedInstance];
 		if([config included:[station performSelector:@selector(idStation)] withType:TYPE_BIZI]) {
 			[favButton setImage:[UIImage imageNamed:@"28-star.png"] forState:UIControlStateNormal];
@@ -295,24 +295,28 @@
 		
 		lastStation = station;
 		
-		refresh.enabled = NO;
-		refresh.hidden = YES;
-		[progressIndicator startAnimating];
-		[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
-		
+        //		refresh.enabled = NO;
+        //		refresh.hidden = YES;
+        //		[progressIndicator startAnimating];
+        //		[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
+        //
 		BiZiItem* item = (BiZiItem*)station;
-		NSString* idStation = item.idStation;
-		NSString* addressNew = item.addressNew;
+        BiZiResponse* response = [[[BiZiResponse alloc] init] autorelease];
+        response.bizi = item.availableBikes;
+        response.nobizi = item.freeSlots;
+        NSDateFormatter* formmatter = [[NSDateFormatter alloc] init];
+        [formmatter setTimeStyle:NSDateFormatterShortStyle];
+        [formmatter setDateStyle:NSDateFormatterShortStyle];
+        [formmatter setDoesRelativeDateFormatting:YES];
+        response.timedate = [formmatter stringFromDate:item.timedate];
+        response.address = item.addressNew;
+        
+        [self setBiziData:response];
 		
-		request = [[WebRequestXML alloc] init];
-		
-		[request downloadXML:BIZI_URL
-				  forStation:idStation withAddressNew:addressNew withDelegate:parent];
 		
 		
 		[self layoutSubView:YES];
 	}
-	
 }
 
 #pragma mark -

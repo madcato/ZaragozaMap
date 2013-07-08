@@ -22,6 +22,7 @@
 	NSArray* pharmacies;
 	
 	NSMutableArray* annotations;
+    NSMutableArray* biziStations;
 	BOOL annotationsRemoved;
 	UIView* loadingView;
 	BiZiViewController* infoView;
@@ -37,6 +38,7 @@
 }
 
 @property (nonatomic,retain) NSMutableArray* annotations;
+@property (nonatomic,retain) NSMutableArray* biziStations;
 @property (nonatomic,retain) IBOutlet MKMapView* map;
 @property (nonatomic,retain) IBOutlet BiZiViewController* infoView;
 @property (nonatomic,retain) CLLocationManager* locationManager;
@@ -69,5 +71,7 @@
 
 - (NSArray *)itemsForMapRegion:(MKCoordinateRegion)region maximumCount:(NSInteger)maxCount;
 - (NSArray *)removedItemsForMapRegion:(MKCoordinateRegion)region forArray:(NSArray*)array;
+
+- (void)refresAnnotationsInMap;
 
 @end

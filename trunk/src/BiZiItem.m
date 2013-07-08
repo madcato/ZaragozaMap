@@ -14,6 +14,9 @@
 @synthesize longitude, latitude;
 @synthesize idStation;
 @synthesize addressNew;
+@synthesize availableBikes;
+@synthesize freeSlots;
+@synthesize timedate;
 
 - (CLLocationCoordinate2D)coordinate
 {

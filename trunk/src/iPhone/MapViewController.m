@@ -33,6 +33,7 @@
 @synthesize infoView;
 @synthesize request;
 @synthesize annotations;
+@synthesize biziStations;
 @synthesize configurationController;
 @synthesize bussStopController;
 @synthesize alertController;
@@ -116,7 +117,7 @@
 	
 	NSDictionary* configuration = [[NSUserDefaults standardUserDefaults] objectForKey:@"configuration"];
 	annotations = [[NSMutableArray alloc]init];
-	
+	biziStations = [[NSMutableArray alloc]init];
 	if([[[configuration objectForKey:@"stations_bizi"] objectForKey:@"selected"]boolValue]) {
 		[self loadStations];
 	}
@@ -153,39 +154,44 @@
 }
 
 -(void)loadStations {
-
-	NSString *path = [[NSBundle mainBundle] pathForResource:
-					  @"stations_bizi" ofType:@"plist"];
-	
-	NSMutableDictionary* plist = [NSMutableDictionary dictionaryWithContentsOfFile:path];
-	
-	
-	stations_bizi = [plist objectForKey:@"stations"];
-
-	for(NSDictionary* station in stations_bizi) {
-/*		
-		CLLocationCoordinate2D coordinate;
-		coordinate.latitude = [[station objectForKey:@"latitude"] floatValue];
-		coordinate.longitude = [[station objectForKey:@"longitude"] floatValue];
-		
-		NSDictionary* address = [NSDictionary dictionaryWithObjectsAndKeys:[station objectForKey:@"idStation"],kABPersonAddressStateKey
-																			,[station objectForKey:@"addressnew"],kABPersonAddressStreetKey
-																		,nil];
-		MKPlacemark* place = [[MKPlacemark alloc] initWithCoordinate:coordinate addressDictionary:address];
-*/	
-		
-		BiZiItem* place = [[BiZiItem alloc] init];
-		place.longitude = [[station objectForKey:@"longitude"] doubleValue];
-		place.latitude = [[station objectForKey:@"latitude"] doubleValue];
-		place.addressNew = [station objectForKey:@"addressnew"]; 
-		place.idStation = [station objectForKey:@"idStation"]; 
-							
-		[annotations addObject:place];
-		//[map addAnnotation:place];
-		[place release];
-	}
-	
-
+    [annotations removeObjectsInArray:biziStations];
+    [biziStations removeAllObjects];
+    NSData* stationsData = [NSData dataWithContentsOfURL:
+                            [NSURL URLWithString:
+                             @"https://www.bizizaragoza.com/es/formmap/getJsonObject"]];
+    
+    NSError* error = nil;
+    NSArray* responseArray = [NSJSONSerialization JSONObjectWithData:stationsData
+                                                             options:0
+                                                               error:&error];
+    NSArray* stationsArray;
+    if ([responseArray count] > 1) {
+        NSString* dataStr = responseArray[1][@"data"];
+        stationsArray = [NSJSONSerialization JSONObjectWithData:[dataStr dataUsingEncoding:NSISOLatin1StringEncoding]
+                                                        options:0
+                                                          error:&error];
+    }
+    
+    // Response sample
+    //    {"StationID":"130","DisctrictCode":null,"AddressGmapsLongitude":"-0.89786500000000000","AddressGmapsLatitude":"41.64402900000000000","StationAvailableBikes":"12","StationFreeSlot":"9","AddressZipCode":"11111","AddressStreet1":"C\/ Corona de Arag\u00f3n - C\/ Lorente","AddressNumber":null,"NearbyStationList":"47,50,90,91","StationStatusCode":"OPN","StationName":"130 - C\/ Corona de Arag\u00f3n - C\/ Lorente"}
+    if (error != nil) {
+        NSLog(@"Error downloading bizi data: %@", [error description]);
+    } else {
+        for(NSDictionary* station in stationsArray) {
+            BiZiItem* place = [[BiZiItem alloc] init];
+            place.longitude = [[station objectForKey:@"AddressGmapsLongitude"] doubleValue];
+            place.latitude = [[station objectForKey:@"AddressGmapsLatitude"] doubleValue];
+            place.addressNew = [station objectForKey:@"StationName"];
+            place.idStation = [station objectForKey:@"StationID"];
+            place.availableBikes = [station objectForKey:@"StationAvailableBikes"];
+            place.freeSlots = [station objectForKey:@"StationFreeSlot"];
+            place.timedate = [NSDate date];
+            
+            [annotations addObject:place];
+            [biziStations addObject:place];
+            [place release];
+        }
+    }
 }
 
 -(void)loadPharmacies {
@@ -514,6 +520,9 @@
     [loadingView removeFromSuperview];
 }
 
+- (void)refresAnnotationsInMap {
+    [self mapView:self.map regionDidChangeAnimated:NO];
+}
 
 #pragma mark -
 #pragma mark MkMapView delegate methods
@@ -761,9 +770,12 @@
 }
 
 -(void)applicationWillEnterForeground {
-	self.navigationItem.rightBarButtonItem.enabled = NO;
-	
-	[self centerMap:nil];
+    self.navigationItem.rightBarButtonItem = locateButton;
+	self.navigationItem.rightBarButtonItem.enabled = YES;
+    
+	[self performSelectorOnMainThread:@selector(centerMap:)
+                           withObject:nil
+                        waitUntilDone:NO];
 }
 
 -(IBAction)centerMap:(id)caller {
@@ -825,8 +837,20 @@ NSLog(@"Location Change: %f, %f",newLocation.coordinate.latitude,newLocation.coo
 }
 
 -(void)biziStationTouched:(id<MKAnnotation>)station {
-	[infoView biziStationTouched:station];
-	[bussStopController layoutSubView:NO];
+    if([station isKindOfClass:[BiZiItem class]]) {
+        BiZiItem* biziItem = (BiZiItem*)station;
+        if ([biziItem.timedate timeIntervalSinceNow] > -(60) ) { // Five minutes
+            [infoView biziStationTouched:station];
+            [bussStopController layoutSubView:NO];
+        } else {
+            // Refreseh data
+            [map removeAnnotations:biziStations];
+            [self loadStations];
+            [self refresAnnotationsInMap];
+            [infoView biziStationTouched:station];
+            [bussStopController layoutSubView:NO];
+        }
+    }
 }
 
 -(void)placeholderTouched:(id<MKAnnotation>)placeholder {
