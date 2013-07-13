@@ -40,7 +40,7 @@
 	<key>NSMainNibFile</key>
 	<string>MainWindow_iPhone</string>
 	<key>NSMainNibFile~ipad</key>
-	<string>MainWindow_iPad</string>
+	<string>MainWindow_iPhone</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>location</string>
