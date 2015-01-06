@@ -28,15 +28,19 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.5</string>
+	<string>1.6</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleURLTypes</key>
 	<array/>
 	<key>CFBundleVersion</key>
-	<string>1.5</string>
+	<string>1.6</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationUsageDescription</key>
+	<string>Esta app requiere el uso de la localización para indicar su posición en el mapa, así como para poder lanzar las alertas de estado de estación.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Esta app requiere el uso de la localización para indicar su posición en el mapa, así como para poder lanzar las alertas de estado de estación.</string>
 	<key>NSMainNibFile</key>
 	<string>MainWindow_iPhone</string>
 	<key>NSMainNibFile~ipad</key>

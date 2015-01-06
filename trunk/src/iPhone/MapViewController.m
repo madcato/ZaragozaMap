@@ -55,13 +55,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    
 	self.locationManager = [[CLLocationManager alloc] init];
 	self.locationManager.purpose = @"Esta app requiere el uso de la localización para indicar su posición en el mapa, así como para poder lanzar las alertas de estado de estación.";
 	self.locationManager.delegate = self; // Tells the location manager to send updates to this object
 	self.locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters;
 	self.locationManager.distanceFilter = 100.0; //kCLDistanceFilterNone;
 
-	
+	[self locationServiceEnabled];
+    
 	[self applicationWillEnterForeground];
 	
 
@@ -760,7 +762,11 @@
 - (BOOL)locationServiceEnabled {
 	BOOL result = NO;
 	if([CLLocationManager respondsToSelector:@selector(authorizationStatus)]){
-		result = ([CLLocationManager authorizationStatus] == kCLAuthorizationStatusAuthorized);
+		result = ([CLLocationManager authorizationStatus] == kCLAuthorizationStatusAuthorized) || ([CLLocationManager authorizationStatus] == kCLAuthorizationStatusAuthorizedWhenInUse);
+        if ([CLLocationManager authorizationStatus] == kCLAuthorizationStatusNotDetermined) {
+            result = NO;
+            [self.locationManager requestWhenInUseAuthorization];
+        }
 	} else {
 		result = [CLLocationManager locationServicesEnabled];
 	}
@@ -796,6 +802,11 @@
 	[activityItem release];
 
 	
+}
+
+- (void)locationManager:(CLLocationManager *)manager
+didChangeAuthorizationStatus:(CLAuthorizationStatus)status {
+    [self centerMap:nil];
 }
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation

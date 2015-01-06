@@ -78,6 +78,8 @@
 	self.locationManager.desiredAccuracy = kCLLocationAccuracyHundredMeters;
 	self.locationManager.distanceFilter = 50; //kCLDistanceFilterNone;
     
+    
+    
     CFRelease(almostBlack);
     CFRelease(almostWhite);
 }

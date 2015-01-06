@@ -33,7 +33,7 @@
 	NSMutableURLRequest *request = [[[NSMutableURLRequest alloc] initWithURL:[NSURL URLWithString:scaped_url] cachePolicy:NSURLRequestReloadIgnoringCacheData timeoutInterval:10.0] autorelease];
 	[request setHTTPMethod:@"POST"];
     [request setHTTPBody:buffer];
-	[request setValue:[NSString stringWithFormat:@"%d", [buffer length]] forHTTPHeaderField:@"Content-Length"];
+	[request setValue:[NSString stringWithFormat:@"%lu", (unsigned long)[buffer length]] forHTTPHeaderField:@"Content-Length"];
 	
 	m_connection = [[NSURLConnection alloc] initWithRequest:request delegate:self];
 	
