@@ -46,7 +46,7 @@
 	[responseData release];
 
     NSError *error = NULL;
-    NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"<link .*>"
+    NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"<meta .*>"
                                                                            options:NSRegularExpressionCaseInsensitive
                                                                              error:&error];
     

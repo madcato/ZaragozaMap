@@ -44,7 +44,7 @@
 	}
 	
 	if(tables != 2) return;
-//NSLog(@"Processing Element: %@", elementName);
+NSLog(@"Processing Element: %@", elementName);
 	
 	
 	if([elementName isEqualToString:@"tr"]){
@@ -65,7 +65,7 @@
     }
 	
 	if(tables != 2) return;
-//NSLog(@"Processing Value: %@", currentElementValue);
+NSLog(@"Processing Value: %@", currentElementValue);
 	
 }
 
@@ -104,7 +104,7 @@
 		busEntry = nil;
 	}
 	
-	//NSLog(@"Processing end Element: %@ - %i", elementName, tables);
+	NSLog(@"Processing end Element: %@ - %i", elementName, tables);
 	
 	
 }
