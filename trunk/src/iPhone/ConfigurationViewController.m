@@ -38,7 +38,7 @@
 	self.view.frame = CGRectMake(283, 379, self.view.frame.size.width, self.view.frame.size.height);
 
 	CGColorSpaceRef space = CGColorSpaceCreateDeviceRGB();
-	CGFloat components[4] = {0, 0, 0, 1};
+	CGFloat components[4] = {0, 0, 0, 0.5};
 	CGColorRef almostBlack = CGColorCreate(space,components);
 	
 	self.blackView.layer.shadowColor = almostBlack;

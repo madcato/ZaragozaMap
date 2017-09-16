@@ -116,7 +116,7 @@ static inline double radians(double degrees) { return degrees * M_PI / 180; }
 		self.layer.shadowRadius = 3.0f;
 		
 		CGColorSpaceRef space = CGColorSpaceCreateDeviceRGB();
-		CGFloat components[4] = {0, 0, 0, 1};
+		CGFloat components[4] = {0, 0, 0, 0.5};
 		CGColorRef almostBlack = CGColorCreate(space,components);
 		self.layer.shadowColor = almostBlack;
 		

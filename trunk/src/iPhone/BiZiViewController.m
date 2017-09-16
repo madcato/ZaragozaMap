@@ -49,7 +49,7 @@
     [super viewDidLoad];
 
 	CGColorSpaceRef space = CGColorSpaceCreateDeviceRGB();
-	CGFloat components[4] = {0, 0, 0, 1};
+	CGFloat components[4] = {0, 0, 0, 0.5};
 	CGColorRef almostBlack = CGColorCreate(space,components);
 	
 	self.blackView.layer.shadowColor = almostBlack;
