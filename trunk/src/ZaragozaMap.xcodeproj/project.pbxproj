@@ -914,9 +914,9 @@
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = org.veladan.zgzmap;
 				PRODUCT_NAME = ZgZmap;
-				PROVISIONING_PROFILE = "3fddb5fd-34d4-4f9c-94ac-7d4b144417b0";
+				PROVISIONING_PROFILE = "856669a1-b16d-4c84-a65d-5f153b080601";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
-				PROVISIONING_PROFILE_SPECIFIER = "XC iOS: org.veladan.zgzmap";
+				PROVISIONING_PROFILE_SPECIFIER = "ZgzMap App Store";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
