@@ -160,19 +160,19 @@
     [biziStations removeAllObjects];
     NSData* stationsData = [NSData dataWithContentsOfURL:
                             [NSURL URLWithString:
-                             @"https://www.bizizaragoza.com/es/formmap/getJsonObject"]];
+                             @"https://www.bizizaragoza.com/availability_map/getJsonObject"]];
     
     NSError* error = nil;
-    NSArray* responseArray = [NSJSONSerialization JSONObjectWithData:stationsData
+    NSArray* stationsArray = [NSJSONSerialization JSONObjectWithData:stationsData
                                                              options:0
                                                                error:&error];
-    NSArray* stationsArray;
-    if ([responseArray count] > 1) {
-        NSString* dataStr = responseArray[1][@"data"];
-        stationsArray = [NSJSONSerialization JSONObjectWithData:[dataStr dataUsingEncoding:NSISOLatin1StringEncoding]
-                                                        options:0
-                                                          error:&error];
-    }
+//    NSArray* stationsArray;
+//    if ([responseArray count] > 1) {
+//        NSString* dataStr = responseArray[1][@"data"];
+//        stationsArray = [NSJSONSerialization JSONObjectWithData:[dataStr dataUsingEncoding:NSISOLatin1StringEncoding]
+//                                                        options:0
+//                                                          error:&error];
+//    }
     
     // Response sample
     //    {"StationID":"130","DisctrictCode":null,"AddressGmapsLongitude":"-0.89786500000000000","AddressGmapsLatitude":"41.64402900000000000","StationAvailableBikes":"12","StationFreeSlot":"9","AddressZipCode":"11111","AddressStreet1":"C\/ Corona de Arag\u00f3n - C\/ Lorente","AddressNumber":null,"NearbyStationList":"47,50,90,91","StationStatusCode":"OPN","StationName":"130 - C\/ Corona de Arag\u00f3n - C\/ Lorente"}
